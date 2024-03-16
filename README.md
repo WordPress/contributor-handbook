@@ -14,7 +14,7 @@ Welcome! This repository contains a number of resources, templates, standards, a
 - [Community Participation Guidelines](https://www.google.com/)
 - ['How to Report' Page]()
 - Related Blog Posts
-    - [)]()
+    - []()
     - []()
 - Process Standards for Enforcement
     - Rolling out an all project
