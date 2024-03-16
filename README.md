@@ -1,4 +1,4 @@
-# Diversity & Inclusion in Open Source
+# Diversity & Inclusion in Open Source (WIP)
 
 Welcome! This repository contains a number of resources, templates, standards, and other useful things for open (source, education, knowledge, science) projects.
 
