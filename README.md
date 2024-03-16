@@ -19,11 +19,9 @@ Welcome! This repository contains a number of resources, templates, standards, a
 - Process Standards for Enforcement
     - Rolling out an all project()
 - Templates
-    - Template - CPG/Code of Conduct 'Onboarding'()
-    - Template - Decision Making()
-    - Template - Decision Tracking Doc()
-    - Template - Working Group 1st Agenda()
-    - Template - Working Group Standard Agenda()
+    - [Template - CPG/Code of Conduct 'Onboarding']()
+    - [Template - Decision Making]()
+    - [Template - Decision Tracking Doc]()
     - Template - Investigation documentation()
     - Template - Request for Clarification(from reporter)()
     - Template - Receipt of Report (to reporter)()
