@@ -1,0 +1,18 @@
+## https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#issues
+
+name: Add issues to GitHub project
+
+on:
+  issues:
+    types: [opened]
+      
+jobs:
+  add-to-contributor-handbook-project:
+    name: Add issues to Contributor handbook project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v0.5.0
+        with:
+          # https://github.com/marketplace/actions/add-to-github-projects
+          project-url: https://github.com/orgs/os-deib/projects/2
+          github-token: ${{ secrets.GITHUB_TOKEN }}
