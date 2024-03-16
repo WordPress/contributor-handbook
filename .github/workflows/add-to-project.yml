@@ -15,4 +15,4 @@ jobs:
         with:
           # https://github.com/marketplace/actions/add-to-github-projects
           project-url: https://github.com/orgs/os-deib/projects/2/views/1
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.ADD_TO_PROJECT }}
