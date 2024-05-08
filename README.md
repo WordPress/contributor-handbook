@@ -17,8 +17,8 @@ For discussion, questions and meetings, please join the WordPress [#DEIB-working
 
 ## Roadmap
 
-- [ ] Phase 0: Create an initial structure to understand the categorization.
-- [ ] Phase 1: Create the empty-files with a link inside, so there is all the structure.
+- [x] Phase 0: Create an initial structure to understand the categorization.
+- [x] Phase 1: Create the empty-files with a link inside, so there is all the structure.
 - [ ] Phase 2: Add the content (only copying from the original page and create the content structure).
 - [ ] Phase 3: Publish a first updated version of the Contributor Handbook.
 - [ ] Phase 4: Check and improve the content.
