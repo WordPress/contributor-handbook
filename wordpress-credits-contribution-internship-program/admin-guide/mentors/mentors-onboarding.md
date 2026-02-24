@@ -8,12 +8,12 @@ Most steps depend on the status of the mentor in Airtable ‘Mentors’ table, s
 2. ‘Status’ column needs to be **empty** at this point.  
 3. Airtable automation [“Mentors 1 – Application Received”](https://airtable.com/appIzQKfwTn5dyPVp/wfl61ZWmsgMcEMbKO) sends the following email:
 
-Hi\!  
-Thank you for submitting your application to become a mentor in the WordPress Credits Program. We truly appreciate your willingness to contribute your time and expertise to support our students.  
-Please note that it may take several weeks before we are able to review all applications. Once the selection process is complete, we will contact you to let you know whether you have been chosen as a mentor.  
-We are grateful for your patience and interest in being part of this program.  
-Best regards,  
-The WordPress Credits Program Team
+> Hi\!  
+> Thank you for submitting your application to become a mentor in the WordPress Credits Program. We truly appreciate your willingness to contribute your time and expertise to support our students.  
+> Please note that it may take several weeks before we are able to review all applications. Once the selection process is complete, we will contact you to let you know whether you have been chosen as a mentor.  
+> We are grateful for your patience and interest in being part of this program.  
+> Best regards,  
+> The WordPress Credits Program Team
 
 ## [**Step 2: Vetting**](https://make.wordpress.org/handbook/wordpress-credits-contribution-internship-program/admin-guide/mentors/mentors-onboarding/#step-2-vetting)
 
@@ -47,14 +47,14 @@ The WordPress Credits Program Team
 
 1. When the status changes to ‘Declined’, the automation [“Mentors 4 – Decline”](https://airtable.com/appIzQKfwTn5dyPVp/wfl5SCmxcQ480wcpP) is triggered and this email is sent automatically:
 
-Dear \[Full Name\],  
-Thank you sincerely for expressing your interest in supporting and educating students through the WordPress Credits program. We truly appreciate your enthusiasm and your commitment to fostering contributions within the WordPress community.  
-While we would have been delighted to welcome you to the team, after reviewing your application, we found that the information available in your WordPress.org profile was not sufficient to confirm your eligibility to serve as a mentor at this time. We genuinely value the time and effort you invested, and we encourage you to stay involved with the WordPress Credits initiative by contributing in other ways, such as joining discussions in the [WordPress Credits Slack channel](https://wordpress.slack.com/archives/C0959D2M3T8) or helping out with specific tasks in our [GitHub repository](https://github.com/WordPress/WPCredits-Tracker).  
-If you would like to appeal this decision or share additional details about your background, experience, and reasons why you’d be a great fit as a mentor, please reply to this email and provide more context about your involvement with WordPress and any mentoring or teaching experience you may have.  
-We truly appreciate your willingness to contribute to this initiative and would be happy to review your application again once more information is available.  
-Thank you once again for your time, interest, and support.  
-Best regards,  
-The WordPress Credits Program Team
+> Dear \[Full Name\],  
+> Thank you sincerely for expressing your interest in supporting and educating students through the WordPress Credits program. We truly appreciate your enthusiasm and your commitment to fostering contributions within the WordPress community.  
+> While we would have been delighted to welcome you to the team, after reviewing your application, we found that the information available in your WordPress.org profile was not sufficient to confirm your eligibility to serve as a mentor at this time. We genuinely value the time and effort you invested, and we encourage you to stay involved with the WordPress Credits initiative by contributing in other ways, such as joining discussions in the [WordPress Credits Slack channel](https://wordpress.slack.com/archives/C0959D2M3T8) or helping out with specific tasks in our [GitHub repository](https://github.com/WordPress/WPCredits-Tracker).  
+> If you would like to appeal this decision or share additional details about your background, experience, and reasons why you’d be a great fit as a mentor, please reply to this email and provide more context about your involvement with WordPress and any mentoring or teaching experience you may have.  
+> We truly appreciate your willingness to contribute to this initiative and would be happy to review your application again once more information is available.  
+> Thank you once again for your time, interest, and support.  
+> Best regards,  
+> The WordPress Credits Program Team
 
 ## [**Step 5: Communication to ‘Needs More Information’**](https://make.wordpress.org/handbook/wordpress-credits-contribution-internship-program/admin-guide/mentors/mentors-onboarding/#step-5-communication-to-needs-more-information)
 
