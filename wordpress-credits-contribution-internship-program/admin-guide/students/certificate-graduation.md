@@ -22,7 +22,9 @@ After receiving that email:
   * Apply 1 as grading.  
   * Save.
 
-![][image1]![][image2]
+[![Screenshot 1](https://make.wordpress.org/files/2026/01/Screenshot1-1024x633.jpg)](https://make.wordpress.org/files/2026/01/Screenshot1.jpg)
+
+[![Screenshot 2](https://make.wordpress.org/files/2026/01/screenshot2-1024x462.jpg)](https://make.wordpress.org/files/2026/01/screenshot2.jpg)
 
 ## [**3\. Update Student Status and Notify**](https://make.wordpress.org/handbook/wordpress-credits-contribution-internship-program/admin-guide/students/certificate-graduation/#3-update-student-status-and-notify)
 
