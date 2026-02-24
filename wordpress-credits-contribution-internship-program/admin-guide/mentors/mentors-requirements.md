@@ -13,7 +13,8 @@ To join the WP Credits mentor group, candidates should:
 * Be able to communicate clearly in English and any local additional language.  
 * Be available for weekly synchronous or asynchronous check-ins with students and program maintainers.
 
-IMPORTANT: If the person is a professor from a collaborating student, assign the vetted-positive status.
+> [!IMPORTANT]
+> If the person is a professor from a collaborating student, assign the vetted-positive status.
 
 ## [**Requirements to Receive the WP Credits Mentor Badge**](https://make.wordpress.org/handbook/wordpress-credits-contribution-internship-program/admin-guide/mentors/mentors-requirements/#requirements-to-receive-the-wp-credits-mentor-badge)
 
