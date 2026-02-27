@@ -13,7 +13,7 @@ body:
   - type: dropdown
     id: function
     attributes:
-      label: 
+      label: function
       options:
         - Build
         - Design
@@ -21,6 +21,7 @@ body:
         - Translate
         - Test
         - Organize
+        - Promote
     validations:
       required: true
 
@@ -61,7 +62,7 @@ body:
     id: steps
     attributes:
       label: What does the contributor do?
-      description: Brief steps: enough to show the shape of the work. Full guides should live in team documents.
+      description: "Brief steps: enough to show the shape of the work. Full guides should live in team documents."
       value: |
         1. 
         2. 
