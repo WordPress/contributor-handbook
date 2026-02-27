@@ -1,0 +1,92 @@
+name: New Pathway
+description: Propose a new contributor pathway
+title: "Pathways: New — [Title]"
+labels: ["Pathways", "Pathways: New"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Pathway title
+    validations:
+      required: true
+
+  - type: dropdown
+    id: function
+    attributes:
+      label: 
+      options:
+        - Build
+        - Design
+        - Write
+        - Translate
+        - Test
+        - Organize
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - "Task: quick start, repeatable work"
+        - "Project: ramp up, build it, ship it"
+        - "Team: onboard to contribute regularly"
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary"
+      description: 1-3 sentences — what the contributor will do and why it matters, in plain language.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## Setup"
+
+  - type: textarea
+    id: setup
+    attributes:
+      label: What does a contributor need before starting?
+      description: Accounts, access, tools, Slack channels, links to prerequisite reading, etc.
+
+  - type: markdown
+    attributes:
+      value: "## Steps"
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: What does the contributor do?
+      description: Brief steps: enough to show the shape of the work. Full guides should live in team documents.
+      value: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## After the contribution"
+
+  - type: input
+    id: output
+    attributes:
+      label: Where does the finished work end up?
+      description: e.g. merged PR, published post, Trac ticket
+    validations:
+      required: true
+
+  - type: input
+    id: who-sees-it
+    attributes:
+      label: Who sees or reviews it?
+
+  - type: input
+    id: what-next
+    attributes:
+      label: What's the contributor's natural next step?

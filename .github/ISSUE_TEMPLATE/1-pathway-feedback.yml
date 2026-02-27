@@ -1,0 +1,37 @@
+name: Pathway Feedback
+description: Report an issue with an existing pathway
+title: "Pathways: Feedback — [Pathway name]"
+labels: ["Pathways", "Pathways: Update"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Link to the pathway
+    validations:
+      required: true
+
+  - type: dropdown
+    id: feedback-type
+    attributes:
+      label: What kind of issue?
+      options:
+        - Unclear or confusing steps
+        - Broken or outdated link
+        - No longer relevant
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: What's wrong?
+      description: Please include all relevant links and details.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix
+      description: Optional — if you have an idea for how to fix it.
