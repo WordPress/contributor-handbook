@@ -51,64 +51,8 @@ body:
     validations:
       required: true
 
-  - type: markdown
-    attributes:
-      value: |
-        ## Details (fill in what you know)
-
-  - type: input
-    id: connect
-    attributes:
-      label: Slack channel for this pathway
-
   - type: textarea
-    id: setup
+    id: details
     attributes:
-      label: Any additional setup beyond the basics?
-      description: Tools, permissions, or prep specific to this pathway. Common setup is covered in Before You Begin.
-
-  - type: textarea
-    id: read-first
-    attributes:
-      label: Required reading
-      description: Pathway-specific guides or standards.
-
-  - type: textarea
-    id: steps
-    attributes:
-      label: What does the contributor do?
-      description: "Brief steps: enough to show the shape of the work. Full guides should live in team documents."
-      value: |
-        1. 
-        2. 
-        3. 
-
-  - type: textarea
-    id: done-looks-like
-    attributes:
-      label: Done looks like
-      description: Checklist of what good looks like.
-      value: |
-        - [ ] 
-        - [ ] 
-
-  - type: input
-    id: submit
-    attributes:
-      label: Where to submit the work
-
-  - type: input
-    id: reviewed-by
-    attributes:
-      label: Who reviews it and where to check for feedback
-
-  - type: input
-    id: next-step
-    attributes:
-      label: Natural next contribution after this one
-
-  - type: input
-    id: help-channel
-    attributes:
-      label: Where to ask for help
-      description: Slack channel or forum for this specific pathway.
+      label: Links & Details
+      description: "Include any links, Slack channels, or notes that should end up in the guide. See [TEMPLATE.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/TEMPLATE.md) for what a finished guide looks like."
