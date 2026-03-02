@@ -7,8 +7,8 @@ body:
     attributes:
       value: |
         ## The idea
-        Please format your issue title as: **Function Type: Title**
-        Example: *Design Project: Blockify a Theme*
+        Please format your issue title as: **Function — Type: Title**
+        Example: *Design — Project: Blockify a Theme*
 
   - type: input
     id: title
