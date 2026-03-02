@@ -59,3 +59,13 @@ If you're a Credits student or contributing from a WordCamp, mention that too. N
 * Keep comments focused and constructive
 * Write clear commit messages — future you will thank you
 * When in doubt, comment with your thoughts, findings, and questions
+
+## Getting help
+
+If you're stuck on a pathway:
+
+1. Re-read the steps and any linked resources
+2. Search the web or ask an AI assistant — you may find the answer quickly
+3. Search the relevant Slack channel, since someone may have asked the same question before
+4. Ask in the channel with context about what you tried and where you're stuck
+5. If the pathway itself isn't clear, [file an issue](https://github.com/WordPress/contributor-handbook/issues/new/choose) with construtive feedback
