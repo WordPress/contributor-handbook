@@ -1,14 +1,14 @@
 name: New Pathway
 description: Propose a new contributor pathway
-title: "[Function] [Type]: [Title]"
+title: "Function — Type: Title"
 labels: ["Pathways", "Pathways: New"]
 body:
   - type: markdown
     attributes:
       value: |
         ## The idea
-        Please format your issue title as: **Function Type: Title**
-        Example: *Design Project: Blockify a Theme*
+        Please format your issue title as: **Function — Type: Title**
+        Example: *Design — Project: Blockify a Theme*
 
   - type: input
     id: title
