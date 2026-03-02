@@ -22,7 +22,7 @@ body:
     attributes:
       label: Function
       options:
-        - Build
+        - Code
         - Design
         - Write
         - Translate
