@@ -2,7 +2,7 @@
 
 Want to help the project but not sure where to start? Here are some ideas; we'll add more as this work evolves.
 
-[Before You Begin](/handbook/contribution-pathways/before-you-begin/) | [About Pathways](/handbook/contribution-pathways/about/)
+[Before You Begin](/handbook/pathways/before-you-begin/) | [About Pathways](/handbook/pathways/about/)
 
 ---
 
