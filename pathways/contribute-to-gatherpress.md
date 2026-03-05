@@ -36,7 +36,7 @@ If you worked on an issue, open a pull request in the [GatherPress repository](h
 A GatherPress maintainer will review your PR. Check the PR for comments and requested changes. Reviews typically happen within a few days — if it's been a week, a polite ping in #gatherpress is fine.
 
 **Next step:**
-Pick up another issue from the current milestone, or settle into a feature area that interests you. As you build familiarity, you can start reviewing other contributors' PRs too.  Follow up on any responses in Github as well.
+Pick up another issue from the current milestone, or settle into a feature area that interests you. As you build familiarity, you can start reviewing other contributors' PRs too.  Follow up on any responses in GitHub as well.
 
 ## Help
 
