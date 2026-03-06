@@ -30,10 +30,10 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 - [ ] PRs follow the [contributing guidelines](https://github.com/GatherPress/gatherpress/blob/develop/docs/contributing.md)
 
 ## What happens next
-A maintainer will review your PR — typically within a few days. If it's been a week, a polite ping in #gatherpress is fine.
+A maintainer will review your PR — typically within a few days. If it's been a week, a polite ping in the team slack is fine.
 
 When you're ready, pick up another issue, settle into a feature area, or start reviewing other contributors' PRs.
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in #gatherpress slack.
+Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in the team slack.
