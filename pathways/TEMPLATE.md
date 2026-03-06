@@ -19,21 +19,15 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 2. 
 3. 
 
-## When you're done
-
-**Done looks like:**
+## Contribution checklist
 - [ ] 
 - [ ] 
 
-**Submit your work:**
-[Where and how to submit]
+## What happens next
+A maintainer will review your PR — typically within a few days. If it's been a week, a polite ping in the team slack is fine.
 
-**Get reviewed:**
-[Who reviews it and where to check for feedback]
-
-**Next step:**
-[Natural next contribution after this one]
+When you're ready, pick up another issue, settle into a feature area, or review other contributors' PRs.
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in [#channel](link).
+Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in the team slack.
