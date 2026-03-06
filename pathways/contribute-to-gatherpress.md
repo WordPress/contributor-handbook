@@ -21,13 +21,13 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 4. **Help with the next Milestone:** When you're comfortable, check the [Milestones tab](https://github.com/GatherPress/gatherpress/milestones) — the lowest numbered milestone with open issues is generally the one in progress.
 5. **Or help by testing PRs:** View a [Pull Request](https://github.com/GatherPress/gatherpress/pulls) and read what it is supposed to do. Then, scroll to "Preview changes with Playground" and try the PR in different PHP versions. Comment with your findings.
 
-## When you're done
+## Contribution checklist
 
-**Done looks like:**
-- [ ] Your PR addresses one specific issue and references it (e.g. "Fixes #123")
+- [ ] You've engaged in meetings live or with async notes
+- [ ] Comments are detailed and constructive, and you're following so you can respond to replies
+- [ ] Each PR addresses one specific issue and references it (e.g. "Fixes #123")
 - [ ] You've tested your changes in Playground or a local environment
-- [ ] Your PR follows the [contributing guidelines](https://github.com/GatherPress/gatherpress/blob/develop/docs/contributing.md)
-- [ ] Any comments you've added are detailed and constructive, and you're following so you can respond to replies.
+- [ ] PRs follow the [contributing guidelines](https://github.com/GatherPress/gatherpress/blob/develop/docs/contributing.md)
 
 **Submit your work:**
 If you worked on an issue, open a pull request in the [GatherPress repository](https://github.com/GatherPress/gatherpress) and reference the issue number in your PR description. If you tested a PR or bug, leave your findings as a comment.
