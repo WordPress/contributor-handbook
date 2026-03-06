@@ -17,9 +17,9 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 
 1. **Get to know GatherPress:** Try creating events, RSVPing, and exploring different views in your test environment.
 2. **Join team calls** if possible, otherwise review the weekly notes in #gatherpress.
-3. **Find active work:** Go to the [GitHub Milestones tab](https://github.com/GatherPress/gatherpress/milestones) and look for the lowest numbered milestone with open issues — that's generally the one in progress. Click through to view open issues.
-4. **Pick up an issue:** If you see something you can solve, comment with what you'll do and a rough timeline. Work one issue at a time, test your work, and reference the issue in your pull request.
-5. **Or help by testing:** Find an open [bug](https://github.com/GatherPress/gatherpress/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug) and try to reproduce it. Or, find an issue that already has a pull request, scroll to "Preview changes with Playground," try the PR in different PHP versions. Comment with your findings.
+3. **Start with a Good First Issue:** Browse [Good First Issues](https://github.com/GatherPress/gatherpress/contribute) and pick one that interests you. Comment with what you'll do and a rough timeline. Work one at a time, test your work, and reference the issue in your pull request.
+4. **Help with the next Milestone:** When you're comfortable, check the [Milestones tab](https://github.com/GatherPress/gatherpress/milestones) — the lowest numbered milestone with open issues is generally the one in progress.
+5. **Or help by testing PRs:** View a [Pull Request](https://github.com/GatherPress/gatherpress/pulls) and read what it is supposed to do. Then, scroll to "Preview changes with Playground" and try the PR in different PHP versions. Comment with your findings.
 
 ## When you're done
 
