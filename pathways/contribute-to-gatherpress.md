@@ -1,6 +1,6 @@
 # Contribute to GatherPress
 
-**Function:** Build
+**Function:** Build  
 **Type:** Team
 
 GatherPress is an open-source event and meetup plugin for WordPress. Join the team, start with testing and triage, work up to beginner-friendly fixes, and settle into a feature area as you find your footing.
