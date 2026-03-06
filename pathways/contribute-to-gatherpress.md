@@ -32,7 +32,7 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 ## What happens next
 A maintainer will review your PR — typically within a few days. If it's been a week, a polite ping in the team slack is fine.
 
-When you're ready, pick up another issue, settle into a feature area, or start reviewing other contributors' PRs.
+When you're ready, pick up another issue, settle into a feature area, or review other contributors' PRs.
 
 ## Help
 
