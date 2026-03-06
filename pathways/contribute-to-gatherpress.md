@@ -29,15 +29,11 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 - [ ] You've tested your changes in Playground or a local environment
 - [ ] PRs follow the [contributing guidelines](https://github.com/GatherPress/gatherpress/blob/develop/docs/contributing.md)
 
-**Submit your work:**
-If you worked on an issue, open a pull request in the [GatherPress repository](https://github.com/GatherPress/gatherpress) and reference the issue number in your PR description. If you tested a PR or bug, leave your findings as a comment.
+## What happens next
+A maintainer will review your PR — typically within a few days. If it's been a week, a polite ping in #gatherpress is fine.
 
-**Get reviewed:**
-A GatherPress maintainer will review your PR. Check the PR for comments and requested changes. Reviews typically happen within a few days — if it's been a week, a polite ping in #gatherpress is fine.
-
-**Next step:**
-Pick up another issue from the current milestone, or settle into a feature area that interests you. As you build familiarity, you can start reviewing other contributors' PRs too.  Follow up on any responses in GitHub as well.
+When you're ready, pick up another issue, settle into a feature area, or start reviewing other contributors' PRs.
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in [#gatherpress](https://wordpress.slack.com/archives/C07NB4N0ESJ).
+Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in #gatherpress slack.
