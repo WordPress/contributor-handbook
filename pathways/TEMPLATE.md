@@ -9,9 +9,9 @@
 
 Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) first, then:
 
-- **Connect:** [Slack channel specific to this pathway, with link]
 - **Setup:** [Any additional tools or prep beyond the basics]
-- **Read first:** [Pathway-specific guides or standards]
+- **Read:** [Pathway-specific guides or standards]
+- **Connect:** Join [Slack channel specific to this pathway, with link] and introduce yourself
 
 ## Steps
 
