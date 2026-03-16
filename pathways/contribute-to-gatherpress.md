@@ -9,9 +9,9 @@ GatherPress is an open-source event and meetup plugin for WordPress. Join the te
 
 Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) first, then:
 
-- **Connect:** Join [#gatherpress](https://wordpress.slack.com/archives/C07NB4N0ESJ) and [request access](https://gatherpress.org/get-involved/) to the GatherPress GitHub and Slack
 - **Setup:** [Create a Playground](https://wordpress.github.io/wordpress-playground/) or set up a local test environment
-- **Read first:** [GatherPress README](https://github.com/GatherPress/gatherpress?tab=readme-ov-file#gatherpress) and [contributing guidelines](https://github.com/GatherPress/gatherpress/blob/develop/docs/contributing.md)
+- **Read:** [GatherPress README](https://github.com/GatherPress/gatherpress?tab=readme-ov-file#gatherpress) and [contributing guidelines](https://github.com/GatherPress/gatherpress/blob/develop/docs/contributing.md)
+- **Connect:** Join [#gatherpress](https://wordpress.slack.com/archives/C07NB4N0ESJ) and [request access](https://gatherpress.org/get-involved/) to the GatherPress GitHub and Slack
 
 ## Steps
 
