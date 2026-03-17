@@ -18,7 +18,7 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
   - [Theme review process](https://make.wordpress.org/themes/handbook/review/#theme-review-process)
   - [Onboarding for new reviewers](https://make.wordpress.org/themes/handbook/get-involved/onboarding-for-new-reviewers/)
   - [Working with Trac](https://make.wordpress.org/themes/handbook/review/working-with-trac/)
-- **Connect:** Join [#themes](https://wordpress.slack.com/archives/themereview](https://wordpress.slack.com/archives/C02RP4Y3K) on Slack and introduce yourself. Attend meetings if possible, or read meeting notes.
+- **Connect:** Join [#themes](https://wordpress.slack.com/archives/C02RP4Y3K) on Slack and introduce yourself. Attend meetings if possible, or read meeting notes.
 
 ## Steps
 
