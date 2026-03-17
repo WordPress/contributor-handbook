@@ -13,7 +13,7 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
   - Set up a [local WordPress environment](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/) 
   - Set `WP_DEBUG` to `true` in your `wp-config.php`
   - Install the [Theme Check](https://wordpress.org/plugins/theme-check/) plugin (optional but useful: [Query Monitor](https://wordpress.org/plugins/query-monitor/), [Debug Bar](https://wordpress.org/plugins/debug-bar/), [Log Deprecated Notices](https://wordpress.org/plugins/log-deprecated-notices/), [Monster Widget](https://wordpress.org/plugins/monster-widget/), [Theme Sniffer](https://wordpress.org/plugins/theme-sniffer/))
-- **Read first:**
+- **Read:**
   - [Theme review requirements](https://make.wordpress.org/themes/handbook/review/required/)
   - [Theme review process](https://make.wordpress.org/themes/handbook/review/#theme-review-process)
   - [Onboarding for new reviewers](https://make.wordpress.org/themes/handbook/get-involved/onboarding-for-new-reviewers/)
