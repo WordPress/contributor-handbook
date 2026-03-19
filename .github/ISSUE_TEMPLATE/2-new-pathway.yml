@@ -10,13 +10,6 @@ body:
         Please format your issue title as: **Function — Type: Title**
         Example: *Design — Project: Blockify a Theme*
 
-  - type: input
-    id: title
-    attributes:
-      label: Pathway title
-    validations:
-      required: true
-
   - type: dropdown
     id: function
     attributes:
