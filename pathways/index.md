@@ -1,6 +1,6 @@
 # Contribution Pathways
 
-Want to help the project but not sure where to start? Here are some ideas; we'll add more as this work evolves.
+WordPress powers over 40% of the web — and it's built entirely by contributors. Here's how to become one.
 
 [Before You Begin](/handbook/pathways/before-you-begin/) | [About Pathways](/handbook/pathways/about/)
 
@@ -8,48 +8,46 @@ Want to help the project but not sure where to start? Here are some ideas; we'll
 
 ## Build
 
-- **Team: Join team Playground** – Introduce yourself in [#playground](https://wordpress.slack.com/archives/C04EWKGDJ0K), read [Coding Principles](https://wordpress.github.io/wordpress-playground/contributing#guidelines), work on [triage](https://wordpress.github.io/wordpress-playground/contributing#triaging-issues), and complete a [Good First Issue](https://wordpress.github.io/wordpress-playground/contributing/code)
-- **Team: Join team GatherPress** – Introduce yourself in [#gatherpress](https://wordpress.slack.com/archives/C07NB4N0ESJ), read the [contributing guidelines](https://github.com/GatherPress/gatherpress/blob/develop/docs/contributing.md), and tackle a [Good First Issue](https://github.com/GatherPress/gatherpress/contribute)
-- **Team: Work on a Component** – Learn about a [feature](https://make.wordpress.org/core/features/) or [component](https://make.wordpress.org/core/components/), join a [Bug Scrub](https://make.wordpress.org/core/handbook/testing/bug-gardening/), and contribute to a [Good First Bug](https://core.trac.wordpress.org/tickets/good-first-bugs)
+- **[Team: Contribute to GatherPress](/handbook/pathways/contribute-to-gatherpress/)** – Join the team, start with testing and triage, and work up to fixes
+- **[Team: Contribute to Theme Check Plugin](/handbook/pathways/contribute-to-theme-check-plugin/)** – Help maintain the plugin that checks themes against directory standards
+- **Team: Work on a WordPress Component ↗** – Learn about a [feature](https://make.wordpress.org/core/features/) or [component](https://make.wordpress.org/core/components/), join a [Bug Scrub](https://make.wordpress.org/core/handbook/testing/bug-gardening/), and contribute to a [Good First Bug](https://core.trac.wordpress.org/tickets/good-first-bugs)
+- **[Project: Create a Playground Blueprint](/handbook/pathways/create-a-playground-blueprint/)** – Help theme and plugin maintainers by creating ready-to-go Playground demos
 
 ## Design
 
-- **Project: Contribute Photos** – Upload at least 30 quality CC0-licensed photos to the [WordPress Photo Directory](https://wordpress.org/photos/guidelines/)
-- **Project: Submit Block Patterns** – [Design and contribute patterns](https://wordpress.org/documentation/article/submit-your-block-pattern-to-the-directory/) to the WordPress Patterns Directory
-- **Project: Support a Local WordPress Event** – Help with site design, graphics, or slide design for a [local event](https://events.wordpress.org/)
+- **[Project: Review Themes](/handbook/pathways/review-themes/)** – Help review themes submitted to the WordPress directory
+- **Project: Contribute Photos ↗** – Upload at least 30 quality CC0-licensed photos to the [WordPress Photo Directory](https://wordpress.org/photos/guidelines/)
+- **Project: Support a Local WordPress Event ↗** – Help with site design, graphics, or slide design for a [local event](https://events.wordpress.org/)
 
 ## Write
 
-- **Project: Write Content for Training** – Write, update, or review [lesson plans, tutorials, and workshops](https://github.com/orgs/WordPress/projects/33/views/1)
-- **Project: Write Guides or Tutorials** – Support new users and developers with documentation
-- **Task: Audit Existing Docs** – Review existing documentation and suggest improvements
-- **Task: Report a Documentation Issue** – Found a typo, outdated info, or broken link? [Learn how to report it](https://make.wordpress.org/docs/handbook/workflows/reporting-an-issue/)
-- **Task: Fix a Documentation Issue** – Pick up a reported issue, work on a fix, and submit it for review
+- **[Task: Work on Existing Documentation Issues](/handbook/pathways/work-on-existing-issues/)** – Pick up a reported issue, work on a fix, and submit it for review
+- **Project: Write Content for Training ↗** – Write, update, or review [lesson plans, tutorials, and workshops](https://github.com/orgs/WordPress/projects/33/views/1)
+- **Task: Report a Documentation Issue ↗** – Found a typo, outdated info, or broken link? [Learn how to report it](https://make.wordpress.org/docs/handbook/workflows/reporting-an-issue/)
 
 ## Translate
 
-- **Task: Translate Plugins and Themes** – Focus on plugins and themes maintained by the WordPress Foundation and local communities. [Get started with Polyglots](https://make.wordpress.org/polyglots)
-- **Project: Enrich Your Locale's Glossary** – Contribute to [consistent translation](https://make.wordpress.org/polyglots/handbook/translating/glossaries-and-style-guides-per-locale)
-- **Team: Become a Translation Editor** – After contributing translations, [apply to review](https://make.wordpress.org/polyglots/handbook/plugin-theme-authors-guide/pte-request/) for your locale
-- **Task: Help Translate Playground** – [Contribute translations](https://wordpress.github.io/wordpress-playground/contributing/translations) for WordPress Playground
-- **Task: Localize Video Content** – Add subtitles to [training](https://make.wordpress.org/training/handbook/guidelines/tutorials/tutorial-subtitles-and-transcripts/) and [WordPress.tv](https://wordpress.tv/using-amara-org-to-caption-or-subtitle-a-wordpress-tv-video/) videos
+- **Task: Translate Plugins and Themes ↗** – Focus on plugins and themes maintained by the WordPress Foundation and local communities. [Get started with Polyglots](https://make.wordpress.org/polyglots)
+- **Project: Enrich Your Locale's Glossary ↗** – Contribute to [consistent translation](https://make.wordpress.org/polyglots/handbook/translating/glossaries-and-style-guides-per-locale)
+- **Team: Become a Translation Editor ↗** – After contributing translations, [apply to review](https://make.wordpress.org/polyglots/handbook/plugin-theme-authors-guide/pte-request/) for your locale
+- **Task: Help Translate Playground ↗** – [Contribute translations](https://wordpress.github.io/wordpress-playground/contributing/translations) for WordPress Playground
+- **Task: Localize Video Content ↗** – Add subtitles to [training](https://make.wordpress.org/training/handbook/guidelines/tutorials/tutorial-subtitles-and-transcripts/) and [WordPress.tv](https://wordpress.tv/using-amara-org-to-caption-or-subtitle-a-wordpress-tv-video/) videos
 
 ## Test
 
-- **Task: Test Beta Releases** – Help make the next WordPress better! [Setup details here](https://make.wordpress.org/test/handbook/contributor-day/); [share bug reports](https://make.wordpress.org/core/handbook/testing/reporting-bugs/)
-- **Task: Follow Testing Workflows** – Work through [testing workflows](https://make.wordpress.org/test/handbook/) to help identify improvements
-- **Task: Share Training Feedback** – Review training materials and [share constructive feedback](https://make.wordpress.org/training/handbook/getting-started/editor-onboarding/)
+- **Task: Test Beta Releases ↗** – Help make the next WordPress better! [Setup details here](https://make.wordpress.org/test/handbook/contributor-day/); [share bug reports](https://make.wordpress.org/core/handbook/testing/reporting-bugs/)
+- **Task: Follow Testing Workflows ↗** – Work through [testing workflows](https://make.wordpress.org/test/handbook/) to help identify improvements
+- **Task: Share Training Feedback ↗** – Review training materials and [share constructive feedback](https://make.wordpress.org/training/handbook/getting-started/editor-onboarding/)
 
 ## Organize
 
-- **Team: Join a Local WordPress Meetup** – Get to know your community by [joining a meetup](https://www.meetup.com/pro/wordpress/)
-- **Project: Organize a Student Club** – Help organize a WordPress Student Club at your school or university. [Learn more](https://wordpress.org/education/student-clubs/)
-- **Project: Volunteer at a WordPress Event** – Assist with event logistics, registration, or other support at a [local event](https://events.wordpress.org/)
-- **Team: Host a Coffee Hour** – Participate in Training Team meetings, then [learn to host sessions](https://make.wordpress.org/training/handbook/training-team-how-to-guides/hosting-training-team-meetings/)
+- **[Task: Suggest a Pathway](/handbook/pathways/suggest-a-pathway/)** – Help grow this index by suggesting a new guide
+- **Project: Organize a Student Club ↗** – Help organize a WordPress Student Club at your school or university. [Learn more](https://wordpress.org/education/student-clubs/)
+- **Project: Volunteer at a WordPress Event ↗** – Assist with event logistics, registration, or other support at a [local event](https://events.wordpress.org/)
+- **Team: Host a Coffee Hour ↗** – Participate in Training Team meetings, then [learn to host sessions](https://make.wordpress.org/training/handbook/training-team-how-to-guides/hosting-training-team-meetings/)
 
 ## Promote
 
-- **Project: Promote a Local WordPress Meetup** – Help your [local meetup](https://www.meetup.com/pro/wordpress/) grow by spreading the word on campus, at work, or through local networks
-- **Project: Conduct Surveys** – Gather insights about how people use WordPress, and identify areas where awareness is low. Share in [#community](https://wordpress.slack.com/archives/community) and with [your local group](https://www.meetup.com/pro/wordpress/)
-- **Project: Write Impact Stories** – Research and highlight how WordPress is used in educational, nonprofit, or community settings
-- **Task: Add Captions to Videos** – Help make [WordPress.tv videos](https://wordpress.tv/using-amara-org-to-caption-or-subtitle-a-wordpress-tv-video/) accessible to a wider audience
+- **Project: Promote a Local WordPress Meetup ↗** – Help your [local meetup](https://www.meetup.com/pro/wordpress/) grow by spreading the word on campus, at work, or through local networks
+- **Project: Conduct Surveys ↗** – Gather insights about how people use WordPress, and identify areas where awareness is low. Share in [#community](https://wordpress.slack.com/archives/community) and with [your local group](https://www.meetup.com/pro/wordpress/)
+- **Task: Add Captions to Videos ↗** – Help make [WordPress.tv videos](https://wordpress.tv/using-amara-org-to-caption-or-subtitle-a-wordpress-tv-video/) accessible to a wider audience
