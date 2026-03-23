@@ -30,7 +30,7 @@ A good pathway is:
 
 ## How pathways are maintained
 
-Pathways live in a [GitHub repository](https://github.com/WordPress/contributor-handbook) and sync to this handbook. Anyone can suggest, improve, or test them — the goal is community-owned maintenance so pathways stay current and useful.
+Pathways live in a [GitHub repository](https://github.com/WordPress/contributor-handbook) and sync to this handbook. Anyone can suggest, improve, or test them. The goal is community-owned maintenance and centralized feedback, so pathways stay current and useful.
 
 ## How to contribute to pathways
 
