@@ -8,7 +8,7 @@ This effort started with [WP Credits](https://wordpress.org/education/credits/),
 
 Pathways are concise guides that help you start contributing to WordPress. Each one includes what you need to get set up, steps to do the work, and what happens after you're done.
 
-They aren't full manuals — they point you to the right places and keep you moving.
+These guides are not full manuals: they are meant to point you to the right places and keep you moving.
 
 ## Three types of pathways
 
