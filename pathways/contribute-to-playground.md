@@ -1,6 +1,6 @@
 # Contribute to Playground
 
-**Function:** Build
+**Function:** Build  
 **Type:** Team
 
 WordPress Playground lets anyone run WordPress instantly in the browser with no server required. Contributing here means improving the tools that power live demos, plugin previews, and interactive learning experiences across the WordPress ecosystem.
@@ -19,7 +19,7 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 
 ## Steps
 1. Triage open issues [using this guide](https://wordpress.github.io/wordpress-playground/contributing#triaging-issues).
-2. Check Good First issues; comment on one to let the team know you're working on it.
+2. Choose an issue that isn't assigned yet, and comment to let the team know you're working on it.
 3. Test your solution, then open a pull request, and reference the issue number in your PR description.
 
 ## Contribution checklist
