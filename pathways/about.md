@@ -1,8 +1,8 @@
 # About Pathways
 
-WordPress is a massive project with dozens of teams, each with their own handbooks, tools, and processes. That's a strength — but for someone new, it can be hard to know where to begin.
+WordPress is a massive project with dozens of teams, each with their own handbooks, tools, and processes. For someone new, it can be hard to know where to begin.
 
-This effort started with [WP Credits](https://wordpress.org/education/credits/), where an influx of student contributors highlighted just how much easier onboarding could be. Pathways give all contributors a single starting point — pulling together the key links, steps, and context you need so you can spend less time searching and more time contributing.
+This effort started with [WP Credits](https://wordpress.org/education/credits/), where an influx of student contributors highlighted just how much easier onboarding could be. Pathways give all contributors a single starting point by pulling together the key links, steps, and context you need so you can spend less time searching and more time contributing.
 
 ## What are pathways?
 
