@@ -1,6 +1,8 @@
-# Contributor Handbook
+# Contributor Handbook: Pathways
 
 This repository manages the Pathways project in the [WordPress Contributor Handbook](https://make.wordpress.org/handbook/). At this time we are not managing other pages through GitHub.
+
+Pathways are concise guides that help new contributors find their way into the WordPress project. [Learn more about Pathways](pathways/about.md).
 
 ## Status
 
