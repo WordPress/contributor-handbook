@@ -1,4 +1,4 @@
-# Suggest a Pathway
+# Organize: Suggest a Pathway
 
 **Function:** Organize  
 **Type:** Task
