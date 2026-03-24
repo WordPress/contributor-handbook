@@ -1,6 +1,6 @@
-# Create a Block Pattern and Submit It to the Directory
+# Design: Create Block Patterns
 
-**Function:** Design
+**Function:** Design  
 **Type:** Task
 
 Block patterns are ready-made layouts you can insert into a page or post, such as a newsletter signup or a pricing section. In this guide, you'll learn how to find and use patterns from the Block Pattern Directory, then create and submit your own pattern.

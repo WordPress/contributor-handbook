@@ -1,8 +1,12 @@
 # Contribution Pathways
 
-WordPress powers over 40% of the web — and it's built entirely by contributors. Here's how to become one.
+WordPress powers over 40% of the web, yet it's built entirely by contributors. And they aren't all developers, either: people contribute through design, writing, translation, testing, organizing, and promotion, as well as through building code.
 
-[Before You Begin](/handbook/pathways/before-you-begin/) | [About Pathways](/handbook/pathways/about/)
+Want to help? We're building pathway guides that give you concrete steps to start contributing — what you'll need, where to go, and what to do when you get there. You'll find them in the index below, grouped by the type of contribution. Where we don't have a guide yet, we've linked directly to team handbooks so you can still get started.
+
+**Not sure where to start?** Read [Before You Begin](/handbook/pathways/before-you-begin/) if you're brand new, then try one of the categories below. Or, try the [contributor wizard ↗](https://make.wordpress.org/contribute/) for a guided recommendation.
+
+If you're an existing contributor and your team needs more help, feel free to [suggest a pathway](/handbook/pathways/suggest-a-pathway/) or [learn more about Pathways](/handbook/pathways/about/).
 
 ---
 
@@ -10,7 +14,6 @@ WordPress powers over 40% of the web — and it's built entirely by contributors
 
 - **[Team: Contribute to GatherPress](/handbook/pathways/contribute-to-gatherpress/)** – Join the team, start with testing and triage, and work up to fixes
 - **[Team: Contribute to Theme Check Plugin](/handbook/pathways/contribute-to-theme-check-plugin/)** – Help maintain the plugin that checks themes against directory standards
-- **Team: Work on a WordPress Component ↗** – Learn about a [feature](https://make.wordpress.org/core/features/) or [component](https://make.wordpress.org/core/components/), join a [Bug Scrub](https://make.wordpress.org/core/handbook/testing/bug-gardening/), and contribute to a [Good First Bug](https://core.trac.wordpress.org/tickets/good-first-bugs)
 - **[Project: Create a Playground Blueprint](/handbook/pathways/create-a-playground-blueprint/)** – Help theme and plugin maintainers by creating ready-to-go Playground demos
 
 ## Design
