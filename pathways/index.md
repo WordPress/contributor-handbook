@@ -2,11 +2,11 @@
 
 WordPress powers over 40% of the web, yet it's built entirely by contributors. And they aren't all developers, either: people contribute through design, writing, translation, testing, organizing, and promotion, as well as through building code.
 
-Want to help? We're building pathway guides that give you concrete steps to start contributing — what you'll need, where to go, and what to do when you get there. You'll find them in the index below, grouped by the type of contribution. Where we don't have a guide yet, we've linked directly to team handbooks so you can still get started. [Learn more about Pathways](/handbook/pathways/about/)
+Want to help? We're building pathway guides that give you concrete steps to start contributing — what you'll need, where to go, and what to do when you get there. You'll find them in the index below, grouped by the type of contribution. Where we don't have a guide yet, we've linked directly to team handbooks so you can still get started.
 
 **Not sure where to start?** Read [Before You Begin](/handbook/pathways/before-you-begin/) if you're brand new, then try one of the categories below. Or, try the [contributor wizard ↗](https://make.wordpress.org/contribute/) for a guided recommendation.
 
-If you're an existing contributor and your team needs more help, feel free to [suggest a pathway](/handbook/pathways/suggest-a-pathway/).
+If you're an existing contributor and your team needs more help, feel free to [suggest a pathway](/handbook/pathways/suggest-a-pathway/) or [learn more about Pathways](/handbook/pathways/about/).
 
 ---
 
