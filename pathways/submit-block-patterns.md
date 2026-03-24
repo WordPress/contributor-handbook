@@ -1,4 +1,4 @@
-# Create a Block Pattern and Submit It to the Directory
+# Design: Create Block Patterns
 
 **Function:** Design
 **Type:** Task
