@@ -10,7 +10,7 @@
         "title": "Contribution Pathways",
         "slug": "pathways",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/index.md",
-        "parent": "handbook",
+        "parent": null,
         "order": 0
     },
     "pathways-about": {
