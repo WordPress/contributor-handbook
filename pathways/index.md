@@ -14,7 +14,6 @@ If you're an existing contributor and your team needs more help, feel free to [s
 
 - **[Team: Contribute to GatherPress](/handbook/pathways/contribute-to-gatherpress/)** – Join the team, start with testing and triage, and work up to fixes
 - **[Team: Contribute to Theme Check Plugin](/handbook/pathways/contribute-to-theme-check-plugin/)** – Help maintain the plugin that checks themes against directory standards
-- **Team: Work on a WordPress Component ↗** – Learn about a [feature](https://make.wordpress.org/core/features/) or [component](https://make.wordpress.org/core/components/), join a [Bug Scrub](https://make.wordpress.org/core/handbook/testing/bug-gardening/), and contribute to a [Good First Bug](https://core.trac.wordpress.org/tickets/good-first-bugs)
 - **[Project: Create a Playground Blueprint](/handbook/pathways/create-a-playground-blueprint/)** – Help theme and plugin maintainers by creating ready-to-go Playground demos
 
 ## Design
