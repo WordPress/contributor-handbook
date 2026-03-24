@@ -1,6 +1,6 @@
-# Create a Playground Blueprint for a community theme or plugin
+# Build: Create a Playground Blueprint for a community theme or plugin
 
-**Function:** Build
+**Function:** Build  
 **Type:** Project
 
 Help theme and plugin maintainers get started faster by creating a Playground Blueprint for their project. A Blueprint is a JSON file that spins up a ready-to-go WordPress instance with the right extensions and content pre-loaded — great for demos, testing, and reviewing PRs.
