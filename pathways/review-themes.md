@@ -1,6 +1,6 @@
-# Review a Theme
+# Test: Review a Theme
 
-**Function:** Test 
+**Function:** Test  
 **Type:** Task
 
 Theme reviewers help theme authors get their themes into the official WordPress theme directory. You'll install and test themes, review code for security issues, and confirm GPL compatibility — all of which keeps the directory safe and high-quality for everyone.
