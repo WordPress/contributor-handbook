@@ -18,7 +18,7 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 2. If your idea is not in the project already, [file a New Pathway issue](https://github.com/WordPress/contributor-handbook/issues/new/choose). Include links and context, then click Create.
 
 ## Contribution checklist
-- [ ] The idea does not already exist in the index
+- [ ] The idea does not already exist in the index or [Pathways project board](https://github.com/orgs/WordPress/projects/282)
 - [ ] The idea is supported by a handbook process or a team
 - [ ] Filed a New Pathway issue with required fields and context
 
