@@ -1,6 +1,6 @@
 # Write: Audit GatherPress Documentation
 
-**Function:** Write  
+**Function:** Test  
 **Type:** Task
 
 GatherPress is a community-powered event management plugin for WordPress that is under active development. You'll audit sections of its documentation against the actual plugin, identify gaps or inaccuracies, and file issues on GitHub. Every gap you find helps make the plugin easier for new users and developers to adopt.
