@@ -76,12 +76,26 @@
         "parent": "pathways",
         "order": 4
     },
+    "pathways-write-document-a-wordpress-release": {
+        "title": "Document a WordPress Release",
+        "slug": "document-a-wordpress-release",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/write\/document-a-wordpress-release.md",
+        "parent": "write",
+        "order": 0
+    },
+    "pathways-write-file-a-documentation-issue": {
+        "title": "File a Documentation Issue",
+        "slug": "file-a-documentation-issue",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/write\/file-a-documentation-issue.md",
+        "parent": "write",
+        "order": 1
+    },
     "pathways-write-work-on-existing-issues": {
         "title": "Work on Existing Documentation Issues",
         "slug": "work-on-existing-issues",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/write\/work-on-existing-issues.md",
         "parent": "write",
-        "order": 0
+        "order": 2
     },
     "pathways-translate": {
         "title": "Translate",
