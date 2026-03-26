@@ -38,21 +38,21 @@
         "title": "Contribute to GatherPress",
         "slug": "contribute-to-gatherpress",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/build\/contribute-to-gatherpress.md",
-        "parent": "build",
+        "parent": "pathways-build",
         "order": 0
     },
     "pathways-build-contribute-to-theme-check-plugin": {
         "title": "Contribute to Theme Check Plugin",
         "slug": "contribute-to-theme-check-plugin",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/build\/contribute-to-theme-check-plugin.md",
-        "parent": "build",
+        "parent": "pathways-build",
         "order": 1
     },
     "pathways-build-create-a-playground-blueprint": {
         "title": "Create a Playground Blueprint",
         "slug": "create-a-playground-blueprint",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/build\/create-a-playground-blueprint.md",
-        "parent": "build",
+        "parent": "pathways-build",
         "order": 2
     },
     "pathways-design": {
@@ -66,7 +66,7 @@
         "title": "Review Themes",
         "slug": "review-themes",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/design\/review-themes.md",
-        "parent": "design",
+        "parent": "pathways-design",
         "order": 0
     },
     "pathways-write": {
@@ -80,7 +80,7 @@
         "title": "Work on Existing Documentation Issues",
         "slug": "work-on-existing-issues",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/write\/work-on-existing-issues.md",
-        "parent": "write",
+        "parent": "pathways-write",
         "order": 0
     },
     "pathways-translate": {
@@ -108,7 +108,7 @@
         "title": "Suggest a Pathway",
         "slug": "suggest-a-pathway",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/organize\/suggest-a-pathway.md",
-        "parent": "organize",
+        "parent": "pathways-organize",
         "order": 0
     },
     "pathways-promote": {
