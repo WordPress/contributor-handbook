@@ -39,7 +39,10 @@ If you're an existing contributor and your team needs more help, feel free to [s
 
 ## Test
 
-- **Task: Test Beta Releases ↗** – Help make the next WordPress better! [Setup details here](https://make.wordpress.org/test/handbook/contributor-day/); [share bug reports](https://make.wordpress.org/core/handbook/testing/reporting-bugs/)
+- **Bug Reproduction and Patch Testing:** Contributing and participating in the Patch testing sessions happening in [Core Test slack channel](https://wordpress.slack.com/archives/C03B0H5J0) every Tuesday at 15:00 UTC.
+- **Test Chat Session:** Here is where Test Issues are discussed and it is a good time to catch up to test team programs. These sessions are happening in [Core Test slack channel](https://wordpress.slack.com/archives/C03B0H5J0) every Thursday at 15:00 UTC with a voice huddle every first Thursday of the Month.
+- **Calls for Testing:** These can be released by any team with a tag or category `Call-for-testing`
+-  **Task: Test Beta Releases ↗** – Help make the next WordPress better! [Setup details here](https://make.wordpress.org/test/handbook/contributor-day/); [share bug reports](https://make.wordpress.org/core/handbook/testing/reporting-bugs/)
 - **Task: Follow Testing Workflows ↗** – Work through [testing workflows](https://make.wordpress.org/test/handbook/) to help identify improvements
 - **Task: Share Training Feedback ↗** – Review training materials and [share constructive feedback](https://make.wordpress.org/training/handbook/getting-started/editor-onboarding/)
 
