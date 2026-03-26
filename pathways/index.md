@@ -6,25 +6,25 @@ Want to help? We're building pathway guides that give you concrete steps to star
 
 **Not sure where to start?** Read [Before You Begin](/handbook/pathways/before-you-begin/) if you're brand new, then try one of the categories below. Or, try the [contributor wizard ↗](https://make.wordpress.org/contribute/) for a guided recommendation.
 
-If you're an existing contributor and your team needs more help, feel free to [suggest a pathway](/handbook/pathways/suggest-a-pathway/) or [learn more about Pathways](/handbook/pathways/about/).
+If you're an existing contributor and your team needs more help, feel free to [suggest a pathway](/handbook/pathways/organize/suggest-a-pathway/) or [learn more about Pathways](/handbook/pathways/about/).
 
 ---
 
 ## Build
 
-- **[Team: Contribute to GatherPress](/handbook/pathways/contribute-to-gatherpress/)** – Join the team, start with testing and triage, and work up to fixes
-- **[Team: Contribute to Theme Check Plugin](/handbook/pathways/contribute-to-theme-check-plugin/)** – Help maintain the plugin that checks themes against directory standards
-- **[Project: Create a Playground Blueprint](/handbook/pathways/create-a-playground-blueprint/)** – Help theme and plugin maintainers by creating ready-to-go Playground demos
+- **[Team: Contribute to GatherPress](/handbook/pathways/build/contribute-to-gatherpress/)** – Join the team, start with testing and triage, and work up to fixes
+- **[Team: Contribute to Theme Check Plugin](/handbook/pathways/build/contribute-to-theme-check-plugin/)** – Help maintain the plugin that checks themes against directory standards
+- **[Project: Create a Playground Blueprint](/handbook/pathways/build/create-a-playground-blueprint/)** – Help theme and plugin maintainers by creating ready-to-go Playground demos
 
 ## Design
 
-- **[Project: Review Themes](/handbook/pathways/review-themes/)** – Help review themes submitted to the WordPress directory
+- **[Project: Review Themes](/handbook/pathways/design/review-themes/)** – Help review themes submitted to the WordPress directory
 - **Project: Contribute Photos ↗** – Upload at least 30 quality CC0-licensed photos to the [WordPress Photo Directory](https://wordpress.org/photos/guidelines/)
 - **Project: Support a Local WordPress Event ↗** – Help with site design, graphics, or slide design for a [local event](https://events.wordpress.org/)
 
 ## Write
 
-- **[Task: Work on Existing Documentation Issues](/handbook/pathways/work-on-existing-issues/)** – Pick up a reported issue, work on a fix, and submit it for review
+- **[Task: Work on Existing Documentation Issues](/handbook/pathways/write/work-on-existing-issues/)** – Pick up a reported issue, work on a fix, and submit it for review
 - **Project: Write Content for Training ↗** – Write, update, or review [lesson plans, tutorials, and workshops](https://github.com/orgs/WordPress/projects/33/views/1)
 - **Task: Report a Documentation Issue ↗** – Found a typo, outdated info, or broken link? [Learn how to report it](https://make.wordpress.org/docs/handbook/workflows/reporting-an-issue/)
 
@@ -44,7 +44,7 @@ If you're an existing contributor and your team needs more help, feel free to [s
 
 ## Organize
 
-- **[Task: Suggest a Pathway](/handbook/pathways/suggest-a-pathway/)** – Help grow this index by suggesting a new guide
+- **[Task: Suggest a Pathway](/handbook/pathways/organize/suggest-a-pathway/)** – Help grow this index by suggesting a new guide
 - **Project: Organize a Student Club ↗** – Help organize a WordPress Student Club at your school or university. [Learn more](https://wordpress.org/education/student-clubs/)
 - **Project: Volunteer at a WordPress Event ↗** – Assist with event logistics, registration, or other support at a [local event](https://events.wordpress.org/)
 - **Team: Host a Coffee Hour ↗** – Participate in Training Team meetings, then [learn to host sessions](https://make.wordpress.org/training/handbook/training-team-how-to-guides/hosting-training-team-meetings/)
