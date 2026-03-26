@@ -65,8 +65,8 @@
     "pathways-design-review-themes": {
         "title": "Review Themes",
         "slug": "review-themes",
-        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/design\/review-themes.md",
-        "parent": "design",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/review-themes.md",
+        "parent": "test",
         "order": 0
     },
     "pathways-write": {
