@@ -10,7 +10,7 @@ Help theme and plugin maintainers get started faster by creating a Playground Bl
 Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) first, then:
 
 - **Setup:** Familiarize yourself with [WordPress Playground](https://wordpress.github.io/wordpress-playground/) — try spinning up a site to see how it works
-- **Read:** The [Blueprint tutorial](https://wordpress.github.io/wordpress-playground/blueprints/tutorial/build-your-first-blueprint/). Keep the [Blueprint API reference](https://wordpress.github.io/wordpress-playground/blueprints/steps/) handy for when you're building.
+- **Read:** [Blueprint tutorial](https://wordpress.github.io/wordpress-playground/blueprints/tutorial/build-your-first-blueprint/). Keep the [Blueprint API reference](https://wordpress.github.io/wordpress-playground/blueprints/steps/) handy for when you're building.
 - **Connect:** Join [#playground](https://wordpress.slack.com/archives/C04EWKGDJ0K) and introduce yourself
 
 ## Steps
@@ -23,10 +23,10 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 
 ## Contribution checklist
 
-- [ ] The `blueprint.json` is clean, readable, and uses the [shorthand syntax](https://wordpress.github.io/wordpress-playground/blueprints/tutorial/build-your-first-blueprint/#shorthands) where appropriate
-- [ ] Your PR explains what the Blueprint does and why
-- [ ] Added demo content is useful and makes the blueprint's value obvious
-- [ ] Your Blueprint installs cleanly in Playground without errors, and you've tested it in at least two PHP versions
+- The `blueprint.json` is clean, readable, and uses the [shorthand syntax](https://wordpress.github.io/wordpress-playground/blueprints/tutorial/build-your-first-blueprint/#shorthands) where appropriate
+- Your PR explains what the Blueprint does and why
+- Added demo content is useful and makes the blueprint's value obvious
+- Your Blueprint installs cleanly in Playground without errors, and you've tested it in at least two PHP versions
 
 ## What happens next
 

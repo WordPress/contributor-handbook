@@ -23,11 +23,11 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 
 ## Contribution checklist
 
-- [ ] You've engaged in meetings live or with async notes
-- [ ] Comments are detailed and constructive, and you're following so you can respond to replies
-- [ ] Each PR addresses one specific issue and references it (e.g. "Fixes #123")
-- [ ] You've tested your changes in Playground or a local environment
-- [ ] PRs follow the [contributing guidelines](https://github.com/GatherPress/gatherpress/blob/develop/docs/contributing.md)
+- You've engaged in meetings live or with async notes
+- Comments are detailed and constructive, and you're following so you can respond to replies
+- Each PR addresses one specific issue and references it (e.g. "Fixes #123")
+- You've tested your changes in Playground or a local environment
+- PRs follow the [contributing guidelines](https://github.com/GatherPress/gatherpress/blob/develop/docs/contributing.md)
 
 ## What happens next
 A maintainer will review your PR — typically within a few days. If it's been a week, a polite ping in the team slack is fine.
