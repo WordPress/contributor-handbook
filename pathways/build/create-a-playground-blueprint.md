@@ -7,7 +7,7 @@ Help theme and plugin maintainers get started faster by creating a Playground Bl
 
 ## Before you start
 
-Complete the [common setup](/handbook/contribution-pathways/before-you-begin/)) first, then:
+Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) first, then:
 
 - **Setup:** Familiarize yourself with [WordPress Playground](https://wordpress.github.io/wordpress-playground/) — try spinning up a site to see how it works
 - **Read:** The [Blueprint tutorial](https://wordpress.github.io/wordpress-playground/blueprints/tutorial/build-your-first-blueprint/). Keep the [Blueprint API reference](https://wordpress.github.io/wordpress-playground/blueprints/steps/) handy for when you're building.
