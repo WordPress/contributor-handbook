@@ -18,7 +18,7 @@ If you're an existing contributor and your team needs more help, feel free to [s
 
 ## Design
 
-- **[Project: Review Themes](/handbook/pathways/design/review-themes/)** – Help review themes submitted to the WordPress directory
+- **[Project: Review Themes](/handbook/pathways/test/review-themes/)** – Help review themes submitted to the WordPress directory
 - **Project: Contribute Photos ↗** – Upload at least 30 quality CC0-licensed photos to the [WordPress Photo Directory](https://wordpress.org/photos/guidelines/)
 - **Project: Support a Local WordPress Event ↗** – Help with site design, graphics, or slide design for a [local event](https://events.wordpress.org/)
 

@@ -5,8 +5,10 @@ This repository manages the Pathways project in the [WordPress Contributor Handb
 Pathways are concise guides that help new contributors find their way into the WordPress project. [Learn more about Pathways](pathways/about.md).
 
 ## Status
+- **We need guides** — If you can, please pick up an idea from the [project board](https://github.com/orgs/WordPress/projects/282/views/1) and flesh it out using [TEMPLATE.md](pathways/TEMPLATE.md).
+- **Pathways now live in folders** — Each pathway has its own folder under `pathways/`. When adding a new guide, create it inside the relevant folder.
+- **Indexes will change** — These likely won't stay a list of links, so to suggest a new pathway, [open an issue](https://github.com/WordPress/contributor-handbook/issues/new/choose). Then add the guide if you can, using [TEMPLATE.md](pathways/TEMPLATE.md).
 
-📋 **V1 is in review** — We're refining the first set of pathway guides and preparing to sync to make.wordpress.org/handbook.
 
 ## Contributing
 

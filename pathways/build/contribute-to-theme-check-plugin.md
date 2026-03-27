@@ -25,7 +25,16 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 Note: You won't have commit access initially. A maintainer will review your PRs.
 
 ## Contribution checklist
-- [ ] Comments and issues are specific and useful — test results, reproductions, clear descriptions
-- [ ] Each PR addresses one change, references the issue, and comes from a branch on your fork
-- [ ] You've tested your changes against multiple themes
-- [ ] You've reviewed your own diff and description before submitting
+- Comments and issues are specific and useful — test results, reproductions, clear descriptions
+- Each PR addresses one change, references the issue, and comes from a branch on your fork
+- You've tested your changes against multiple themes
+- You've reviewed your own diff and description before submitting
+
+## What happens next
+A maintainer will review your PR. If it's been a week, a polite ping in the team slack is fine.
+
+When you're ready, pick up another issue, settle into a feature area, or review other contributors' PRs.
+
+## Help
+
+Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in the team slack.

@@ -9,7 +9,7 @@ Help grow the pathways index by suggesting a new contribution pathway. You can p
 
 Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) first, then:
 
-- **Read:** Review [About Pathways](/pathways/about/) to understand what makes a good one, and review [TEMPLATE.md](https://github.com/WordPress/contributor-handbook/pathways/TEMPLATE.md)
+- **Read:** Review [About Pathways](/pathways/about/) to understand what makes a good one, and review [TEMPLATE.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/TEMPLATE.md)
 - **Connect:** Connect in [#core-program](https://wordpress.slack.com/archives/C09EEAUJFQS)
 
 ## Steps

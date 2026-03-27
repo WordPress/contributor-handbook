@@ -23,11 +23,11 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 3. Test your solution, then open a pull request, and reference the issue number in your PR description.
 
 ## Contribution checklist
-- [ ] Connected via slack and by attending or reviewing meetings
-- [ ] Commented on the issue to claim it
-- [ ] Changes follow the project's coding standards
-- [ ] PR references the related issue
-- [ ] Tests pass locally
+- Connected via slack and by attending or reviewing meetings
+- Commented on the issue to claim it
+- Changes follow the project's coding standards
+- PR references the related issue
+- Tests pass locally
 
 ## What happens next
 A maintainer will review your PR — typically within a few days. If it's been a week, a polite ping in the team slack is fine.
