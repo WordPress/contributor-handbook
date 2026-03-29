@@ -18,6 +18,8 @@ Read it and confirm what you understand:
 - What function it falls under (Build / Design / Write / Translate / Test / 
   Organize / Promote)
 - What type it is (Task / Project / Team)
+- What level it is (Beginner: can be someone's first contribution / 
+  Intermediate: builds on a previous pathway)
 
 Ask me to confirm or correct before moving on.
 
@@ -74,7 +76,9 @@ STRUCTURE:
 - Do not use emojis.
 
 BEFORE YOU START:
-- Maximum 3 items: Setup, Read, Connect.
+- Maximum 3 items for Beginner: Setup, Read, Connect.
+- For Intermediate, add a fourth: Complete, linking to the prerequisite 
+  pathway. For Beginner, omit Complete.
 - Setup: only what's required to begin. If five tools are listed but 
   two are enough to start, list the two. Move the rest to Help > 
   Further reading.
@@ -130,10 +134,9 @@ TONE:
   actionable in under 15.
 
 STEP 5: After drafting, verify the draft against all the rules above 
-silently. If everything passes, ask "Any revisions, 
-or are you ready for next steps?". If anything fails, show only the issues, fix 
-them, explain what you changed, and then ask if I'd like any further 
-changes.
+silently. If everything passes, ask "Any revisions, or are you ready 
+for next steps?" If anything fails, show only the issues, fix them, 
+explain what you changed, and then ask if I'd like any further changes.
 
 STEP 6: If I request changes, apply them, re-run the self-check, 
 and show the updated draft. When done, ask: "Any other revisions, 
@@ -169,7 +172,8 @@ TEMPLATE:
 # [Pathway Title]
 
 **Function:** Build / Design / Write / Translate / Test / Organize / Promote  
-**Type:** Task / Project / Team
+**Type:** Task / Project / Team  
+**Level:** Beginner / Intermediate
 
 [1-3 sentences: what you'll do and why it matters, in plain language.]
 
@@ -178,6 +182,7 @@ TEMPLATE:
 Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) first, then:
 
 - **Setup:** [Any additional tools or prep beyond the basics]
+- **Complete:** [Intermediate only: link to prerequisite pathway]
 - **Read:** [Pathway-specific, must-read page(s)]
 - **Connect:** Join [Slack channel specific to this pathway, with link] and introduce yourself
 
