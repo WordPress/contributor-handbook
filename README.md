@@ -16,7 +16,7 @@ We'd love your help! Here's how:
 
 - **Suggest a pathway:** [Open a new issue](https://github.com/WordPress/contributor-handbook/issues/new/choose) with your idea
 - **Flag a problem:** Found something broken or unclear? [File an issue](https://github.com/WordPress/contributor-handbook/issues/new/choose)
-- **Write a guide:** Pick up an idea from the [project board](https://github.com/orgs/WordPress/projects/282/views/1) and flesh it out using [TEMPLATE.md](pathways/TEMPLATE.md)
+- **Write a guide:** Pick up an idea from the [project board](https://github.com/orgs/WordPress/projects/282/views/1) and flesh it out using [TEMPLATE.md](pathways/TEMPLATE.md) . When you're ready, set your issue to In Review.
 - **Review a guide:** Test an existing pathway as if you're a new contributor, and share feedback as an issue
 
 ### A note on scope
