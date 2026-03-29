@@ -23,6 +23,7 @@ These standards apply across the project, no matter what you're working on.
 * [WordPress Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/)
 * [Inline Documentation Standards](https://developer.wordpress.org/coding-standards/inline-documentation-standards/)
 * [AI Agent Skills for WordPress](https://github.com/WordPress/agent-skills?tab=readme-ov-file#agent-skills-for-wordpress)
+* [GitHub's guide to creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
 **Plugin Developers:**
 
