@@ -1,8 +1,3 @@
----
-function: Build
-type: Team
-level: Intermediate
----
 # Build: Contribute to Theme Check Plugin
 
 **Function:** Build
