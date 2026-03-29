@@ -1,7 +1,13 @@
+---
+function: Test
+type: Task
+level: Beginner
+---
 # Test: Test for Accessibility
 
 **Function:** Test  
 **Type:** Task
+**Level:** Beginner
 
 You'll find accessibility tickets, test them using your keyboard, browser tools, and optionally a screen reader, then report your findings. Every test result helps the Accessibility team identify and fix barriers that prevent people with disabilities from using WordPress.
 
