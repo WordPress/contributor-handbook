@@ -24,12 +24,12 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 
 ## Contribution checklist
 
-- [ ] Tested against a specific ticket or issue
-- [ ] Used at least one testing method (keyboard, automated scan, or screen reader)
-- [ ] Report includes what you tested, how you tested, browser/OS, and what you found
-- [ ] Included steps to reproduce and screenshots for any issues found
-- [ ] New tickets filed with correct Focus and Type
-- [ ] Report posted in the right place (Core Trac, Gutenberg GitHub, or Meta Trac)
+- Tested against a specific ticket or issue
+- Used at least one testing method (keyboard, automated scan, or screen reader)
+- Report includes what you tested, how you tested, browser/OS, and what you found
+- Included steps to reproduce and screenshots for any issues found
+- New tickets filed with correct Focus and Type
+- Report posted in the right place (Core Trac, Gutenberg GitHub, or Meta Trac)
 
 ## What happens next
 
