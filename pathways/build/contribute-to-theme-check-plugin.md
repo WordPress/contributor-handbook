@@ -1,9 +1,20 @@
+---
+function: Build
+type: Project
+level: Intermediate
+---
 # Build: Contribute to Theme Check Plugin
+
+# Contribute to Photos
+
+**Function:** Build
+**Type:** Project
+**Level:** Intermediate
 
 **Function:** Build  
 **Type:** Team
 
-Help maintain the plugin that checks WordPress themes against directory submission requirements. Every theme submitted to WordPress.org gets run through Theme Check, so your work helps keep thousands of themes safe and consistent.
+Help maintain the plugin that checks WordPress themes against directory submission requirements. Every theme submitted to WordPress.org is run through Theme Check, so your work on this plugin helps keep thousands of themes safe and consistent.
 
 ## Before you start
 
