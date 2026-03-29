@@ -1,6 +1,6 @@
 # [Pathway Title]
 
-**Function:** Build / Design / Write / Translate / Test / Organize / Promote  <!-- Add two spaces after this -->
+**Function:** Build / Design / Write / Translate / Test / Organize / Promote  <!-- Add two spaces after this -->  
 **Type:** Task / Project / Team
 
 [1-3 sentences: what you'll do and why it matters, in plain language.]
