@@ -1,8 +1,3 @@
----
-function: Test
-type: Task
-level: Beginner
----
 # Test: Test for Accessibility
 
 **Function:** Test  
