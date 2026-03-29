@@ -41,6 +41,13 @@
         "parent": "build",
         "order": 0
     },
+    "pathways-test-test-for-accessibility": {
+        "title": "Test for Accessibility",
+        "slug": "test-for-accessibility",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/test-for-accessibility.md",
+        "parent": "test",
+        "order": 0
+    },
     "pathways-build-contribute-to-theme-check-plugin": {
         "title": "Contribute to Theme Check Plugin",
         "slug": "contribute-to-theme-check-plugin",
