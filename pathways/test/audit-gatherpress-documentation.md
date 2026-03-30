@@ -1,4 +1,4 @@
-# Test: Audit GatherPress Documentation
+# Audit GatherPress Documentation
 
 **Function:** Test  
 **Type:** Task  
