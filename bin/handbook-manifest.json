@@ -53,14 +53,21 @@
         "slug": "contribute-to-theme-check-plugin",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/build\/contribute-to-theme-check-plugin.md",
         "parent": "build",
-        "order": 1
+        "order": 3
+    },
+    "pathways-build-create-a-playground-blueprint-for-a-community-plugin-or-theme/": {
+        "title": "Create a Playground Blueprint for a Community Plugin or Theme",
+        "slug": "create-a-playground-blueprint-for-a-community-plugin-or-theme/",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/build\/create-a-playground-blueprint-for-a-community-plugin-or-theme/.md",
+        "parent": "build",
+        "order": 2
     },
     "pathways-build-create-a-playground-blueprint": {
         "title": "Create a Playground Blueprint",
         "slug": "create-a-playground-blueprint",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/build\/create-a-playground-blueprint.md",
         "parent": "build",
-        "order": 2
+        "order": 1
     },
     "pathways-design": {
         "title": "Design",
