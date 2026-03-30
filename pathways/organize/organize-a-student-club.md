@@ -42,7 +42,5 @@ Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getti
 
 **Further reading:**
 - [About WordPress Campus Connect Student Clubs](https://make.wordpress.org/community/handbook/education/student-clubs/about-wordpress-campus-connect-student-clubs/)
-- [Starting a Student Club (Learn WordPress lesson)](https://learn.wordpress.org/lesson/starting-a-student-club/)
-- [Running and Sustaining a Student Club (Learn WordPress lesson)](https://learn.wordpress.org/lesson/running-and-sustaining-a-student-club/)
-- [Navigating Your Student Club Site (Learn WordPress lesson)](https://learn.wordpress.org/lesson/navigating-your-student-club-site/)
+- [WordPress Student Club Expectations](https://make.wordpress.org/community/handbook/education/student-clubs/wordpress-student-club-expectations/)
 - [Community Team Blog](https://make.wordpress.org/community/)
