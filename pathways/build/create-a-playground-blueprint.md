@@ -1,7 +1,7 @@
 # Build a WordPress Playground Blueprint
 
-**Function:** Build
-**Type:** Project
+**Function:** Build  
+**Type:** Project  
 **Level:** Beginner
 
 Build a WordPress Blueprint and submit it to the Blueprint Gallery. Blueprints are JSON files that configure a WordPress Playground instance — they can install themes, plugins, and content in a few clicks. The gallery is a public collection of community-submitted blueprints that others can learn from and reuse.
@@ -40,7 +40,7 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 
 A Playground team member will review your PR. They may ask for changes or flag missing files. You'll also get a test link generated from your PR to verify your blueprint works. If you don't hear back within a week, ask in [#meta-playground](https://wordpress.slack.com/archives/C04EWKGDJ0K).
 
-After your first blueprint is merged, consider building more — or explore other ways to contribute to [WordPress Playground](https://github.com/WordPress/wordpress-playground).
+After your first blueprint is merged, consider [creating a Blueprint for a community theme or plugin](/handbook/pathways/build/create-a-playground-blueprint-for-a-community-plugin-or-theme/) — or explore other ways to contribute to [WordPress Playground](https://github.com/WordPress/wordpress-playground).
 
 ## Help
 
