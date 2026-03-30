@@ -48,6 +48,13 @@
         "parent": "test",
         "order": 0
     },
+    "pathways-test-audit-gatherpress-documentation": {
+        "title": "Audit GatherPress Documentation",
+        "slug": "audit-gatherpress-documentation",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/audit-gatherpress-documentation.md",
+        "parent": "test",
+        "order": 1
+    },
     "pathways-build-contribute-to-theme-check-plugin": {
         "title": "Contribute to Theme Check Plugin",
         "slug": "contribute-to-theme-check-plugin",
