@@ -40,4 +40,4 @@ Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you
 **Further reading:**
 - [GitHub Issues Coordinator role](https://make.wordpress.org/docs/handbook/get-involved/team-roles/non-project-roles/#github-issues-coordinator) — full description of coordinator responsibilities
 - [Overview onboarding session](https://make.wordpress.org/docs/handbook/get-involved/onboarding-sessions/overview/) - video walkthrough of Docs team onboarding
-- [Labels guide](https://github.com/WordPress/Documentation-Issue-Tracker/issues/2217)) — detailed reference for all label groups and how to use them
+- [Labels guide](https://github.com/WordPress/Documentation-Issue-Tracker/issues/2217) — detailed reference for all label groups and how to use them
