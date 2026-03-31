@@ -11,7 +11,7 @@ Help maintain the plugin that checks WordPress themes against directory submissi
 Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) first, then:
 
 - **Setup:** Fork and clone the [Theme Check repository](https://github.com/WordPress/theme-check). Set up a local dev environment or use [WordPress Playground](https://wordpress.github.io/wordpress-playground/).
-- **Complete:** [Review a Theme](/handbook/pathways/design/review-themes/)
+- **Complete:** [Review a Theme](/handbook/pathways/test/review-themes/)
 - **Read:** The [plugin readme](https://github.com/WordPress/theme-check#readme)
 - **Connect:** Join [#themes](https://wordpress.slack.com/archives/C02RP4Y3K) and introduce yourself
 
