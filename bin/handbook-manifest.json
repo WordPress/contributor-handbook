@@ -62,10 +62,10 @@
         "parent": "build",
         "order": 3
     },
-    "pathways-build-create-a-playground-blueprint-for-a-community-plugin-or-theme/": {
+    "pathways-build-create-a-playground-blueprint-for-a-community-plugin-or-theme": {
         "title": "Create a Playground Blueprint for a Community Plugin or Theme",
-        "slug": "create-a-playground-blueprint-for-a-community-plugin-or-theme/",
-        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/build\/create-a-playground-blueprint-for-a-community-plugin-or-theme/.md",
+        "slug": "create-a-playground-blueprint-for-a-community-plugin-or-theme",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/build\/create-a-playground-blueprint-for-a-community-plugin-or-theme.md",
         "parent": "build",
         "order": 2
     },
