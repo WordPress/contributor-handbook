@@ -11,12 +11,9 @@ Pathways are concise guides that help you start contributing to WordPress. Each 
 These guides are not full manuals: they are meant to point you to the right places and keep you moving.
 
 ## Three types of pathways
-
-**Task** — quick start, repeatable work. After a short setup, you can pick one up and do several a day or week.
-
-**Project** — focused work with a clear finish. These typically take a few weeks and may involve working with others.
-
-**Team** — ongoing contribution with a group. Join a team, attend meetings, and help with their priorities over time.
+- **Task** — quick start, repeatable work. After a short setup, you can pick one up and do several a day or week.
+- **Project** — focused work with a clear finish. These typically take a few weeks and may involve working with others.
+- **Team** — ongoing contribution with a group. Join a team, attend meetings, and help with their priorities over time.
 
 ## What makes a good pathway?
 
@@ -43,7 +40,7 @@ Know a contribution that should have a pathway? [Suggest one](https://github.com
 Broken link, unclear step, outdated info? [Let us know](https://github.com/WordPress/contributor-handbook/issues/new/choose).
 
 **Write or improve a pathway**
-Check the [project board](https://github.com/orgs/WordPress/projects/282/views/1) for open issues, grab one, and submit a pull request. Use `pathways/TEMPLATE.md` as your starting point.
+Check the [project board](https://github.com/orgs/WordPress/projects/282/views/1) for open issues, grab one, and submit a pull request. Use `pathways/TEMPLATE.md` as your starting point. The pathways/PROMPT.md can be used with AI to help with drafting, too.
 
 **Test a pathway**
 Pick any pathway and try to follow it from scratch. If you get stuck, please [share details as feedback](https://github.com/WordPress/contributor-handbook/issues/new/choose).
