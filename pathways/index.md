@@ -47,12 +47,12 @@ If you're an existing contributor and your team needs more help, feel free to [s
 ## Organize
 
 - **[Task: Suggest a Pathway](/handbook/pathways/organize/suggest-a-pathway/)** – Help grow this index by suggesting a new guide
-- **Project: Organize a Student Club ↗** – Help organize a WordPress Student Club at your school or university. [Learn more](https://wordpress.org/education/student-clubs/)
+- **[Project: Organize a Student Club](/handbook/pathways/organize/organize-a-student-club/)** – Help organize a WordPress Student Club at your school or university
 - **Project: Volunteer at a WordPress Event ↗** – Assist with event logistics, registration, or other support at a [local event](https://events.wordpress.org/)
 - **Team: Host a Coffee Hour ↗** – Participate in Training Team meetings, then [learn to host sessions](https://make.wordpress.org/training/handbook/training-team-how-to-guides/hosting-training-team-meetings/)
 
 ## Promote
 
+- **[Task: Add Captions to WPTV Videos](/handbook/pathways/promote/add-captions-to-wptv-videos/)** – Help make WordPress.tv accessible to a wider audience
 - **Project: Promote a Local WordPress Meetup ↗** – Help your [local meetup](https://www.meetup.com/pro/wordpress/) grow by spreading the word on campus, at work, or through local networks
 - **Project: Conduct Surveys ↗** – Gather insights about how people use WordPress, and identify areas where awareness is low. Share in [#community](https://wordpress.slack.com/archives/community) and with [your local group](https://www.meetup.com/pro/wordpress/)
-- **Task: Add Captions to Videos ↗** – Help make [WordPress.tv videos](https://wordpress.tv/using-amara-org-to-caption-or-subtitle-a-wordpress-tv-video/) accessible to a wider audience
