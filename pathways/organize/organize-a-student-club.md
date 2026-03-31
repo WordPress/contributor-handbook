@@ -1,4 +1,4 @@
-# Organize: Organize a Student Club
+# Organize a Student Club
 
 **Function:** Organize  
 **Type:** Project  
