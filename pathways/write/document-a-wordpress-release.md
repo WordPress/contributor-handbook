@@ -1,4 +1,4 @@
-# Write: Document a WordPress Release
+# Document a WordPress Release
 
 **Function:** Write  
 **Type:** Team  
