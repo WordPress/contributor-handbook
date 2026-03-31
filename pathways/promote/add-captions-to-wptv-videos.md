@@ -1,4 +1,4 @@
-# Promote: Add Captions to WPTV Videos
+# Add Captions to WPTV Videos
 
 **Function:** Promote  
 **Type:** Task  
