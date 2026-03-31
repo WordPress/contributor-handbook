@@ -74,6 +74,8 @@ STRUCTURE:
 - Do not use checkboxes (- [ ]) — they don't render in the handbook. 
   Use plain bullets.
 - Do not use emojis.
+- In the metadata block (Function, Type, Level), add two trailing 
+  spaces after the Function and Type lines to force Markdown line breaks.
 
 BEFORE YOU START:
 - Maximum 3 items for Beginner: Setup, Read, Connect.
