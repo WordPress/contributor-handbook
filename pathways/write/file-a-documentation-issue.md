@@ -1,4 +1,4 @@
-# Write: File a Documentation Issue
+# File a Documentation Issue
 
 **Function:** Write  
 **Type:** Task  
