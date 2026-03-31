@@ -146,11 +146,25 @@
         "parent": "organize",
         "order": 0
     },
+    "pathways-organize-organize-a-student-club": {
+        "title": "Organize a Student Club",
+        "slug": "organize-a-student-club",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/organize\/organize-a-student-club.md",
+        "parent": "organize",
+        "order": 0
+    },
     "pathways-promote": {
         "title": "Promote",
         "slug": "promote",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/promote\/index.md",
         "parent": "pathways",
         "order": 8
+    },
+    "pathways-promote-add-captions-to-wptv-videos": {
+        "title": "Add Captions to WPTV Videos",
+        "slug": "add-captions-to-wptv-videos",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/promote\/add-captions-to-wptv-videos.md",
+        "parent": "promote",
+        "order": 0
     }
 }
