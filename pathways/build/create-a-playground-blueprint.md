@@ -16,7 +16,7 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 
 ## Steps
 
-1. Work through the [Build your first blueprint](https://wordpress.github.io/wordpress-playground/blueprints/tutorial/build-your-first-blueprint/) tutorial. By the end, you'll have a working `blueprint.json` that installs a theme, plugins, and content.
+1. Work through the [Build your first blueprint](https://wordpress.github.io/wordpress-playground/blueprints/tutorial/build-your-first-blueprint/) tutorial. [This presentation](https://wordpress.tv/2025/04/30/create-a-demo-with-playground/) may also help. By the end, you'll have a working `blueprint.json` that installs a theme, plugins, and content.
 2. Decide what to build. Look at the [Blueprint Gallery](https://github.com/WordPress/blueprints/blob/trunk/GALLERY.md) source files to see how others have structured their submissions. People use blueprints to:
    - Demo the capabilities of a WordPress plugin, theme, or design
    - Provide a hands-on environment for tutorials
