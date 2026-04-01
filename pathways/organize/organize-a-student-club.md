@@ -12,7 +12,7 @@ Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
 - **Setup:** You'll need to be a current student and able to recruit a Faculty Advisor and at least one other student co-organizer. No tools or software needed at this stage.
 - **Read:** Read through the [WordPress Student Club Guide](https://make.wordpress.org/community/handbook/education/student-clubs/wordpress-student-club-guide/) — it covers the purpose, structure, application process, and how clubs are supported after launch.
-- **Connect:** Join [#campusconnect](https://wordpress.slack.com/archives/C08QK4V94AF) on Slack and introduce yourself.
+- **Connect:** Join [#campusconnect](https://wordpress.slack.com/archives/campusconnect) on Slack and introduce yourself.
 
 ## Steps
 
@@ -38,7 +38,7 @@ If your campus has a local WordPress meetup or community, connect with them — 
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help). Your first point of contact is your Faculty Advisor, then any local community mentor, then [#campusconnect](https://wordpress.slack.com/archives/C08QK4V94AF) on Slack.
+Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help). Your first point of contact is your Faculty Advisor, then any local community mentor, then [#campusconnect](https://wordpress.slack.com/archives/campusconnect) on Slack.
 
 **Further reading:**
 - [About WordPress Campus Connect Student Clubs](https://make.wordpress.org/community/handbook/education/student-clubs/about-wordpress-campus-connect-student-clubs/)
