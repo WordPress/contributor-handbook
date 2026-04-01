@@ -14,7 +14,7 @@ Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
 - **Setup:** Open the [GatherPress Playground environment](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/GatherPress/gatherpress/main/.wordpress-org/blueprints/blueprint.json) to explore the plugin with demo data — no local setup required.
 - **Read:** Read through the [user documentation](https://gatherpress.org/documentation/documentation-for-users/) so you understand what's currently documented before you start auditing.
-- **Connect:** Join [#gatherpress](https://wordpress.slack.com/archives/C07NB4N0ESJ) on Slack and introduce yourself. You can also RSVP for the next GatherPress meeting at [gatherpress.org](https://gatherpress.org/).
+- **Connect:** Join [#gatherpress](https://wordpress.slack.com/archives/gatherpress) on Slack and introduce yourself. You can also RSVP for the next GatherPress meeting at [gatherpress.org](https://gatherpress.org/).
 
 ## Steps
 
@@ -38,7 +38,7 @@ After your first audit, there are always more sections to review. Check [open is
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#gatherpress](https://wordpress.slack.com/archives/C07NB4N0ESJ).
+Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#gatherpress](https://wordpress.slack.com/archives/gatherpress).
 
 **Further reading:**
 - [What is GatherPress?](https://gatherpress.org/what-is-gatherpress/)
