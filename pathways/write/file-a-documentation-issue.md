@@ -12,7 +12,7 @@ Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
 - **Setup:** Set up [WordPress Playground](https://playground.wordpress.net/) for testing.
 - **Read:** Read through the [reporting an issue workflow](https://make.wordpress.org/docs/handbook/workflows/reporting-an-issue/) so you understand how the team tracks and manages documentation work.
-- **Connect:** Join [#docs](https://wordpress.slack.com/archives/C02RP4WU5) on Slack and introduce yourself.
+- **Connect:** Join [#docs](https://wordpress.slack.com/archives/docs) on Slack and introduce yourself.
 
 ## Steps
 
@@ -36,7 +36,7 @@ When you're ready, file another issue or try [working on one](/handbook/pathways
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#docs](https://wordpress.slack.com/archives/C02RP4WU5).
+Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#docs](https://wordpress.slack.com/archives/docs).
 
 **Further reading:**
 - [Documentation Issue Tracker handbook page](https://make.wordpress.org/docs/handbook/github-repository-and-projects/documentation-issue-tracker/)
