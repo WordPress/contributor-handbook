@@ -6,7 +6,7 @@
 
 This pathway describes how the Documentation team prepares, publishes, and maintains documentation for a major WordPress release. Following a consistent process ensures users and developers have accurate, up-to-date information when a new version ships. This process is actively evolving and may change from release to release.
 
-This work is tracked in the [Documentation Issue Tracker](https://github.com/WordPress/Documentation-Issue-Tracker), discussed in [#docs](https://wordpress.slack.com/archives/C02RP4WU5), and coordinated with the release squad in their dedicated Slack channel.
+This work is tracked in the [Documentation Issue Tracker](https://github.com/WordPress/Documentation-Issue-Tracker), discussed in [#docs](https://wordpress.slack.com/archives/docs), and coordinated with the release squad in their dedicated Slack channel.
 
 ## Before you start
 
@@ -14,7 +14,7 @@ Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
 - **Setup:** Set up [WordPress Playground](https://playground.wordpress.net/) to explore features, take screenshots, and verify changes. If writing directly to HelpHub, request access in #docs — otherwise, draft in a Google Doc and share the link.
 - **Read:** Read through the [documentation process during a major version release](https://make.wordpress.org/docs/handbook/workflows/documentation-process-during-a-major-version-release/) — this is the team's primary reference for how release documentation works.
-- **Connect:** Join [#docs](https://wordpress.slack.com/archives/C02RP4WU5) on Slack. Volunteer during a weekly Docs team meeting when the call goes out. Less experienced contributors are encouraged — you may be paired with a mentor.
+- **Connect:** Join [#docs](https://wordpress.slack.com/archives/docs) on Slack. Volunteer during a weekly Docs team meeting when the call goes out. Less experienced contributors are encouraged — you may be paired with a mentor.
 
 ## Steps
 
@@ -65,7 +65,7 @@ When the next release cycle begins, the process starts again. Volunteer early to
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#docs](https://wordpress.slack.com/archives/C02RP4WU5).
+Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#docs](https://wordpress.slack.com/archives/docs).
 
 **Further reading:**
 - [Releasing major versions (core handbook)](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/)
