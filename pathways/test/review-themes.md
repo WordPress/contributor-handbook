@@ -12,7 +12,7 @@ Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
 - **Setup:** Set up a [local WordPress environment](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/), set `WP_DEBUG` to `true` in your `wp-config.php`, and install the [Theme Check](https://wordpress.org/plugins/theme-check/) plugin.
 - **Read:** Work through the [Onboarding for new reviewers](https://make.wordpress.org/themes/handbook/get-involved/onboarding-for-new-reviewers/) guide. It walks you through the full process step by step, from setting up your environment to writing your first review.
-- **Connect:** Join [#themes](https://wordpress.slack.com/archives/C02RP4Y3K) on Slack and introduce yourself. Attend meetings if possible, or read meeting notes.
+- **Connect:** Join [#themes](https://wordpress.slack.com/archives/themes) on Slack and introduce yourself. Attend meetings if possible, or read meeting notes.
 
 ## Steps
 
@@ -36,7 +36,7 @@ After enough reviews, you'll be added to the Reviewers group, which lets you ass
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#themes](https://wordpress.slack.com/archives/C02RP4Y3K).
+Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#themes](https://wordpress.slack.com/archives/themes).
 
 **Further reading:**
 - [Theme review requirements](https://make.wordpress.org/themes/handbook/review/required/)
