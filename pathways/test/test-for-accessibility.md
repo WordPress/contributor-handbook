@@ -12,7 +12,7 @@ Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
 - **Setup:** Install the [axe DevTools browser extension](https://www.deque.com/axe/browser-extensions/). Your keyboard and axe DevTools are enough to start — screen reader testing is covered in step 4.
 - **Read:** Read through the [Test for Web Accessibility](https://make.wordpress.org/accessibility/handbook/test-for-web-accessibility/) handbook page. The goal is familiarity, not mastery.
-- **Connect:** Join [#accessibility](https://wordpress.slack.com/archives/C02RP4X03) on Slack and introduce yourself.
+- **Connect:** Join [#accessibility](https://wordpress.slack.com/archives/accessibility) on Slack and introduce yourself.
 
 ## Steps
 
@@ -37,7 +37,7 @@ As you gain confidence, expand your testing methods and check the [Current Relea
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#accessibility](https://wordpress.slack.com/archives/C02RP4X03).
+Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#accessibility](https://wordpress.slack.com/archives/accessibility).
 
 **Further reading:**
 - [WebAIM WCAG Checklist](https://webaim.org/standards/wcag/checklist) — WordPress targets [WCAG 2.2 AA](https://www.w3.org/TR/WCAG22/)
