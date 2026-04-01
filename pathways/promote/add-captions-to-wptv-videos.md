@@ -12,7 +12,7 @@ Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
 - **Setup:** Create a free account on [Amara.org](https://amara.org/).
 - **Read:** Read through the [captioning guide on WordPress.tv](https://wordpress.tv/using-amara-org-to-caption-or-subtitle-a-wordpress-tv-video/) — this covers the full process from start to finish.
-- **Connect:** Join [#wptv](https://wordpress.slack.com/archives/C037W5MBT) on Slack and introduce yourself.
+- **Connect:** Join [#wptv](https://wordpress.slack.com/archives/wptv) on Slack and introduce yourself.
 
 ## Steps
 
@@ -34,7 +34,7 @@ When you're ready, pick another video — there are always more that need captio
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#wptv](https://wordpress.slack.com/archives/C037W5MBT).
+Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#wptv](https://wordpress.slack.com/archives/wptv).
 
 **Further reading:**
 - [WPTV Team Handbook](https://make.wordpress.org/tv/handbook/)
