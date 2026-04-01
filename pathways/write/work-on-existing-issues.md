@@ -12,7 +12,7 @@ Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
 - **Setup:** Set up [WordPress Playground](https://playground.wordpress.net/) for testing changes.
 - **Read:** Read through the [Documentation Team Handbook](https://make.wordpress.org/docs/handbook/documentation-team-handbook/) so you're familiar with the team's standards for grammar, style, tone, linking, and screenshots.
-- **Connect:** Join [#docs](https://wordpress.slack.com/archives/C02RP4WU5) on Slack and introduce yourself.
+- **Connect:** Join [#docs](https://wordpress.slack.com/archives/docs) on Slack and introduce yourself.
 
 ## Steps
 
@@ -36,7 +36,7 @@ When you're ready, pick up another issue or try [filing one](/handbook/pathways/
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#docs](https://wordpress.slack.com/archives/C02RP4WU5).
+Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#docs](https://wordpress.slack.com/archives/docs).
 
 **Further reading:**
 - [Documentation Grammar Guide](https://make.wordpress.org/docs/handbook/documentation-team-handbook/handbooks-grammar-guide/)
