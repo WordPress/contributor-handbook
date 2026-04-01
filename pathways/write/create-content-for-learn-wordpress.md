@@ -12,7 +12,7 @@ Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
 - **Setup:** The Training Team tracks all content work in the [WordPress/Learn](https://github.com/WordPress/Learn) GitHub repository. You'll use this to find tasks and submit your work.
 - **Read:** Work through the [Content Creator Onboarding](https://make.wordpress.org/training/handbook/getting-started/content-creator-onboarding/) page. It introduces the team's content workflow and walks you through making your first contribution.
-- **Connect:** Join [#training](https://wordpress.slack.com/archives/C02RW657Q) on Slack and introduce yourself.
+- **Connect:** Join [#training](https://wordpress.slack.com/archives/training) on Slack and introduce yourself.
 
 ## Steps
 
@@ -37,7 +37,7 @@ After your first review, you can take on other content creation tasks — like f
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help). For Training Team questions, ask in [#training](https://wordpress.slack.com/archives/C02RW657Q) on Slack.
+Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help). For Training Team questions, ask in [#training](https://wordpress.slack.com/archives/training) on Slack.
 
 **Further reading:**
 - [Training Team Handbook](https://make.wordpress.org/training/handbook/)
