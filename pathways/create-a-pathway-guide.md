@@ -1,39 +1,45 @@
 # Create a Pathway Guide
 
-Turn an approved pathway idea into a finished guide. Pick up an issue from the project board, follow TEMPLATE.md, and submit a pull request.
+**Function:** Write  
+**Type:** Project  
+**Level:** Beginner
+
+Turn an approved pathway idea into a finished guide. Pick up an issue from the project board, draft it, get feedback, and submit a pull request.
 
 ## Before you start
 
-Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
+Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) first, then:
 
-- **Setup:** Familiarize yourself with the [Contributor Handbook: Pathways GitHub repository](https://github.com/WordPress/contributor-handbook) and the [project board](https://github.com/orgs/WordPress/projects/282).
-- **Read:** Review the [About Pathways](/handbook/pathways/about/) section, the [WordPress Brand Writing Style Guide](https://make.wordpress.org/marketing/handbook/resources/style-guide-and-brand-book/), and [TEMPLATE.md](https://github.com/WordPress/contributor-handbook/blob/feature/pathways/pathways/TEMPLATE.md) — it's a starting point, not a rigid format. Browse a few published pathways to get a feel for tone, length, and structure.
-- **Connect:** Join the Slack channel for the team the pathway relates to ([find your team's channel here](https://make.wordpress.org/)) and introduce yourself.
+- **Setup:** Familiarize yourself with the [Contributor Handbook GitHub repository](https://github.com/WordPress/contributor-handbook) and the [pathway project board](https://github.com/orgs/WordPress/projects/282/views/1)
+- **Read:** Review [About Pathways](/handbook/contribution-pathways/about/)
+- **Connect:** Join [#core-program](https://wordpress.slack.com/archives/core-program) and introduce yourself
 
 ## Steps
 
-1. **Pick up an issue** marked as "Ready" on the project board and leave a comment to let others know you're working on it.
-2. **Read the issue thoroughly** — review the summary, links, and any discussion. This is your brief.
-3. **Research the topic.** Start with the linked resources and relevant team handbook. For undocumented topics, cast a wider net — search for tutorials, [Learn WordPress](https://learn.wordpress.org/) lessons, [WordPress.tv](https://wordpress.tv/) talks, GitHub discussions, and Make WordPress blog posts. Use AI to help you research unfamiliar concepts. Pay attention to common questions newcomers ask in Slack — these reveal where a pathway adds the most value.
-4. **Walk the pathway yourself** before writing anything. Try to follow the process as a new contributor would. If you get stuck, note where things were unclear, missing, or confusing — that's valuable information.
-5. **Draft the guide** using [TEMPLATE.md](https://github.com/WordPress/contributor-handbook/blob/feature/pathways/pathways/TEMPLATE.md) as your starting point. Write for someone brand new. Be concise and actionable — link out to existing resources rather than duplicating them. Check the [WordPress Brand Writing Style Guide](https://make.wordpress.org/marketing/handbook/resources/style-guide-and-brand-book/) for tone and terminology. If anything is unclear, ask in the relevant team's Slack channel — they're the subject matter experts.
-6. **Self-review your draft.** Read it as if you're a first-time contributor. Does every step make sense? Are there gaps? Do all links work?
-7. **Submit a pull request** to the `add/pathways` branch in the GitHub repo. Include a brief description of the pathway and link back to the original issue.
+1. **Pick up an issue** from Ready or New on the [project board](https://github.com/orgs/WordPress/projects/282/views/1), comment that you're working on it, and research the topic using linked resources, handbooks, tutorials, [Learn WordPress](https://learn.wordpress.org/), [WordPress.tv](https://wordpress.tv/), and team Slack channels.
+2. **Draft the guide** using PROMPT.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/PROMPT.md) and AI, or with [TEMPLATE.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/TEMPLATE.md) as your guide, then post your draft as a comment on the issue.
+4. **Walk the pathway using your draft** as a new contributor would. Ask teams for feedback, too, and refine based on what you learn.
+5. **Submit a pull request** to the folder matching the pathway's function — for example, if you wrote a test pathway, submit to pathways/test/. Reference the issue in your PR description.
 
 ## Contribution checklist
 
-- [ ] Picked up a "Ready" issue and commented that you're working on it
-- [ ] Walked the pathway yourself and noted any gaps or friction
-- [ ] Drafted the guide using [TEMPLATE.md](https://github.com/WordPress/contributor-handbook/blob/feature/pathways/pathways/TEMPLATE.md) as a starting point
-- [ ] Draft follows the [WordPress Brand Writing Style Guide](https://make.wordpress.org/marketing/handbook/resources/style-guide-and-brand-book/)
-- [ ] Submitted a PR to the `add/pathways` branch linked to the original issue
+- All links work and are current
+- Your draft is scannable and fits the [TEMPLATE.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/TEMPLATE.md)
+- You've tested the pathway, requested feedback, and refined accordingly 
+- You've submitted a PR submitted referencing the issue
 
 ## What happens next
 
-Your PR will be reviewed for clarity, accuracy, and completeness. You may receive feedback — that's normal and part of the process. Once approved, the pathway will be published to the Make WordPress Handbook.
+Maintainers will review your PR for clarity, accuracy, and completeness. Once approved, the pathway will be merged and published to the handbook.
 
-When you're ready, pick up another pathway from the project board, or help review someone else's draft.
+When you're ready, pick up another pathway from the project board or help review someone else's draft.
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in the relevant team's Slack channel.
+Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in [#core-program](https://wordpress.slack.com/archives/core-program).
+
+**Further reading:**
+
+- [TEMPLATE.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/TEMPLATE.md) — pathway structure and format
+- [PROMPT.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/PROMPT.md) — detailed writing guide for each section
+- [WordPress Brand Writing Style Guide](https://make.wordpress.org/marketing/handbook/resources/style-guide-and-brand-book/) — tone and terminology
