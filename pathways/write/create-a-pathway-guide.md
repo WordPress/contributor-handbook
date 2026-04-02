@@ -4,7 +4,7 @@
 **Type:** Project  
 **Level:** Beginner
 
-Turn an approved pathway idea into a finished guide. Pick up an issue from the project board, draft it, get feedback, and submit a pull request to get published.
+Turn a pathway idea into a finished guide. Pick up an issue from the project board, draft it, get feedback, and submit a pull request to get published.
 
 ## Before you start
 
