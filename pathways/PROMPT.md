@@ -9,20 +9,13 @@ along the way.
 The guide should be scannable in under 2 minutes and actionable in under 15. 
 Write in plain language. Be direct and practical, not enthusiastic or promotional.
 
-STEP 1: Ask me to paste two things:
-1. The GitHub issue link
-2. The full GitHub markdown content from that issue (copy and paste 
-   the entire issue description and any relevant comments)
+STEP 1: Ask me to paste:
+1. The GitHub issue, including the link, title, and markdown
+2. Markdown for the most relevant handbook page (add ?output_format=md 
+   to the end of a URL to get it)
+3. Any other notes, drafts, or reference materials
 
-STEP 2: Ask if I have any existing notes, draft, or reference material to 
-paste. If I do, paste that now. I'll extract useful facts, links, and steps 
-but will not preserve structure. If it includes FAQ-style content, I'll set 
-it aside — it belongs in the team handbook. I'll flag it at the end.
-
-If the issue or your materials reference external links or documents, paste 
-those too so I have all the context.
-
-STEP 3: Read everything I've provided and confirm what I understand:
+STEP 2: Read everything I've provided and confirm what I understand:
 - What contribution this pathway covers
 - What function it falls under (Build / Design / Write / Translate / Test / 
   Organize / Promote)
@@ -37,21 +30,12 @@ for my answer before moving on.
 3. Are there one or two handbook pages that must be read before starting?
 4. Are there any beginner pathways someone should complete first?
 
-STEP 4: Before drafting, review everything I've provided. If there are 
-issues to flag, raise them one at a time. For each one, briefly explain 
-what you'd change and why, then ask me to confirm before moving to the 
-next. For example:
-
-- "Your notes list 6 links under setup — I'd keep the 2 essential ones 
-  and move the rest to Further reading. OK?"
-- "Steps 3-5 have nested sub-steps. I'll simplify these into single 
-  actions. OK?"
-- "Your FAQ section has useful content but it belongs in the team 
-  handbook. I'll flag it at the end. OK?"
-
+STEP 3: Before drafting, review everything I've provided. If there are 
+issues to flag, I'll list them all briefly with what I'd change and why. 
+Ask if you want to discuss any before I draft, or if we should proceed. 
 If there are no issues, move straight to drafting.
 
-STEP 5: Based on my answers, draft the full pathway guide following the 
+STEP 4: Based on my answers, draft the full pathway guide following the 
 template at the end of this prompt exactly. Output the draft as raw markdown 
 in a code block so it's easy to copy and paste.
 
@@ -67,6 +51,9 @@ STRUCTURE:
 - Do not use emojis.
 - In the metadata block (Function, Type, Level), add two trailing 
   spaces after the Function and Type lines to force Markdown line breaks.
+- In "Before you start" bullets, do not add periods at the end of 
+  **Setup**, **Complete**, **Read**, and **Connect** lines — keep them 
+  brief and punchy.
 
 BEFORE YOU START:
 - Determine the Level based on the answers to question 4 and the overall 
@@ -135,39 +122,28 @@ TONE:
 - The whole guide should be scannable in under 2 minutes and 
   actionable in under 15.
 
-STEP 6: After drafting, verify the draft against all the rules above 
+STEP 5: After drafting, verify the draft against all the rules above 
 silently. If everything passes, ask "Any revisions, or are you ready 
 for next steps?" If anything fails, show only the issues, fix them, 
 explain what you changed, and then ask if I'd like any further changes.
 
-STEP 7: If I request changes, apply them, re-run the self-check, 
-and show the updated draft. When done, ask: "Any other revisions, 
-or are you ready for next steps?"
+STEP 6: When I'm happy with the guide, here are the next steps:
 
-STEP 8: When I'm happy with the guide, give me next steps:
+1. Copy the markdown and paste it as a comment on the GitHub issue
+2. Request feedback from the team in the Slack channel referenced in 
+   your guide's "Connect" section
+3. Once you've discussed and refined it based on feedback, create a PR:
+   - Save as a clear slug (e.g. test-for-accessibility.md)
+   - Place in the correct folder (e.g. pathways/test/)
+   - Submit against main, referencing the issue (e.g. "Fixes #42")
 
-1. Save the file with a clear slug (e.g. test-for-accessibility.md)
-2. Place it in the correct category folder (e.g. pathways/test/) in 
-   the [contributor-handbook repo](https://github.com/WordPress/contributor-handbook/)
-3. Submit a PR against main. In the description, reference the issue 
-   (e.g. "Fixes #42")
-4. Share a message in the Slack channel from your guide's "Connect" 
-   step asking for a review. Here's a starting point:
+The guide goes live when the manifest is updated.
 
-   "Hi! I've drafted a contribution pathway guide for [topic]. 
-   Pathways are short guides that help new contributors get started. 
-   Could someone review it in the next few days? Here's the PR: [link]"
-
-5. Move the issue to "In review" on the 
-   [project board](https://github.com/orgs/WordPress/projects/282/) 
-   and add a link to your Slack message
-
-The guide won't go live until the manifest is updated — your PR 
-reviewer will take care of that.
+Ask: "Any other revisions needed before you move forward?"
 
 If your source material included FAQ-style content or information 
 that belongs in the team handbook, file an issue to get the handbook 
-updated. Here's what to flag: [list anything set aside in Step 4]
+updated.
 
 TEMPLATE:
 
