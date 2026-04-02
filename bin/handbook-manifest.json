@@ -46,14 +46,21 @@
         "slug": "test-for-accessibility",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/test-for-accessibility.md",
         "parent": "test",
-        "order": 0
+        "order": 1
     },
     "pathways-test-audit-gatherpress-documentation": {
         "title": "Audit GatherPress Documentation",
         "slug": "audit-gatherpress-documentation",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/audit-gatherpress-documentation.md",
         "parent": "test",
-        "order": 1
+        "order": 2
+    },
+    "pathways-test-review-a-pathway-guide": {
+        "title": "Review a Pathway Guide",
+        "slug": "review-a-pathway-guide",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/review-a-pathway-guide.md",
+        "parent": "test",
+        "order": 0
     },
     "pathways-build-contribute-to-theme-check-plugin": {
         "title": "Contribute to Theme Check Plugin",
@@ -83,7 +90,7 @@
         "parent": "pathways",
         "order": 3
     },
-    "pathways-design-review-themes": {
+    "pathways-test-review-themes": {
         "title": "Review Themes",
         "slug": "review-themes",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/review-themes.md",
@@ -102,14 +109,14 @@
         "slug": "document-a-wordpress-release",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/write\/document-a-wordpress-release.md",
         "parent": "write",
-        "order": 0
+        "order": 1
     },
     "pathways-write-file-a-documentation-issue": {
         "title": "File a Documentation Issue",
         "slug": "file-a-documentation-issue",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/write\/file-a-documentation-issue.md",
         "parent": "write",
-        "order": 1
+        "order": 3
     },
     "pathways-write-work-on-existing-issues": {
         "title": "Work on Existing Documentation Issues",
@@ -117,6 +124,13 @@
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/write\/work-on-existing-issues.md",
         "parent": "write",
         "order": 2
+    },
+    "pathways-write-create-a-pathway-guide": {
+        "title": "Create a Pathway Guide",
+        "slug": "create-a-pathway-guide",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/write\/create-a-pathway-guide.md",
+        "parent": "write",
+        "order": 0
     },
     "pathways-translate": {
         "title": "Translate",
@@ -151,7 +165,7 @@
         "slug": "organize-a-student-club",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/organize\/organize-a-student-club.md",
         "parent": "organize",
-        "order": 0
+        "order": 1
     },
     "pathways-promote": {
         "title": "Promote",
