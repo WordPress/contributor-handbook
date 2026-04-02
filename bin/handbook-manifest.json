@@ -90,7 +90,7 @@
         "parent": "pathways",
         "order": 3
     },
-    "pathways-design-review-themes": {
+    "pathways-test-review-themes": {
         "title": "Review Themes",
         "slug": "review-themes",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/review-themes.md",
