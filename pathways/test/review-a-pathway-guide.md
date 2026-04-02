@@ -10,7 +10,7 @@ Help keep pathways accurate and newcomer-friendly by walking through a guide as 
 
 Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) first, then:
 
-- **Setup:** Familiarize yourself with the [pathways directory](https://github.com/WordPress/contributor-handbook/tree/feature/pathways/pathways) and the [project board](https://github.com/orgs/WordPress/projects/282)
+- **Setup:** Familiarize yourself with the [pathways directory](https://github.com/WordPress/contributor-handbook/pathways) and the [project board](https://github.com/orgs/WordPress/projects/282)
 - **Read:** Review [About Pathways](/handbook/pathways/about/)
 - **Connect:** Join [#core-program](https://wordpress.slack.com/archives/core-program) and introduce yourself, saying you'll be reviewing pathways
 
@@ -42,5 +42,5 @@ Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you
 
 **Further reading:**
 
-- [TEMPLATE.md](https://github.com/WordPress/contributor-handbook/blob/feature/pathways/pathways/TEMPLATE.md) — pathway structure and guidelines
+- [TEMPLATE.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/TEMPLATE.md) — pathway structure and guidelines
 - [About Pathways](/handbook/contribution-pathways/about/) — understand the purpose and principles of contribution pathways
