@@ -20,20 +20,20 @@ Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 2. **Review a published piece of content.** This is the Training Team's recommended first contribution. Pick any lesson or course on [Learn WordPress](https://learn.wordpress.org/), then follow the [Guidelines for Reviewing Content](https://make.wordpress.org/training/handbook/training-team-how-to-guides/guidelines-for-reviewing-content-on-learn/) to submit your findings.
 3. **Find a content task to work on.** Browse the [LearnWP Content – Development](https://github.com/orgs/WordPress/projects/33) project board on GitHub for open issues. Content tasks include writing new lessons, updating existing ones, and drafting course material.
 4. **Create or update the content.** Follow the relevant handbook guide for the content type you're working on:
+   - [Lessons](https://make.wordpress.org/training/handbook/lessons/)
    - [Lesson Plans](https://make.wordpress.org/training/handbook/guidelines/lesson-plans/)
    - [Courses](https://make.wordpress.org/training/handbook/courses/)
 5. **Submit your work for review.** Update the GitHub issue with your progress. An editor or subject-matter expert will review your draft and provide feedback.
 
 ## Contribution checklist
 
-- Getting Started guide completed and accounts set up
-- First content review submitted
-- Content task claimed on the GitHub project board
-- Draft submitted for review
+- Content review submitted via the GitHub Feedback issue template
+- Content task claimed on the project board
+- Draft completed and submitted for review
 
 ## What happens next
 
-After your first review, you can take on other content creation tasks — like facilitating an [online workshop](https://make.wordpress.org/training/handbook/online-workshops/) or creating a [course](https://make.wordpress.org/training/handbook/courses/). The Training Team meets weekly; check the [meeting calendar](https://make.wordpress.org/meetings/) for times. As you contribute, you'll earn a Training Team badge on your WordPress.org profile.
+After your first review, you can take on other content creation tasks — like [applying to facilitate an online workshop](https://make.wordpress.org/training/handbook/online-workshops/applying-to-facilitate/) or creating a [course](https://make.wordpress.org/training/handbook/courses/). The Training Team meets weekly; check the [meeting calendar](https://make.wordpress.org/meetings/#training) for times. As you contribute, you'll earn a Training Team badge on your WordPress.org profile.
 
 ## Help
 
