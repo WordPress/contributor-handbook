@@ -17,7 +17,7 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 ## Steps
 
 1. **Pick up an issue** from Ready or New on the [project board](https://github.com/orgs/WordPress/projects/282/views/1), comment that you're working on it, and research the topic using linked resources, handbooks, tutorials, [Learn WordPress](https://learn.wordpress.org/), [WordPress.tv](https://wordpress.tv/), and team Slack channels.
-2. **Draft the guide** using PROMPT.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/PROMPT.md) and AI, or with [TEMPLATE.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/TEMPLATE.md) as your guide, then post your draft as a comment on the issue.
+2. **Draft the guide** using [PROMPT.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/PROMPT.md) and AI, or with [TEMPLATE.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/TEMPLATE.md) as your guide, then post your draft as a comment on the issue.
 4. **Walk the pathway using your draft** as a new contributor would. Ask teams for feedback, too, and refine based on what you learn.
 5. **Submit a pull request** to the folder matching the pathway's function — for example, if you wrote a test pathway, submit to pathways/test/. Reference the issue in your PR description.
 
@@ -26,7 +26,7 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 - All links work and are current
 - Your draft is scannable and fits the [TEMPLATE.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/TEMPLATE.md)
 - You've tested the pathway, requested feedback, and refined accordingly 
-- You've submitted a PR submitted referencing the issue
+- You've submitted a PR referencing the issue
 
 ## What happens next
 
