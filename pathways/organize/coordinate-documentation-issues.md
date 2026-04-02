@@ -1,8 +1,8 @@
 # Coordinate Documentation Issues
 
-**Function:** Organize
-**Type:** Task
-**Level:** Intermediate
+**Function:** Organize  
+**Type:** Task  
+**Level:** Intermediate  
 
 Take on the GitHub Issues Coordinator role for the WordPress Documentation team. Beyond labeling, you'll assign contributors to issues, welcome them with the right resources, manage project board columns, and help prevent issues from going stale.
 
