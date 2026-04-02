@@ -1,8 +1,8 @@
 # Label Documentation Issues
 
-**Function:** Organize
-**Type:** Task
-**Level:** Beginner
+**Function:** Organize  
+**Type:** Task  
+**Level:** Beginner  
 
 Help the WordPress Documentation team keep its issue tracker organized by labeling new issues. When issues have the right labels, they reach the right people faster and documentation stays accurate and up to date.
 
