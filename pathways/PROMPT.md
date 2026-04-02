@@ -9,44 +9,35 @@ along the way.
 The guide should be scannable in under 2 minutes and actionable in under 15. 
 Write in plain language. Be direct and practical, not enthusiastic or promotional.
 
-STEP 1: Ask me for the link to the GitHub issue I'm working on. I'll need 
-this later for the PR. If you can access URLs directly, read the issue from 
-the link. Otherwise, ask me to paste the content too.
+STEP 1: Ask me to paste two things:
+1. The GitHub issue link
+2. The full GitHub markdown content from that issue (copy and paste 
+   the entire issue description and any relevant comments)
 
-Read it and confirm what you understand:
+STEP 2: Ask if I have any existing notes, draft, or reference material to 
+paste. If I do, paste that now. I'll extract useful facts, links, and steps 
+but will not preserve structure. If it includes FAQ-style content, I'll set 
+it aside — it belongs in the team handbook. I'll flag it at the end.
+
+If the issue or your materials reference external links or documents, paste 
+those too so I have all the context.
+
+STEP 3: Read everything I've provided and confirm what I understand:
 - What contribution this pathway covers
 - What function it falls under (Build / Design / Write / Translate / Test / 
   Organize / Promote)
 - What type it is (Task / Project / Team)
-- What level it is (Beginner: can be someone's first contribution / 
-  Intermediate: builds on a previous pathway)
 
-Ask me to confirm or correct before moving on.
+Ask me to confirm or correct. Then, based on what I've provided, skip any 
+questions you can already answer. For the rest, ask one at a time and wait 
+for my answer before moving on.
 
-STEP 2: Ask if I have any existing notes, draft, or reference material to 
-paste. If I do, treat it as raw research material only — extract useful facts, 
-links, and steps but do not preserve its structure, section names, or 
-formatting. If it includes FAQ-style content, set it aside — that belongs in 
-the team handbook, not the pathway guide. Flag it at the end so I can file 
-an issue to get the handbook updated.
+1. Where do people get stuck in this process?
+2. What's the one Slack channel someone should join for this?
+3. Are there one or two handbook pages that must be read before starting?
+4. Are there any beginner pathways someone should complete first?
 
-When extracting, note any details that answer the Step 3 questions — such as 
-the Slack channel, must-read links, or tool requirements — so you can skip 
-those questions later.
-
-Then, based on what I've already provided, skip any questions you can already 
-answer. For the rest, ask one at a time and wait for my answer before moving on.
-
-1. Have you or someone you've worked with confirmed these steps currently 
-   work? For example: if the pathway mentions "good first issues," are there 
-   recent ones available that are actually being reviewed?
-2. Where did you or others get stuck or confused? What would have helped?
-3. What's the one Slack channel someone should join for this?
-4. Are there one or two handbook pages that must be read before starting? 
-   (Any additional reading will go under Help > Further reading, not at 
-   the top.)
-
-STEP 3: Before drafting, review everything I've provided. If there are 
+STEP 4: Before drafting, review everything I've provided. If there are 
 issues to flag, raise them one at a time. For each one, briefly explain 
 what you'd change and why, then ask me to confirm before moving to the 
 next. For example:
@@ -60,7 +51,7 @@ next. For example:
 
 If there are no issues, move straight to drafting.
 
-STEP 4: Based on my answers, draft the full pathway guide following the 
+STEP 5: Based on my answers, draft the full pathway guide following the 
 template at the end of this prompt exactly. Output the draft as raw markdown 
 in a code block so it's easy to copy and paste.
 
@@ -78,6 +69,15 @@ STRUCTURE:
   spaces after the Function and Type lines to force Markdown line breaks.
 
 BEFORE YOU START:
+- Determine the Level based on the answers to question 4 and the overall 
+  complexity of the pathway:
+  - Intermediate if: there are prerequisite pathways mentioned, OR the 
+    setup requires significant existing knowledge, OR the steps are complex 
+    enough that a first-timer would likely struggle. If marking as 
+    Intermediate without a prerequisite pathway, flag which beginner 
+    pathway should be created or recommended instead.
+  - Beginner if: someone with no prior WordPress contribution experience 
+    can reasonably start here with just the common setup.
 - Maximum 3 items for Beginner: Setup, Read, Connect.
 - For Intermediate, add a fourth: Complete, linking to the prerequisite 
   pathway. For Beginner, omit Complete.
@@ -135,16 +135,16 @@ TONE:
 - The whole guide should be scannable in under 2 minutes and 
   actionable in under 15.
 
-STEP 5: After drafting, verify the draft against all the rules above 
+STEP 6: After drafting, verify the draft against all the rules above 
 silently. If everything passes, ask "Any revisions, or are you ready 
 for next steps?" If anything fails, show only the issues, fix them, 
 explain what you changed, and then ask if I'd like any further changes.
 
-STEP 6: If I request changes, apply them, re-run the self-check, 
+STEP 7: If I request changes, apply them, re-run the self-check, 
 and show the updated draft. When done, ask: "Any other revisions, 
 or are you ready for next steps?"
 
-STEP 7: When I'm happy with the guide, give me next steps:
+STEP 8: When I'm happy with the guide, give me next steps:
 
 1. Save the file with a clear slug (e.g. test-for-accessibility.md)
 2. Place it in the correct category folder (e.g. pathways/test/) in 
@@ -167,7 +167,7 @@ reviewer will take care of that.
 
 If your source material included FAQ-style content or information 
 that belongs in the team handbook, file an issue to get the handbook 
-updated. Here's what to flag: [list anything set aside in Step 3]
+updated. Here's what to flag: [list anything set aside in Step 4]
 
 TEMPLATE:
 
