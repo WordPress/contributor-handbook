@@ -33,18 +33,19 @@ Pathways live in a [GitHub repository](https://github.com/WordPress/contributor-
 
 You don't need to be an expert — if you've followed a pathway and found something confusing, you're already qualified to help.
 
+
+**Test a pathway**
+Right now, our biggest need is in testing. [Here's how to help](https://make.wordpress.org/handbook/pathways/test/review-a-pathway-guide/).
+
+**Write or improve a pathway guide**
+Our [pathway guide for writing pathways](https://make.wordpress.org/handbook/pathways/write/create-a-pathway-guide/) will walk you through the process! We even have [pathways/PROMPT.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/PROMPT.md) you can use for drafting guides with AI. 
+
 **Share an idea**
 Know a contribution that should have a pathway? [Suggest one](https://github.com/WordPress/contributor-handbook/issues/new/choose).
 
 **Report a problem**
-Broken link, unclear step, outdated info? [Let us know](https://github.com/WordPress/contributor-handbook/issues/new/choose).
-
-**Write or improve a pathway**
-Check the [project board](https://github.com/orgs/WordPress/projects/282/views/1) for open issues, grab one, and submit a pull request. Use `pathways/TEMPLATE.md` as your starting point. The pathways/PROMPT.md can be used with AI to help with drafting, too.
-
-**Test a pathway**
-Pick any pathway and try to follow it from scratch. If you get stuck, please [share details as feedback](https://github.com/WordPress/contributor-handbook/issues/new/choose).
+Broken link, unclear step, outdated info? [Let us know](https://github.com/WordPress/contributor-handbook/issues/new/choose) with pathway feedback.
 
 ## Where this is headed
 
-This is a living project. We're starting with a core set of pathways and growing from there based on what contributors actually need. If a pathway is missing, broken, or confusing — [tell us](https://github.com/WordPress/contributor-handbook/issues/new/choose).
+This is a living project. We're starting with a core set of pathways and a simple index, then growing from there based on what contributors actually need. If a pathway is missing, broken, or confusing — [tell us](https://github.com/WordPress/contributor-handbook/issues/new/choose).  And if you'd like to discuss things more, head over to [#core-program](https://wordpress.slack.com/archives/core-program); we'd love to have your help!
