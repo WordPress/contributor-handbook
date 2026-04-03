@@ -53,7 +53,7 @@
         "slug": "audit-gatherpress-documentation",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/audit-gatherpress-documentation.md",
         "parent": "test",
-        "order": 2
+        "order": 3
     },
     "pathways-test-review-a-pathway-guide": {
         "title": "Review a Pathway Guide",
@@ -61,6 +61,13 @@
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/review-a-pathway-guide.md",
         "parent": "test",
         "order": 0
+    },
+    "pathways-test-help-test-patches": {
+        "title": "Patch Testing",
+        "slug": "help-test-patches",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/help-test-patches.md",
+        "parent": "test",
+        "order": 2
     },
     "pathways-build-contribute-to-theme-check-plugin": {
         "title": "Contribute to Theme Check Plugin",
