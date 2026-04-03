@@ -10,6 +10,7 @@ Join the Core Test team to validate patches during weekly testing sessions. Test
 
 Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) first, then:
 
+- **Setup:** Plan to join the patch testing session on Tuesday at 15:00 UTC
 - **Read:** [Patch Testing](https://make.wordpress.org/test/handbook/test-reports/patch-testing/) and [Test Core Tickets with Playground](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-playground/)
 - **Connect:** Join the [Core Test Slack channel](https://wordpress.slack.com/archives/core-test) and introduce yourself
 
@@ -28,7 +29,7 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
    - Any unintended side effects (regressions)
    - How it behaves in different scenarios
 
-6. **Submit your test report to Trac.** Add a comment to the Trac ticket with your results. Use the [Test Reports](https://wordpress.org/plugins/test-reports/),[Bug/Defect Patch Report Template](https://make.wordpress.org/test/handbook/test-reports/patch-testing/#bug-defect-patch-report-template) or [Feature/Enhancement Patch Report Template](https://make.wordpress.org/test/handbook/test-reports/patch-testing/#feature-or-enhancement-patch-report-template), depending on the ticket type. Include your environment details and findings.
+6. **Submit your test report to Trac.** Add a comment to the Trac ticket with your results. Use the [Test Reports](https://wordpress.org/plugins/test-reports/), [Bug/Defect Patch Report Template](https://make.wordpress.org/test/handbook/test-reports/patch-testing/#bug-defect-patch-report-template), or [Feature/Enhancement Patch Report Template](https://make.wordpress.org/test/handbook/test-reports/patch-testing/#feature-or-enhancement-patch-report-template), depending on the ticket type. Include your environment details and findings.
 
 ## Contribution checklist
 
@@ -44,7 +45,7 @@ Return to the Tuesday session the following week to test the next batch of patch
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in the [Core Test Slack channel](https://wordpress.slack.com/archives/Core-test).
+Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in the [Core Test Slack channel](https://wordpress.slack.com/archives/core-test).
 
 **Further reading:**
 - [Patch Testing templates and examples](https://make.wordpress.org/test/handbook/test-reports/patch-testing/)
