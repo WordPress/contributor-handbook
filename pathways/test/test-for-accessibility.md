@@ -1,4 +1,4 @@
-# Test: Test for Accessibility
+# Test for Accessibility
 
 **Function:** Test  
 **Type:** Task  
