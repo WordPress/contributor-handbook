@@ -61,6 +61,12 @@ If you're a Credits student or contributing from a WordCamp, mention that too. N
 * Write clear commit messages — future you will thank you
 * When in doubt, comment with your thoughts, findings, and questions
 
+## Found a bug?
+
+If you find a bug while working through pathway guide, check the team handbook for their bug reporting process. If there isn't one, post in the team's Slack with what happened and how to reproduce it. 
+
+If the bug blocks your pathway, also [let us know here](https://github.com/WordPress/contributor-handbook/issues) so we can fix the guide. Link to any related issues or Slack messages.
+
 ## Getting help
 
 If you're stuck on a pathway:
