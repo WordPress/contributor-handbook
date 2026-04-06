@@ -37,7 +37,7 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 
 After you apply, expect to hear back from the event's organizing team within a few weeks. Response time depends on where the event is in its planning cycle. If you don't hear back, follow up on the event's communication channel or ask in [`#community-team`](https://wordpress.slack.com/archives/C037W5S7X).
 
-Once you've volunteered, you'll have a good sense of how WordPress events work. A natural next step is joining the [community team meetings](https://make.wordpress.org/community/) and exploring the path toward organizing a local meetup or WordCamp.
+Once you've volunteered, you'll have a good sense of how WordPress events work. You may even have a [new badge](https://make.wordpress.org/community/handbook/community-deputy/resources-and-tools/community-profile-badges/) on your profile; if not, your organizing team can help. We recommend joining the [community team meetings](https://make.wordpress.org/community/), staying involved, and considering organizing another local event.
 
 ## Help
 
