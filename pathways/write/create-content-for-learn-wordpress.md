@@ -1,39 +1,41 @@
-# Contribute to Learn WordPress
+# Create Content for Learn WordPress
 
 **Function:** Write  
 **Type:** Task  
-**Level:** Beginner  
+**Level:** Intermediate  
 
-Write, update, or review lessons, courses, and workshops on Learn WordPress. Work with subject-matter experts to develop educational content that helps people learn to use, extend, and contribute to WordPress.
+Create, update, or improve lessons, courses, and workshops on Learn WordPress. Work with subject-matter experts to develop educational content that helps people learn to use, extend, and contribute to WordPress.
 
 ## Before you start
 
 Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
+- **Complete:** [Review Content on Learn WordPress](/handbook/pathways/review-content-on-learn-wordpress/) — you should have reviewed at least one piece of published content and be familiar with the team's content standards before creating new content.
 - **Setup:** The Training Team tracks all content work in the [WordPress/Learn](https://github.com/WordPress/Learn) GitHub repository. You'll use this to find tasks and submit your work.
-- **Read:** Work through the [Content Creator Onboarding](https://make.wordpress.org/training/handbook/getting-started/content-creator-onboarding/) page. It introduces the team's content workflow and walks you through making your first contribution.
-- **Connect:** Join [#training](https://wordpress.slack.com/archives/training) on Slack and introduce yourself.
+- **Read:** Read through [How We Use GitHub](https://make.wordpress.org/training/handbook/training-team-how-to-guides/how-we-use-github/) to understand the project boards and how content moves from draft to published.
+- **Connect:** Join [#training](https://wordpress.slack.com/archives/training) on Slack if you haven't already.
 
 ## Steps
 
-1. **Complete the Getting Started guide.** The [Getting Started](https://make.wordpress.org/training/handbook/getting-started/) page includes an intro video about the Training Team's mission, explains where the team communicates, and helps you identify the contribution area that suits you best.
-2. **Review a published piece of content.** This is the Training Team's recommended first contribution. Pick any lesson or course on [Learn WordPress](https://learn.wordpress.org/), then follow the [Guidelines for Reviewing Content](https://make.wordpress.org/training/handbook/training-team-how-to-guides/guidelines-for-reviewing-content-on-learn/) to submit your findings.
-3. **Find a content task to work on.** Browse the [LearnWP Content – Development](https://github.com/orgs/WordPress/projects/33) project board on GitHub for open issues. Content tasks include writing new lessons, updating existing ones, and drafting course material.
-4. **Create or update the content.** Follow the relevant handbook guide for the content type you're working on:
+1. **Find a content task to work on.** Browse the [LearnWP Content – Development](https://github.com/orgs/WordPress/projects/33) project board on GitHub and look for an open issue that interests you. Content tasks include writing new lessons, updating existing ones, creating lesson plans, and drafting course material.
+2. **Claim the task.** Comment on the issue to let others know you're working on it. If the issue is already assigned, look for another one or ask in #training.
+3. **Create or update the content.** Follow the relevant handbook guide for the content type you're working on:
    - [Lessons](https://make.wordpress.org/training/handbook/lessons/)
    - [Lesson Plans](https://make.wordpress.org/training/handbook/guidelines/lesson-plans/)
    - [Courses](https://make.wordpress.org/training/handbook/courses/)
-5. **Submit your work for review.** Update the GitHub issue with your progress. An editor or subject-matter expert will review your draft and provide feedback.
+4. **Submit your work for review.** Update the GitHub issue with your progress. An editor or subject-matter expert will review your draft and provide feedback.
 
 ## Contribution checklist
 
-- Content review submitted via the GitHub Feedback issue template
 - Content task claimed on the project board
-- Draft completed and submitted for review
+- Content created or updated following the relevant handbook guide
+- Work submitted for review via the GitHub issue
 
 ## What happens next
 
-After your first review, you can take on other content creation tasks — like [applying to facilitate an online workshop](https://make.wordpress.org/training/handbook/online-workshops/applying-to-facilitate/) or creating a [course](https://make.wordpress.org/training/handbook/courses/). The Training Team meets weekly; check the [meeting calendar](https://make.wordpress.org/meetings/#training) for times. As you contribute, you'll earn a Training Team badge on your WordPress.org profile.
+An editor or subject-matter expert will review your draft and may request changes; that's a normal part of the process. Once approved, your content will be published on [Learn WordPress](https://learn.wordpress.org/).
+
+From here, you can take on more content tasks, [apply to facilitate an online workshop](https://make.wordpress.org/training/handbook/online-workshops/applying-to-facilitate/), or help with [content localization](https://make.wordpress.org/training/handbook/training-team-how-to-guides/content-localization/). The Training Team meets weekly; check the [meeting calendar](https://make.wordpress.org/meetings/#training) for times.
 
 ## Help
 
@@ -41,6 +43,7 @@ Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getti
 
 **Further reading:**
 - [Training Team Handbook](https://make.wordpress.org/training/handbook/)
-- [How We Use GitHub](https://make.wordpress.org/training/handbook/training-team-how-to-guides/how-we-use-github/)
+- [Content Creator Onboarding](https://make.wordpress.org/training/handbook/getting-started/content-creator-onboarding/)
+- [Guidelines for Reviewing Content](https://make.wordpress.org/training/handbook/training-team-how-to-guides/guidelines-for-reviewing-content-on-learn/)
 - [Learn WordPress Contribute Page](https://learn.wordpress.org/contribute/)
 - [Training Team Blog](https://make.wordpress.org/training/)
