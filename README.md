@@ -18,6 +18,7 @@ We'd love your help! Here's how:
 - **Flag a problem:** Found something broken or unclear? [File an issue](https://github.com/WordPress/contributor-handbook/issues/new/choose)
 - **Write a guide:** Pick up an idea from the [project board](https://github.com/orgs/WordPress/projects/282/views/1) and flesh it out using [TEMPLATE.md](pathways/TEMPLATE.md) . When you're ready, set your issue to In Review.
 - **Review a guide:** Test an existing pathway as if you're a new contributor, and share feedback as an issue
+- **Help us Improve:** We're working with WordPress Markdown Importer, but would love ideas on how we can better organize and surface pathway guides, and make them look nicer too. Come discuss it with us in [#core-program](https://wordpress.slack.com/archives/core-program)!
 
 ### A note on scope
 
