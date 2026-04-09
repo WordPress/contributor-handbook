@@ -1,13 +1,11 @@
 # Contributor Handbook: Pathways
 
-This repository manages the Pathways project in the [WordPress Contributor Handbook](https://make.wordpress.org/handbook/). At this time we are not managing other pages through GitHub.
-
-Pathways are concise guides that help new contributors find their way into the WordPress project. [Learn more about Pathways](pathways/about.md).
+This repository manages the Pathways project in the [WordPress Contributor Handbook](https://make.wordpress.org/handbook/). Pathways are concise guides that help new contributors find their way into the WordPress project. [Learn more about Pathways](pathways/about.md).
 
 ## Status
-- **We need guides** — If you can, please pick up an idea from the [project board](https://github.com/orgs/WordPress/projects/282/views/1) and flesh it out using [TEMPLATE.md](pathways/TEMPLATE.md).
-- **Pathways now live in folders** — Each pathway has its own folder under `pathways/`. When adding a new guide, create it inside the relevant folder.
-- **Indexes will change** — These likely won't stay a list of links, so to suggest a new pathway, [open an issue](https://github.com/WordPress/contributor-handbook/issues/new/choose). Then add the guide if you can, using [TEMPLATE.md](pathways/TEMPLATE.md).
+- **We need guides:** If you can, please pick up an idea from the [project board](https://github.com/orgs/WordPress/projects/282/views/1) and flesh it out using [TEMPLATE.md](pathways/TEMPLATE.md).
+- **Help us Improve:** We're working with WordPress Markdown Importer, but would love ideas on how we can better organize and surface pathway guides, and make them look nicer too. Come discuss it with us in [#core-program](https://wordpress.slack.com/archives/core-program)!
+- **Indexes will change:** These likely won't stay a list of links, so to suggest a new pathway, [open an issue](https://github.com/WordPress/contributor-handbook/issues/new/choose). Then add the guide if you can, using [TEMPLATE.md](pathways/TEMPLATE.md).
 
 
 ## Contributing
