@@ -41,34 +41,6 @@
         "parent": "build",
         "order": 0
     },
-    "pathways-test-test-for-accessibility": {
-        "title": "Test for Accessibility",
-        "slug": "test-for-accessibility",
-        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/test-for-accessibility.md",
-        "parent": "test",
-        "order": 1
-    },
-    "pathways-test-audit-gatherpress-documentation": {
-        "title": "Audit GatherPress Documentation",
-        "slug": "audit-gatherpress-documentation",
-        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/audit-gatherpress-documentation.md",
-        "parent": "test",
-        "order": 3
-    },
-    "pathways-test-review-a-pathway-guide": {
-        "title": "Review a Pathway Guide",
-        "slug": "review-a-pathway-guide",
-        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/review-a-pathway-guide.md",
-        "parent": "test",
-        "order": 0
-    },
-    "pathways-test-help-test-patches": {
-        "title": "Patch Testing",
-        "slug": "help-test-patches",
-        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/help-test-patches.md",
-        "parent": "test",
-        "order": 2
-    },
     "pathways-build-contribute-to-theme-check-plugin": {
         "title": "Contribute to Theme Check Plugin",
         "slug": "contribute-to-theme-check-plugin",
@@ -97,12 +69,19 @@
         "parent": "pathways",
         "order": 3
     },
-    "pathways-test-review-themes": {
-        "title": "Review Themes",
-        "slug": "review-themes",
-        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/review-themes.md",
-        "parent": "test",
+    "pathways-design-contribute-to-photos": {
+        "title": "Contribute to the WordPress Photo Directory",
+        "slug": "contribute-to-photos",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/design\/contribute-to-photos.md",
+        "parent": "design",
         "order": 0
+    },
+    "pathways-design-contribute-to-photos-as-moderator": {
+        "title": "Join the Photos Moderation Team",
+        "slug": "contribute-to-photos-as-moderator",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/design\/contribute-to-photos-as-moderator.md",
+        "parent": "design",
+        "order": 1
     },
     "pathways-write": {
         "title": "Write",
@@ -139,6 +118,13 @@
         "parent": "write",
         "order": 0
     },
+    "pathways-write-create-content-for-learn-wordpress": {
+        "title": "Create Content for Learn WordPress",
+        "slug": "create-content-for-learn-wordpress",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/write\/create-content-for-learn-wordpress.md",
+        "parent": "write",
+        "order": 4
+    },
     "pathways-translate": {
         "title": "Translate",
         "slug": "translate",
@@ -152,6 +138,41 @@
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/index.md",
         "parent": "pathways",
         "order": 6
+    },
+    "pathways-test-test-for-accessibility": {
+        "title": "Test for Accessibility",
+        "slug": "test-for-accessibility",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/test-for-accessibility.md",
+        "parent": "test",
+        "order": 1
+    },
+    "pathways-test-audit-gatherpress-documentation": {
+        "title": "Audit GatherPress Documentation",
+        "slug": "audit-gatherpress-documentation",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/audit-gatherpress-documentation.md",
+        "parent": "test",
+        "order": 3
+    },
+    "pathways-test-review-a-pathway-guide": {
+        "title": "Review a Pathway Guide",
+        "slug": "review-a-pathway-guide",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/review-a-pathway-guide.md",
+        "parent": "test",
+        "order": 0
+    },
+    "pathways-test-help-test-patches": {
+        "title": "Patch Testing",
+        "slug": "help-test-patches",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/help-test-patches.md",
+        "parent": "test",
+        "order": 2
+    },
+    "pathways-test-review-themes": {
+        "title": "Review Themes",
+        "slug": "review-themes",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/review-themes.md",
+        "parent": "test",
+        "order": 4
     },
     "pathways-organize": {
         "title": "Organize",
@@ -173,6 +194,27 @@
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/organize\/organize-a-student-club.md",
         "parent": "organize",
         "order": 1
+    },
+    "pathways-organize-volunteer-at-a-wordpress-event": {
+        "title": "Volunteer at a WordPress Event",
+        "slug": "volunteer-at-a-wordpress-event",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/organize\/volunteer-at-a-wordpress-event.md",
+        "parent": "organize",
+        "order": 2
+    },
+    "pathways-organize-triage-docs-issues": {
+        "title": "Label Documentation Issues",
+        "slug": "triage-docs-issues",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/organize\/triage-docs-issues.md",
+        "parent": "organize",
+        "order": 3
+    },
+    "pathways-organize-coordinate-documentation-issues": {
+        "title": "Become a GitHub Issues Coordinator",
+        "slug": "coordinate-documentation-issues",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/organize\/coordinate-documentation-issues.md",
+        "parent": "organize",
+        "order": 4
     },
     "pathways-promote": {
         "title": "Promote",
