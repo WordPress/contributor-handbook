@@ -20,8 +20,8 @@ If you're an existing contributor and your team needs more help, feel free to [s
 ## Design
 
 - **[Project: Review Themes](/handbook/pathways/test/review-themes/)** – Help review themes submitted to the WordPress directory
-- **Project: Contribute Photos ↗** – Upload at least 30 quality CC0-licensed photos to the [WordPress Photo Directory](https://wordpress.org/photos/guidelines/)
-- **Project: Support a Local WordPress Event ↗** – Help with site design, graphics, or slide design for a [local event](https://events.wordpress.org/)
+- **[Project: Contribute Photos](/handbook/pathways/design/contribute-to-photos/)** – Help build the [WordPress Photo Directory](https://wordpress.org/photos/) with CC0-licensed photos
+- **[Team: Help Moderate Photos](/handbook/pathways/design/contribute-to-photos-as-moderator/)** – Keep the WordPress Photo Directory reliable by approving community submissions
 
 ## Write
 
@@ -29,7 +29,7 @@ If you're an existing contributor and your team needs more help, feel free to [s
 - **[Task: File a Documentation Issue](/handbook/pathways/write/file-a-documentation-issue/)** – Found a typo, outdated info, or broken link? Report it so it gets fixed
 - **[Task: Work on Existing Documentation Issues](/handbook/pathways/write/work-on-existing-issues/)** – Pick up a reported issue, work on a fix, and submit it for review
 - **[Project: Create a Pathway Guide](/handbook/pathways/write/create-a-pathway-guide/)** – Turn a pathway idea into a finished guide
-- **Project: Write Content for Training ↗** – Write, update, or review [lesson plans, tutorials, and workshops](https://github.com/orgs/WordPress/projects/33/views/1)
+- **[Project: Write Content for Training](/handbook/pathways/write/create-content-for-learn-wordpress/)** – Write, update, or review lesson plans, tutorials, and workshops
 
 ## Translate
 
@@ -44,16 +44,15 @@ If you're an existing contributor and your team needs more help, feel free to [s
 - **[Task: Review a Pathway Guide](/handbook/pathways/test/review-a-pathway-guide/)** – Walk through a guide to ensure it's clear
 - **[Team: Help test Patches](/handbook/pathways/test/help-test-patches/)** – Test patches with the team to help make WordPress more stable
 - **[Task: Audit GatherPress Documentation](/handbook/pathways/test/audit-gatherpress-documentation/)** – Test GatherPress docs against the live plugin and report any needed updates
-- **Task: Test Beta Releases ↗** – Help make the next WordPress better! [Setup details here](https://make.wordpress.org/test/handbook/contributor-day/); [share bug reports](https://make.wordpress.org/core/handbook/testing/reporting-bugs/)
-- **Task: Follow Testing Workflows ↗** – Work through [testing workflows](https://make.wordpress.org/test/handbook/) to help identify improvements
-- **Task: Share Training Feedback ↗** – Review training materials and [share constructive feedback](https://make.wordpress.org/training/handbook/getting-started/editor-onboarding/)
+
 
 ## Organize
 
 - **[Task: Suggest a Pathway](/handbook/pathways/organize/suggest-a-pathway/)** – Help grow this index by suggesting a new guide
 - **[Project: Organize a Student Club](/handbook/pathways/organize/organize-a-student-club/)** – Help organize a WordPress Student Club at your school or university
-- **Project: Volunteer at a WordPress Event ↗** – Assist with event logistics, registration, or other support at a [local event](https://events.wordpress.org/)
-- **Team: Host a Coffee Hour ↗** – Participate in Training Team meetings, then [learn to host sessions](https://make.wordpress.org/training/handbook/training-team-how-to-guides/hosting-training-team-meetings/)
+- **[Project: Volunteer at a WordPress Event](/handbook/pathways/organize/volunteer-at-a-wordpress-event/)** – Assist with event logistics, registration, and other support
+- **[Task: Label Documentation Issues](/handbook/pathways/organize/triage-docs-issues/)** - Organize documentation tasks by labeling GitHub issues
+- **[Team: Become a GitHub Issues Coordinator](/handbook/pathways/organize/coordinate-documentation-issues/)** - Lead coordination for documentation issues
 
 ## Promote
 
