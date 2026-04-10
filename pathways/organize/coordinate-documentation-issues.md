@@ -1,4 +1,4 @@
-# Become a Github Issues Coordinator
+# Become a GitHub Issues Coordinator
 
 **Function:** Organize  
 **Type:** Team  
