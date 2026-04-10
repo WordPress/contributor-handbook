@@ -10,7 +10,7 @@ Create, update, or improve lessons, courses, and workshops on Learn WordPress. W
 
 Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
-- **Complete:** [Review Content on Learn WordPress](/handbook/pathways/review-content-on-learn-wordpress/) — you should have reviewed at least one piece of published content and be familiar with the team's content standards before creating new content.
+- **Complete:** [Review Content on Learn WordPress](/handbook/pathways/test/review-content-on-learn-wordpress/) — you should have reviewed at least one piece of published content and be familiar with the team's content standards before creating new content.
 - **Setup:** The Training Team tracks all content work in the [WordPress/Learn](https://github.com/WordPress/Learn) GitHub repository. You'll use this to find tasks and submit your work.
 - **Read:** Read through [How We Use GitHub](https://make.wordpress.org/training/handbook/training-team-how-to-guides/how-we-use-github/) to understand the project boards and how content moves from draft to published.
 - **Connect:** Join [#training](https://wordpress.slack.com/archives/training) on Slack if you haven't already.
