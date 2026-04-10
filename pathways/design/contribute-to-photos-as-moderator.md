@@ -1,4 +1,4 @@
-# Design — Contribute to Photos as Moderator
+# Contribute to Photos as Moderator
 
 Function: Design  
 Type: Team  
