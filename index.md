@@ -6,6 +6,7 @@ In keeping with open source best practices, this handbook is a living document, 
 
 The Contributor Handbook includes the following sections:
 
+* [Contribution Pathways](https://make.wordpress.org/handbook/pathways/)
 * [Accessibility in WordPress](https://wordpress.org/about/accessibility/)  
 * [Privacy Policy](https://wordpress.org/about/privacy/)  
 * [Diversity, Equity, Inclusion Statement](https://make.wordpress.org/handbook/diversity-equity-and-inclusion-in-wordpress/)  
@@ -14,4 +15,6 @@ The Contributor Handbook includes the following sections:
 
 ## **Contributor Handbook History**
 
-While the WordPress community has long discussed a contributor handbook, this current version came into existence around March 2021\. It started with [a proposal](https://make.wordpress.org/updates/2021/03/16/proposal-a-wordpress-project-contributor-handbook/) from Josepha Haden, followed by [a series of draft documents and discussions](https://make.wordpress.org/project/tag/handbook/) in 2022\.  
+While the WordPress community has long discussed a contributor handbook, this current version came into existence around March 2021\. It started with [a proposal](https://make.wordpress.org/updates/2021/03/16/proposal-a-wordpress-project-contributor-handbook/) from Josepha Haden, followed by [a series of draft documents and discussions](https://make.wordpress.org/project/tag/handbook/) in 2022\.
+
+In 2026, we began adding [Contribution Pathways](https://make.wordpress.org/handbook/pathways/) as quick cross-project guides for new contributors.
