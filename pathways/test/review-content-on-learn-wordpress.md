@@ -1,6 +1,6 @@
 # Review Content on Learn WordPress
 
-**Function:** Write  
+**Function:** Test  
 **Type:** Task  
 **Level:** Beginner  
 
