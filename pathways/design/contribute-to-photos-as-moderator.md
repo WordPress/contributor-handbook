@@ -10,7 +10,7 @@ You'll review community-submitted photos and approve or decline them based on qu
 
 Complete the common setup first, then:
 
-- **Complete:** [Design — Contribute to Photos](https://wordpress.org/handbook/contribution-pathways/design/contribute-to-photos/)
+- **Complete:** [Design — Contribute to Photos](https://wordpress.org/handbook/contribution-pathways/design/contribute-to-photos/) with at least 30 published photos
 - **Read:** [Moderating Photos](https://make.wordpress.org/photos/handbook/moderating-photos/)
 - **Connect:** Join [#photos](https://wordpress.slack.com/archives/photos) on Slack and introduce yourself
 
