@@ -1,7 +1,7 @@
 # Design — Contribute to Photos as Moderator
 
-Function: Design
-Type: Project
+Function: Design  
+Type: Project  
 Level: Intermediate
 
 You'll review community-submitted photos and approve or decline them based on quality and content guidelines. Moderators keep the WordPress Photo Directory a reliable resource for contributors worldwide.
