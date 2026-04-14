@@ -1,45 +1,81 @@
----
 name: One-Off Task for Pathways
 description: A task that supports the Pathways project — testing, design, technical work, or other ad-hoc contributions
 labels: [one-off-task]
----
 
-## Task
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping with the Pathways project! Fill out the fields below.
 
-[Brief description of what needs to be done]
+  - type: textarea
+    id: task
+    attributes:
+      label: Task
+      placeholder: Brief description of what needs to be done
+    validations:
+      required: true
 
-## Why this matters
+  - type: textarea
+    id: why_matters
+    attributes:
+      label: Why this matters
+      placeholder: How does this task support the Pathways project?
+    validations:
+      required: true
 
-[How does this task support the Pathways project?]
+  - type: textarea
+    id: what_needs_to_happen
+    attributes:
+      label: What needs to happen
+      placeholder: Specific actions needed for this task
+    validations:
+      required: true
 
-## What needs to happen
+  - type: checkboxes
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - label: Standard — can wait for someone to pick it up
+        - label: Soon — needed within 2-3 weeks
+        - label: Urgent — needed ASAP
 
-[Specific actions needed for this task]
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance criteria
+      placeholder: How do we know this is done? What does "complete" look like?
+    validations:
+      required: true
 
-## Priority
+  - type: checkboxes
+    id: skills_needed
+    attributes:
+      label: Skills needed
+      options:
+        - label: Design
+        - label: Test
+        - label: Build
+        - label: Write
+        - label: Promote
+        - label: Organize
 
-- [ ] Standard — can wait for someone to pick it up
-- [ ] Soon — needed within 2-3 weeks
-- [ ] Urgent — needed ASAP
+  - type: checkboxes
+    id: beginner_friendly
+    attributes:
+      label: Task level
+      options:
+        - label: Beginner friendly — add the `good-first-issue` label
 
-## Acceptance criteria
+  - type: textarea
+    id: related_pathway
+    attributes:
+      label: Related pathway or guide
+      placeholder: Link to relevant pathway or guide, if any
 
-[How do we know this is done? What does "complete" look like?]
-
-## Skills needed
-
-[Design / Test / Build / Write / Promote / Organize]
-
-- [ ] **Beginner friendly** — If checked, add the `good-first-issue` label to this task
-
-## Related pathway or guide
-
-[Link to relevant pathway or guide, if any]
-
-## Notes
-
-[Any additional context, links to resources, or constraints]
-
----
-
-**To claim this task:** Comment here and we'll assign it to you. If you have questions, ask in [#core-program](https://wordpress.slack.com/archives/core-program).
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      placeholder: Any additional context, links to resources, or constraints
