@@ -1,0 +1,45 @@
+---
+name: One-Off Task for Pathways
+about: A task that supports the Pathways project — testing, design, technical work, or other ad-hoc contributions
+labels: one-off-task
+---
+
+## Task
+
+[Brief description of what needs to be done]
+
+## Why this matters
+
+[How does this task support the Pathways project?]
+
+## What needs to happen
+
+[Specific ations needed for this task]
+
+## Priority
+
+- [ ] Standard — can wait for someone to pick it up
+- [ ] Soon — needed within 2-3 weeks
+- [ ] Urgent — needed ASAP
+
+## Acceptance criteria
+
+[How do we know this is done? What does "complete" look like?]
+
+## Skills needed
+
+[Design / Test / Build / Write / Promote / Organize]
+
+- [ ] **Beginner friendly** — If checked, add the `good-first-issue` label to this task
+
+## Related pathway or guide
+
+[Link to relevant pathway or guide, if any]
+
+## Notes
+
+[Any additional context, links to resources, or constraints]
+
+---
+
+**To claim this task:** Comment here and we'll assign it to you. If you have questions, ask in [#training](https://wordpress.slack.com/archives/training) or [#core-program](https://wordpress.slack.com/archives/core-program).
