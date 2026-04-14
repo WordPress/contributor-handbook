@@ -1,7 +1,7 @@
 ---
 name: One-Off Task for Pathways
-about: A task that supports the Pathways project — testing, design, technical work, or other ad-hoc contributions
-labels: one-off-task
+description: A task that supports the Pathways project — testing, design, technical work, or other ad-hoc contributions
+labels: [one-off-task]
 ---
 
 ## Task
@@ -14,7 +14,7 @@ labels: one-off-task
 
 ## What needs to happen
 
-[Specific ations needed for this task]
+[Specific actions needed for this task]
 
 ## Priority
 
@@ -42,4 +42,4 @@ labels: one-off-task
 
 ---
 
-**To claim this task:** Comment here and we'll assign it to you. If you have questions, ask in [#training](https://wordpress.slack.com/archives/training) or [#core-program](https://wordpress.slack.com/archives/core-program).
+**To claim this task:** Comment here and we'll assign it to you. If you have questions, ask in [#core-program](https://wordpress.slack.com/archives/core-program).
