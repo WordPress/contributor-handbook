@@ -1,7 +1,6 @@
 name: One-Off Task for Pathways
 description: A task that supports the Pathways project
 labels: ["Pathways", "Pathways: Task"]
-
 body:
   - type: markdown
     attributes:
@@ -27,3 +26,27 @@ body:
     attributes:
       label: Context
       placeholder: Any additional context, links to relavant guides, constraints, and acceptance criteria
+
+  - type: dropdown
+    id: skills_needed
+    attributes:
+      label: Skills needed
+      options:
+        - Design
+        - Test
+        - Build
+        - Write
+        - Promote
+        - Organize
+    validations:
+      required: true
+
+  - type: dropdown
+    id: beginner_friendly
+    attributes:
+      label: Is this task beginner friendly?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
