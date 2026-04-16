@@ -7,6 +7,7 @@ on:
 jobs:
   setup-issue:
     runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'Pathways: New')
     steps:
       - name: Add header and label by function
         uses: actions/github-script@v7
