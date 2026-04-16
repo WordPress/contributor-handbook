@@ -1,0 +1,40 @@
+name: Add label to new tasks
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  setup-issue:
+    runs-on: ubuntu-latest
+    if: "contains(github.event.issue.labels.*.name, 'Pathways: Task')"
+    steps:
+      - name: Add label by function and beginner status
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = context.payload.issue.body;
+            const functionMatch = body.match(/### Function\n\n(.*)/);
+            
+            // Add function label
+            if (functionMatch) {
+              const func = functionMatch[1].trim().toLowerCase();
+              github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                labels: [func]
+              });
+            }
+
+            // Add good-first-issue label if beginner friendly
+            const beginnerMatch = body.match(/### Is this task beginner friendly\?\n\n(.*)/);
+            
+            if (beginnerMatch && beginnerMatch[1].trim() === 'Yes') {
+              github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                labels: ['good first issue']
+              });
+            }
