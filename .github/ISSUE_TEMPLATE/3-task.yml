@@ -17,16 +17,10 @@ body:
       required: true
 
   - type: textarea
-    id: why_matters
-    attributes:
-      label: Why this matters
-      placeholder: How does this task support the Pathways project?
-
-  - type: textarea
     id: notes
     attributes:
       label: Context
-      placeholder: Any additional context, links to relavant guides, constraints, and acceptance criteria
+      placeholder: Links to relavant guides, why it matters, constraints, and acceptance criteria
 
   - type: dropdown
     id: skills_needed
