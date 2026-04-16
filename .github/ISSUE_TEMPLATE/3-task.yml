@@ -31,7 +31,7 @@ body:
   - type: dropdown
     id: skills_needed
     attributes:
-      label: Skills needed
+      label: Function
       options:
         - Design
         - Test
