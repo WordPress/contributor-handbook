@@ -1,5 +1,5 @@
 name: Suggest a new Pathway Guide
-description: Propose a new contributor pathway
+description: Propose a new guide for an evergreen pathway
 title: "[Guide] <Pathway Title>"
 labels: ["Pathways", "Pathways: New"]
 body:
