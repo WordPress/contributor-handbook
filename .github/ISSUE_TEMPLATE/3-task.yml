@@ -46,7 +46,7 @@ body:
     attributes:
       label: Is this task beginner friendly?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
