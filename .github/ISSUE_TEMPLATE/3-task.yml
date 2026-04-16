@@ -1,11 +1,12 @@
 name: One-Off Task for Pathways
 description: A task that supports the Pathways project
+title: "[Task] <Title of task>"
 labels: ["Pathways", "Pathways: Task"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping with the Pathways project! Fill out the fields below.
+        Thanks for helping! Please add an appropriate title, then fill in the form.
 
   - type: textarea
     id: what_needs_to_happen
