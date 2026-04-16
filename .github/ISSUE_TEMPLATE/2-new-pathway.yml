@@ -1,14 +1,13 @@
-name: New Pathway
+name: Suggest a new Pathway Guide
 description: Propose a new contributor pathway
-title: "Function — Type: Title"
+title: "[Guide] <Pathway Title>"
 labels: ["Pathways", "Pathways: New"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## The idea
-        Please format your issue title as: **Function — Type: Title**
-        Example: *Design — Project: Blockify a Theme*
+        ## Help add evergreen pathways to our guidebook
+        Add a few details so others can help create this guide. If you'll write the guide yourself, take the issue once it's opened.
 
   - type: dropdown
     id: function
