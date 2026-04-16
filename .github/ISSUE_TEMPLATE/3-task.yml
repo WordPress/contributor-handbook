@@ -1,6 +1,6 @@
 name: One-Off Task for Pathways
-description: A task that supports the Pathways project — testing, design, technical work, or other ad-hoc contributions
-labels: [one-off-task]
+description: A task that supports the Pathways project
+labels: ["Pathways", "Pathways: Task"]
 
 body:
   - type: markdown
@@ -8,11 +8,11 @@ body:
       value: |
         Thanks for helping with the Pathways project! Fill out the fields below.
 
-  - type: textarea
-    id: task
+    - type: textarea
+    id: what_needs_to_happen
     attributes:
-      label: Task
-      placeholder: Brief description of what needs to be done
+      label: What needs to happen?
+      placeholder: Specific actions needed for this task
     validations:
       required: true
 
@@ -21,61 +21,9 @@ body:
     attributes:
       label: Why this matters
       placeholder: How does this task support the Pathways project?
-    validations:
-      required: true
-
-  - type: textarea
-    id: what_needs_to_happen
-    attributes:
-      label: What needs to happen
-      placeholder: Specific actions needed for this task
-    validations:
-      required: true
-
-  - type: checkboxes
-    id: priority
-    attributes:
-      label: Priority
-      options:
-        - label: Standard — can wait for someone to pick it up
-        - label: Soon — needed within 2-3 weeks
-        - label: Urgent — needed ASAP
-
-  - type: textarea
-    id: acceptance_criteria
-    attributes:
-      label: Acceptance criteria
-      placeholder: How do we know this is done? What does "complete" look like?
-    validations:
-      required: true
-
-  - type: checkboxes
-    id: skills_needed
-    attributes:
-      label: Skills needed
-      options:
-        - label: Design
-        - label: Test
-        - label: Build
-        - label: Write
-        - label: Promote
-        - label: Organize
-
-  - type: checkboxes
-    id: beginner_friendly
-    attributes:
-      label: Task level
-      options:
-        - label: Beginner friendly — add the `good-first-issue` label
-
-  - type: textarea
-    id: related_pathway
-    attributes:
-      label: Related pathway or guide
-      placeholder: Link to relevant pathway or guide, if any
 
   - type: textarea
     id: notes
     attributes:
-      label: Notes
-      placeholder: Any additional context, links to resources, or constraints
+      label: Context
+      placeholder: Any additional context, links to relavant guides, constraints, and acceptance criteria
