@@ -7,7 +7,7 @@ body:
       value: |
         Thanks for helping with the Pathways project! Fill out the fields below.
 
-    - type: textarea
+  - type: textarea
     id: what_needs_to_happen
     attributes:
       label: What needs to happen?
