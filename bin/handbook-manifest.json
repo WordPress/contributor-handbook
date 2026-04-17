@@ -83,6 +83,13 @@
         "parent": "design",
         "order": 1
     },
+    "pathways-design-submit-block-patterns": {
+        "title": "Submit Block Patterns",
+        "slug": "submit-block-patterns",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/design\/submit-block-patterns.md",
+        "parent": "design",
+        "order": 2
+    },
     "pathways-write": {
         "title": "Write",
         "slug": "write",

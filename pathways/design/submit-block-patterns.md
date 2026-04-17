@@ -12,7 +12,7 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 
 - **Setup:** Use [WordPress Playground](https://wordpress.org/playground/) to test your patterns before you submit them
 - **Read:** [A quick guide for building WordPress patterns](https://wordpress.org/patterns/about/) and [Submit your block pattern to the directory](https://wordpress.org/documentation/article/submit-your-block-pattern-to-the-directory/)
-- **Connect:** Join [#themes](https://wordpress.slack.com/archives/C02RP4Y3K) and introduce yourself
+- **Connect:** Join [#patterns](https://wordpress.slack.com/archives/patterns) and introduce yourself
 
 ## Steps
 
@@ -35,13 +35,13 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 
 ## What happens next
 
-Your patterns will go to review. When each is approved and published, you'll receive an email.
+Allow a few days for the patterns to be reviewed, then you'll receive an email to let you know if they were approved.
 
 When you're ready, design and submit more patterns, explore new categories, or consider auditing other patterns in the [Block Pattern Directory](https://wordpress.org/patterns/).
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in [#themes](https://wordpress.slack.com/archives/C02RP4Y3K). Search the channel first to see if someone has already answered your question.
+Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in [#patterns](https://wordpress.slack.com/archives/patterns). Search the channel first to see if someone has already answered your question.
 
 **Further reading:**
 
@@ -50,4 +50,3 @@ Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you
 - [Introduction to Block editor](https://learn.wordpress.org/lesson/intro-to-the-site-editor/)
 - [Using Block Patterns](https://wordpress.tv/2023/09/18/using-block-patterns-4/)
 - [Intro to Block patterns](https://learn.wordpress.org/tutorial/intro-to-block-patterns/)
-- [My Patterns](https://wordpress.org/patterns/my-patterns/) — view your drafts, submitted patterns, and published work
