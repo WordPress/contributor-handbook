@@ -36,7 +36,7 @@ When you're ready, pick another piece of content to translate or help [review tr
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#training](https://wordpress.slack.com/archives/training). You can also reach Translation Coordinators by mentioning `@faculty-translation-coordinators` in #training.
+Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#training](https://wordpress.slack.com/archives/training).
 
 **Further reading:**
 - [General Expectations for Translators](https://make.wordpress.org/polyglots/handbook/translating/expectations/)
