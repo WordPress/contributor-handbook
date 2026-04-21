@@ -32,7 +32,7 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 
 Maintainers will review your PR for clarity, accuracy, and completeness. Once approved, the pathway will be merged and published to the handbook.
 
-When you're ready, pick up another pathway from the project board or help review someone else's draft.
+When you're ready, pick up another pathway from the project board or help review someone else's draft. You can also [suggest new guides here](https://github.com/WordPress/contributor-handbook/issues/new/choose).
 
 ## Help
 
