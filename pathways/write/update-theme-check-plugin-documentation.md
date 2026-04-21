@@ -1,4 +1,4 @@
-# Update Theme Check Documentation
+# Update Theme Check Plugin Documentation
 
 **Function:** Write  
 **Type:** Project  
