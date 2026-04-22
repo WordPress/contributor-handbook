@@ -14,10 +14,10 @@
         "order": 0
     },
     "pathways": {
-        "title": "All Contribution Pathways",
+        "title": "All Contribution Pathway Guides",
         "slug": "all-guides",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/all-guides.md",
-        "parent": null,
+        "parent": pathways,
         "order": 0
     },
     "pathways-about": {
@@ -33,13 +33,6 @@
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/before-you-begin.md",
         "parent": "pathways",
         "order": 2
-    },
-    "pathways-landing-test": {
-        "title": "Find a way to contribute",
-        "slug": "landing-test",
-        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/landing-test.md",
-        "parent": "pathways",
-        "order": 10
     },
     "pathways-build": {
         "title": "Build",
