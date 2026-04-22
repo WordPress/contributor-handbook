@@ -6,7 +6,7 @@ These are organized by function (build, design, translate, etc) and are also lab
 - **Team** – Join to help on an ongoing basis
 
 
-[tip]Not sure where to start?** Read [Before You Begin](/handbook/pathways/before-you-begin/) if you're brand new, then try one of the categories below.[/tip]
+[tip]Before you begin, you'll need accounts and basic information. [Get started here](https://make.wordpress.org/handbook/pathways/before-you-begin/), then choose a contribution pathway.[/tip]
 
 ---
 
