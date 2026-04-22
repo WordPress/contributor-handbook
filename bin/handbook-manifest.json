@@ -13,11 +13,11 @@
         "parent": null,
         "order": 0
     },
-    "pathways": {
-        "title": "All Contribution Pathway Guides",
+    "pathways-all-guides": {
+        "title": "All Contribution Pathways",
         "slug": "all-guides",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/all-guides.md",
-        "parent": pathways,
+        "parent": "pathways",
         "order": 0
     },
     "pathways-about": {
