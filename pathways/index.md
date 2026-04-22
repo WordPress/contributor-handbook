@@ -4,9 +4,9 @@
 
 Want to give back to WordPress but don't know where to begin? The [Good First Issues board](https://github.com/orgs/WordPress/projects/289/views/1) has specific one-off tasks that need doing now. Or, browse the guides below for evergreen contribution pathways that are always open and always need help. Each guide gives you a quick overview of the steps involved, with links to the resources you'll need along the way.
 
-[tip]Before you begin, you'll need accounts and basic information. [Get started here](https://make.wordpress.org/handbook/pathways/before-you-begin/), then choose a contribution pathway.[/tip]
-
 ## Browse by type
+
+[tip]Before you begin, you'll need accounts and basic information. [Get started here](https://make.wordpress.org/handbook/pathways/before-you-begin/), then choose a contribution pathway.[/tip]
 
 - **[Build](/handbook/pathways/build/):** Contribute code, plugins, and developer tools
 - **[Design](/handbook/pathways/design/):** Help with design, themes, photos, and patterns
