@@ -27,6 +27,13 @@
         "parent": "pathways",
         "order": 1
     },
+    "pathways-landing-test": {
+        "title": "Find a way to contribute",
+        "slug": "landing-test",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/landing-test.md",
+        "parent": "pathways",
+        "order": 10
+    },
     "pathways-build": {
         "title": "Build",
         "slug": "build",
