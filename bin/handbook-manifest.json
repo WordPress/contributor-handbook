@@ -7,9 +7,16 @@
         "order": -1
     },
     "pathways": {
-        "title": "Contribution Pathways",
+        "title": "Find ways to Contribute",
         "slug": "pathways",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/index.md",
+        "parent": null,
+        "order": 0
+    },
+    "pathways": {
+        "title": "All Contribution Pathways",
+        "slug": "all-guides",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/all-guides.md",
         "parent": null,
         "order": 0
     },
@@ -18,21 +25,21 @@
         "slug": "about",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/about.md",
         "parent": "pathways",
-        "order": 0
+        "order": 1
     },
     "pathways-before-you-begin": {
         "title": "Before You Begin",
         "slug": "before-you-begin",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/before-you-begin.md",
         "parent": "pathways",
-        "order": 1
+        "order": 2
     },
     "pathways-build": {
         "title": "Build",
         "slug": "build",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/build\/index.md",
         "parent": "pathways",
-        "order": 2
+        "order": 3
     },
     "pathways-build-contribute-to-gatherpress": {
         "title": "Contribute to GatherPress",
@@ -67,7 +74,7 @@
         "slug": "design",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/design\/index.md",
         "parent": "pathways",
-        "order": 3
+        "order": 4
     },
     "pathways-design-contribute-to-photos": {
         "title": "Contribute to the WordPress Photo Directory",
@@ -95,7 +102,7 @@
         "slug": "write",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/write\/index.md",
         "parent": "pathways",
-        "order": 4
+        "order": 5
     },
     "pathways-write-document-a-wordpress-release": {
         "title": "Document a WordPress Release",
@@ -137,7 +144,7 @@
         "slug": "translate",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/translate\/index.md",
         "parent": "pathways",
-        "order": 5
+        "order": 7
     },
     "pathways-test": {
         "title": "Test",
@@ -193,7 +200,7 @@
         "slug": "organize",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/organize\/index.md",
         "parent": "pathways",
-        "order": 7
+        "order": 8
     },
     "pathways-organize-suggest-a-pathway": {
         "title": "Suggest a Pathway",
@@ -235,7 +242,7 @@
         "slug": "promote",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/promote\/index.md",
         "parent": "pathways",
-        "order": 8
+        "order": 9
     },
     "pathways-promote-add-captions-to-wptv-videos": {
         "title": "Add Captions to WPTV Videos",
