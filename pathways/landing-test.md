@@ -1,5 +1,4 @@
 # Find ways to contribute
-<img src="https://make.wordpress.org/files/2026/04/pathway-guides.png" alt="Contribution Pathways" desc="A sign post with arrows pointing in different ways" height="150px" align="left">
 
 Want to give back to WordPress but don't know where to begin? The [Good First Issues board](https://github.com/orgs/WordPress/projects/289/views/1) has specific
 one-off tasks that need doing now. Or, browse the guides below for evergreen contribution pathways that are always open and always need help.
