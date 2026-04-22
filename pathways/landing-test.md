@@ -8,19 +8,16 @@ Want to give back to WordPress but don't know where to begin? The [Good First Is
 
 ## Browse by type
 
-- **[Build](/handbook/pathways/build/)** – Code, plugins,
+- **[Build](/handbook/pathways/build/):** Contribute code, plugins,
   and developer tools
-- **[Design](/handbook/pathways/design/)** – Themes, photos,
+- **[Design](/handbook/pathways/design/):** Help with design, themes, photos,
   and patterns
-- **[Write](/handbook/pathways/write/)** – Documentation and
+- **[Write](/handbook/pathways/write/):** Contribute documentation and
   training content
-- **[Translate](/handbook/pathways/translate/)** – Make
+- **[Translate](/handbook/pathways/translate/):** Make
   WordPress available in every language
-- **[Test](/handbook/pathways/test/)** – Review, verify,
-  and improve
-- **[Organize](/handbook/pathways/organize/)** – Events,
-  triage, and community
-- **[Promote](/handbook/pathways/promote/)** – Outreach and
-  growing the community
+- **[Test](/handbook/pathways/test/):** Review and verify code, documents, and processes
+- **[Organize](/handbook/pathways/organize/):** Coordinate events and projects
+- **[Promote](/handbook/pathways/promote/):** Outreach to grow the community
 
 [Browse all guides](/handbook/pathways/all-guides/) | [About](/handbook/pathways/about/) | [Suggest a Guide](/handbook/pathways/organize/suggest-a-pathway/)
