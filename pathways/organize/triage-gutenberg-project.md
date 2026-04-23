@@ -1,4 +1,4 @@
-# Organize: Triage Gutenberg issues
+# Triage Gutenberg issues
 
 **Function:** Organize\
 **Type:** Project\
