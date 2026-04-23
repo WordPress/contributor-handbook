@@ -65,7 +65,7 @@ _Community building, events, and coordination_
 _Outreach, storytelling, and awareness_
 
 - **[Task: Add Captions to WPTV Videos](/handbook/pathways/promote/add-captions-to-wptv-videos/)** – Help make WordPress.tv accessible to a wider audience
-
-[tip]If you're an existing contributor and your team needs more help, please [suggest a pathway](/handbook/pathways/organize/suggest-a-pathway/) or [learn more about Pathways](/handbook/pathways/about/).[tip]
 - **Project: Promote a Local WordPress Meetup ↗** – Help your [local meetup](https://www.meetup.com/pro/wordpress/) grow by spreading the word on campus, at work, or through local networks
 - **Project: Conduct Surveys ↗** – Gather insights about how people use WordPress, and identify areas where awareness is low. Share in [#community](https://wordpress.slack.com/archives/community) and with [your local group](https://www.meetup.com/pro/wordpress/)
+
+[tip]If you're an existing contributor and your team needs more help, please [suggest a pathway](/handbook/pathways/organize/suggest-a-pathway/) or [learn more about Pathways](/handbook/pathways/about/).[/tip]
