@@ -1,7 +1,7 @@
 # Triage Gutenberg issues
 
-**Function:** Organize\
-**Type:** Project\
+**Function:** Organize
+**Type:** Project
 **Level:** Beginner
 
 Triaging keeps the Gutenberg repository healthy. You review issues, check whether bugs still happen, add labels, and organize reports so the right people can act on them. You do not need to be a developer or designer.
