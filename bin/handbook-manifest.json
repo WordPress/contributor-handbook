@@ -223,13 +223,6 @@
         "parent": "test",
         "order": 6
     },
-    "pathways-test-test-gutenberg-pr-with-playground": {
-        "title": "Test a Gutenberg Pull Request with Playground",
-        "slug": "test-gutenberg-pr-with-playground",
-        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/test-gutenberg-pr-with-playground.md",
-        "parent": "test",
-        "order": 7
-    },
         "pathways-translate-translate-training-content": {
         "title": "Translate Training Content",
         "slug": "translate-training-content",
