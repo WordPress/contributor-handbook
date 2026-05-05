@@ -17,7 +17,7 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 ## Steps
 
 1. Choose a theme: campus life, architecture, nature, or your local surroundings. Shoot at least 5 photos that follow the [WordPress Photo Guidelines](https://wordpress.org/photos/guidelines/). You don't need fancy equipment — a smartphone works fine.
-2. Submit one photo at a time at [wordpress.org/photos/submit/](https://wordpress.org/photos/submit/). Add alt text in English describing what's in the image, confirm the license as CC0, and check the guidelines checklist. You can have up to 5 photos in the moderation queue at once.
+2. Submit one photo at a time at [wordpress.org/photos/submit/](https://wordpress.org/photos/submit/). Add a detailed alt text in English for the image, and carefully go through checklist items before submitting the photo You can have up to 5 photos in the moderation queue at once.
 3. Wait for the moderation email. When a photo is declined, you can revise based on the feedback and resubmit.
 
 ## Contribution checklist
