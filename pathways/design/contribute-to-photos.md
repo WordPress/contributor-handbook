@@ -29,7 +29,7 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 
 Moderation emails come from photos@wordpress.org — check your spam folder if you don't see one. Reviews can take a few days. If you haven't heard back after a week, ask in [#photos](https://wordpress.slack.com/messages/photos) on Slack.
 
-Once 5 photos are approved, you're officially a Photos contributor and will receive a profile badge. When you reach 30 approved photos, consider [becoming a moderator](/handbook/pathways/design/contribute-to-photos-as-moderator/) to help review submissions from other contributors.
+Once one of your photos is approved, you're officially a Photos contributor and will receive a profile badge. When you reach 30 approved photos, consider [becoming a moderator](/handbook/pathways/design/contribute-to-photos-as-moderator/) to help review submissions from other contributors.
 
 ## Help
 
