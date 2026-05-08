@@ -16,10 +16,10 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 
 ## Steps
 
-1. **Pick up an issue** from Ready or New on the [project board](https://github.com/orgs/WordPress/projects/282/views/1), comment that you're working on it, and research the topic using linked resources, handbooks, tutorials, [Learn WordPress](https://learn.wordpress.org/), [WordPress.tv](https://wordpress.tv/), and team Slack channels.
-2. **Draft the guide** using [PROMPT.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/PROMPT.md) and AI, or with [TEMPLATE.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/TEMPLATE.md) as your guide, then post your draft as a comment on the issue.
-4. **Walk the pathway using your draft** as a new contributor would. Ask teams for feedback, too, and refine based on what you learn.
-5. **Submit a pull request** to the folder matching the pathway's function — for example, if you wrote a test pathway, submit to pathways/test/. Reference the issue in your PR description.
+1. **Pick up an issue** from Ready or New on the [project board](https://github.com/orgs/WordPress/projects/282/views/1), comment /assign to show that you're working on it, then research the topic using linked resources, handbooks, tutorials, [Learn WordPress](https://learn.wordpress.org/), [WordPress.tv](https://wordpress.tv/), and team Slack channels.
+2. **Draft the guide** using [PROMPT.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/PROMPT.md) and AI, or with [TEMPLATE.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/TEMPLATE.md) as your guide, then post your draft (with markdown) as a comment on the issue.
+4. **Walk the pathway using your draft** as a new contributor would. Ask teams for feedback, too, and refine the markdown you've shared based on what you learn.
+5. **Signal it's reviewed and ready** by commenting /done on the issue. If you're able, set its Projects > Status to Update Manifest. Then add an .md file to the correct directory and submit a pull request, or an admin can add one from your comment.
 
 ## Contribution checklist
 
