@@ -16,23 +16,24 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 
 ## Steps
 
-1. **Pick a pathway to review:** Choose a published pathway or one marked as "Review" on the [project board](https://github.com/orgs/WordPress/projects/282).
+1. **Pick a pathway to review:** Choose from [Walkthrough Requests](https://github.com/orgs/WordPress/projects/282/views/6) and comment /assign to assign yourself.
 2. **Walk through the pathway as a newcomer:** Follow every step from the top as if it's your first contribution. Don't skip anything — click the links, run the setup, try the process. Note every point where you get stuck, confused, or have to guess what to do next.
 3. **Check all links:** Verify that every link works and points to the right place.
 4. **Note any unclear sections:** If instructions are confusing, steps are missing, or the tone feels off, mark it. The goal is to spot what trips up a first-timer.
 5. **File an issue with your findings:** Report what worked and what didn't. Be specific: "Step 3 assumes I already have X installed" or "The link in step 2 is broken." If you discover a related bug (e.g., a broken feature the pathway points to), mention it and link to context you've found.
-6. **Share specific recommendations.** If you have suggestions for rewording or clarifying sections, paste the original text in the issue along with your suggested version.
+6. **Share specific recommendations:** If you have suggestions for rewording or clarifying sections, paste the original text in the issue along with your suggested version.
+7. **Signal it's done:** Comment with your findings. Comment /done and a maintainer will close the request.
 
 ## Contribution checklist
 
 - Walked the entire pathway as a newcomer, following every step
 - Verified all links work and point to the correct resources
-- Noted any confusing, missing, or unclear sections
-- Filed an issue with specific, actionable findings
+- Commented with your findings
+- If needed, filed an issue with specific, actionable feedback
 
 ## What happens next
 
-The pathway author or a maintainer will review your feedback. If there's no response after a week, a polite ping in the relevant team's Slack is fine.
+If you've shared feedback, the pathway author or a maintainer will review your feedback. If there's no response after a week, a polite ping in the relevant team's Slack is fine.
 
 When you're ready, review another pathway or try [creating one](/handbook/contribution-pathways/write/create-a-pathway-guide/).
 
