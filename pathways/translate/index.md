@@ -1,8 +1,8 @@
 # Translate
 
-_Help make WordPress available in every language_
+Help make WordPress available in every language
 
-Right now we also need help writing guides for these pathways, so if you're familiar with these translation processes, [here's how you can help](https://make.wordpress.org/handbook/pathways/write/create-a-pathway-guide/).
+_Right now we also need help writing guides for these pathways, so if you're familiar with these translation processes, [here's how you can help](https://make.wordpress.org/handbook/pathways/write/create-a-pathway-guide/)._
 
 - **[Task: Translate Training Content](https://make.wordpress.org/handbook/pathways/translate/translate-training-content/)** - Translate lessons and courses on Learn WordPress
 - **Task: Translate Plugins and Themes ↗** – Focus on plugins and themes maintained by the WordPress Foundation and local communities. [Get started with Polyglots](https://make.wordpress.org/polyglots)
