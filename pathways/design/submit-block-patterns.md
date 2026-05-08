@@ -17,7 +17,7 @@ Complete the [common setup](https://make.wordpress.org/handbook/pathways/contrib
 ## Steps
 
 1. Identify a gap in the [Block Pattern Directory](https://wordpress.org/patterns/) — a useful pattern that doesn't exist yet or could be done in another unique way.
-2. Design and build your pattern in the WordPress Block editor.
+2. Design and build your pattern in the WordPress Block editor. Use the theme's default colors so the pattern will work with other themes and variations.
 3. Test your pattern in [WordPress Playground](https://wordpress.org/playground/) with different themes to make sure it looks and works as expected.
 4. Go to [Add a new pattern](https://wordpress.org/patterns/new-pattern/) on WordPress.org, and paste a pattern you've made and tested.
 5. Add a clear details so people know what your pattern is and when to use it. For example:
@@ -32,7 +32,7 @@ Complete the [common setup](https://make.wordpress.org/handbook/pathways/contrib
 - Be unique: not too similar to patterns already in the directory
 - Be useful: combine enough blocks to create a meaningful, reusable layout
 - Have a descriptive title and description
-- Work with different themes
+- Work with different themes and their color palettes
 - Use only content you have copyright or legal rights to submit
 
 **Your pattern must not:**
