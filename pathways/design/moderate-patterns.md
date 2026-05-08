@@ -34,7 +34,7 @@ Your moderation decisions take effect immediately. Continue to moderate regularl
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in [#patterns](https://wordpress.slack.com/archives/patterns). Search the channel first to see if someone has already answered your question.
+Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathways/before-you-begin/#getting-help), then ask in [#patterns](https://wordpress.slack.com/archives/patterns). Search the channel first to see if someone has already answered your question.
 
 **Further reading:**
 
