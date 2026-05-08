@@ -8,12 +8,12 @@
 
 ## Before you start
 
-Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) first, then:
+Complete the [common setup](https://make.wordpress.org/handbook/pathways/before-you-begin/) first, then:
 
 - **Setup:** [Any additional tools or prep beyond the basics]
 - **Complete:** [For intermediate only: link to the prerequisite pathway, otherwise skip this line]
 - **Read:** [Pathway-specific, must-read page(s)]
-- **Connect:** Join [Slack channel specific to this pathway, with link] and introduce yourself
+- **Connect:** Join [Slack channel specific to this pathway, with link](https://wordpress.slack.com/archives/channel-name) and introduce yourself
 
 ## Steps
 1. <!-- 3-8 straightforward steps. Verify links are current and resources exist (e.g. don't point to "good first issues" if there aren't any). -->
@@ -31,7 +31,7 @@ When you're ready, pick up another issue, settle into a feature area, or review 
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in the team slack.
+Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathways/before-you-begin/#getting-help), then ask in the team slack.
 
 **Further reading:**
 - [Detailed reference](link)
