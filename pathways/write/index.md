@@ -8,4 +8,4 @@ Pathways for contributing through documentation, tutorials, and training content
 - **[Task: File a Documentation Issue](/handbook/pathways/write/file-a-documentation-issue/)** – Found a typo, outdated info, or broken link? Report it so it gets fixed
 - **[Project: Create Content for Learn WordPress](/handbook/pathways/write/create-content-for-learn-wordpress/)** – Write, update, or review lesson plans, tutorials, and workshops
 - **[Project: Update Theme Check Plugin Documentation](https://make.wordpress.org/handbook/pathways/write/update-theme-check-plugin-documentation/)** - Update the go-to reference for theme reviewers
-- **[Write a Migration Guide for WordPress](https://make.wordpress.org/handbook/pathways/write/write-a-migration-guide-for-wordpress/)** - Make the web more open by documenting how to move a site to WordPress
+- **[Project: Write a Migration Guide for WordPress](https://make.wordpress.org/handbook/pathways/write/write-a-migration-guide-for-wordpress/)** - Make the web more open by documenting how to move a site to WordPress
