@@ -8,7 +8,7 @@ Block patterns are ready-made layouts you can insert into a page or post, such a
 
 ## Before you start
 
-Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) first, then:
+Complete the [common setup](https://make.wordpress.org/handbook/pathways/contribution-pathways/before-you-begin/) first, then:
 
 - **Setup:** Browse the [Block Pattern Directory](https://wordpress.org/patterns/) to see what patterns already exist and what makes them useful
 - **Read:** [A quick guide for building WordPress patterns](https://wordpress.org/patterns/about/) and [Submit your block pattern to the directory](https://wordpress.org/documentation/article/submit-your-block-pattern-to-the-directory/)
@@ -50,7 +50,7 @@ When you're ready, design and submit more patterns, explore new categories, or c
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in [#patterns](https://wordpress.slack.com/archives/patterns). Search the channel first to see if someone has already answered your question.
+Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathways/contribution-pathways/before-you-begin/#getting-help), then ask in [#patterns](https://wordpress.slack.com/archives/patterns). Search the channel first to see if someone has already answered your question.
 
 **Further reading:**
 
