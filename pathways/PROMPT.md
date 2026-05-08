@@ -157,7 +157,7 @@ TEMPLATE:
 
 ## Before you start
 
-Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) first, then:
+Complete the [common setup](https://make.wordpress.org/handbook/pathways/before-you-begin/) first, then:
 
 - **Setup:** [Any additional tools or prep beyond the basics]
 - **Complete:** [Intermediate only: link to prerequisite pathway]
@@ -177,7 +177,7 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in the team slack.
+Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathways/before-you-begin/#getting-help), then ask in the team slack.
 
 **Further reading:**
 - [Detailed reference](link)
