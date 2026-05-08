@@ -26,7 +26,7 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 - All links work and are current
 - Your draft is scannable and fits the [TEMPLATE.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/TEMPLATE.md)
 - You've tested the pathway, requested feedback, and refined accordingly 
-- You've submitted a PR referencing the issue
+- You've submitted a PR referencing the issue, or shared the guide as markdown in a comment.
 
 ## What happens next
 
