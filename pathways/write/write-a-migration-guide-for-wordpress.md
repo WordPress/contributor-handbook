@@ -1,7 +1,7 @@
 # Write a Migration Guide for WordPress
 
 **Function:** Write  
-**Type:** Task  
+**Type:** Project  
 **Level:** Beginner  
 
 Help people move their content to WordPress by writing a migration guide. Pick a platform, document the step-by-step migration process, and submit your guide to the Data Liberation project. Migration guides are one of the most direct ways to make the web more open, and every new guide helps someone make the switch.
