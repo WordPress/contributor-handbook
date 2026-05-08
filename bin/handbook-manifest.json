@@ -174,6 +174,20 @@
         "parent": "write",
         "order": 4
     },
+    "pathways-write-update-theme-check-plugin-documentation": {
+        "title": "Update Theme Check Plugin Documentation",
+        "slug": "update-theme-check-plugin-documentation",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/write\/update-theme-check-plugin-documentation.md",
+        "parent": "write",
+        "order": 5
+    },
+    "pathways-write-write-a-migration-guide-for-wordpress": {
+        "title": "Write a Migration Guide for WordPress",
+        "slug": "write-a-migration-guide-for-wordpress",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/write\/write-a-migration-guide-for-wordpress.md",
+        "parent": "write",
+        "order": 6
+    },
     "pathways-test-review-a-pathway-guide": {
         "title": "Review a Pathway Guide",
         "slug": "review-a-pathway-guide",
@@ -270,7 +284,14 @@
         "slug": "triage-gutenberg-project",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/organize\/triage-gutenberg-project.md",
         "parent": "organize",
-        "order": 0
+        "order": 5
+    },
+    "pathways-organize-volunteer-for-a-team-meeting": {
+        "title": "Volunteer for a Team Meeting",
+        "slug": "volunteer-for-a-team-meeting",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/organize\/volunteer-for-a-team-meeting.md",
+        "parent": "organize",
+        "order": 6
     },
     "pathways-promote-add-captions-to-wptv-videos": {
         "title": "Add Captions to WPTV Videos",
@@ -285,5 +306,12 @@
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/promote\/promote-a-local-wordpress-event.md",
         "parent": "promote",
         "order": 1
+    },
+    "pathways-promote-conduct-surveys": {
+        "title": "Conduct Surveys",
+        "slug": "conduct-surveys",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/promote\/conduct-surveys.md",
+        "parent": "promote",
+        "order": 2
     }
 }
