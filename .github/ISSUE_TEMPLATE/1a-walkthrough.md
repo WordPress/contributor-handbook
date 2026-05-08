@@ -5,7 +5,7 @@ title: "[Walkthrough] <Guide Name>"
 labels: ["Pathways", "Pathways: Task", "Test"]
 ---
 
-### Please [walk through](https://make.wordpress.org/handbook/pathways/test/review-a-pathway-guide/) this guide and file a [pathway feedback issue](https://github.com/WordPress/contributor-handbook/issues/new/choose) if needed.
+### Please [walk through](https://make.wordpress.org/handbook/pathways/test/review-a-pathway-guide/) this guide and file a [pathway feedback issue](https://github.com/WordPress/contributor-handbook/issues/new?&template=1-pathway-feedback.yml) if needed.
 
 <!-- Fix this name and link, and add any other context if needed. Then add any extra labels and you're all set! -->
 [Pathway Name](https://make.wordpress.org/handbook/pathways/guide_link_goes_here)
