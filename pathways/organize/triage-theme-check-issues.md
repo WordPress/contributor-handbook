@@ -4,7 +4,7 @@
 **Type:** Task  
 **Level:** Intermediate  
 
-Help keep the Theme Check plugin moving by triaging open issues and pull requests. Confirm bugs, test PRs, categorize enhancement requests, and flag stale items. The Theme Check plugin is used by every theme reviewer to check themes against directory requirements, so keeping its issue tracker healthy directly supports the quality of the WordPress theme ecosystem.
+The Theme Check plugin validates themes against WordPress directory requirements, and every theme reviewer depends on it. Help keep it healthy by triaging open issues and pull requests: confirm bugs, test fixes, categorize enhancement requests, and flag stale items.
 
 ## Before you start
 
