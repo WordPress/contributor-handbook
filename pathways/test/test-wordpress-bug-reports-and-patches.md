@@ -32,7 +32,7 @@ Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
 ## What happens next
 
-A developer or committer will review your test report alongside others on the ticket. Your report helps them decide whether a bug is confirmed or whether a patch is ready to commit. If you have questions about your findings, ask in #core-test.
+A developer or committer will review your test report alongside others on the ticket. Your report helps them decide whether a bug is confirmed or whether a patch is ready to commit. If you have questions about your findings, ask in [#core-test](https://wordpress.slack.com/archives/core-test).
 
 As you get comfortable, join the regular Patch Testing Scrubs for guided support and to connect with other testers. Consistent testing contributions can earn you a [Test Team profile badge](https://make.wordpress.org/test/handbook/test-team-profile-badges/).
 
