@@ -10,7 +10,11 @@ These steps are the same no matter which part of WordPress you want to contribut
 
 Some projects and teams may have further requirements, but this is a good start! This [video lesson](https://learn.wordpress.org/lesson/wporg-setup/) can walk you through setting up a WordPress.org and Slack account.
 
-## Read these first
+## Contributor badges
+
+As you contribute, you can earn [badges on your WordPress.org profile](https://make.wordpress.org/meta/handbook/tutorials-guides/profile-badges/). Most teams offer a contribution badge for meaningful contributions, and some also have a team badge for longer-term involvement. Each team sets its own criteria and timeline — you'll find the details on that page.
+
+## Standards
 These standards apply across the project, no matter what you're working on.
 
 **Everyone:**
