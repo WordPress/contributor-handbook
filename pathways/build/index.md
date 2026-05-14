@@ -2,7 +2,7 @@
 
 Pathways for contributing code, plugins, and tools to the WordPress project
 
-- **[Team: Contribute to GatherPress](/handbook/pathways/build/contribute-to-gatherpress/)** – Join the team, start with testing and triage, and work up to fixes
-- **[Project: Build a WordPress Playground Blueprint](/handbook/pathways/build/create-a-playground-blueprint/)** – Build a WordPress Blueprint and submit it to the Blueprint Gallery
-- **[Project: Create a Blueprint for a Community Repo](/handbook/pathways/build/create-a-playground-blueprint-for-a-community-plugin-or-theme/)** – Help theme and plugin contributors get started faster by creating a Playground Blueprint for their project
-- **[Team: Contribute to Theme Check Plugin](/handbook/pathways/build/contribute-to-theme-check-plugin/)** – Help maintain the plugin that checks themes against directory standards
+- **[Team: Contribute to GatherPress](/handbook/pathways/build/contribute-to-gatherpress/)** – Help build the event management plugin powering Student Clubs — start by testing and triaging issues, then grow into shipping fixes and features
+- **[Project: Build a WordPress Playground Blueprint](/handbook/pathways/build/create-a-playground-blueprint/)** – Craft a one-click, in-browser WordPress demo that showcases your favorite use case in the Playground Gallery
+- **[Project: Create a Blueprint for a Community Repo](/handbook/pathways/build/create-a-playground-blueprint-for-a-community-plugin-or-theme/)** – Give a community plugin or theme a one-click testing environment, making it instantly easier for anyone to try, review, or contribute
+- **[Team: Contribute to Theme Check Plugin](/handbook/pathways/build/contribute-to-theme-check-plugin/)** – Help maintain the plugin that keeps thousands of themes aligned with WordPress.org directory standards
