@@ -10,8 +10,7 @@
 </div>
 
 <div class="pathway-setup">
-  <span class="dashicons dashicons-lightbulb"></span>
-  <strong>New here?</strong> Get your <a href="https://make.wordpress.org/handbook/contribution-pathways/before-you-begin/">WordPress.org account, Slack access, and GitHub setup</a> sorted first. You'll also learn best practices, how to find help, and how to earn contributor badges.
+  <span class="dashicons dashicons-lightbulb"></span><strong>New here?</strong> Get your <a href="https://make.wordpress.org/handbook/contribution-pathways/before-you-begin/">WordPress.org account, Slack access, and GitHub setup</a> sorted first. You'll also learn best practices, how to find help, and how to earn contributor badges.
 </div>
 
 Help maintain the plugin that checks WordPress themes against directory submission requirements. Every theme submitted to WordPress.org is run through Theme Check, so improvements to this plugin affect thousands of themes.
