@@ -9,11 +9,12 @@
     <div>Join a Team</div></div>
 </div>
 
+<div class="pathway-setup">
+  <span class="dashicons dashicons-lightbulb"></span>
+  <strong>New here?</strong> Get your <a href="https://make.wordpress.org/handbook/contribution-pathways/before-you-begin/">WordPress.org account, Slack access, and GitHub setup</a> sorted first. You'll also learn best practices, how to find help, and how to earn contributor badges.
+</div>
+
 Help maintain the plugin that checks WordPress themes against directory submission requirements. Every theme submitted to WordPress.org is run through Theme Check, so improvements to this plugin affect thousands of themes.
-
-## Before you start
-
-Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) first, then:
 
 - **Setup:** Fork and clone the [Theme Check repository](https://github.com/WordPress/theme-check). Set up a local dev environment or use [WordPress Playground](https://wordpress.github.io/wordpress-playground/).
 - **Complete:** [Review a Theme](/handbook/pathways/test/review-themes/)
