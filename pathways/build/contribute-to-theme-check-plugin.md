@@ -1,8 +1,14 @@
 # Contribute to Theme Check Plugin
 
-<div class="meta">**Function:** Build  
-**Type:** Team  
-**Level:** Intermediate</div>
+<div class="pathway-card">
+  <div class="pathway-header">
+    <span class="dashicons dashicons-editor-code"></span> Build
+  </div>
+  <div class="pathway-details">
+    <div>Beginner-friendly</div>
+    <div>Join a Team</div>
+  </div>
+</div>
 
 Help maintain the plugin that checks WordPress themes against directory submission requirements. Every theme submitted to WordPress.org is run through Theme Check, so improvements to this plugin affect thousands of themes.
 
