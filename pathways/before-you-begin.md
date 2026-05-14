@@ -1,6 +1,7 @@
 # Before you begin
 
 These steps are the same no matter which part of WordPress you want to contribute to. Start here first, then jump into any pathway.
+<!-- wp:wporg/table-of-contents /-->
 
 ## Accounts you'll need
 
