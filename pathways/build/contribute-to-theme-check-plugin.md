@@ -1,8 +1,8 @@
 # Contribute to Theme Check Plugin
 
-**Function:** Build  
+<div class="meta">**Function:** Build  
 **Type:** Team  
-**Level:** Intermediate
+**Level:** Intermediate</div>
 
 Help maintain the plugin that checks WordPress themes against directory submission requirements. Every theme submitted to WordPress.org is run through Theme Check, so improvements to this plugin affect thousands of themes.
 
