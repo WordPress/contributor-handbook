@@ -1,7 +1,5 @@
 # All pathway guides
 
-[tip]Before you begin, you'll need accounts and basic information. [Get started here](https://make.wordpress.org/handbook/pathways/before-you-begin/), then choose a contribution pathway.[/tip]
-
-[tip]If you're an existing contributor and your team needs more help, please [suggest a pathway](/handbook/pathways/organize/suggest-a-pathway/) or [learn more about Pathways](/handbook/pathways/about/).[/tip]
+[tip]New here? [Set up accounts](https://make.wordpress.org/handbook/pathways/before-you-begin/) and learn about badges and standards, then choose a contribution pathway. If you're on a team that would like to add pathways, [learn more about the project here.](https://make.wordpress.org/handbook/pathways/about/).[/tip]
 
 <!-- wp:block {"ref":6156} /-->
