@@ -2,18 +2,17 @@
 
 <!-- wp:block {"ref":6191} /-->
 
-Want to give back to WordPress but don't know where to begin? The [Good First Issues board](https://github.com/orgs/WordPress/projects/289/views/1?pane=info) has specific one-off tasks that need doing now. Or, browse the guides below for evergreen contribution pathways that are always open and always need help. Each guide gives you a quick overview of the steps involved, with links to the resources you'll need along the way.
+Want to give back to WordPress but don't know where to begin? The [Good First Issues board](https://github.com/orgs/WordPress/projects/289/views/1?pane=info) has specific one-off tasks that need doing now. Or, browse below for quick guides to evergreen contribution pathways that are always open and always need help.
 
-**New contributor?** [Get access & tips for getting started.](https://make.wordpress.org/handbook/pathways/before-you-begin/), plus best practices, how to find help, and how to earn contributor badges.
+## New contributor?
+[Get access & tips for getting started.](https://make.wordpress.org/handbook/pathways/before-you-begin/), plus best practices, how to find help, and how to earn contributor badges. Then browse the categories below, or [view all guides here](https://make.wordpress.org/handbook/pathways/all-guides/).
 
-## Browse by type
+- **[Build](https://make.wordpress.org/handbook/pathways/build/):** Contribute code, plugins, and developer tools
+- **[Design](https://make.wordpress.org/handbook/pathways/design/):** Help with design, themes, photos, and patterns
+- **[Write](https://make.wordpress.org/handbook/pathways/write/):** Contribute documentation and training content
+- **[Translate](https://make.wordpress.org/handbook/pathways/translate/):** Make WordPress available in every language
+- **[Test](https://make.wordpress.org/handbook/pathways/test/):** Review and verify code, documents, and processes
+- **[Organize](https://make.wordpress.org/handbook/pathways/organize/):** Coordinate events and projects
+- **[Promote](https://make.wordpress.org/handbook/pathways/promote/):** Outreach to grow the community
 
-- **[Build](/handbook/pathways/build/):** Contribute code, plugins, and developer tools
-- **[Design](/handbook/pathways/design/):** Help with design, themes, photos, and patterns
-- **[Write](/handbook/pathways/write/):** Contribute documentation and training content
-- **[Translate](/handbook/pathways/translate/):** Make WordPress available in every language
-- **[Test](/handbook/pathways/test/):** Review and verify code, documents, and processes
-- **[Organize](/handbook/pathways/organize/):** Coordinate events and projects
-- **[Promote](/handbook/pathways/promote/):** Outreach to grow the community
-
-[Browse all guides](/handbook/pathways/all-guides/) | [About](/handbook/pathways/about/) | [Suggest a Guide](/handbook/pathways/organize/suggest-a-pathway/)
+[Help this Initiative](https://make.wordpress.org/project/2026/04/23/help-us-help-others-contribute-to-wordpress/)
