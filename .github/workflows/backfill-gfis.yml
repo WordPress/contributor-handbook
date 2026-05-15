@@ -1,0 +1,42 @@
+name: Backfill Good First Issues
+
+on:
+  workflow_dispatch:
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add existing GFIs to project
+        env:
+          GH_TOKEN: ${{ secrets.PROJECT_TOKEN }}
+        run: |
+          search_and_add() {
+            local repo="$1"
+            local label="$2"
+            echo "Searching $repo for: $label"
+            gh search issues \
+              --repo "$repo" \
+              --label "$label" \
+              --state open \
+              --limit 200 \
+              --json url \
+              --jq '.[].url' | while read -r url; do
+                echo "Adding: $url"
+                gh project item-add 289 --owner WordPress --url "$url" || true
+              done
+          }
+
+          # "good first issue" repos
+          search_and_add "WordPress/Community-Team" "good first issue"
+          search_and_add "WordPress/wordpress.org" "good first issue"
+
+          # "Good First Issue" repos
+          search_and_add "WordPress/community-themes" "Good First Issue"
+          search_and_add "WordPress/gutenberg" "Good First Issue"
+          search_and_add "WordPress/contributor-handbook" "Good First Issue"
+          search_and_add "WordPress/documentation-issue-tracker" "Good First Issue"
+
+          # "[Type] Good First Issue" repos
+          search_and_add "WordPress/learn" "[Type] Good First Issue"
+          search_and_add "WordPress/wordcamp.org" "[Type] Good First Issue"
