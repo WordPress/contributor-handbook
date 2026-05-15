@@ -8,14 +8,4 @@ Want to give back to WordPress but don't know where to begin? The [Good First Is
 
 Teams that want to add their own guides can [learn about the project here](https://make.wordpress.org/project/2026/04/23/help-us-help-others-contribute-to-wordpress/).
 
-## Browse guides by what you can do
-
-- **[Build](https://make.wordpress.org/handbook/pathways/build/):** Contribute code, plugins, and developer tools
-- **[Design](https://make.wordpress.org/handbook/pathways/design/):** Help with design, themes, photos, and patterns
-- **[Write](https://make.wordpress.org/handbook/pathways/write/):** Contribute documentation and training content
-- **[Translate](https://make.wordpress.org/handbook/pathways/translate/):** Make WordPress available in every language
-- **[Test](https://make.wordpress.org/handbook/pathways/test/):** Review and verify code, documents, and processes
-- **[Organize](https://make.wordpress.org/handbook/pathways/organize/):** Coordinate events and projects
-- **[Promote](https://make.wordpress.org/handbook/pathways/promote/):** Outreach to grow the community
-
-[Help this Initiative](https://make.wordpress.org/project/2026/04/23/help-us-help-others-contribute-to-wordpress/)
+<!-- wp:block {"ref":6199} /-->
