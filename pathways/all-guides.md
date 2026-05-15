@@ -8,7 +8,7 @@ These are organized by function (build, design, translate, etc) and are also lab
 
 [tip]Before you begin, you'll need accounts and basic information. [Get started here](https://make.wordpress.org/handbook/pathways/before-you-begin/), then choose a contribution pathway.[/tip]
 
-<!-- wp:template-part {"slug":"guides"} /-->
+<!-- wp:block {"ref":6156} /-->
 
 
 ## Build
