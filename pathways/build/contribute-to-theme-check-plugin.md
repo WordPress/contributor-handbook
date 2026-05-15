@@ -2,18 +2,16 @@
 
 <div class="pathway-card">
   <div class="pathway-header">
-    <span class="dashicons dashicons-editor-code"></span> Build
-  </div>
+    <span class="dashicons dashicons-editor-code"></span> Build</div>
   <div class="pathway-details">
     <div>Beginner-friendly</div>
     <div>Join a Team</div></div>
 </div>
 
-<div class="pathway-setup">
+<div class="pathway-card">
   <div class="pathway-header">
-    <span class="dashicons dashicons-lightbulb"></span> New here?
-  </div>
-  <div>Get your <a href="https://make.wordpress.org/handbook/contribution-pathways/before-you-begin/">WordPress.org account, Slack access, and GitHub setup</a> sorted first. You'll also learn best practices, how to find help, and how to earn contributor badges.</div>
+    <span class="dashicons dashicons-lightbulb"></span> New here?</div>
+  <div class="pathway-details">Get your <a href="https://make.wordpress.org/handbook/contribution-pathways/before-you-begin/">WordPress.org account, Slack access, and GitHub setup</a> sorted     first. You'll also learn best practices, how to find help, and how to earn contributor badges.</div>
 </div>
 
 Help maintain the plugin that checks WordPress themes against directory submission requirements. Every theme submitted to WordPress.org is run through Theme Check, so improvements to this plugin affect thousands of themes.
