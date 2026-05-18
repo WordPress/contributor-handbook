@@ -6,6 +6,6 @@ Want to give back to WordPress but don't know where to begin? Browse the section
 
 <p><strong>New contributors:</strong> <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">Get access & tips for getting started</a>, plus best practices, how to find help, and how to earn contributor badges.</p>  
 
-<p><strong>Teams</strong></p> that want to add their own guides can <a href="https://make.wordpress.org/project/2026/04/23/help-us-help-others-contribute-to-wordpress/">learn about the project here</a>.
+<p><strong>Teams</strong> that want to add their own guides can <a href="https://make.wordpress.org/project/2026/04/23/help-us-help-others-contribute-to-wordpress/">learn about the project here</a>.</p>
 
 <!-- wp:block {"ref":6199} /-->
