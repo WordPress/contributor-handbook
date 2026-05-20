@@ -14,36 +14,18 @@
   <div class="pathway-details">Get your <a href="https://make.wordpress.org/handbook/contribution-pathways/before-you-begin/">WordPress.org account, Slack access, and community introductions</a> sorted first. You'll also learn best practices, how to find help, and how to earn contributor badges.</div>
 </div>
 
-Help a local WordPress event reach more people by running a short
-promotional campaign. The most effective local promotion combines online
-sharing with physical placement — flyers in coffee shops, mentions at
-other meetups, posts in local groups. You don't need to do all of it.
-Pick what fits your community.
+Help a local WordPress event reach more people by running a short promotional campaign. The most effective local promotion combines online sharing with physical placement — flyers in coffee shops, mentions at other meetups, posts in local groups. Pick what fits your community.
 
 - **Reference:** The [Publicity Page](https://make.wordpress.org/community/handbook/wordcamp-organizer/planning-details/publicity/) for organizers
 - **Connect:** Join [#community-events](https://wordpress.slack.com/archives/community-events) on Slack and introduce yourself
 
 ## Steps
 
-1. **Find a local event and connect with the organizers.** Browse
-   [upcoming WordPress events](https://events.wordpress.org/upcoming-events/filtered/format/in-person/)
-   and find one near you. Meetups, WordCamps, and other WordPress
-   gatherings all benefit from extra promotion. Click through to the
-   event listing and contact the organizers via the event website or
-   meetup.com. Let them know you'd like to help with promotion and ask
-   what they need most.
+1. **Find a local event and connect with the organizers.** Browse [upcoming WordPress events](https://events.wordpress.org/upcoming-events/filtered/format/in-person/) and find one near you. Meetups, WordCamps, and other WordPress gatherings all benefit from extra promotion. Click through to the event listing and contact the organizers via the event website or meetup.com. Let them know you'd like to help with promotion and ask what they need most.
 
-2. **Plan and run your campaign.** Work with the organizers to decide
-   what would be most useful — social media, flyers, outreach to local
-   groups, or all of the above. The [Local Community Marketing
-   Playbook](/handbook/playbook/local-community-marketing/) has
-   ready-to-use templates for social posts, outreach emails, flyers,
-   and cross-promotion. Start there and adapt what you need.
+2. **Plan and run your campaign.** Work with the organizers to decide what would be most useful — social media, flyers, outreach to local groups, or all of the above. 
 
-3. **Share what you did.** After the event, post a brief summary in
-   [#community-events](https://wordpress.slack.com/archives/community-events)
-   on Slack about what you promoted, which channels you used, and what
-   worked. This helps other contributors learn from your experience.
+3. **Share what you did.** After the event, post a brief summary in [#community-events](https://wordpress.slack.com/archives/community-events) on Slack about what you promoted, which channels you used, and what worked. This helps other contributors learn from your experience.
 
 ## Contribution checklist
 
@@ -53,18 +35,13 @@ Pick what fits your community.
 
 ## What happens next
 
-The organizers will see the impact of your work through attendance and
-engagement. If the event hasn't happened yet, keep promoting until the
-day arrives. After the event, check in with the organizers to hear how
-it went.
+The organizers will see the impact of your work through attendance and engagement. If the event hasn't happened yet, keep promoting until the day arrives. After the event, check in with the organizers to hear how it went.
 
-From here, you can promote another event or get more involved with the
-Community team by helping organize events yourself.
+From here, you can promote another event or get more involved with the Community team by helping organize events yourself.
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help),
-then ask in [#community-events](https://wordpress.slack.com/archives/community-events).
+Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#community-events](https://wordpress.slack.com/archives/community-events).
 
 ## Further reading
 
