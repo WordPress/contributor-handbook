@@ -29,9 +29,9 @@ Help a local WordPress event reach more people by running a short promotional ca
 
 ## Contribution checklist
 
-- [ ] Connected with the event organizers and agreed on what's needed
-- [ ] Promotional campaign planned and carried out using the playbook resources
-- [ ] Summary of your campaign shared in #community-events
+- Connected with the event organizers and agreed on what's needed
+- Promotional campaign planned and carried out using available
+- Summary of your campaign shared in #community-events
 
 ## What happens next
 
