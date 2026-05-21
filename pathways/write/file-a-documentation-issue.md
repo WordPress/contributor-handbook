@@ -18,8 +18,9 @@ Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
 1. **Search existing issues** on the [Documentation Issue Tracker](https://github.com/WordPress/Documentation-Issue-Tracker/issues) to make sure yours hasn't already been reported.
 2. **Open a new issue** using the [appropriate template](https://github.com/WordPress/Documentation-Issue-Tracker/issues/new/choose) — **Fix Doc Issue Report** for problems with existing pages, or **New Doc Request** for proposing new pages. Use a clear, action-oriented title following the format: `[Documentation area] + description` (e.g. `[HelpHub] Block Editor page missing character shortcut info`).
-3. **Assign yourself** by commenting `/assign` on the issue. If that doesn't work, leave a comment and a team member will assign you.
-4. **Submit for review** when your work is ready by commenting `/review` on the issue to move it to the `[Status] Review` label automatically.
+3. **Ask to be assigned to the issue.** If you'd like to work on the issue yourself, comment `/assign` on the issue. If that doesn't work, leave a comment and a team member will assign you.
+4. **Post your findings or proposed fix as a comment on the issue.** Submit for review by commenting `/review` on the issue to move it to the [Status] Review label automatically.
+5. **Apply the update to the documentation.** Once the review is complete, apply the update to the documentation page if you have edit access. If you don't, a team member with permissions will take it from there.
 
 ## Contribution checklist
 
