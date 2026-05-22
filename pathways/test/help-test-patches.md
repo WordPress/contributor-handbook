@@ -29,7 +29,9 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
    - Any unintended side effects (regressions)
    - How it behaves in different scenarios
 
-6. **Submit your test report to Trac.** Add a comment to the Trac ticket with your results. Use the [Test Reports](https://wordpress.org/plugins/test-reports/), [Bug/Defect Patch Report Template](https://make.wordpress.org/test/handbook/test-reports/patch-testing/#bug-defect-patch-report-template), or [Feature/Enhancement Patch Report Template](https://make.wordpress.org/test/handbook/test-reports/patch-testing/#feature-or-enhancement-patch-report-template), depending on the ticket type. Include your environment details and findings.
+6. **Submit your test report to Trac.** Add a comment to the Trac ticket with your results using one of these methods:
+   - **Test Reports plugin:** Use [Generating Reports with the Test Reports Plugin](https://make.wordpress.org/test/handbook/test-reports/patch-testing/#generating-reports-with-the-test-reports-plugin) on your test site to auto-generate a report with your environment details pre-filled.
+   - **Manual template:** Copy the [Patch Testing Report Template](https://make.wordpress.org/test/handbook/test-reports/patch-testing/#patch-testing-report-template) into a text editor, fill in your details and findings, then post it as a comment on the ticket.
 
 ## Contribution checklist
 
