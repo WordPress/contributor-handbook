@@ -24,7 +24,6 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
    - [Most commented issues](https://github.com/wordpress/gutenberg/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-desc) (good for summarizing stalled discussions)
    - [Issues by specific block or feature label](https://github.com/WordPress/gutenberg/labels) (for focused triage once you are comfortable)
 
-&nbsp;
 
 2. **Read the issue.** Identify what is broken or missing, what the reporter expected, and what actually happened. Determine whether it is a bug report, an enhancement request, a help request, or unclear.
 
