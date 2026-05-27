@@ -16,7 +16,7 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 
 ## Steps
 
-1. Read the "what to test" section in the [latest announcement post](https://wordpress.org/news/category/releases/) to learn which features and areas to focus on.
+1. Read the testing instructions in the [latest announcement post](https://wordpress.org/news/category/releases/) to learn which features and areas to focus on.
 2. Test by following the guidance in the announcement, paying most attention to new functionality and core behavior.
 3. Draft your findings using tips from the [Test Reports](https://make.wordpress.org/test/handbook/test-reports/) guide. Include your environment (OS, browser, WordPress version, active plugins), steps to reproduce, expected vs. actual behavior, and screenshots if helpful.
 4. To share your findings, search [WordPress Trac](https://core.trac.wordpress.org/) and the [Alpha/Beta support forums](https://wordpress.org/support/forums/forum/alpha-beta-testing/) to see if a report already exists. If you find a matching report, you can add to it. If not:
