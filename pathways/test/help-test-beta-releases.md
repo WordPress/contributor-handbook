@@ -21,7 +21,7 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 3. Draft your findings using tips from the [Test Reports](https://make.wordpress.org/test/handbook/test-reports/) guide. Include your environment (OS, browser, WordPress version, active plugins), steps to reproduce, expected vs. actual behavior, and screenshots if helpful.
 4. To share your findings, search [WordPress Trac](https://core.trac.wordpress.org/) and the [Alpha/Beta support forums](https://wordpress.org/support/forums/forum/alpha-beta-testing/) to see if a report already exists. If you find a matching report, you can add to it. If not:
    - **Found a reproducible bug?** File a ticket on [WordPress Trac](https://core.trac.wordpress.org/newticket) with your full documentation.
-   - **Unsure if it's a bug?** Post in the [Alpha/Beta support forums](https://wordpress.org/support/forums/forum/alpha-beta-testing/).
+   - **Unsure if it's a bug?** Post in the [Alpha/Beta support forums](https://wordpress.org/support/forum/alphabeta/).
 
 ## Contribution checklist
 
