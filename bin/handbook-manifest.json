@@ -202,10 +202,10 @@
         "parent": "test",
         "order": 1
     },
-    "pathways-test-help-test-patches": {
-        "title": "Patch Testing",
-        "slug": "help-test-patches",
-        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/help-test-patches.md",
+    "pathways-test-test-bug-reports": {
+        "title": "Test Bug Reports",
+        "slug": "test-bug-reports",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/test-bug-reports.md",
         "parent": "test",
         "order": 2
     },
@@ -230,12 +230,19 @@
         "parent": "test",
         "order": 5
     },
+    "pathways-test-help-test-patches": {
+        "title": "Patch Testing",
+        "slug": "help-test-patches",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/help-test-patches.md",
+        "parent": "test",
+        "order": 6
+    },
     "pathways-test-help-test-beta-releases": {
         "title": "Test Beta Relases",
         "slug": "help-test-beta-releases",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/help-test-beta-releases.md",
         "parent": "test",
-        "order": 6
+        "order": 7
     },
         "pathways-translate-translate-training-content": {
         "title": "Translate Training Content",
