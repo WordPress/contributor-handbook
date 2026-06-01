@@ -16,7 +16,7 @@ Complete the [common setup](https://make.wordpress.org/handbook/pathways/contrib
 
 ## Steps
 
-1. Identify a gap in the [Block Pattern Directory](https://wordpress.org/patterns/) — a useful pattern that doesn't exist yet or could be done in another unique way.
+1. Identify a gap in the [Block Pattern Directory](https://wordpress.org/patterns/?curation=all&orderby=favorite_count_desc) — a useful pattern that doesn't exist yet or could be done in another unique way.
 2. Design and build your pattern in the WordPress Block editor. Use the theme's default colors so the pattern will work with other themes and variations.
 3. Test your pattern in [WordPress Playground](https://wordpress.org/playground/) with different themes to make sure it looks and works as expected.
 4. Go to [Add a new pattern](https://wordpress.org/patterns/new-pattern/) on WordPress.org, and paste a pattern you've made and tested.
