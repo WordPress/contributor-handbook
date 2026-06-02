@@ -8,7 +8,7 @@ Help theme and plugin contributors get started faster by creating a Playground B
 
 ## Before you start
 
-Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) first, then:
+Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
 - **Complete:** [Build a Blueprint for the Gallery](/handbook/pathways/build/create-a-playground-blueprint/)
 - **Setup:** You need a text editor and a web browser
@@ -38,7 +38,7 @@ Once merged, anyone can spin up a working demo with one click. Then pick another
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in [#playground](https://wordpress.slack.com/archives/C04EWKGDJ0K).
+Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#playground](https://wordpress.slack.com/archives/C04EWKGDJ0K).
 
 **Further reading:**
 - [Build your first blueprint](https://wordpress.github.io/wordpress-playground/blueprints/tutorial/build-your-first-blueprint/) (refresher on the basics)
