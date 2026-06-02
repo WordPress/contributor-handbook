@@ -40,7 +40,7 @@ From here you can expand the kit with more asset types, or explore other [Design
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in [#community-events](https://wordpress.slack.com/messages/community-events) or [#community](https://wordpress.slack.com/messages/community) on Slack.
+Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#community-events](https://wordpress.slack.com/messages/community-events) or [#community](https://wordpress.slack.com/messages/community) on Slack.
 
 **Further reading:**
 - [WordPress graphics and logos](https://wordpress.org/about/logos/) — official logo downloads and approved versions
