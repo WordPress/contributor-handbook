@@ -30,7 +30,7 @@ Help a local WordPress event reach more people by running a short promotional ca
 ## Contribution checklist
 
 - Connected with the event organizers and agreed on what's needed
-- Promotional campaign planned and carried out using available
+- Promotional campaign planned and carried out using available channels, such as social media, flyers, local groups, or event organizer recommendations
 - Summary of your campaign shared in #community-events
 
 ## What happens next
