@@ -17,13 +17,13 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 ## Steps
 
 1. **Pick a starter queue.** Open one of these filtered lists and work through issues one by one:
-   - [Issues without a label](https://github.com/WordPress/gutenberg/issues?q=is%3Aopen+is%3Aissue+no%3Alabel+sort%3Aupdated-asc) (easiest place to start - you just need to categorize them)
-   - [Least recently updated issues](https://github.com/WordPress/gutenberg/issues?q=is%3Aopen+is%3Aissue+sort%3Aupdated-asc) (prevents important work from being overlooked)
-   - [Issues with no comments](https://github.com/wordpress/gutenberg/issues?q=is%3Aissue+is%3Aopen+comments%3A0+) (makes sure every report gets acknowledged)
-   - [Least commented issues](https://github.com/wordpress/gutenberg/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-asc) (additional starter queue)
-   - [Most commented issues](https://github.com/wordpress/gutenberg/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-desc) (good for summarizing stalled discussions)
-   - [Issues by specific block or feature label](https://github.com/WordPress/gutenberg/labels) (for focused triage once you are comfortable)
 
+    - [Issues without a label](https://github.com/WordPress/gutenberg/issues?q=is%3Aopen+is%3Aissue+no%3Alabel+sort%3Aupdated-asc) (easiest place to start - you just need to categorize them)
+    - [Least recently updated issues](https://github.com/WordPress/gutenberg/issues?q=is%3Aopen+is%3Aissue+sort%3Aupdated-asc) (prevents important work from being overlooked)
+    - [Issues with no comments](https://github.com/wordpress/gutenberg/issues?q=is%3Aissue+is%3Aopen+comments%3A0+) (makes sure every report gets acknowledged)
+    - [Least commented issues](https://github.com/wordpress/gutenberg/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-asc) (additional starter queue)
+    - [Most commented issues](https://github.com/wordpress/gutenberg/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-desc) (good for summarizing stalled discussions)
+    - [Issues by specific block or feature label](https://github.com/WordPress/gutenberg/labels) (for focused triage once you are comfortable)
 
 2. **Read the issue.** Identify what is broken or missing, what the reporter expected, and what actually happened. Determine whether it is a bug report, an enhancement request, a help request, or unclear.
 
