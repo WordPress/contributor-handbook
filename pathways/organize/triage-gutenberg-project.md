@@ -8,7 +8,7 @@ Triaging keeps the Gutenberg repository healthy. You review issues, check whethe
 
 ## Before you start
 
-Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) first, then:
+Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
 - **Setup:** Open [WordPress Playground](https://wordpress.org/playground/) in your browser (or a [local instance](https://learn.wordpress.org/lesson-plan/local-install/)). You will use it to test and reproduce issues.
 - **Read:** [Triage handbook](https://developer.wordpress.org/block-editor/contributors/triage/)
@@ -52,7 +52,7 @@ When you are comfortable with the basics, try focusing on a specific block or fe
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in [#core-editor](https://wordpress.slack.com/archives/C02QB2JS7). Include a link to the issue you are working on.
+Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#core-editor](https://wordpress.slack.com/archives/C02QB2JS7). Include a link to the issue you are working on.
 
 **Further reading:**
 - [How to do triage on GitHub](https://learn.wordpress.org/lesson/how-to-do-triage-on-github/) (video tutorial)
