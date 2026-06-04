@@ -8,9 +8,9 @@ Help keep pathways accurate and newcomer-friendly by walking through a guide as 
 
 ## Before you start
 
-Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) first, then:
+Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
-- **Setup:** Familiarize yourself with the [pathways directory](https://github.com/WordPress/contributor-handbook/pathways) and the [project board](https://github.com/orgs/WordPress/projects/282)
+- **Setup:** Familiarize yourself with the [pathways directory](https://github.com/WordPress/contributor-handbook/tree/main/pathways) and the [project board](https://github.com/orgs/WordPress/projects/282)
 - **Read:** Review [About Pathways](/handbook/pathways/about/)
 - **Connect:** Join [#core-program](https://wordpress.slack.com/archives/core-program) and introduce yourself, saying you'll be reviewing pathways
 
@@ -35,11 +35,11 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 
 If you've shared feedback, the pathway author or a maintainer will review your feedback. If there's no response after a week, a polite ping in the relevant team's Slack is fine.
 
-When you're ready, review another pathway or try [creating one](/handbook/contribution-pathways/write/create-a-pathway-guide/).
+When you're ready, review another pathway or try [creating one](/handbook/pathways/write/create-a-pathway-guide/).
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in the relevant team's Slack channel (the pathway should list which team owns it).
+Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in the relevant team's Slack channel (the pathway should list which team owns it).
 
 **Further reading:**
 
