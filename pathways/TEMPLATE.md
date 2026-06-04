@@ -11,7 +11,7 @@
 <div class="pathway-card">
   <div class="pathway-header">
     <span class="dashicons dashicons-lightbulb"></span> New here?</div>
-  <div class="pathway-details">Get your <a href="https://make.wordpress.org/handbook/contribution-pathways/before-you-begin/">WordPress.org account, Slack access, and community introductions</a> sorted first. You'll also learn best practices, how to find help, and how to earn contributor badges.</div>
+  <div class="pathway-details">Get your <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">WordPress.org account, Slack access, and community introductions</a> sorted first. You'll also learn best practices, how to find help, and how to earn contributor badges.</div>
 </div>
 
 [Intro paragraph: what you'll do and why it matters]
@@ -38,7 +38,7 @@
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#channel-name](https://wordpress.slack.com/archives/channel-name).
+Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathways/before-you-begin/#getting-help), then ask in [#channel-name](https://wordpress.slack.com/archives/channel-name).
 
 ## Further reading
 
