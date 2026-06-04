@@ -8,10 +8,10 @@ Turn a pathway idea into a finished guide. Pick up an issue from the project boa
 
 ## Before you start
 
-Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) first, then:
+Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
 - **Setup:** Familiarize yourself with the [Contributor Handbook GitHub repository](https://github.com/WordPress/contributor-handbook) and the [pathway project board](https://github.com/orgs/WordPress/projects/282/views/1)
-- **Read:** Review [About Pathways](/handbook/contribution-pathways/about/)
+- **Read:** Review [About Pathways](/handbook/pathways/about/)
 - **Connect:** Join [#core-program](https://wordpress.slack.com/archives/core-program) and introduce yourself
 
 ## Steps
@@ -32,11 +32,11 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 
 Maintainers will review your PR for clarity, accuracy, and completeness. Once approved, the pathway will be merged and published to the handbook.
 
-When you're ready, pick up another pathway from the project board or help review someone else's draft. You can also [suggest new guides here](https://github.com/WordPress/contributor-handbook/issues/new/choose).
+When you're ready, pick up another pathway from the project board or help review someone else's draft. You can also [suggest new guides here](https://github.com/WordPress/contributor-handbook/issues/new?template=2-new-pathway.yml).
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in [#core-program](https://wordpress.slack.com/archives/core-program).
+Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#core-program](https://wordpress.slack.com/archives/core-program).
 
 **Further reading:**
 
