@@ -4,8 +4,7 @@
   <div class="pathway-header">
     <span class="dashicons dashicons-megaphone"></span> Promote</div>
   <div class="pathway-details">
-    <div>Beginner-friendly</div>
-    <div>Project</div></div>
+    <div>Beginner-friendly project</div></div>
 </div>
 
 <div class="pathway-card">
