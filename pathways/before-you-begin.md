@@ -5,8 +5,8 @@ These steps are the same no matter which part of WordPress you want to contribut
 ## Accounts you'll need
 
 * **WordPress.org account:** [Create one here](https://login.wordpress.org/register). This is your identity across all WordPress community spaces. We recommend filling out [your profile](https://profiles.wordpress.org/) too.
-* **Slack account:** [Join the Making WordPress Slack](https://make.wordpress.org/chat/). This is where most teams communicate day to day. Add a basic profile there as well, preferably with the same picture you use on GitHub.
-* **GitHub account:** [Sign up here](https://github.com/signup). Many teams track work and accept contributions through GitHub.
+* **Slack account:** [Join the Making WordPress Slack](https://make.wordpress.org/chat/). This is where most teams communicate day to day. Add a basic profile there as well, preferably with the same picture you'll use on GitHub.
+* **GitHub account:** [Sign up here](https://github.com/signup). Many teams track work and accept contributions through GitHub. Even if you won't be coding, GitHub will come in handy: for example, we [manage this handbook](https://github.com/WordPress/contributor-handbook) there!
 
 Some projects and teams may have further requirements, but this is a good start! This [video lesson](https://learn.wordpress.org/lesson/wporg-setup/) can walk you through setting up a WordPress.org and Slack account.
 
