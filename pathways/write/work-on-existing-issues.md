@@ -44,3 +44,4 @@ Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getti
 - [Tone and Voice Guide](https://make.wordpress.org/docs/handbook/documentation-team-handbook/tone-and-voice-guide/)
 - [External Linking Policy](https://make.wordpress.org/docs/handbook/documentation-team-handbook/external-linking-policy/)
 - [Screenshot best practices](https://make.wordpress.org/docs/handbook/get-involved/onboarding-sessions/updating-and-creating-new-screenshots/)
+- [What is WordPress Playground?](https://wordpress.github.io/wordpress-playground/about) - learn more about using the WordPress Playground
