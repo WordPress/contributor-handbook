@@ -18,14 +18,14 @@ Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
 1. **Pick up an issue** from Ready or New on the [project board](https://github.com/orgs/WordPress/projects/282/views/1), comment /assign to show that you're working on it, then research the topic using linked resources, handbooks, tutorials, [Learn WordPress](https://learn.wordpress.org/), [WordPress.tv](https://wordpress.tv/), and team Slack channels.
 2. **Draft the guide** using [PROMPT.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/PROMPT.md) and AI, or with [TEMPLATE.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/TEMPLATE.md) as your guide, then post your draft (with markdown) as a comment on the issue.
-4. **Walk the pathway using your draft** as a new contributor would. Ask teams for feedback, too, and refine the markdown you've shared based on what you learn.
-5. **Signal it's reviewed and ready** by commenting /done on the issue. If you're able, set its Projects > Status to Update Manifest. Then add an .md file to the correct directory and submit a pull request, or an admin can add one from your comment.
+3. **Walk the pathway using your draft** as a new contributor would. Ask teams for feedback, too, and refine the markdown you've shared based on what you learn.
+4. **Signal it's reviewed and ready** by commenting /done on the issue. If you're able, set its Projects > Status to Update Manifest. Then add an .md file to the correct directory and submit a pull request, or an admin can add one from your comment.
 
 ## Contribution checklist
 
 - All links work and are current
 - Your draft is scannable and fits the [TEMPLATE.md](https://github.com/WordPress/contributor-handbook/blob/main/pathways/TEMPLATE.md)
-- You've tested the pathway, requested feedback, and refined accordingly 
+- You've tested the pathway, requested feedback, and refined accordingly
 - You've submitted a PR referencing the issue, or shared the guide as markdown in a comment.
 
 ## What happens next
