@@ -8,7 +8,7 @@ Design a set of reusable assets in Figma — slide templates, graphics, signage,
 
 ## Before you start
 
-Complete the [common setup](https://github.com/WordPress/contributor-handbook/blob/main/pathways/before-you-begin.md) first, then:
+Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
 - **Setup:** Create a free [Figma](https://www.figma.com/) account
 - **Read:** [WordPress style guide](https://make.wordpress.org/design/handbook/design-guide/)
@@ -36,11 +36,11 @@ The community team will review your kit in [#community-events](https://wordpress
 
 Once approved, your kit can be added to the [Design Assets section of the WordCamp organizer handbook](https://make.wordpress.org/community/handbook/wordcamp-organizer/first-steps/helpful-documents-and-templates/#design-assets) alongside existing resources like the WordCamp badge templates — making it available to every organizer running a meetup or WordCamp.
 
-From here you can expand the kit with more asset types, or explore other [Design pathways](https://github.com/WordPress/contributor-handbook/tree/main/pathways/design).
+From here you can expand the kit with more asset types, or explore other [Design pathways](/handbook/pathways/design/).
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in [#community-events](https://wordpress.slack.com/messages/community-events) or [#community](https://wordpress.slack.com/messages/community) on Slack.
+Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#community-events](https://wordpress.slack.com/messages/community-events) or [#community](https://wordpress.slack.com/messages/community) on Slack.
 
 **Further reading:**
 - [WordPress graphics and logos](https://wordpress.org/about/logos/) — official logo downloads and approved versions
