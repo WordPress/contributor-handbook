@@ -19,7 +19,7 @@ STEP 2: Read everything I've provided and confirm what I understand:
 - What contribution this pathway covers
 - What function it falls under (Build / Design / Write / Translate / Test / 
   Organize / Promote)
-- What type it is (Task / Project / Team)
+- What type it is (task / project / team)
 
 Ask me to confirm or correct. Then, based on what I've provided, skip any 
 questions you can already answer. For the rest, ask one at a time and wait 
@@ -27,12 +27,12 @@ for my answer before moving on.
 
 1. Where do people get stuck in this process?
 2. What's the one Slack channel someone should join for this?
-3. Are there one or two handbook pages that must be read before starting?
+3. Are there one or two handbook pages that should be referenced before starting?
 4. Are there any beginner pathways someone should complete first?
 
 STEP 3: Before drafting, review everything I've provided. If there are 
-issues to flag, I'll list them all briefly with what I'd change and why. 
-Ask if you want to discuss any before I draft, or if we should proceed. 
+issues to flag, list them all briefly with what you'd change and why. 
+Ask if I want to discuss any before you draft, or if we should proceed. 
 If there are no issues, move straight to drafting.
 
 STEP 4: Based on my answers, draft the full pathway guide following the 
@@ -43,42 +43,42 @@ While drafting, follow these rules:
 
 STRUCTURE:
 - Use the exact section headings from the template. Do not rename them.
-  (No "Setup" instead of "Before you start." No "Finish" instead of 
-  "What happens next." No "FAQs" instead of "Help.")
 - Do not add sections that aren't in the template.
 - Do not use checkboxes (- [ ]) — they don't render in the handbook. 
   Use plain bullets.
 - Do not use emojis.
-- In the metadata block (Function, Type, Level), add two trailing 
-  spaces after the Function and Type lines to force Markdown line breaks.
-- In "Before you start" bullets, do not add periods at the end of 
-  **Setup**, **Complete**, **Read**, and **Connect** lines — keep them 
-  brief and punchy.
 
-BEFORE YOU START:
-- Determine the Level based on the answers to question 4 and the overall 
+PATHWAY CARDS:
+- The first card shows the function and level/type. Use the correct 
+  dashicon for the function (see icon list in template).
+- Combine level and type on one line: "Beginner-friendly task" or 
+  "Intermediate project" (with hyphen in "beginner-friendly").
+- The "New here?" card is standardized — use it exactly as shown.
+
+INTRO AND BULLETS:
+- After the cards, write 1-3 sentences explaining what the contributor 
+  will do and why it matters.
+- Determine the level based on the answers to question 4 and the overall 
   complexity of the pathway:
-  - Intermediate if: there are prerequisite pathways mentioned, OR the 
-    setup requires significant existing knowledge, OR the steps are complex 
-    enough that a first-timer would likely struggle. If marking as 
-    Intermediate without a prerequisite pathway, flag which beginner 
-    pathway should be created or recommended instead.
-  - Beginner if: someone with no prior WordPress contribution experience 
-    can reasonably start here with just the common setup.
-- Maximum 3 items for Beginner: Setup, Read, Connect.
-- For Intermediate, add a fourth: Complete, linking to the prerequisite 
-  pathway. For Beginner, omit Complete.
-- Setup: only what's required to begin. If five tools are listed but 
-  two are enough to start, list the two. Move the rest to Help > 
-  Further reading.
-- Read: 1-2 must-read pages maximum. Link to the single most useful 
-  starting point. Additional references go under Help > Further reading.
-- Connect: one Slack channel with link.
+  - Intermediate if: there are prerequisite 
+    pathways mentioned, OR the setup requires significant existing 
+    knowledge, OR the steps are complex enough that a first-timer would 
+    likely struggle. If marking as intermediate without a prerequisite 
+    pathway, flag which beginner pathway should be created or recommended.
+  - Beginner-friendly if: someone with no prior WordPress contribution 
+    experience can reasonably start here with just the common setup.
+- For intermediate pathways, include a **Prerequisite:** bullet linking 
+  to the prerequisite pathway. For beginner pathways, omit it.
+- **Reference:** links to 1-2 must-read pages maximum. Link to the single 
+  most useful starting point. Additional references go under Further reading.
+- **Connect:** one Slack channel with link, with standard phrasing: 
+  "Join [#channel-name](url) on Slack and introduce yourself"
 - If someone has to read or install more than a few things before they 
   can begin, the pathway is overloaded. Simplify.
 
 STEPS:
 - 3-8 steps. Each step is one clear action.
+- Bold the step title, followed by details.
 - If a step has more than 1-2 sub-bullets, simplify it or split it 
   into its own step.
 - If a step is optional, mark it clearly but don't let optional steps 
@@ -107,8 +107,12 @@ WHAT HAPPENS NEXT:
 HELP:
 - Start with "Stuck?" and a direct path to help (the getting help 
   guide + team Slack).
-- "Further reading" comes after — deeper references and handbook 
-  links go here.
+- Use the same Slack channel from the Connect bullet.
+
+FURTHER READING:
+- This is a proper ## heading, not bold text.
+- Deeper references and handbook links go here.
+- Format as: [Title](link) — brief description
 - Do not create a FAQ section. If the source material includes 
   FAQ-style content, flag it at the end as a potential handbook 
   update, not pathway content.
@@ -149,35 +153,57 @@ TEMPLATE:
 
 # [Pathway Title]
 
-**Function:** Build / Design / Write / Translate / Test / Organize / Promote  
-**Type:** Task / Project / Team  
-**Level:** Beginner / Intermediate
+<!--
+ICONS BY FUNCTION:
+  Build     → dashicons-editor-code
+  Design    → dashicons-art
+  Write     → dashicons-edit-page
+  Translate → dashicons-translation
+  Test      → dashicons-welcome-view-site
+  Organize  → dashicons-networking
+  Promote   → dashicons-megaphone
+-->
+
+<div class="pathway-card">
+  <div class="pathway-header">
+    <span class="dashicons dashicons-[icon]"></span> [Function]</div>
+  <div class="pathway-details">
+    <div>[Beginner-friendly / Intermediate] [task / project / team]</div></div>
+</div>
+
+<div class="pathway-card">
+  <div class="pathway-header">
+    <span class="dashicons dashicons-lightbulb"></span> New here?</div>
+  <div class="pathway-details">Get your <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">WordPress.org account, Slack access, and community introductions</a> sorted first. You'll also learn best practices, how to find help, and how to earn contributor badges.</div>
+</div>
 
 [1-3 sentences: what you'll do and why it matters, in plain language.]
 
-## Before you start
-
-Complete the [common setup](https://make.wordpress.org/handbook/pathways/before-you-begin/) first, then:
-
-- **Setup:** [Any additional tools or prep beyond the basics]
-- **Complete:** [Intermediate only: link to prerequisite pathway]
-- **Read:** [Pathway-specific, must-read page(s)]
-- **Connect:** Join [Slack channel specific to this pathway, with link] and introduce yourself
+- **Prerequisite:** [Intermediate only: link to prerequisite pathway]
+- **Reference:** [Primary handbook/resource link]
+- **Connect:** Join [#channel-name](https://wordpress.slack.com/archives/channel-name) on Slack and introduce yourself
 
 ## Steps
-1. 
-2. 
-3. 
+
+1. **[Step title.]** [Step details.]
+
+2. **[Step title.]** [Step details.]
+
+3. **[Step title.]** [Step details.]
 
 ## Contribution checklist
+
 - 
--  
+- 
 
 ## What happens next
 
+[Expectations and next steps]
+
 ## Help
 
-Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathways/before-you-begin/#getting-help), then ask in the team slack.
+Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathways/before-you-begin/#getting-help), then ask in [#channel-name](https://wordpress.slack.com/archives/channel-name).
 
-**Further reading:**
-- [Detailed reference](link)
+## Further reading
+
+- [Resource title](link) — brief description
