@@ -41,4 +41,4 @@ Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getti
 - [GitHub Issues Coordinator role](https://make.wordpress.org/docs/handbook/get-involved/team-roles/non-project-roles/) — full description of coordinator responsibilities
 - [GitHub roles onboarding video](https://wordpress.tv/2023/11/14/the-documentation-team-github-roles-onboarding/) — video walkthrough of all GitHub-related roles
 - [Labels guide](https://make.wordpress.org/docs/handbook/github-repository-and-projects/documentation-issue-tracker/) — detailed reference for all label groups
-- [WordPress Playground](https://wordpress.org/playground/) - learn more about using the WordPress Playground
+- [What is WordPress Playground?](https://wordpress.github.io/wordpress-playground/about) - learn more about using the WordPress Playground
