@@ -8,9 +8,9 @@ Help grow the pathways index by suggesting a new contribution pathway. You can p
 
 ## Before you start
 
-Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) first, then:
+Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
-- **Read:** [About Pathways](/pathways/about/) to understand what makes a good pathway
+- **Read:** [About Pathways](/handbook/pathways/about/) to understand what makes a good pathway
 - **Connect:** Join [#core-program](https://wordpress.slack.com/archives/C09EEAUJFQS) and introduce yourself
 
 ## Steps
@@ -18,7 +18,7 @@ Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) f
 1. Search the [Pathways project board](https://github.com/orgs/WordPress/projects/282) to make sure your idea isn't already there. If it is, add feedback or volunteer to draft a guide.
 2. Ask yourself: is this idea based on an existing, already-maintained process or team? If it's something new that would need ongoing maintenance, it'll need team vetting first.
 3. Gather any relevant links and context — handbook pages, team channels, documentation, or examples that support your idea.
-4. [File a New Pathway issue](https://github.com/WordPress/contributor-handbook/issues/new/choose) and include the links and context you gathered, then create the issue.
+4. [File a New Pathway issue](https://github.com/WordPress/contributor-handbook/issues/new?template=2-new-pathway.yml) and include the links and context you gathered, then create the issue.
 
 ## Contribution checklist
 
@@ -33,7 +33,7 @@ Your suggestion goes to the [project board](https://github.com/orgs/WordPress/pr
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in [#core-program](https://wordpress.slack.com/archives/C09EEAUJFQS).
+Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#core-program](https://wordpress.slack.com/archives/C09EEAUJFQS).
 
 **Note:** File a pathway issue rather than editing the pathways index directly. The issue process ensures your idea gets proper review.
 
