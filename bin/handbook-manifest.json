@@ -286,6 +286,13 @@
         "parent": "organize",
         "order": 4
     },
+    "pathways-organize-triage-theme-check-issues": {
+        "title": "Triage Theme Check Issues",
+        "slug": "triage-theme-check-issues",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/organize\/triage-theme-check-issues.md",
+        "parent": "organize",
+        "order": 5
+    },
     "pathways-organize-triage-gutenberg-project": {
         "title": "Triage Gutenberg issues",
         "slug": "triage-gutenberg-project",
