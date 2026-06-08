@@ -289,7 +289,7 @@
     "pathways-organize-pathways/organize/triage-theme-check-issues": {
         "title": "Triage Theme Check Issues",
         "slug": "pathways/organize/triage-theme-check-issues",
-        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/organize\/pathways/organize/triage-theme-check-issues.md",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/organize\/triage-theme-check-issues.md",
         "parent": "organize",
         "order": 5
     },
