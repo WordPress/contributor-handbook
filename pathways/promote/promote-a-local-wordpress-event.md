@@ -10,7 +10,7 @@
 <div class="pathway-card">
   <div class="pathway-header">
     <span class="dashicons dashicons-lightbulb"></span> New here?</div>
-  <div class="pathway-details">Get your <a href="https://make.wordpress.org/handbook/contribution-pathways/before-you-begin/">WordPress.org account, Slack access, and community introductions</a> sorted first. You'll also learn best practices, how to find help, and how to earn contributor badges.</div>
+  <div class="pathway-details">Set up your <a href="https://make.wordpress.org/handbook/contribution-pathways/before-you-begin/">accounts and access here</a> and read up on badges and community guidelines.</div>
 </div>
 
 Help a local WordPress event reach more people by running a short promotional campaign. The most effective local promotion combines online sharing with physical placement — flyers in coffee shops, mentions at other meetups, posts in local groups. Pick what fits your community.
