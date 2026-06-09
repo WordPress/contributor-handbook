@@ -1,17 +1,5 @@
 # Add Captions to WPTV Videos
 
-<div class="wp-block-wporg-sidebar-container is-floating-sidebar" data-breakpoint="1300px">
-  <div class="pathway-info">
-    <div class="pathway-header">
-      <span class="dashicons dashicons-megaphone"></span> Promote
-    </div>
-    <div class="pathway-dtails">
-      <p>Beginner-friendly task</p>
-      <p class="newbies">New here? <a href="/handbook/pathways/before-you-begin/">Get set up</a> with accounts, community basics, and info on badges. →</p>
-    </div>
-  </div>
-</div>
-
 Help make WordPress.tv videos accessible by adding captions or translating existing subtitles. You'll pick a video, caption it using Amara.org, and submit it for review.
 
 - **Reference:** [Captioning guide on WordPress.tv](https://wordpress.tv/using-amara-org-to-caption-or-subtitle-a-wordpress-tv-video/) — the full process from start to finish
@@ -47,3 +35,15 @@ Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getti
 **Further reading:**
 - [WPTV Team Handbook](https://make.wordpress.org/tv/handbook/)
 - [WPTV Team Blog](https://make.wordpress.org/tv/)
+
+<div class="wp-block-wporg-sidebar-container is-floating-sidebar" data-breakpoint="1300px">
+  <div class="pathway-info">
+    <div class="pathway-header">
+      <span class="dashicons dashicons-megaphone"></span> Promote
+    </div>
+    <div class="pathway-dtails">
+      <p>Beginner-friendly task</p>
+      <p class="newbies">New here? <a href="/handbook/pathways/before-you-begin/">Get set up</a> with accounts, community basics, and info on badges. →</p>
+    </div>
+  </div>
+</div>
