@@ -1,13 +1,13 @@
 # Add Captions to WPTV Videos
 
 <div class="wp-block-wporg-sidebar-container is-floating-sidebar" data-breakpoint="1300px">
-  <div class="pathway-card">
-    <div class="pathway-card-header">
+  <div class="pathway-info">
+    <div class="pathway-header">
       <span class="dashicons dashicons-megaphone"></span> Promote
     </div>
-    <div class="pathway-card-body">
-      <div class="pathway-meta">Beginner-friendly task</div>
-      <p class="pathway-newbie">New here? <a href="/handbook/pathways/before-you-begin/">Get set up</a> →</p>
+    <div class="pathway-dtails">
+      <p>Beginner-friendly task</p>
+      <p class="pathway-newbie"><span class="dashicons dashicons-lightbulb"></span> New here? <a href="/handbook/pathways/before-you-begin/">Get accounts & access info</a> →</p>
     </div>
   </div>
 </div>
