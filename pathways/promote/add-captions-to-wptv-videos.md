@@ -7,7 +7,7 @@
     </div>
     <div class="pathway-dtails">
       <p>Beginner-friendly task</p>
-      <p class="pathway-newbie"><span class="dashicons dashicons-lightbulb"></span> New here? <a href="/handbook/pathways/before-you-begin/">Get accounts & access info</a> →</p>
+      <p class="pathway-newbie"><span class="dashicons dashicons-lightbulb"></span> New here? Get set up with <a href="/handbook/pathways/before-you-begin/">accounts,community basics, and info on badges →</a></p>
     </div>
   </div>
 </div>
