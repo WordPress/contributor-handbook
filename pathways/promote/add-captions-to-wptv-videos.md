@@ -1,34 +1,42 @@
 # Add Captions to WPTV Videos
 
-**Function:** Promote  
-**Type:** Task  
-**Level:** Beginner  
+<div class="wp-block-wporg-sidebar-container is-floating-sidebar" data-breakpoint="1300px">
+  <div class="pathway-card">
+    <div class="pathway-card-header">
+      <span class="dashicons dashicons-megaphone"></span> Promote
+    </div>
+    <div class="pathway-card-body">
+      <div class="pathway-meta">Beginner-friendly task</div>
+      <p class="pathway-newbie">New here? <a href="/handbook/pathways/before-you-begin/">Get set up</a> →</p>
+    </div>
+  </div>
+</div>
 
-Help make WordPress.tv videos accessible to a wider audience by adding captions or translating existing subtitles. You'll pick a video, caption it using Amara.org, and submit it for review.
+Help make WordPress.tv videos accessible by adding captions or translating existing subtitles. You'll pick a video, caption it using Amara.org, and submit it for review.
 
-## Before you start
-
-Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
-
-- **Setup:** Create a free account on [Amara.org](https://amara.org/).
-- **Read:** Read through the [captioning guide on WordPress.tv](https://wordpress.tv/using-amara-org-to-caption-or-subtitle-a-wordpress-tv-video/) — this covers the full process from start to finish.
-- **Connect:** Join [#wptv](https://wordpress.slack.com/archives/wptv) on Slack and introduce yourself.
+- **Reference:** [Captioning guide on WordPress.tv](https://wordpress.tv/using-amara-org-to-caption-or-subtitle-a-wordpress-tv-video/) — the full process from start to finish
+- **Connect:** Join [#wptv](https://wordpress.slack.com/archives/wptv) on Slack and introduce yourself
 
 ## Steps
 
-1. **Find a video that needs captions.** Browse [WordPress.tv](https://wordpress.tv/) and look for videos that show "Subtitle this video →" in the sidebar under Subtitles. Latest videos are a good place to start.
-2. **Caption the video** by following the [captioning guide](https://wordpress.tv/using-amara-org-to-caption-or-subtitle-a-wordpress-tv-video/). The guide walks through using Amara.org to add captions or translate existing subtitles.
-3. **Upload your caption file** to the video's page on WordPress.tv by clicking "Subtitle this video" in the sidebar. The [captioning guide](https://wordpress.tv/using-amara-org-to-caption-or-subtitle-a-wordpress-tv-video/) covers this step in detail.
-4. **Post in #wptv** that you've submitted captions, including a link to the video. This helps moderators find your submission and lets you get feedback if anything needs fixing — especially encoding issues that can occur with non-English subtitles.
+1. **Create an account on [Amara.org](https://amara.org/).** It's free. You'll use this to edit captions.
 
-## Contribution checklist
+2. **Find a video that needs captions.** Browse [WordPress.tv](https://wordpress.tv/) and look for videos showing "Subtitle this video →" in the sidebar. Latest videos are a good place to start.
 
-- Captions or translation completed and uploaded to the video's WordPress.tv page
-- Posted in #wptv with a link to the video
+3. **Caption the video.** Follow the [captioning guide](https://wordpress.tv/using-amara-org-to-caption-or-subtitle-a-wordpress-tv-video/) to add captions or translate existing subtitles using Amara.org.
+
+4. **Upload your caption file.** Click "Subtitle this video" on the video's WordPress.tv page. The guide covers this step.
+
+5. **Post in #wptv** that you've submitted captions, with a link to the video. Helps moderators find it and lets you get feedback — especially for encoding issues with non-English subtitles.
+
+## Done?
+
+- Captions uploaded to the video's WordPress.tv page
+- Posted in #wptv with a link
 
 ## What happens next
 
-A moderator will review your captions. If there's no response after 2–3 weeks, ask in #wptv.
+A moderator will review your captions. If no response after 2–3 weeks, ask in #wptv.
 
 When you're ready, pick another video — there are always more that need captions.
 
