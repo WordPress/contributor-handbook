@@ -38,7 +38,7 @@ Your pattern must not:
 
 Allow a few days for the pattern to be reviewed, then you'll receive an email to let you know if it was approved.
 
-When you're ready, design and submit more patterns, explore new categories, or consider [joining the patterns moderation team](https://make.wordpress.org/handbook/pathways/design/join-the-patterns-moderation-team/).
+When you're ready, design and submit more patterns, explore new categories, or consider helping others in the [#patterns](https://wordpress.slack.com/archives/patterns) channel.
 
 ## Help
 
