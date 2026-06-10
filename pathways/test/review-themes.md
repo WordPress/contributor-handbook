@@ -2,7 +2,7 @@
 
 **Function:** Test  
 **Type:** Task  
-**Level:** Intermediate  
+**Level:** Beginner  
 
 Theme reviewers help theme authors get their themes into the official WordPress theme directory. You'll install and test themes, review code for security issues, and confirm GPL compatibility — all of which keep the directory safe and high-quality for everyone.
 
@@ -10,7 +10,7 @@ Theme reviewers help theme authors get their themes into the official WordPress 
 
 Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
-- **Setup:** Set up a [local WordPress environment](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/), set `WP_DEBUG` to `true` in your `wp-config.php`, and install the [Theme Check](https://wordpress.org/plugins/theme-check/) plugin.
+- **Setup:** [Open the Theme Review Environment in Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/wordpress/blueprints/3dfa5dbbbe050863c9e97fe3d39668eeac2b8228/blueprints/theme-review-environment/blueprint.json)
 - **Read:** Work through the [Onboarding for new reviewers](https://make.wordpress.org/themes/handbook/get-involved/onboarding-for-new-reviewers/) guide. It walks you through the full process step by step, from setting up your environment to writing your first review.
 - **Connect:** Join [#themes](https://wordpress.slack.com/archives/themes) on Slack and introduce yourself. Attend meetings if possible, or read meeting notes.
 
