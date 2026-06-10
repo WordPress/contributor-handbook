@@ -63,7 +63,7 @@ PATHWAY CARD:
   - Combine level and type on first line using these patterns:
   - "Beginner-friendly task" or "Beginner-friendly project"
   - "Intermediate task" or "Intermediate project"
-  - For teams: "Beginner-friendly team" or just "team"
+  - For teams: "Beginner-friendly team" or just "Team"
 - Body has level/type on first line, "New here?" paragraph on second.
 - Use the card HTML exactly as shown in the template.
 
@@ -190,7 +190,7 @@ Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathwa
       <span class="dashicons dashicons-megaphone"></span> [Function]
     </div>
     <div class="pathway-dtails">
-      <p>[Beginner-friendly / Some experience needed] [task / project / team]</p>
+      <p>[Beginner-friendly / Intermediate] [task / project / Team]</p>
       <p class="newbies">New here? <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">Get set up</a> with accounts, community basics, and info on badges. →</p>
     </div>
   </div>
