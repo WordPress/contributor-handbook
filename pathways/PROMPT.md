@@ -153,33 +153,9 @@ TEMPLATE:
 
 # [Pathway Title]
 
-<!--
-ICONS BY FUNCTION:
-  Build     → dashicons-editor-code
-  Design    → dashicons-art
-  Write     → dashicons-edit-page
-  Translate → dashicons-translation
-  Test      → dashicons-welcome-view-site
-  Organize  → dashicons-networking
-  Promote   → dashicons-megaphone
--->
+[Intro paragraph: what you'll do and why it matters]
 
-<div class="pathway-card">
-  <div class="pathway-header">
-    <span class="dashicons dashicons-[icon]"></span> [Function]</div>
-  <div class="pathway-details">
-    <div>[Beginner-friendly / Intermediate] [task / project / team]</div></div>
-</div>
-
-<div class="pathway-card">
-  <div class="pathway-header">
-    <span class="dashicons dashicons-lightbulb"></span> New here?</div>
-  <div class="pathway-details">Get your <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">WordPress.org account, Slack access, and community introductions</a> sorted first. You'll also learn best practices, how to find help, and how to earn contributor badges.</div>
-</div>
-
-[1-3 sentences: what you'll do and why it matters, in plain language.]
-
-- **Prerequisite:** [Intermediate only: link to prerequisite pathway]
+- **Prerequisite:** [For intermediate only: link to the prerequisite pathway]
 - **Reference:** [Primary handbook/resource link]
 - **Connect:** Join [#channel-name](https://wordpress.slack.com/archives/channel-name) on Slack and introduce yourself
 
@@ -193,8 +169,8 @@ ICONS BY FUNCTION:
 
 ## Contribution checklist
 
-- 
-- 
+- [Checklist item but formatted with a bullet since checks won't render]
+- [Checklist item]
 
 ## What happens next
 
@@ -204,6 +180,29 @@ ICONS BY FUNCTION:
 
 Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathways/before-you-begin/#getting-help), then ask in [#channel-name](https://wordpress.slack.com/archives/channel-name).
 
-## Further reading
+**Further reading:**
+- [Resource title](link)
+- [Resource title](link)
 
-- [Resource title](link) — brief description
+<div class="wp-block-wporg-sidebar-container is-floating-sidebar" data-breakpoint="1300px">
+  <div class="pathway-info">
+    <div class="pathway-header">
+      <span class="dashicons dashicons-megaphone"></span> [Function]
+    </div>
+    <div class="pathway-dtails">
+      <p>[Beginner-friendly / Some experience needed] [task / project / team]</p>
+      <p class="newbies">New here? <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">Get set up</a> with accounts, community basics, and info on badges. →</p>
+    </div>
+  </div>
+</div>
+
+<!--
+ICONS BY FUNCTION:
+  Build     → dashicons-editor-code
+  Design    → dashicons-art
+  Write     → dashicons-edit-page
+  Translate → dashicons-translation
+  Test      → dashicons-welcome-view-site
+  Organize  → dashicons-networking
+  Promote   → dashicons-megaphone
+-->
