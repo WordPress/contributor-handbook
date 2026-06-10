@@ -12,7 +12,7 @@ This work is tracked in the [Documentation Issue Tracker](https://github.com/Wor
 
 Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
-- **Setup:** Set up [WordPress Playground](https://playground.wordpress.net/) to explore features, take screenshots, and verify changes. If writing directly to HelpHub, request access in #docs — otherwise, draft in a Google Doc and share the link.
+- **Setup:** Open this [Beta/RC Playground](https://playground.wordpress.net/) during the release cycle to explore features, take screenshots, and verify changes. If writing directly to HelpHub, request access in #docs — otherwise, draft in a Google Doc and share the link.
 - **Read:** Read through the [documentation process during a major version release](https://make.wordpress.org/docs/handbook/workflows/documentation-process-during-a-major-version-release/) — this is the team's primary reference for how release documentation works.
 - **Connect:** Join [#docs](https://wordpress.slack.com/archives/docs) on Slack. Volunteer during a weekly Docs team meeting when the call goes out. Less experienced contributors are encouraged — you may be paired with a mentor.
 
