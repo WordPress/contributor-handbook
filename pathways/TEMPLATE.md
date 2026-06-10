@@ -1,29 +1,5 @@
 # [Pathway Title]
 
-<!--
-ICONS BY FUNCTION:
-  Build     → dashicons-editor-code
-  Design    → dashicons-art
-  Write     → dashicons-edit-page
-  Translate → dashicons-translation
-  Test      → dashicons-welcome-view-site
-  Organize  → dashicons-networking
-  Promote   → dashicons-megaphone
--->
-
-<div class="pathway-card">
-  <div class="pathway-header">
-    <span class="dashicons dashicons-[icon]"></span> [Function]</div>
-  <div class="pathway-details">
-    <div>[Beginner-friendly / Some experience needed] [task / project / team]</div></div>
-</div>
-
-<div class="pathway-card">
-  <div class="pathway-header">
-    <span class="dashicons dashicons-lightbulb"></span> New here?</div>
-  <div class="pathway-details">Get your <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">WordPress.org account, Slack access, and community introductions</a> sorted first. You'll also learn best practices, how to find help, and how to earn contributor badges.</div>
-</div>
-
 [Intro paragraph: what you'll do and why it matters]
 
 - **Prerequisite:** [For intermediate only: link to the prerequisite pathway]
@@ -40,7 +16,7 @@ ICONS BY FUNCTION:
 
 ## Contribution checklist
 
-- [Checklist item]
+- [Checklist item but formatted with a bullet since checks won't render]
 - [Checklist item]
 
 ## What happens next
@@ -49,9 +25,31 @@ ICONS BY FUNCTION:
 
 ## Help
 
-Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathways/before-you-begin/#getting-help), then ask in [#channel-name](https://wordpress.slack.com/archives/channel-name).
+Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#channel-name](https://wordpress.slack.com/archives/channel-name).
 
-## Further reading
+**Further reading:**
+- [Resource title](link)
+- [Resource title](link)
 
-- [Resource title](link) — brief description
-- [Resource title](link) — brief description
+<div class="wp-block-wporg-sidebar-container is-floating-sidebar" data-breakpoint="1300px">
+  <div class="pathway-info">
+    <div class="pathway-header">
+      <span class="dashicons dashicons-megaphone"></span> [Function]
+    </div>
+    <div class="pathway-dtails">
+      <p>[Beginner-friendly / Some experience needed] [task / project / team]</p>
+      <p class="newbies">New here? <a href="/handbook/pathways/before-you-begin/">Get set up</a> with accounts, community basics, and info on badges. →</p>
+    </div>
+  </div>
+</div>
+
+<!--
+ICONS BY FUNCTION:
+  Build     → dashicons-editor-code
+  Design    → dashicons-art
+  Write     → dashicons-edit-page
+  Translate → dashicons-translation
+  Test      → dashicons-welcome-view-site
+  Organize  → dashicons-networking
+  Promote   → dashicons-megaphone
+-->
