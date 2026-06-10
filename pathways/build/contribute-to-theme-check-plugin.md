@@ -16,14 +16,14 @@
 
 Help maintain the plugin that checks WordPress themes against directory submission requirements. Every theme submitted to WordPress.org is run through Theme Check, so improvements to this plugin affect thousands of themes.
 
-- **Setup:** Fork and clone the [Theme Check repository](https://github.com/WordPress/theme-check). Set up a local dev environment or use [WordPress Playground](https://wordpress.github.io/wordpress-playground/).
+- **Setup:** Fork and clone the [Theme Check repository](https://github.com/WordPress/theme-check). Set up a local dev environment or use [WordPress Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/wordpress/blueprints/3dfa5dbbbe050863c9e97fe3d39668eeac2b8228/blueprints/theme-review-environment/blueprint.json).
 - **Complete:** [Review a Theme](/handbook/pathways/test/review-themes/)
 - **Read:** The [plugin readme](https://github.com/WordPress/theme-check#readme)
 - **Connect:** Join [#themes](https://wordpress.slack.com/archives/C02RP4Y3K) and introduce yourself
 
 ## Steps
 
-1. **Explore:** Open Theme Check in Playground or your local environment and run it against a theme you have or one from the [theme directory](https://wordpress.org/themes/). See what it catches and what the output looks like.
+1. **Explore:** [Open Theme Check in Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/wordpress/blueprints/3dfa5dbbbe050863c9e97fe3d39668eeac2b8228/blueprints/theme-review-environment/blueprint.json) or your local environment and run it against a theme you have or one from the [theme directory](https://wordpress.org/themes/). See what it catches and what the output looks like.
 2. **Read:** Pick an [open issue](https://github.com/WordPress/theme-check/issues) and read the full thread. Observe how people communicate. Ignore anything referencing "sniffer" — it's a deprecated tool no longer in development.
 3. **Test:** Test an [open PR](https://github.com/WordPress/theme-check/pulls) using Playground or a local environment. Does it do what it says? Leave a comment with what you found.
 4. **Comment:** Add something useful to an issue — a reproduction, a question, a confirmation.
