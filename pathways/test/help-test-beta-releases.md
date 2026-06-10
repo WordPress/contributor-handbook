@@ -1,33 +1,29 @@
 # Test Beta Releases
 
-**Function:** Test  
-**Type:** Task  
-**Level:** Beginner
-
 Test a pre-release version of WordPress (beta or RC) to find bugs and usability issues before the final release. Your test reports help make each WordPress release stable and reliable.
 
-## Before you start
-
-Complete the [common setup](/handbook/contribution-pathways/before-you-begin/) first, then:
-
-- **Setup:** From the most recent [Beta or RC Release announcement](https://wordpress.org/news/category/releases/), click the Playground link to setup a test environment
-- **Read:** [Test Reports](https://make.wordpress.org/test/handbook/test-reports/) to learn how to structure your findings
+- **Reference:** [Test Reports](https://make.wordpress.org/test/handbook/test-reports/) — how to structure your findings
 - **Connect:** Join [#core-test](https://wordpress.slack.com/archives/core-test) and [#core-editor](https://wordpress.slack.com/archives/core-editor) on Slack and introduce yourself
 
 ## Steps
 
-1. Read the testing instructions in the [latest announcement post](https://wordpress.org/news/category/releases/) to learn which features and areas to focus on.
-2. Test by following the guidance in the announcement, paying most attention to new functionality and core behavior.
-3. Draft your findings using tips from the [Test Reports](https://make.wordpress.org/test/handbook/test-reports/) guide. Include your environment (OS, browser, WordPress version, active plugins), steps to reproduce, expected vs. actual behavior, and screenshots if helpful.
-4. To share your findings, search [WordPress Trac](https://core.trac.wordpress.org/) and the [Alpha/Beta support forums](https://wordpress.org/support/forums/forum/alpha-beta-testing/) to see if a report already exists. If you find a matching report, you can add to it. If not:
+1. **Set up your test environment.** From the most recent [Beta or RC Release announcement](https://wordpress.org/news/category/releases/), click the Playground link to launch a test environment.
+
+2. **Read the testing instructions.** The announcement post explains which features and areas to focus on.
+
+3. **Test the release.** Follow the guidance in the announcement, paying most attention to new functionality and core behavior.
+
+4. **Draft your findings.** Include your environment (OS, browser, WordPress version, active plugins), steps to reproduce, expected vs. actual behavior, and screenshots if helpful.
+
+5. **Share your findings.** Search [WordPress Trac](https://core.trac.wordpress.org/) and the [Alpha/Beta support forums](https://wordpress.org/support/forum/alphabeta/) to see if a report already exists. If you find a match, add to it. If not:
    - **Found a reproducible bug?** File a ticket on [WordPress Trac](https://core.trac.wordpress.org/newticket) with your full documentation.
    - **Unsure if it's a bug?** Post in the [Alpha/Beta support forums](https://wordpress.org/support/forum/alphabeta/).
 
 ## Contribution checklist
 
-- Tested at least one feature
-- Shared your findings or reported bugs
-- Reports include [key features](https://make.wordpress.org/test/handbook/test-reports/)  and helpful context
+- Tested at least one feature from the announcement
+- Shared findings or reported bugs with helpful context
+- Report includes environment details and steps to reproduce
 
 ## What happens next
 
@@ -37,7 +33,20 @@ Once you've tested one release, you can test the next one or explore other [Test
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/contribution-pathways/before-you-begin/#getting-help), then ask in [#core-test](https://wordpress.slack.com/archives/core-test) on Slack.
+Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathways/before-you-begin/#getting-help), then ask in [#core-test](https://wordpress.slack.com/archives/core-test) on Slack.
 
 **Further reading:**
-- [Get Set Up for Testing](https://make.wordpress.org/test/handbook/get-setup-for-testing/) — Playground is a fast start, but you can also create your own local test environment
+- [Latest release announcements](https://wordpress.org/news/category/releases/)
+- [Get Set Up for Testing](https://make.wordpress.org/test/handbook/get-setup-for-testing/) — Playground is a fast start, but you can also create a local test environment
+
+<div class="wp-block-wporg-sidebar-container is-floating-sidebar" data-breakpoint="1300px">
+  <div class="pathway-info">
+    <div class="pathway-header">
+      <span class="dashicons dashicons-welcome-view-site"></span> Test
+    </div>
+    <div class="pathway-dtails">
+      <p>Beginner-friendly task</p>
+      <p class="newbies">New here? <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">Get set up</a> with accounts, community basics, and info on badges. →</p>
+    </div>
+  </div>
+</div>
