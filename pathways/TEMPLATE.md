@@ -25,7 +25,7 @@
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#channel-name](https://wordpress.slack.com/archives/channel-name).
+Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathways/before-you-begin/#getting-help), then ask in [#channel-name](https://wordpress.slack.com/archives/channel-name).
 
 **Further reading:**
 - [Resource title](link)
@@ -38,7 +38,7 @@ Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getti
     </div>
     <div class="pathway-dtails">
       <p>[Beginner-friendly / Some experience needed] [task / project / team]</p>
-      <p class="newbies">New here? <a href="/handbook/pathways/before-you-begin/">Get set up</a> with accounts, community basics, and info on badges. →</p>
+      <p class="newbies">New here? <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">Get set up</a> with accounts, community basics, and info on badges. →</p>
     </div>
   </div>
 </div>
