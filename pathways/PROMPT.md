@@ -60,10 +60,10 @@ PATHWAY CARD:
     created or recommended.
   - Beginner-friendly if: someone with no prior WordPress contribution 
     experience can reasonably start here with just the common setup.
-  - Combine level and type on first line using these patterns:
+- Combine level and type on first line using these patterns:
   - "Beginner-friendly task" or "Beginner-friendly project"
   - "Intermediate task" or "Intermediate project"
-  - For teams: "Beginner-friendly team" or just "Team"
+  - For teams: "Beginner-friendly team" or "Join a team"
 - Body has level/type on first line, "New here?" paragraph on second.
 - Use the card HTML exactly as shown in the template.
 
