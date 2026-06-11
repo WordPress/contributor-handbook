@@ -1,33 +1,29 @@
 # Test for Accessibility
 
-**Function:** Test  
-**Type:** Task  
-**Level:** Beginner  
-
 You'll find accessibility tickets, test them using your keyboard, browser tools, and optionally a screen reader, then report your findings. Every test result helps the Accessibility team identify and fix barriers that prevent people with disabilities from using WordPress.
 
-## Before you start
-
-Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
-
-- **Setup:** Install the [axe DevTools browser extension](https://www.deque.com/axe/browser-extensions/). Your keyboard and axe DevTools are enough to start — screen reader testing is covered in step 4.
-- **Read:** Read through the [Test for Web Accessibility](https://make.wordpress.org/accessibility/handbook/test-for-web-accessibility/) handbook page. The goal is familiarity, not mastery.
-- **Connect:** Join [#accessibility](https://wordpress.slack.com/archives/accessibility) on Slack and introduce yourself.
+- **Reference:** [Test for Web Accessibility](https://make.wordpress.org/accessibility/handbook/test-for-web-accessibility/)
+- **Connect:** Join [#accessibility](https://wordpress.slack.com/archives/accessibility) on Slack and introduce yourself
 
 ## Steps
 
-1. **Find a ticket to test** from the [Tickets, Tasks, and Reports](https://make.wordpress.org/accessibility/handbook/get-involved/tickets-tasks-reports/) page — start with good first bugs or tickets with patches on [Core Trac](https://core.trac.wordpress.org/query?status=!closed&focuses=~accessibility&keywords=~good-first-bug), or [Needs Accessibility Feedback](https://github.com/WordPress/gutenberg/labels/Needs%20Accessibility%20Feedback) issues on Gutenberg. If the lists feel overwhelming, ask in #accessibility.
-2. **Keyboard test.** Put your mouse aside. Use Tab/Shift+Tab to navigate, Enter/Space to activate, arrow keys inside menus. Check that you can reach every interactive element, see where focus is, operate everything without a mouse, and escape modals. See the [Keyboard navigation testing guide](https://wpaccessibility.org/docs/testing/keyboard/).
-3. **Automated scan.** Open DevTools (F12), go to the axe DevTools tab, and click "Scan All of My Page." Note issues relevant to your ticket. Automated tools catch ~30% of issues — they're a starting point, not a complete test.
-4. **Screen reader test** (optional, but where the team most needs help). Navigate the page with [NVDA](https://www.nvaccess.org/download/) (Windows) or VoiceOver (built into Mac) and check roles, reading order, alt text, and form labels. See the [Screen reader testing guide](https://wpaccessibility.org/docs/testing/screen-readers/).
-5. **Report your findings.** Add a comment on the ticket with what you tested, how you tested (tools, browser, OS), and what you found. Include steps to reproduce and screenshots where possible. See the [Reporting Issues](https://make.wordpress.org/accessibility/handbook/reporting-issues/) handbook page. For new issues, file on [Core Trac](https://core.trac.wordpress.org/) (Focus: "accessibility", Type: "defect (bug)"), [Gutenberg GitHub](https://github.com/WordPress/gutenberg/issues), or [Meta Trac](https://meta.trac.wordpress.org/) depending on where the issue lives.
+1. **Install the axe DevTools extension.** Get the [axe DevTools browser extension](https://www.deque.com/axe/browser-extensions/). Your keyboard and axe DevTools are enough to start — screen reader testing is covered in step 5.
+
+2. **Find a ticket to test.** Check the [Tickets, Tasks, and Reports](https://make.wordpress.org/accessibility/handbook/get-involved/tickets-tasks-reports/) page — start with good first bugs or tickets with patches on [Core Trac](https://core.trac.wordpress.org/query?status=!closed&focuses=~accessibility&keywords=~good-first-bug), or [Needs Accessibility Feedback](https://github.com/WordPress/gutenberg/labels/Needs%20Accessibility%20Feedback) issues on Gutenberg. If the lists feel overwhelming, ask in #accessibility.
+
+3. **Keyboard test.** Put your mouse aside. Use Tab/Shift+Tab to navigate, Enter/Space to activate, arrow keys inside menus. Check that you can reach every interactive element, see where focus is, operate everything without a mouse, and escape modals. See the [Keyboard navigation testing guide](https://wpaccessibility.org/docs/testing/keyboard/).
+
+4. **Automated scan.** Open DevTools (F12), go to the axe DevTools tab, and click "Scan All of My Page." Note issues relevant to your ticket. Automated tools catch ~30% of issues — they're a starting point, not a complete test.
+
+5. **Screen reader test** (optional, but where the team most needs help). Navigate the page with [NVDA](https://www.nvaccess.org/download/) (Windows) or VoiceOver (built into Mac) and check roles, reading order, alt text, and form labels. See the [Screen reader testing guide](https://wpaccessibility.org/docs/testing/screen-readers/).
+
+6. **Report your findings.** Add a comment on the ticket with what you tested, how you tested (tools, browser, OS), and what you found. Include steps to reproduce and screenshots where possible. See the [Reporting Issues](https://make.wordpress.org/accessibility/handbook/reporting-issues/) handbook page. For new issues, file on [Core Trac](https://core.trac.wordpress.org/) (Focus: "accessibility", Type: "defect (bug)"), [Gutenberg GitHub](https://github.com/WordPress/gutenberg/issues), or [Meta Trac](https://meta.trac.wordpress.org/) depending on where the issue lives.
 
 ## Contribution checklist
 
 - Tested against a specific ticket or issue using at least one testing method
-- Report includes what you tested, how you tested (tools, browser, OS), and steps to reproduce
+- Report includes what you tested, how you tested, and steps to reproduce
 - Report posted in the right place (Core Trac, Gutenberg GitHub, or Meta Trac)
-- New tickets filed with correct Focus and Type
 
 ## What happens next
 
@@ -37,10 +33,22 @@ As you gain confidence, expand your testing methods and check the [Current Relea
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#accessibility](https://wordpress.slack.com/archives/accessibility).
+Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathways/before-you-begin/#getting-help), then ask in [#accessibility](https://wordpress.slack.com/archives/accessibility).
 
 **Further reading:**
 - [WebAIM WCAG Checklist](https://webaim.org/standards/wcag/checklist) — WordPress targets [WCAG 2.2 AA](https://www.w3.org/TR/WCAG22/)
 - [Accessibility Quick Start Guide](https://wpaccessibility.org/docs/start/quick-wins/)
-- [WAVE browser extension](https://wave.webaim.org/extension/) for visual accessibility checks
+- [WAVE browser extension](https://wave.webaim.org/extension/) — for visual accessibility checks
 - [Installing WordPress locally](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/) or use [WordPress Playground](https://playground.wordpress.net/) for testing patches
+
+<div class="wp-block-wporg-sidebar-container is-floating-sidebar" data-breakpoint="1300px">
+  <div class="pathway-info">
+    <div class="pathway-header">
+      <span class="dashicons dashicons-welcome-view-site"></span> Test
+    </div>
+    <div class="pathway-dtails">
+      <p>Beginner-friendly task</p>
+      <p class="newbies">New here? <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">Get set up</a> with accounts, community basics, and info on badges. →</p>
+    </div>
+  </div>
+</div>
