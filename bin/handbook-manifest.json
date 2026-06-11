@@ -195,6 +195,13 @@
         "parent": "write",
         "order": 6
     },
+    "pathways-write-contribute-to-wp-accessibility-knowledge-base": {
+        "title": "Contribute to WP Accessibility Knowledge Base",
+        "slug": "contribute-to-wp-accessibility-knowledge-base",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/write\/contribute-to-wp-accessibility-knowledge-base.md",
+        "parent": "write",
+        "order": 7
+    },
     "pathways-test-review-a-pathway-guide": {
         "title": "Review a Pathway Guide",
         "slug": "review-a-pathway-guide",
@@ -250,6 +257,13 @@
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/help-test-beta-releases.md",
         "parent": "test",
         "order": 7
+    },
+    "pathways-test-review-themes-for-accessibility-ready-tag": {
+        "title": "Review Themes for Accessibility-Ready Tag",
+        "slug": "review-themes-for-accessibility-ready-tag",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/review-themes-for-accessibility-ready-tag.md",
+        "parent": "test",
+        "order": 8
     },
         "pathways-translate-translate-training-content": {
         "title": "Translate Training Content",
