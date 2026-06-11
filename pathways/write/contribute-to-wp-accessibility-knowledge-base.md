@@ -4,7 +4,7 @@
   <div class="pathway-header">
     <span class="dashicons dashicons-edit-page"></span> Write</div>
   <div class="pathway-details">
-    <div>Beginner-friendly task</div></div>
+    <div>Intermediate task</div></div>
 </div>
 
 <div class="pathway-card">
