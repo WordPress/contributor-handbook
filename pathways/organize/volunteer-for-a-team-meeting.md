@@ -1,24 +1,19 @@
 # Volunteer for a Team Meeting
 
-**Function:** Organize  
-**Type:** Task  
-**Level:** Intermediate  
-
 Help keep your Make WordPress team running by volunteering to facilitate a meeting or take notes. Most teams need volunteers for these roles every week, and it's one of the most direct ways to contribute once you've joined a team.
 
-## Before you start
-
-Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
-
-- **Complete:** You should have already joined a Make WordPress team and attended at least one of their meetings
-- **Read:** Take the [Community Meeting Etiquette](https://learn.wordpress.org/course/community-meeting-etiquette/) course on Learn WordPress
+- **Prerequisite:** Already joined a Make WordPress team and attended at least one of their meetings
+- **Reference:** [Community Meeting Etiquette](https://learn.wordpress.org/course/community-meeting-etiquette/) — Learn WordPress course
 - **Connect:** Join the Slack channel for your Make team. The [Make WordPress teams page](https://make.wordpress.org/) lists each team's channel and their next scheduled meeting time
 
 ## Steps
 
 1. **Attend a meeting as a participant.** Get a feel for the format, the agenda structure, and how the facilitator and note-taker work together. Read a few published meeting notes on your team's blog to understand what the output looks like.
+
 2. **Volunteer when the call goes out.** Most teams ask for volunteers to take notes or facilitate at some point during the meeting. Offer to help with whichever role you're comfortable with. Note-taking is a good first step if you're new to the team.
-3. **Confirm the process with your team.** Each team handles meetings differently. Check with a team rep about how they publish agendas and notes. Some teams want a blog post on their Make site, others have different formats. If your team uses Slack Huddles, the auto-generated notes can be a useful starting point to work from, but they should always be reviewed for accuracy.
+
+3. **Confirm the process with your team.** Each team handles meetings differently. Check with a team rep about how they publish agendas and notes. Some teams want a blog post on their Make site, others have different formats. If your team uses Slack Huddles, the auto-generated notes can be a useful starting point, but they should always be reviewed for accuracy.
+
 4. **Publish the agenda or notes.** Depending on your role, publish the agenda before the meeting or the notes after it on your team's Make blog. If you don't have blog access, ask a team rep to help.
 
 ## Contribution checklist
@@ -33,11 +28,23 @@ Most teams need facilitators and note-takers every week, so there's always an op
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in your team's Slack channel.
+Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathways/before-you-begin/#getting-help), then ask in your team's Slack channel.
 
 **Further reading:**
-- [Make WordPress meetings calendar](https://make.wordpress.org/meetings/) for meeting times across all teams
-- [Facilitating weekly meetings (Docs team)](https://make.wordpress.org/docs/handbook/workflows/facilitating-weekly-meetings/) as a detailed example of how one team handles facilitation and notes
-- [Hosting Training Team Meetings](https://make.wordpress.org/training/handbook/training-team-how-to-guides/hosting-training-team-meetings/) covering both team meetings and coffee hours
-- [How to Write Meeting Agendas and Recap Posts (Training team)](https://make.wordpress.org/training/handbook/training-team-how-to-guides/how-to-write-a-meeting-agenda-or-recap/)
-- [Writing in the WordPress Voice](https://learn.wordpress.org/course/writing-in-the-wordpress-voice/) for writing clear meeting notes
+- [Make WordPress meetings calendar](https://make.wordpress.org/meetings/) — meeting times across all teams
+- [Facilitating weekly meetings (Docs team)](https://make.wordpress.org/docs/handbook/workflows/facilitating-weekly-meetings/) — detailed example of how one team handles facilitation and notes
+- [Hosting Training Team Meetings](https://make.wordpress.org/training/handbook/training-team-how-to-guides/hosting-training-team-meetings/) — covers both team meetings and coffee hours
+- [How to Write Meeting Agendas and Recap Posts](https://make.wordpress.org/training/handbook/training-team-how-to-guides/how-to-write-a-meeting-agenda-or-recap/)
+- [Writing in the WordPress Voice](https://learn.wordpress.org/course/writing-in-the-wordpress-voice/) — for writing clear meeting notes
+
+<div class="wp-block-wporg-sidebar-container is-floating-sidebar" data-breakpoint="1300px">
+  <div class="pathway-info">
+    <div class="pathway-header">
+      <span class="dashicons dashicons-networking"></span> Organize
+    </div>
+    <div class="pathway-dtails">
+      <p>Intermediate task</p>
+      <p class="newbies">New here? <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">Get set up</a> with accounts, community basics, and info on badges. →</p>
+    </div>
+  </div>
+</div>

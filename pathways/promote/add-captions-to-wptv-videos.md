@@ -17,7 +17,7 @@ Help make WordPress.tv videos accessible by adding captions or translating exist
 
 5. **Post in #wptv** that you've submitted captions, with a link to the video. Helps moderators find it and lets you get feedback — especially for encoding issues with non-English subtitles.
 
-## Done?
+## Contribution checklist
 
 - Captions uploaded to the video's WordPress.tv page
 - Posted in #wptv with a link
@@ -30,7 +30,7 @@ When you're ready, pick another video — there are always more that need captio
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#wptv](https://wordpress.slack.com/archives/wptv).
+Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathways/before-you-begin/#getting-help), then ask in [#wptv](https://wordpress.slack.com/archives/wptv).
 
 **Further reading:**
 - [WPTV Team Handbook](https://make.wordpress.org/tv/handbook/)
@@ -43,7 +43,7 @@ Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getti
     </div>
     <div class="pathway-dtails">
       <p>Beginner-friendly task</p>
-      <p class="newbies">New here? <a href="/handbook/pathways/before-you-begin/">Get set up</a> with accounts, community basics, and info on badges. →</p>
+      <p class="newbies">New here? <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">Get set up</a> with accounts, community basics, and info on badges. →</p>
     </div>
   </div>
 </div>

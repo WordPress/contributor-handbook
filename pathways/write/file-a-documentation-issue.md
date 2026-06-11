@@ -1,26 +1,23 @@
 # File a Documentation Issue
 
-**Function:** Write  
-**Type:** Task  
-**Level:** Beginner  
-
 You'll report documentation problems — outdated content, typos, dead links, missing info — or propose new pages by opening issues in the WordPress Documentation Issue Tracker. Well-filed issues help the team prioritize fixes and get documentation updated faster.
 
-## Before you start
-
-Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
-
-- **Setup:** Set up [WordPress Playground](https://playground.wordpress.net/) for testing.
-- **Read:** Read through the [reporting an issue workflow](https://make.wordpress.org/docs/handbook/workflows/reporting-an-issue/) so you understand how the team tracks and manages documentation work.
-- **Connect:** Join [#docs](https://wordpress.slack.com/archives/docs) on Slack and introduce yourself.
+- **Reference:** [Reporting an issue workflow](https://make.wordpress.org/docs/handbook/workflows/reporting-an-issue/) — how the team tracks and manages documentation work
+- **Connect:** Join [#docs](https://wordpress.slack.com/archives/docs) on Slack and introduce yourself
 
 ## Steps
 
-1. **Search existing issues** on the [Documentation Issue Tracker](https://github.com/WordPress/Documentation-Issue-Tracker/issues) to make sure yours hasn't already been reported.
-2. **Open a new issue** using the [appropriate template](https://github.com/WordPress/Documentation-Issue-Tracker/issues/new/choose) — **Fix Doc Issue Report** for problems with existing pages, or **New Doc Request** for proposing new pages. Use a clear, action-oriented title following the format: `[Documentation area] + description` (e.g. `[HelpHub] Block Editor page missing character shortcut info`).
-3. **Ask to be assigned to the issue.** If you'd like to work on the issue yourself, comment `/assign` on the issue. If that doesn't work, leave a comment and a team member will assign you.
-4. **Post your findings or proposed fix as a comment on the issue.** Submit for review by commenting `/review` on the issue to move it to the [Status] Review label automatically.
-5. **Apply the update to the documentation.** Once the review is complete, apply the update to the documentation page if you have edit access. If you don't, a team member with permissions will take it from there.
+1. **Set up your testing environment.** Open [WordPress Playground](https://playground.wordpress.net/) to verify issues when needed.
+
+2. **Search existing issues** on the [Documentation Issue Tracker](https://github.com/WordPress/Documentation-Issue-Tracker/issues) to make sure yours hasn't already been reported.
+
+3. **Open a new issue** using the [appropriate template](https://github.com/WordPress/Documentation-Issue-Tracker/issues/new/choose) — **Fix Doc Issue Report** for problems with existing pages, or **New Doc Request** for proposing new pages. Use a clear, action-oriented title following the format: `[Documentation area] + description` (e.g. `[HelpHub] Block Editor page missing character shortcut info`).
+
+4. **Ask to be assigned to the issue.** If you'd like to work on the issue yourself, comment `/assign` on the issue. If that doesn't work, leave a comment and a team member will assign you.
+
+5. **Post your findings or proposed fix as a comment on the issue.** Submit for review by commenting `/review` on the issue to move it to the [Status] Review label automatically.
+
+6. **Apply the update to the documentation.** Once the review is complete, apply the update to the documentation page if you have edit access. If you don't, a team member with permissions will take it from there.
 
 ## Contribution checklist
 
@@ -33,11 +30,11 @@ Complete the [common setup](/handbook/pathways/before-you-begin/) first, then:
 
 A contributor will review your work and comment with suggestions. Once the review is finalized, a team member will apply the fix and close the issue. If there's no response after 2–3 weeks, ping in #docs.
 
-When you're ready, file another issue or try [working on one](/handbook/pathways/write/work-on-existing-issues/).
+When you're ready, file another issue or try [working on one](https://make.wordpress.org/handbook/pathways/write/work-on-existing-issues/).
 
 ## Help
 
-Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getting-help), then ask in [#docs](https://wordpress.slack.com/archives/docs).
+Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathways/before-you-begin/#getting-help), then ask in [#docs](https://wordpress.slack.com/archives/docs).
 
 **Further reading:**
 - [Documentation Issue Tracker handbook page](https://make.wordpress.org/docs/handbook/github-repository-and-projects/documentation-issue-tracker/)
@@ -47,3 +44,15 @@ Stuck? Check the [getting help guide](/handbook/pathways/before-you-begin/#getti
 - [External Linking Policy](https://make.wordpress.org/docs/handbook/documentation-team-handbook/external-linking-policy/)
 - [Screenshot best practices](https://make.wordpress.org/docs/handbook/get-involved/onboarding-sessions/updating-and-creating-new-screenshots/)
 - [Issue labels reference](https://github.com/WordPress/Documentation-Issue-Tracker/labels)
+
+<div class="wp-block-wporg-sidebar-container is-floating-sidebar" data-breakpoint="1300px">
+  <div class="pathway-info">
+    <div class="pathway-header">
+      <span class="dashicons dashicons-edit-page"></span> Write
+    </div>
+    <div class="pathway-dtails">
+      <p>Beginner-friendly task</p>
+      <p class="newbies">New here? <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">Get set up</a> with accounts, community basics, and info on badges. →</p>
+    </div>
+  </div>
+</div>

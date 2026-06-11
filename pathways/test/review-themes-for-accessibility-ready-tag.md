@@ -1,22 +1,9 @@
 # Review Themes for Accessibility-Ready Tag
 
-<div class="pathway-card">
-  <div class="pathway-header">
-    <span class="dashicons dashicons-welcome-view-site"></span> Test</div>
-  <div class="pathway-details">
-    <div>Intermediate task</div></div>
-</div>
-
-<div class="pathway-card">
-  <div class="pathway-header">
-    <span class="dashicons dashicons-lightbulb"></span> New here?</div>
-  <div class="pathway-details">Get your <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">WordPress.org account, Slack access, and community introductions</a> sorted first. You'll also learn best practices, how to find help, and how to earn contributor badges.</div>
-</div>
-
 Review a WordPress theme against the accessibility-ready requirements and report what you find. Your review helps a theme earn the accessibility-ready tag, which tells users it works with keyboards, screen readers, and other assistive technology.
 
-- **Prerequisite:** [Test for Accessibility](https://make.wordpress.org/handbook/pathways/test/test-for-accessibility/), which covers the keyboard and screen reader testing you'll use here
-- **Reference:** The [accessibility-ready testing process](https://wpaccessibility.org/docs/testing/testing-themes/)
+- **Prerequisite:** [Test for Accessibility](https://make.wordpress.org/handbook/pathways/test/test-for-accessibility/) — covers the keyboard and screen reader testing you'll use here
+- **Reference:** [Accessibility-ready testing process](https://wpaccessibility.org/docs/testing/testing-themes/)
 - **Connect:** Join [#accessibility](https://wordpress.slack.com/archives/accessibility) on Slack and introduce yourself
 
 ## Steps
@@ -31,7 +18,7 @@ Review a WordPress theme against the accessibility-ready requirements and report
 
 5. **Test against the requirements.** Work through the [accessibility-ready guidelines](https://wpaccessibility.org/docs/topics/theme-guidelines/), which include a testing note for each one. Check the theme with your keyboard, a screen reader, and an automated scanner, recording each result in your report. The [keyboard](https://wpaccessibility.org/docs/testing/keyboard/) and [screen reader](https://wpaccessibility.org/docs/testing/screen-readers/) guides show how.
 
-6. **Share your report.** Post your completed report on the theme's Trac ticket and tag the developer so they can address what you found. If you get stuck at any point, ask in [#accessibility](https://wordpress.slack.com/archives/accessibility).
+6. **Share your report.** Post your completed report on the theme's Trac ticket and tag the developer so they can address what you found.
 
 ## Contribution checklist
 
@@ -42,13 +29,28 @@ Review a WordPress theme against the accessibility-ready requirements and report
 
 ## What happens next
 
-Your report goes to the theme developer and the Themes Team on the Trac ticket. The developer addresses the issues you flag, and the theme can be approved for the accessibility-ready tag once it meets every requirement. You may be asked to re-test after changes. If the ticket goes quiet, post in [#accessibility](https://wordpress.slack.com/archives/accessibility).
+Your report goes to the theme developer and the Themes Team on the Trac ticket. The developer addresses the issues you flag, and the theme can be approved for the accessibility-ready tag once it meets every requirement. You may be asked to re-test after changes. If the ticket goes quiet, post in #accessibility.
 
-Once you've finished a review, pick up another theme from the queue, or join an accessibility bug scrub in [#accessibility](https://wordpress.slack.com/archives/accessibility) to test alongside the team.
+Once you've finished a review, pick up another theme from the queue, or join an accessibility bug scrub in #accessibility to test alongside the team.
 
-## Further reading
+## Help
 
+Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathways/before-you-begin/#getting-help), then ask in [#accessibility](https://wordpress.slack.com/archives/accessibility).
+
+**Further reading:**
 - [WP accessibility-ready guidelines](https://wpaccessibility.org/docs/topics/theme-guidelines/) — the full requirements, with testing notes for each
 - [Testing workflow tips](https://wpaccessibility.org/docs/testing/testing-themes/theme-testing-workflow/) — practical advice for working through a review
 - [Reporting sheet overview](https://wpaccessibility.org/docs/testing/testing-themes/reporting-sheet/) — how the report template is organized
 - [Theme developer handbook: Accessibility](https://make.wordpress.org/themes/handbook/review/accessibility/) — the same requirements from the theme review side
+
+<div class="wp-block-wporg-sidebar-container is-floating-sidebar" data-breakpoint="1300px">
+  <div class="pathway-info">
+    <div class="pathway-header">
+      <span class="dashicons dashicons-welcome-view-site"></span> Test
+    </div>
+    <div class="pathway-dtails">
+      <p>Intermediate task</p>
+      <p class="newbies">New here? <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">Get set up</a> with accounts, community basics, and info on badges. →</p>
+    </div>
+  </div>
+</div>

@@ -48,25 +48,28 @@ STRUCTURE:
   Use plain bullets.
 - Do not use emojis.
 
-PATHWAY CARDS:
-- The first card shows the function and level/type. Use the correct 
-  dashicon for the function (see icon list in template).
-- Combine level and type on one line: "Beginner-friendly task" or 
-  "Intermediate project" (with hyphen in "beginner-friendly").
-- The "New here?" card is standardized — use it exactly as shown.
-
-INTRO AND BULLETS:
-- After the cards, write 1-3 sentences explaining what the contributor 
-  will do and why it matters.
+PATHWAY CARD:
+- The card goes at the end of the file, after Further reading.
+- Use the correct dashicon for the function (see icon list in template comment).
 - Determine the level based on the answers to question 4 and the overall 
   complexity of the pathway:
-  - Intermediate if: there are prerequisite 
-    pathways mentioned, OR the setup requires significant existing 
-    knowledge, OR the steps are complex enough that a first-timer would 
-    likely struggle. If marking as intermediate without a prerequisite 
-    pathway, flag which beginner pathway should be created or recommended.
+  - Intermediate if: there are prerequisite pathways mentioned, OR the setup 
+    requires significant existing knowledge, OR the steps are complex enough 
+    that a first-timer would likely struggle. If marking as intermediate 
+    without a prerequisite pathway, flag which beginner pathway should be 
+    created or recommended.
   - Beginner-friendly if: someone with no prior WordPress contribution 
     experience can reasonably start here with just the common setup.
+- Combine level and type on first line using these patterns:
+  - "Beginner-friendly task" or "Beginner-friendly project"
+  - "Intermediate task" or "Intermediate project"
+  - For teams: "Beginner-friendly team" or "Join a team"
+- Body has level/type on first line, "New here?" paragraph on second.
+- Use the card HTML exactly as shown in the template.
+
+INTRO AND BULLETS:
+- After the title, write 1-3 sentences explaining what the contributor 
+  will do and why it matters.
 - For intermediate pathways, include a **Prerequisite:** bullet linking 
   to the prerequisite pathway. For beginner pathways, omit it.
 - **Reference:** links to 1-2 must-read pages maximum. Link to the single 
@@ -94,7 +97,7 @@ STEPS:
   resources actually have available work. If unsure, flag it.
 
 CONTRIBUTION CHECKLIST:
-- 3-5 items maximum. Plain bullets.
+- 3-5 items maximum. Plain bullets (checkboxes don't render).
 - Short statements showing what "done" looks like.
 - If items are redundant or overlapping, cut them.
 
@@ -110,12 +113,9 @@ HELP:
 - Use the same Slack channel from the Connect bullet.
 
 FURTHER READING:
-- This is a proper ## heading, not bold text.
-- Deeper references and handbook links go here.
-- Format as: [Title](link) — brief description
-- Do not create a FAQ section. If the source material includes 
-  FAQ-style content, flag it at the end as a potential handbook 
-  update, not pathway content.
+- Lives under the Help section as bold text, not a separate heading.
+- Deeper references and handbook links go here as bullets
+- Format as: [Resource title](link)
 
 TONE:
 - Plain language. Short sentences. No jargon unless the audience 
@@ -153,33 +153,9 @@ TEMPLATE:
 
 # [Pathway Title]
 
-<!--
-ICONS BY FUNCTION:
-  Build     → dashicons-editor-code
-  Design    → dashicons-art
-  Write     → dashicons-edit-page
-  Translate → dashicons-translation
-  Test      → dashicons-welcome-view-site
-  Organize  → dashicons-networking
-  Promote   → dashicons-megaphone
--->
+[Intro paragraph: what you'll do and why it matters]
 
-<div class="pathway-card">
-  <div class="pathway-header">
-    <span class="dashicons dashicons-[icon]"></span> [Function]</div>
-  <div class="pathway-details">
-    <div>[Beginner-friendly / Intermediate] [task / project / team]</div></div>
-</div>
-
-<div class="pathway-card">
-  <div class="pathway-header">
-    <span class="dashicons dashicons-lightbulb"></span> New here?</div>
-  <div class="pathway-details">Get your <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">WordPress.org account, Slack access, and community introductions</a> sorted first. You'll also learn best practices, how to find help, and how to earn contributor badges.</div>
-</div>
-
-[1-3 sentences: what you'll do and why it matters, in plain language.]
-
-- **Prerequisite:** [Intermediate only: link to prerequisite pathway]
+- **Prerequisite:** [For intermediate only: link to the prerequisite pathway]
 - **Reference:** [Primary handbook/resource link]
 - **Connect:** Join [#channel-name](https://wordpress.slack.com/archives/channel-name) on Slack and introduce yourself
 
@@ -193,8 +169,8 @@ ICONS BY FUNCTION:
 
 ## Contribution checklist
 
-- 
-- 
+- [Checklist item but formatted with a bullet since checks won't render]
+- [Checklist item]
 
 ## What happens next
 
@@ -204,6 +180,29 @@ ICONS BY FUNCTION:
 
 Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathways/before-you-begin/#getting-help), then ask in [#channel-name](https://wordpress.slack.com/archives/channel-name).
 
-## Further reading
+**Further reading:**
+- [Resource title](link)
+- [Resource title](link)
 
-- [Resource title](link) — brief description
+<div class="wp-block-wporg-sidebar-container is-floating-sidebar" data-breakpoint="1300px">
+  <div class="pathway-info">
+    <div class="pathway-header">
+      <span class="dashicons dashicons-megaphone"></span> [Function]
+    </div>
+    <div class="pathway-dtails">
+      <p>[Beginner-friendly / Intermediate] [task / project / Team]</p>
+      <p class="newbies">New here? <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">Get set up</a> with accounts, community basics, and info on badges. →</p>
+    </div>
+  </div>
+</div>
+
+<!--
+ICONS BY FUNCTION:
+  Build     → dashicons-editor-code
+  Design    → dashicons-art
+  Write     → dashicons-edit-page
+  Translate → dashicons-translation
+  Test      → dashicons-welcome-view-site
+  Organize  → dashicons-networking
+  Promote   → dashicons-megaphone
+-->

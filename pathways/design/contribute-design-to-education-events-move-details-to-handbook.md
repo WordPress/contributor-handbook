@@ -1,4 +1,4 @@
-# Design: WordPress Education Programs Design Requests
+# (Duplicate, but some of these steps can go into a community or education handbook so I'll keep it til it's moved. This does not use any existing template either.)
 
 **Type:** Project (Bounded work, may take multiple weeks)
 
