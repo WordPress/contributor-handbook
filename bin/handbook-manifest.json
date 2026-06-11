@@ -83,6 +83,13 @@
         "parent": "pathways",
         "order": 9
     },
+    "pathways-maintenance": {
+        "title": "Maintaining Contribution Pathways",
+        "slug": "maintenance",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/maintenance\/index.md",
+        "parent": "pathways",
+        "order": 10
+    },
     "pathways-build-contribute-to-gatherpress": {
         "title": "Contribute to GatherPress",
         "slug": "contribute-to-gatherpress",
