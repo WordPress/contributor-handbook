@@ -9,3 +9,4 @@ Pathways for contributing through testing, bug reporting, and quality feedback
 - **[Task: Review Content on Learn WordPress](https://make.wordpress.org/handbook/pathways/test/review-content-on-learn-wordpress/)** - Help keep educational content accurate
 - **[Task: Help test Patches](/handbook/pathways/test/help-test-patches/)** – Test patches with the team to help make WordPress more stable
 - **[Task: Test Beta Releases](/handbook/pathways/test/help-test-beta-releases/)** – Test pre-release versions of WordPress and report bugs before they ship to millions of sites
+- **[Review Themes for Accessibility-Ready Tag](https://make.wordpress.org/handbook/pathways/test/review-themes-for-accessibility-ready-tag/)** - Review a theme for accessibility. If it passes, it earns a tag that tells users it's built to work for everyone.
