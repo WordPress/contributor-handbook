@@ -1,21 +1,8 @@
 # Contribute to WP Accessibility Knowledge Base
 
-<div class="pathway-card">
-  <div class="pathway-header">
-    <span class="dashicons dashicons-edit-page"></span> Write</div>
-  <div class="pathway-details">
-    <div>Beginner-friendly task</div></div>
-</div>
-
-<div class="pathway-card">
-  <div class="pathway-header">
-    <span class="dashicons dashicons-lightbulb"></span> New here?</div>
-  <div class="pathway-details">Get your <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">WordPress.org account, Slack access, and community introductions</a> sorted first. You'll also learn best practices, how to find help, and how to earn contributor badges.</div>
-</div>
-
 Help build the [WP Accessibility Knowledge Base](https://wpaccessibility.org/), the WordPress community's accessibility documentation. You can write a new page on a topic that interests you, review existing content, or report an error you notice.
 
-- **Reference:** The [How to contribute](https://wpaccessibility.org/docs/about/contribute/) page
+- **Reference:** [How to contribute](https://wpaccessibility.org/docs/about/contribute/)
 - **Connect:** Join [#accessibility-docs](https://wordpress.slack.com/archives/accessibility-docs) on Slack and introduce yourself
 
 ## Steps
@@ -28,7 +15,7 @@ Help build the [WP Accessibility Knowledge Base](https://wpaccessibility.org/), 
 
 4. **Report instead (optional).** Not writing a full page? [Reporting an error](https://wpaccessibility.org/docs/about/contribute/report-error/) you've found is a valid contribution on its own.
 
-5. **Share for review.** Submit your work through the [contact form](https://make.wordpress.org/accessibility/accessibility-knowledge-base-contact/), the [#accessibility-docs](https://wordpress.slack.com/archives/accessibility-docs) channel, a comment on the related [GitHub issue](https://github.com/wpaccessibility/wp-a11y-docs/issues), or a [pull request](https://wpaccessibility.org/docs/about/contribute/github/pull-requests/).
+5. **Share for review.** Submit your work through the [contact form](https://make.wordpress.org/accessibility/accessibility-knowledge-base-contact/), the #accessibility-docs channel, a comment on the related [GitHub issue](https://github.com/wpaccessibility/wp-a11y-docs/issues), or a [pull request](https://wpaccessibility.org/docs/about/contribute/github/pull-requests/).
 
 ## Contribution checklist
 
@@ -47,8 +34,19 @@ When you're ready, pick up another topic or settle into an area you can develop 
 
 Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathways/before-you-begin/#getting-help), then ask in [#accessibility-docs](https://wordpress.slack.com/archives/accessibility-docs).
 
-## Further reading
-
+**Further reading:**
 - [Write documentation](https://wpaccessibility.org/docs/about/contribute/write/) — page structure and the rules for writing a Knowledge Base page
 - [Make WordPress Accessibility](https://make.wordpress.org/accessibility/) — team updates and meeting notes
 - [Accessibility Team Handbook](https://make.wordpress.org/accessibility/handbook/) — how the team works and how to get involved
+
+<div class="wp-block-wporg-sidebar-container is-floating-sidebar" data-breakpoint="1300px">
+  <div class="pathway-info">
+    <div class="pathway-header">
+      <span class="dashicons dashicons-edit-page"></span> Write
+    </div>
+    <div class="pathway-dtails">
+      <p>Beginner-friendly task</p>
+      <p class="newbies">New here? <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">Get set up</a> with accounts, community basics, and info on badges. →</p>
+    </div>
+  </div>
+</div>
