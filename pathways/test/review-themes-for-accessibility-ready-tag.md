@@ -8,9 +8,9 @@ Review a WordPress theme against the accessibility-ready requirements and report
 
 ## Steps
 
-1. **Find a theme to review.** New themes that requested the tag are in the [Themes Trac accessibility-ready queue](https://themes.trac.wordpress.org/query?status=!closed&status=!approved&keywords=~accessibility-ready&report=9&order=priority). Already-published themes are listed in the [review request spreadsheet](https://docs.google.com/spreadsheets/d/1AGJ4R13Y3VfnhT_qkvRyGd6DwpzZaGC0KZwqwD472fc/edit). See [Identifying themes](https://wpaccessibility.org/docs/testing/testing-themes/identifying-themes/).
+1. **Find a theme to review.** New themes that requested the tag are in the [Themes Trac accessibility-ready queue](https://themes.trac.wordpress.org/query?status=!closed&status=!approved&keywords=~accessibility-ready&report=9&order=priority). Published themes awaiting review are listed in the [review tracking spreadsheet](https://docs.google.com/spreadsheets/d/1AGJ4R13Y3VfnhT_qkvRyGd6DwpzZaGC0KZwqwD472fc/edit).
 
-2. **Claim it.** For a new theme, comment on its Trac ticket that you're reviewing it for accessibility. For a published theme, set its status to "Reviewing" in the spreadsheet and add your WordPress.org username. This stops two people testing the same theme.
+2. **Claim it.** For a new theme, comment on its Trac ticket that you're reviewing it for accessibility. For a published theme, ask in [#accessibility](https://wordpress.slack.com/archives/accessibility) and the team will assign you one. This stops two people testing the same theme.
 
 3. **Set up a test site.** Launch the [accessibility-ready InstaWP template site](https://app.instawp.io/launch?s=wp-accessibility-ready-test-sites&d=v2), then install, activate, and configure the theme with the demo content. Playground does not work for these reviews. Full instructions are in [Getting set up to test](https://wpaccessibility.org/docs/testing/testing-themes/setup/).
 
@@ -22,8 +22,8 @@ Review a WordPress theme against the accessibility-ready requirements and report
 
 ## Contribution checklist
 
-- Claimed the theme on its Trac ticket or in the review spreadsheet before starting
-- Tested with keyboard, screen reader, and an automated scanner
+- Claimed a new theme on its Trac ticket, or had a published theme assigned, before starting
+- Tested with keyboard, screen reader, and an automated scanner against the accessibility-ready guidelines
 - Recorded every result in your own copy of the report template
 - Posted the completed report on the theme's Trac ticket and tagged the developer
 
