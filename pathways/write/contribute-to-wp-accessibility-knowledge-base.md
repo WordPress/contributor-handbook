@@ -45,7 +45,7 @@ Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathwa
       <span class="dashicons dashicons-edit-page"></span> Write
     </div>
     <div class="pathway-dtails">
-      <p>Beginner-friendly task</p>
+      <p>Intermediate task</p>
       <p class="newbies">New here? <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">Get set up</a> with accounts, community basics, and info on badges. →</p>
     </div>
   </div>
