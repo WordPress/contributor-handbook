@@ -26,11 +26,7 @@ Once a pathway passes review, it's moved to the **Add to Manifest** column on th
 
 ## Publishing New Pathways
 
-New pathways move through columns on the [project board](https://github.com/orgs/WordPress/projects/282/views/1), from ideation to published pathway. Here's the workflow once a pathway reaches **Add to Manifest**:
-
-### 1. Update the JSON manifest
-
-Add the new pathway entry to [bin/handbook-manifest.json](https://github.com/WordPress/contributor-handbook/blob/main/bin/handbook-manifest.json). Be sure to:
+New pathways move through columns on the [project board](https://github.com/orgs/WordPress/projects/282/views/1), from ideation to published pathway. When a pathway is done, it should be in the **Add to Manifest** column. To proceed, edit [bin/handbook-manifest.json](https://github.com/WordPress/contributor-handbook/blob/main/bin/handbook-manifest.json) and add the new pathway guide there. Be sure to:
 
 - Follow the existing format exactly
 - Validate your JSON before committing (a trailing comma, extra slash, or missing quote will break things)
