@@ -36,27 +36,8 @@ Add the new pathway entry to [bin/handbook-manifest.json](https://github.com/Wor
 - Validate your JSON before committing (a trailing comma, extra slash, or missing quote will break things)
 - Set the order to an appropriate number based on what's already listed
 - Commit to a new branch (manifest-[date] is a good name)
-- Then merge
-
-### 2. Move the card to Update Index
-
-Once the manifest change is merged, move the card to the **Update Index** column.  Wait 15-20 minutes to ensure the new page is published properly.
-
-### 3. Update the index files
-
-For now, the index page for each type of work (e.g. build or organize) is manually maintained. Edit the index file to add the new link.
-
-### 4. Wait for propagation
-
-Wait another **15–20 minutes** for a new pathway page to appear on the live site. If it hasn't appeared after 30 minutes, see [Troubleshooting](#troubleshooting) below.
-
-### 5. Verify and close
-
-Once the pathway is live:
-
-- Spot-check that links work
-- Confirm the pathway appears in the expected navigation/listing
-- Move the card to **Done** (or close the issue)
+- Merge, then wait 15-20 minutes for content to appear
+- Confirm the pathway has loaded correctly, then move the card to **Done** (or close the issue)
 
 ## Triaging Feedback
 
