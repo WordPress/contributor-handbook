@@ -202,6 +202,13 @@
         "parent": "write",
         "order": 7
     },
+    "pathways-write-write-or-update-gatherpress-documentation": {
+        "title": "Write or Update GatherPress Documentation",
+        "slug": "write-or-update-gatherpress-documentation",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/write\/write-or-update-gatherpress-documentation.md",
+        "parent": "write",
+        "order": 8
+    },
     "pathways-test-review-a-pathway-guide": {
         "title": "Review a Pathway Guide",
         "slug": "review-a-pathway-guide",
