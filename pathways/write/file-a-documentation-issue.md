@@ -7,11 +7,11 @@ Report documentation problems like outdated content, typos, dead links, or missi
 
 ## Steps
 
-1. **Search existing issues.** Check the [Documentation Issue Tracker](https://github.com/WordPress/Documentation-Issue-Tracker/issues) to make sure your issue hasn't been reported.
+1. **Search existing issues:** Check the [Documentation Issue Tracker](https://github.com/WordPress/Documentation-Issue-Tracker/issues) to make sure your issue hasn't been reported.
 
 2. **Open a new issue** using the appropriate template: [Fix Doc Issue Report](https://github.com/WordPress/Documentation-Issue-Tracker/issues/new?template=doc-issue-fix.md) for problems with existing pages, or [New Doc Request](https://github.com/WordPress/Documentation-Issue-Tracker/issues/new?template=new-doc.md) if you'd like to propose a new page.
 
-3. **Set a clear title.** Begin with the documentation area, then concisely name the issue. Examples:
+3. **Set a clear title:** Begin with the documentation area, then concisely name the issue. Examples:
    - `[HelpHub] Block Editor page missing keyboard shortcuts`
    - `[DevHub] get_posts() examples outdated`
    - `[Plugin Handbook] Broken link in hooks section`
