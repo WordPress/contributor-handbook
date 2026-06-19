@@ -14,7 +14,7 @@ Report documentation problems like outdated content, typos, dead links, or missi
 3. **Set a clear title:** Begin with the documentation area, then concisely name the issue. Examples:
    - `[HelpHub] Block Editor page missing keyboard shortcuts`
    - `[DevHub] get_posts() examples outdated`
-   - `[Plugin Handbook] Broken link in hooks section`
+   - `[Handbook] Typo in Issue Triage Process`
 
 4. **Add details.** Fill in the issue template with all needed information, and any additional context that can help.
 
