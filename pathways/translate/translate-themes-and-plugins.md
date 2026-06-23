@@ -7,7 +7,7 @@ Help make WordPress accessible to more users by translating themes and plugins i
 
 ## Steps
 
-1. **Find your locale team.** Go to [translate.wordpress.org](https://translate.wordpress.org/) and click "Contribute Translation" for your language. Check if your team has a [Style Guide or Glossary](https://make.wordpress.org/polyglots/handbook/translating/glossaries-and-style-guides-per-locale/) to follow.
+1. **Find your locale team.** Go to [translate.wordpress.org](https://translate.wordpress.org/) and click "Contribute Translation" for your language, and find your team's [Style Guide or Glossary](https://make.wordpress.org/polyglots/handbook/translating/glossaries-and-style-guides-per-locale/) to follow.
 
 2. **Choose a project to translate.** Browse the [Top 100 plugins](https://translate.wordpress.org/stats/plugins/) or [Top 100 themes](https://translate.wordpress.org/stats/themes/) for your locale. Pick one that's close to complete (70%+ translated) to ensure your work goes live.
 
