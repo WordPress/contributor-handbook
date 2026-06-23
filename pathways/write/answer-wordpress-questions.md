@@ -15,7 +15,7 @@ Help WordPress users solve their problems by answering questions in the support 
 
 4. **Test your solution.** Use [WordPress Playground](https://playground.wordpress.net/) or another test site to verify your fix works before sharing it. This is especially important if you used AI tools to help find the solution.
 
-5. **Write a clear answer.** Share the solution in concise, simple steps. Link to relevant documentation when helpful, and use a patient and kind tone. Do not simply restate earlier replies, and avoid simply pasting long AI-generated responses. Consider how your response adds value to the thread.
+5. **Write a clear answer.** Share the solution in concise, simple steps. Link to relevant documentation when helpful, and use a patient and kind tone. Do not simply restate earlier replies, and avoid pasting long AI-generated responses. Consider how your response adds value to the thread.
 
 6. **Follow up if needed.** Check back to see if your answer helped or if the user needs clarification.
 
