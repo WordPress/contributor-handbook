@@ -2,7 +2,7 @@
 
 Help WordPress users solve their problems by answering questions in the support forums. You'll troubleshoot issues, share solutions, and help people get unstuck.
 
-- **Reference:** [Getting Started with Support](https://make.wordpress.org/support/handbook/getting-started/)
+- **Reference:** [How to Get/Give Help](https://make.wordpress.org/support/handbook/getting-started/how-to/)
 - **Connect:** Join [#forums](https://wordpress.slack.com/archives/forums) on Slack and introduce yourself
 
 ## Steps
