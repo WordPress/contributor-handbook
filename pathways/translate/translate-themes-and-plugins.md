@@ -9,13 +9,13 @@ Help make WordPress accessible to more users by translating themes and plugins i
 
 1. **Find your locale team.** Go to [translate.wordpress.org](https://translate.wordpress.org/) and click "Contribute Translation" for your language, and find your team's [Style Guide or Glossary](https://make.wordpress.org/polyglots/handbook/translating/glossaries-and-style-guides-per-locale/) to follow.
 
-2. **Choose a project to translate.** Browse the [Top 100 plugins](https://translate.wordpress.org/stats/plugins/) or [Top 100 themes](https://translate.wordpress.org/stats/themes/) for your locale. Pick one that's close to complete (70%+ translated) to ensure your work goes live.
+2. **Choose a project to translate.** From your locale's page, go to Stats > Plugins or Themes. Either sort by "Untranslated" (lowest first) to find projects needing just a few strings, or sort by translation percentage to find projects that are nearly complete. Either approach helps ensure your translations go live quickly.
 
 3. **Start translating strings.** Click the untranslated count to see strings needing translation. Double-click a string to open the editor, enter your translation, and click "Suggest new translation."
 
 4. **Request review.** After submitting translations, contact your locale team for review via [local Slack](https://make.wordpress.org/polyglots/handbook/translating/teams/local-slacks/) if available, or post a PTE request on [Make/Polyglots](https://make.wordpress.org/polyglots/) with your locale tag.
 
-5. **Continue contributing.** Once familiar with the process, translate more strings or help complete projects nearing the 90% threshold for release.
+5. **Continue contributing.** Once familiar with the process, translate more strings or help complete projects nearing the threshold for release.
 
 ## Contribution checklist
 
@@ -25,7 +25,7 @@ Help make WordPress accessible to more users by translating themes and plugins i
 
 ## What happens next
 
-A translation editor will review your suggestions. Approved translations go live once the project reaches 90% completion for new projects, or immediately for projects with existing language packs. Consider requesting PTE status for projects you regularly translate.
+A translation editor will review your suggestions. Approved translations go live once the project reaches 90% completion for new projects, or immediately for projects with existing language packs.
 
 ## Help
 
