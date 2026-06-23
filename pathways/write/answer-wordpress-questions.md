@@ -9,7 +9,7 @@ Help WordPress users solve their problems by answering questions in the support 
 
 1. **Find an unanswered question.** Check the [no replies view](https://wordpress.org/support/view/no-replies/) first. If empty, browse [unresolved topics](https://wordpress.org/support/view/support-forum-no/). You can also help with [forums in your language](https://make.wordpress.org/support/handbook/contributing-to-the-wordpress-forums/support-forums-in-your-language/).
 
-2. **Read the question carefully.** Look for what the user is trying to achieve, what they've already tried, and any error messages they've mentioned.
+2. **Read the question carefully.** Look for what the user is trying to achieve, what they've already tried, and any error messages they've mentioned. If you do not see the same issue, try testing in another browser.
 
 3. **Research a solution.** Search for similar issues, check documentation, or experiment with the problem yourself. You can use search engines, AI tools, or tinker in a test environment. If necessary, you can ask the user for more context.
 
