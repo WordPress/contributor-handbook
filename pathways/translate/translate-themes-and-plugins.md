@@ -1,6 +1,6 @@
 # Translate Themes and Plugins
 
-Help make WordPress accessible to more users by translating themes and plugins into your language. You'll contribute translations for the interface text that users see.
+Help make WordPress accessible to more users by translating themes and plugins into your first language. As a native speaker, you'll translate the interface text that users see every day - buttons, menus, and settings that make WordPress work.
 
 - **Reference:** [How to Translate](https://make.wordpress.org/polyglots/handbook/translating/how-to-translate/)
 - **Connect:** Join [#polyglots](https://wordpress.slack.com/archives/polyglots) on Slack and introduce yourself
@@ -9,7 +9,7 @@ Help make WordPress accessible to more users by translating themes and plugins i
 
 1. **Find your locale team.** Go to [translate.wordpress.org](https://translate.wordpress.org/) and click "Contribute Translation" for your language, and find your team's [Style Guide or Glossary](https://make.wordpress.org/polyglots/handbook/translating/glossaries-and-style-guides-per-locale/) to follow.
 
-2. **Choose a project to translate.** From your locale's page, go to Stats > Plugins or Themes. Either sort by "Untranslated" (lowest first) to find projects needing just a few strings, or sort by translation percentage to find projects that are nearly complete. Either approach helps ensure your translations go live quickly.
+2. **Choose a project to translate.** Start with a plugin or theme you already use, or browse Stats > Plugins or Themes for projects that can be completed soon. Sort by "Untranslated" to find projects needing just a few strings, or by percentage to find those approaching 90% completion.
 
 3. **Start translating strings.** Click the untranslated count to see strings needing translation. Double-click a string to open the editor, enter your translation, and click "Suggest new translation."
 
@@ -19,8 +19,8 @@ Help make WordPress accessible to more users by translating themes and plugins i
 
 ## Contribution checklist
 
-- You've translated at least 20 strings
-- Your translations follow your locale's style guide
+- You've translated at least 100 strings
+- Your translations follow your locale's style guide and glossary
 - You've requested review from your locale team
 
 ## What happens next
