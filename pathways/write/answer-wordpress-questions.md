@@ -11,11 +11,11 @@ Help WordPress users solve their problems by answering questions in the support 
 
 2. **Read the question carefully.** Look for what the user is trying to achieve, what they've already tried, and any error messages they've mentioned.
 
-3. **Research a solution.** Search for similar issues, check documentation, or experiment with the problem yourself. You can use search engines, AI tools, or tinker in a test environment. If needed, you can ask the user for more details.
+3. **Research a solution.** Search for similar issues, check documentation, or experiment with the problem yourself. You can use search engines, AI tools, or tinker in a test environment. If necessary, you can ask the user for more details.
 
-4. **Test your solution.** Use [WordPress Playground](https://playground.wordpress.net/) to verify your fix works before sharing it.
+4. **Test your solution.** Use [WordPress Playground](https://playground.wordpress.net/) or another test site to verify your fix works before sharing it. This is especially important if you used AI tools to help find the solution.
 
-5. **Write a clear answer.** Share the solution in concise, simple steps. Link to relevant documentation when helpful, and use a patient and kind tone.
+5. **Write a clear answer.** Share the solution in concise, simple steps. Link to relevant documentation when helpful, and use a patient and kind tone. Do not simply restate earlier replies, and avoid simply pasting long AI-generated responses. Consider how your response adds value to the thread.
 
 6. **Follow up if needed.** Check back to see if your answer helped or if the user needs clarification.
 
@@ -23,6 +23,7 @@ Help WordPress users solve their problems by answering questions in the support 
 
 - Your answer was clear, concise, and confirmed
 - You followed the forum guidelines
+- If you used AI, you verified you 
 
 ## What happens next
 
