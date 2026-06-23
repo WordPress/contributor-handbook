@@ -23,7 +23,7 @@ Help WordPress users solve their problems by answering questions in the support 
 
 - Your answer was clear, concise, and confirmed
 - You followed the forum guidelines
-- If you used AI, you verified you 
+- If you used AI, you've verified the answer and made it concise
 
 ## What happens next
 
