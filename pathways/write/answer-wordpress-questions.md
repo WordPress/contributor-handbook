@@ -22,7 +22,7 @@ Help WordPress users solve their problems by answering questions in the support 
 ## Contribution checklist
 
 - Your answer was clear, concise, and confirmed
-- You followed the forum guidelines
+- You followed the [forum guidelines](https://wordpress.org/support/guidelines/)
 - If you used AI, you did not simply copy and paste
 
 ## What happens next
