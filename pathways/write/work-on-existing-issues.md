@@ -9,7 +9,7 @@ You'll review proposed documentation fixes for accuracy, style, and accessibilit
 
 1. **Set up your testing environment.** Open [WordPress Playground](https://playground.wordpress.net/) for testing changes.
 
-2. **Pick an issue** with the [`[Status] Review`](https://github.com/WordPress/Documentation-Issue-Tracker/labels/%5BStatus%5D%20Review) label from the [Documentation Issue Tracker](https://github.com/WordPress/Documentation-Issue-Tracker) and comment that you're reviewing it.
+2. **Pick an issue** with the [`[Status] Review`](https://github.com/WordPress/Documentation-Issue-Tracker/issues?q=state%3Aopen%20label%3A%22good%20first%20issue%22%20label%3A%22%5BStatus%5D%20Review%22%20-label%3A6.3%20-label%3A6.4%20-label%3A6.2) label from the [Documentation Issue Tracker](https://github.com/WordPress/Documentation-Issue-Tracker) and comment /assign and say you'll review it.
 
 3. **Understand the problem.** Read the issue description, visit the live documentation page, and confirm the reported problem still exists.
 
