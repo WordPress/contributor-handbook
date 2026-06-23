@@ -11,7 +11,7 @@ This work is tracked in the [Documentation Issue Tracker](https://github.com/Wor
 
 ### During the release cycle
 
-1. **Set up your testing environment.** Open [Beta/RC Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/wordpress/blueprints/d17b1bb6a5f6b2b3293625804a4f2a73284052f3/blueprints/beta-rc/blueprint.json) during the release cycle to explore features, take screenshots, and verify changes. If writing directly to HelpHub, request access in #docs — otherwise, draft in a Google Doc and share the link.
+1. **Set up your testing environment.** Open [Beta/RC Playground](https://playground.wordpress.net/?wp=beta) during the release cycle to explore features, take screenshots, and verify changes. If writing directly to HelpHub, request access in #docs — otherwise, draft in a Google Doc and share the link.
 
 2. **Set up the project.** Create a GitHub project in the [Documentation Issue Tracker](https://github.com/WordPress/Documentation-Issue-Tracker) to track all work for the release (e.g. the [WordPress 6.9 Documentation project](https://github.com/orgs/WordPress/projects/262)). List both DevNotes and user docs.
 
