@@ -11,7 +11,7 @@ Help WordPress users solve their problems by answering questions in the support 
 
 2. **Read the question carefully.** Look for what the user is trying to achieve, what they've already tried, and any error messages they've mentioned. If you do not see the same issue, try testing in another browser.
 
-3. **Research a solution.** Search for similar issues, check documentation, or experiment with the problem yourself. You can use search engines, AI tools, or tinker in a test environment. If necessary, you can ask the user for more context.
+3. **Research a solution.** Search for similar issues, check documentation, or experiment with the problem yourself. You can use search engines, AI tools, or tinker in a test environment. If necessary, you can [ask the user for more context](https://make.wordpress.org/support/handbook/getting-started/how-to/#helping-answer-questions).
 
 4. **Test your solution.** Use [WordPress Playground](https://playground.wordpress.net/) or another test site to verify your fix works before sharing it. This is especially important if you used AI tools to help find the solution.
 
