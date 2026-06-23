@@ -1,4 +1,4 @@
-# Contribute to WP Accessibility Knowledge Base
+# Help build the Accessibility Knowledge Base
 
 Help build the [WP Accessibility Knowledge Base](https://wpaccessibility.org/), the WordPress community's accessibility documentation. You can write a new page on a topic that interests you, review existing content, or report an error you notice.
 
