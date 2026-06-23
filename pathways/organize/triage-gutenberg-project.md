@@ -9,11 +9,7 @@ Triaging keeps the Gutenberg repository healthy. You review issues, check whethe
 
 1. **Set up your testing environment.** Open [WordPress Playground](https://wordpress.org/playground/) in your browser. You'll use it to test and reproduce issues.
 
-2. **Pick a starter queue.** Open one of these filtered lists and work through issues one by one:
-   - [Issues without a label](https://github.com/WordPress/gutenberg/issues?q=is%3Aopen+is%3Aissue+no%3Alabel+sort%3Aupdated-asc) — easiest place to start, you just need to categorize them
-   - [Least recently updated issues](https://github.com/WordPress/gutenberg/issues?q=is%3Aopen+is%3Aissue+sort%3Aupdated-asc) — prevents important work from being overlooked
-   - Issues sorted by comments ([none](https://github.com/wordpress/gutenberg/issues?q=is%3Aissue+is%3Aopen+comments%3A0+), [fewest](https://github.com/wordpress/gutenberg/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-asc), [most](https://github.com/wordpress/gutenberg/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-desc)) — surfaces overlooked or stalled discussions
-   - [Issues by specific block or feature label](https://github.com/WordPress/gutenberg/labels) — for focused triage once you're comfortable  
+2. **Pick a starter queue.** Choose from [these filtered issue lists](https://developer.wordpress.org/block-editor/contributors/triage/#triage-your-first-issues) to find issues needing triage. For example, you can start with unlabeled issues if you're new to triage, or try least recently updated issues to prevent important work from being overlooked.
 
 3. **Read the issue.** Identify what is broken or missing, what the reporter expected, and what actually happened. Determine whether it's a bug report, an enhancement request, a help request, or unclear.
 
