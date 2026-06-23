@@ -11,7 +11,7 @@ Help make WordPress accessible to more users by translating themes and plugins i
 
 2. **Choose a project to translate.** Start with a plugin or theme you already use, or browse Stats > Plugins or Themes for projects that can be completed soon. Sort by "Untranslated" to find projects needing just a few strings, or by percentage to find those approaching 90% completion.
 
-3. **Start translating strings.** Click the untranslated count to see strings needing translation. Double-click a string to open the editor, enter your translation, and click "Suggest new translation."
+3. **Start translating strings.** Click the untranslated count to see strings needing translation. Double-click a string to open the editor, enter your translation, and click "Suggest new translation." _**Note:** If you use machine translations, always check carefully and make corrections before submitting. AI tools often miss context that only native speakers catch._
 
 4. **Request review.** After submitting translations, contact your locale team for review via [local Slack](https://make.wordpress.org/polyglots/handbook/translating/teams/local-slacks/) if available, or post a PTE request on [Make/Polyglots](https://make.wordpress.org/polyglots/) with your locale tag.
 
