@@ -7,7 +7,7 @@ Help clear barriers for new WordPress contributors by turning a pathway idea int
 
 ## Steps
 
-1. **Familiarize yourself with the project.** Review the [Contributor Handbook GitHub repository](https://github.com/WordPress/contributor-handbook) and the [pathway project board](https://github.com/orgs/WordPress/projects/282/views/1).
+1. **Familiarize yourself with the project.** Review the [pathways announcement](https://make.wordpress.org/project/2026/04/23/help-us-help-others-contribute-to-wordpress/) and the [pathway project board](https://github.com/orgs/WordPress/projects/282/views/1).
 
 2. **Choose or create an issue.** Either pick an open issue from the [project board](https://github.com/orgs/WordPress/projects/282/views/1), or [suggest a new guide](https://make.wordpress.org/handbook/pathways/organize/suggest-a-pathway/) by filing an issue. Comment `/assign` on an issue to claim it.
 
