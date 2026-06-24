@@ -25,7 +25,7 @@ Help make WordPress accessible to more users by translating themes and plugins i
 
 ## What happens next
 
-A translation editor will review your suggestions, and approved translations will be included in the next language pack release. Once familiar with the process, you can translate more strings, help complete more projects, or consider [applying as a PTE](https://make.wordpress.org/polyglots/handbook/plugin-theme-authors-guide/pte-request/).
+A translation editor will review your suggestions. Once approved and when the project reaches 90%, the translations go live. With experience, consider [applying as a PTE](https://make.wordpress.org/polyglots/handbook/plugin-theme-authors-guide/pte-request/) to help approve translations.
 
 ## Help
 
