@@ -28,9 +28,11 @@ Turn a pathway idea into a finished guide. Pick up an issue from the project boa
 
 ## What happens next
 
-Maintainers will review your submission for clarity, accuracy, and completeness. Once approved, the pathway will be published to the handbook. 
+Maintainers will review your submission for clarity, accuracy, and completeness. Once approved, the pathway will be published to the handbook.
 
-Share your pathway with new contributors and encourage them to try it! Their feedback helps identify any confusing steps or outdated information. You can also pick up another pathway from the project board or help test someone else's draft.
+Finally, share your pathway with new contributors and encourage them to try it! Their feedback can help make the pathway even smoother.
+
+You can also pick up another pathway from the [project board](https://github.com/orgs/WordPress/projects/282/views/1), or [help with testing](https://make.wordpress.org/handbook/pathways/test/review-a-pathway-guide/).
 
 ## Help
 
