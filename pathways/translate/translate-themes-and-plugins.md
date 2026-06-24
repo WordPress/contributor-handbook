@@ -9,13 +9,12 @@ Help make WordPress accessible to more users by translating themes and plugins i
 
 ## Steps
 
-1. **Find your locale team.** Go to [translate.wordpress.org](https://translate.wordpress.org/) and click "Contribute Translation" for your language. Find your team's [Style Guide or Glossary](https://make.wordpress.org/polyglots/handbook/translating/glossaries-and-style-guides-per-locale/) to follow.
-2. **Find a project to translate.** Go to Stats, then Plugins or Themes for a curated list of popular projects. Look for a plugin or theme you use, or pick any project with untranslated strings (non-zero in the "Untranslated" column).
-3. **Navigate to the strings.** Click the number in the "Untranslated" column for your chosen project. On the next page, select **Stable** (not Development), then click the untranslated count again.
-4. **Start translating strings.** Double-click a string to open the editor, enter your translation, and click "Suggest new translation." **Note:** If you use machine translation, always check carefully and make corrections before submitting. AI tools often miss context that only native speakers catch.
-5. **Request review.** After submitting translations, contact your locale team for review via [local Slack](https://make.wordpress.org/polyglots/handbook/translating/teams/local-slacks/) if available, or post a PTE request on [Make/Polyglots](https://make.wordpress.org/polyglots/) with your locale tag.
-
-7. **Continue contributing.** Once familiar with the process, translate more strings or help complete projects nearing the threshold for release.
+1. **Find your locale team:** Go to [translate.wordpress.org](https://translate.wordpress.org/) and click "Contribute Translation" for your language. Find your team's [Style Guide or Glossary](https://make.wordpress.org/polyglots/handbook/translating/glossaries-and-style-guides-per-locale/) to follow. Your team likely has its own slack, so connect and introduce yourself there, too.
+2. **Find a project to translate:** Go to Stats, then Plugins or Themes for a curated list of popular projects. Look for a plugin or theme you use, or pick any project with untranslated strings (non-zero in the "Untranslated" column).
+3. **Navigate to the strings:** Click the number in the "Untranslated" column for your chosen project. On the next page, click on the Untranslated number under **Stable**.
+4. **Start translating strings:** Double-click a string to open the editor, enter your translation, and click "Suggest new translation." **Note:** If you use machine translation, always check carefully and make corrections before submitting. AI tools often miss context that only native speakers catch.
+5. **Request review:** After submitting translations, contact your locale team for review via [local Slack](https://make.wordpress.org/polyglots/handbook/translating/teams/local-slacks/) if available, or post a PTE request on [Make/Polyglots](https://make.wordpress.org/polyglots/) with your locale tag.
+6. **Continue contributing:** Once familiar with the process, translate more strings or help complete projects nearing the threshold for release.
 
 ## Contribution checklist
 
