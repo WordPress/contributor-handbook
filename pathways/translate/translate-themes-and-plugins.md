@@ -15,17 +15,17 @@ Help make WordPress accessible to more users by translating themes and plugins i
 
 4. **Start translating strings:** Double-click a string to open the editor, enter your translation, and click "Suggest new translation." **Note:** If you use machine translation, always check carefully and make corrections before submitting. AI tools often miss context that only native speakers catch.
 
-5. **Request review:** After submitting translations, contact your locale team for review via [local Slack](https://make.wordpress.org/polyglots/handbook/translating/teams/local-slacks/) if available, or post a PTE request on [Make/Polyglots](https://make.wordpress.org/polyglots/) with your locale tag.
+5. **Request review:** After submitting at least 100 translations, contact your locale team for review via [local Slack](https://make.wordpress.org/polyglots/handbook/translating/teams/local-slacks/) if available, or post a PTE request on [Make/Polyglots](https://make.wordpress.org/polyglots/) with your locale tag.
 
 ## Contribution checklist
 
-- You've translated at least 100 strings
+- You've translated 100 strings
 - Your translations follow your locale's style guide and/or glossary
 - You've requested review from your locale team
 
 ## What happens next
 
-A translation editor will review your suggestions. Once approved and when the project reaches 90%, the translations go live. With experience, consider [applying as a PTE](https://make.wordpress.org/polyglots/handbook/plugin-theme-authors-guide/pte-request/) to help approve translations.
+A translation editor will review your suggestions. Once approved, and when the project reaches 90%, the translations go live. With experience, consider [applying as a PTE](https://make.wordpress.org/polyglots/handbook/plugin-theme-authors-guide/pte-request/) to help approve translations.
 
 ## Help
 
