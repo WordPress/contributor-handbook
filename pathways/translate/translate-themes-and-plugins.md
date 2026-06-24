@@ -17,17 +17,15 @@ Help make WordPress accessible to more users by translating themes and plugins i
 
 5. **Request review:** After submitting translations, contact your locale team for review via [local Slack](https://make.wordpress.org/polyglots/handbook/translating/teams/local-slacks/) if available, or post a PTE request on [Make/Polyglots](https://make.wordpress.org/polyglots/) with your locale tag.
 
-6. **Continue contributing:** Once familiar with the process, translate more strings or help complete projects nearing the threshold for release.
-
 ## Contribution checklist
 
 - You've translated at least 100 strings
-- Your translations follow your locale's style guide and glossary
+- Your translations follow your locale's style guide and/or glossary
 - You've requested review from your locale team
 
 ## What happens next
 
-A translation editor will review your suggestions. Approved translations go live once the project reaches 90% completion for new projects, or immediately for projects with existing language packs.
+A translation editor will review your suggestions, and approved translations will be included in the next language pack release. Once familiar with the process, you can translate more strings, help complete more projects, or consider applying as a PTE.
 
 ## Help
 
