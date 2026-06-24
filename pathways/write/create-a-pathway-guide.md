@@ -1,6 +1,6 @@
 # Create a Pathway Guide
 
-Turn a pathway idea into a finished guide. Pick up an issue from the project board, draft it, get feedback, and submit a pull request to get published.
+Help clear barriers for new WordPress contributors by turning a pathway idea into a finished guide. Map out a clear route to contribution, get feedback, and get it published. 
 
 - **Reference:** [About Pathways](https://make.wordpress.org/handbook/pathways/about/)
 - **Connect:** Join [#core-program](https://wordpress.slack.com/archives/core-program) and introduce yourself
