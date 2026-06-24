@@ -11,7 +11,7 @@ Help make WordPress accessible to more users by translating themes and plugins i
 
 2. **Find a project to translate:** Go to [translate.wordpress.org](https://translate.wordpress.org/) and click "Contribute Translation" for your language. Go to Stats, then Plugins or Themes for a curated list of popular projects. Look for a plugin or theme you use, or pick any project with untranslated strings (non-zero in the "Untranslated" column).
 
-3. **Navigate to the strings:** Click the number in the "Untranslated" column for your chosen project. On the next page, click on the Untranslated number under **Stable**.
+3. **Navigate to the untranslated strings.** Click the number in the Untranslated column. For themes, you'll now see the untranslated strings. For plugins, you'll see another table: click the untranslated number from Stable (latest release) row. Do not click through from Readme or Development rows.
 
 4. **Start translating strings:** Double-click a string to open the editor, enter your translation, and click "Suggest new translation." **Note:** If you use machine translation, always check carefully and make corrections before submitting. AI tools often miss context that only native speakers catch.
 
