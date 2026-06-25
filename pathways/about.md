@@ -2,9 +2,9 @@
 
 WordPress is a massive project with dozens of teams, each with their own handbooks, tools, and processes. There are hundreds of ways to contribute, but for someone new, it can be hard to know where to begin.
 
-Pathway guides pull together the basic steps and connections you need to start contributing quickly, while linking out to deeper context in handbooks.
+Pathway guides pull together the basic steps and connections folks need to start contributing quickly, while linking out to deeper context in handbooks.
 
-They are not full manuals, but they do expose ways to contribute and point folks in the right direction. We've documented dozens of contribution routes, with more being added by the community.
+They are not full manuals, but they do expose ways to contribute and point people in the right direction. We've documented dozens of contribution routes, with more being added by the community.
 
 ## What makes a good guide?
 
