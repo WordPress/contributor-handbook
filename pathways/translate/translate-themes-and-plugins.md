@@ -21,11 +21,14 @@ Help make WordPress accessible to more users by translating themes and plugins i
 
 - You've translated 100 strings
 - Your translations follow your locale's style guide and/or glossary
+- If you've used AI to help, you've carefully checked each string as a native speaker
 - You've requested review from your locale team
 
 ## What happens next
 
-A translation editor will review your suggestions. Once approved, and when the project reaches 90%, the translations go live. With experience, consider [applying as a PTE](https://make.wordpress.org/polyglots/handbook/plugin-theme-authors-guide/pte-request/) to help approve translations.
+Review time varies by locale team, and typically takes at least a few days. If you haven't heard back in two weeks, follow up again in your locale's Slack channel. Once approved, and when the project reaches 90%, the translations go live.
+
+With experience, consider [applying as a PTE](https://make.wordpress.org/polyglots/handbook/plugin-theme-authors-guide/pte-request/) to help approve translations.
 
 ## Help
 
