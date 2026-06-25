@@ -209,6 +209,13 @@
         "parent": "write",
         "order": 8
     },
+    "pathways-write-answer-wordpress-questions": {
+        "title": "Answer WordPress Support Questions",
+        "slug": "answer-wordpress-questions",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/write\/answer-wordpress-questions.md",
+        "parent": "write",
+        "order": 9
+    },
     "pathways-test-review-a-pathway-guide": {
         "title": "Review a Pathway Guide",
         "slug": "review-a-pathway-guide",
@@ -278,6 +285,13 @@
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/translate\/translate-training-content.md",
         "parent": "translate",
         "order": 0
+    },
+    "pathways-translate-translate-themes-and-plugins": {
+        "title": "Translate Top Themes and Plugins",
+        "slug": "translate-themes-and-plugins",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/translate\/translate-themes-and-plugins.md",
+        "parent": "translate",
+        "order": 1
     },
     "pathways-organize-suggest-a-pathway": {
         "title": "Suggest a Pathway",
