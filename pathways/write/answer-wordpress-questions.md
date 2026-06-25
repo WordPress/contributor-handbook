@@ -1,4 +1,4 @@
-# Answer WordPress support questions
+# Answer WordPress Support Questions
 
 Help WordPress users solve their problems by answering questions in the support forums. You'll troubleshoot issues, share solutions, and help people get unstuck.
 
