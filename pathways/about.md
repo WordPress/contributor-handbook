@@ -9,8 +9,8 @@ They are not full manuals, but they do expose ways to contribute and point peopl
 ## What makes a good guide?
 
 A good guide is:
-- Scoped to a specific outcome without forks or detours
-- Includes account setup, where to connect, and step-by-step instructions
+- Scoped to a specific outcome, limiting any forks or detours
+- Includes account setup, where to connect, and basic instructions
 - Explains what "done" looks like and what happens next
 - Links to existing resources rather than duplicating them
 - Tested with real contributors
