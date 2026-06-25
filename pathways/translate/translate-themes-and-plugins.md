@@ -1,4 +1,4 @@
-# Translate Themes and Plugins
+# Translate Top Themes and Plugins
 
 Help make WordPress accessible to more users by translating themes and plugins into your first language. As a native speaker, you'll translate the interface text that users see every day - buttons, menus, and settings that make WordPress work.
 
