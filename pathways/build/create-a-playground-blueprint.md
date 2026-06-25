@@ -1,6 +1,6 @@
 # Build a WordPress Playground Blueprint
 
-Build a WordPress Blueprint and submit it to the Blueprint Gallery. Blueprints are JSON files that configure a WordPress Playground instance — they can install themes, plugins, and content in a few clicks. The gallery is a public collection of community-submitted blueprints that others can learn from and reuse.
+Playground Blueprints let anyone launch a WordPress demo in a single click, with a theme, plugins, and even content. This guide explains how to create a Blueprint and ship it to a gallery where people share their blueprints for others to use and learn from.
 
 - **Reference:** [Build your first blueprint](https://wordpress.github.io/wordpress-playground/blueprints/tutorial/build-your-first-blueprint/) — the official tutorial
 - **Connect:** Join [#playground](https://wordpress.slack.com/archives/playground) and introduce yourself
@@ -11,9 +11,9 @@ Build a WordPress Blueprint and submit it to the Blueprint Gallery. Blueprints a
 
 2. **Work through the tutorial.** Follow [Build your first blueprint](https://wordpress.github.io/wordpress-playground/blueprints/tutorial/build-your-first-blueprint/). By the end, you'll have a working `blueprint.json` that installs a theme, plugins, and content.
 
-3. **Decide what to build.** Look at the [Blueprint Gallery source files](https://github.com/WordPress/blueprints/blob/trunk/GALLERY.md) to see how others have structured their submissions. People use blueprints to demo plugins or themes, provide hands-on tutorial environments, or set up test sites for debugging.
+3. **Decide what to build.** Look at the [Blueprint Gallery source files](https://github.com/WordPress/blueprints/blob/trunk/GALLERY.md) to see how others have structured their submissions. Check to see what's already there, and find inspiration for what you'd like to share.
 
-4. **Build your own blueprint.** Pick something you find interesting — a plugin you want to showcase, a theme setup worth sharing, a testing environment you'd find useful — and create a `blueprint.json` for it.
+4. **Build your own blueprint.** Pick something you find interesting — a plugin you want to showcase, a theme setup worth sharing, a testing environment you'd find useful — and create a `blueprint.json` for it using the official tutorial: [Build your first blueprint](https://wordpress.github.io/wordpress-playground/blueprints/tutorial/build-your-first-blueprint/).
 
 5. **Test your blueprint.** Paste the JSON into the [Playground Builder](https://playground.wordpress.net/builder/builder.html). Make sure the site loads and works as expected.
 
