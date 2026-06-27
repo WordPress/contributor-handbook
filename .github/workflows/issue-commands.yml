@@ -8,52 +8,142 @@ env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
-  assign:
-    if: contains(github.event.comment.body, '/assign')
+  process-command:
     runs-on: ubuntu-latest
     permissions:
       issues: write
+      repository-projects: write
     steps:
-      - name: Assign issue to commenter
+      - name: Process commands
         uses: actions/github-script@v7
         with:
           script: |
-            const issue = await github.rest.issues.get({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number
-            });
+            const comment = context.payload.comment.body.toLowerCase();
+            const commands = {
+              '/assign': { status: 'In progress', action: 'assign' },
+              '/blocked': { status: 'Blocked', label: 'blocked' },
+              '/unblock': { status: 'In progress', removeLabel: 'blocked' },
+              '/review': { status: 'Review', label: 'review' },
+              '/done': { status: 'Add to Manifest', label: 'Admin' }
+            };
             
-            if (issue.data.assignees.length > 0) {
+            // Find which command was used
+            let commandUsed = null;
+            let commandConfig = null;
+            for (const [cmd, config] of Object.entries(commands)) {
+              if (comment.includes(cmd)) {
+                commandUsed = cmd;
+                commandConfig = config;
+                break;
+              }
+            }
+            
+            if (!commandUsed) return;
+            
+            // Handle /assign specially
+            if (commandConfig.action === 'assign') {
+              const issue = await github.rest.issues.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number
+              });
+              
+              if (issue.data.assignees.length > 0) {
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  labels: ['Admin']
+                });
+                return;
+              }
+              
+              await github.rest.issues.addAssignees({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                assignees: [context.payload.comment.user.login]
+              });
+            }
+            
+            // Handle labels
+            if (commandConfig.label) {
               await github.rest.issues.addLabels({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: context.issue.number,
-                labels: ['Admin']
+                labels: [commandConfig.label]
               });
-              return;
             }
             
-            await github.rest.issues.addAssignees({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              assignees: [context.payload.comment.user.login]
-            });
-
-  done:
-    if: contains(github.event.comment.body, '/done')
-    runs-on: ubuntu-latest
-    permissions:
-      issues: write
-    steps:
-      - name: Add Admin label
-        uses: actions/github-script@v7
-        with:
-          script: |
-            await github.rest.issues.addLabels({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              labels: ['Admin']
-            });
+            if (commandConfig.removeLabel) {
+              try {
+                await github.rest.issues.removeLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  name: commandConfig.removeLabel
+                });
+              } catch (e) {
+                console.log('Label not found');
+              }
+            }
+            
+            // Update project status
+            if (commandConfig.status) {
+              try {
+                const projectInfo = await github.graphql(`
+                  query($owner: String!, $repo: String!, $issue: Int!) {
+                    repository(owner: $owner, name: $repo) {
+                      issue(number: $issue) {
+                        projectItems(first: 10) {
+                          nodes {
+                            id
+                            project {
+                              field(name: "Status") {
+                                ... on ProjectV2SingleSelectField {
+                                  id
+                                  options { id name }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                `, {
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue: context.issue.number
+                });
+                
+                const projectItem = projectInfo.repository.issue.projectItems.nodes[0];
+                if (projectItem) {
+                  const statusField = projectItem.project.field;
+                  const option = statusField.options.find(o => o.name === commandConfig.status);
+                  
+                  if (option) {
+                    await github.graphql(`
+                      mutation($itemId: ID!, $fieldId: ID!, $optionId: String!) {
+                        updateProjectV2ItemFieldValue(
+                          input: {
+                            projectId: $itemId
+                            fieldId: $fieldId
+                            value: { singleSelectOptionId: $optionId }
+                          }
+                        ) {
+                          projectV2Item { id }
+                        }
+                      }
+                    `, {
+                      itemId: projectItem.id,
+                      fieldId: statusField.id,
+                      optionId: option.id
+                    });
+                  }
+                }
+              } catch (error) {
+                console.log("Project update failed:", error.message);
+              }
+            }
