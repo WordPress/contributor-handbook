@@ -10,6 +10,17 @@ These steps are the same no matter which part of WordPress you want to contribut
 
 Some projects and teams may have further requirements, but this is a good start! This [video lesson](https://learn.wordpress.org/lesson/wporg-setup/) can walk you through setting up a WordPress.org and Slack account.
 
+## GitHub basics
+
+GitHub is where many WordPress teams track tasks, discuss changes, and review contributions. You do not need to be a developer to use GitHub. If it's new to you, GitHub's [Hello World guide](https://docs.github.com/en/get-started/start-your-journey/hello-world) walks through the core workflow (branches, commits, and pull requests) with no coding required.
+
+Helpful guides:
+
+* [Fork a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+* [Create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+
+Before starting on an issue, check the Etiquette section below for how to claim it and link your pull request.
+
 ## Contributor badges
 
 As you contribute, you can earn [badges on your WordPress.org profile](https://make.wordpress.org/meta/handbook/tutorials-guides/profile-badges/). Most teams offer a contribution badge for meaningful contributions, and some also have a team badge for consistent long-term involvement. Each team sets its own criteria and timeline — you'll find the details on that page.
