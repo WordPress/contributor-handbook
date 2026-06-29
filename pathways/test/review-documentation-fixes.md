@@ -1,4 +1,4 @@
-# Review Documentation Issues
+# Review Documentation Fixes
 
 You'll review proposed documentation fixes for accuracy, style, and accessibility, then leave feedback on the issue. This takes the heavy lifting off team members and helps publish fixes faster.
 
