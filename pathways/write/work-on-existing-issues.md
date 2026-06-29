@@ -13,7 +13,7 @@ You'll review proposed documentation fixes for accuracy, style, and accessibilit
 
 3. **Understand the problem.** Read the issue description, visit the live documentation page, and confirm the reported problem still exists.
 
-4. **Review the proposed fix** for accuracy, grammar, style, tone, links, screenshots, and accessibility against the standards in the Documentation Team Handbook.
+4. **Review the proposed fix** for accuracy, grammar, style, tone, links, screenshots, and accessibility against the standards in the Documentation Team Handbook. Check the pages linked in [Further Reading](https://make.wordpress.org/handbook/pathways/write/work-on-existing-issues/#help) below.
 
 5. **Leave a summary comment** with what you checked, any problems found, and specific suggestions. Mention a team member (@zzap or @atachibana) when ready for a final check.
 
