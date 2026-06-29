@@ -14,7 +14,7 @@ Take on documentation problems by creating fixes for reported issues. You'll upd
 
 3. **Research the current state.** Open the documentation page that needs fixing. Compare it against [WordPress Playground](https://playground.wordpress.net/) to verify what's outdated or incorrect. If nothing needs to be changed, comment saying so and ask for a review.
 
-4. **Propose your fix.** Draft needed changes as a comment on the issue, following all documentation team standards. Indicate which sections you're updating, and provide the replacement text, as well as images if needed.
+4. **Propose necessary changes.** Draft needed changes as a comment on the issue, following all documentation team standards. Indicate which sections you're updating, and provide the replacement text, as well as images if needed.
 
 5. **Request review.** Comment that your fix is ready for review and mention @zzap or @atachibana for review.
 
