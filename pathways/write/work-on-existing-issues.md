@@ -28,7 +28,7 @@ Take on documentation problems by creating fixes for reported issues. You'll upd
 
 ## What happens next
 
-A reviewer will check your fix and provide feedback. Once approved, a team member with edit access will apply your changes and close the issue. You can then pick another issue from the backlog.
+A reviewer will check your fix and provide feedback, typically within about two weeks. Once approved, a team member with edit access will apply your changes and close the issue. You can continue working on other issues in the meantime.
 
 ## Help
 
