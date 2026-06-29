@@ -3,6 +3,7 @@
 These steps are the same no matter which part of WordPress you want to contribute to. Start here first, then jump into any pathway.
 
 ## Accounts you'll need
+Set up any accounts you do not already have:
 
 * **WordPress.org account:** [Create one here](https://login.wordpress.org/register). This is your identity across all WordPress community spaces. We recommend filling out [your profile](https://profiles.wordpress.org/) too.
 * **Slack account:** [Join the Making WordPress Slack](https://make.wordpress.org/chat/). This is where most teams communicate day to day. Add a basic profile there as well, preferably with the same picture you'll use on GitHub.
