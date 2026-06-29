@@ -279,6 +279,13 @@
         "parent": "test",
         "order": 8
     },
+    "pathways-test-review-documentation-fixes": {
+        "title": "Review Documentation Fixes",
+        "slug": "review-documentation-fixes",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/test\/review-documentation-fixes.md",
+        "parent": "test",
+        "order": 9
+    },
         "pathways-translate-translate-training-content": {
         "title": "Translate Training Content",
         "slug": "translate-training-content",
