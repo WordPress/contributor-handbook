@@ -41,6 +41,7 @@ jobs:
             if (!commandUsed) return;
             
             let success = false;
+            let projectUpdateCount = 0;
             
             try {
               // Handle /assign specially
@@ -69,7 +70,7 @@ jobs:
                   success = true;
                 }
               } else {
-                success = true; // Will be set to false if anything fails below
+                success = true; // Will be set to false if anything critical fails
               }
               
               // Handle labels
@@ -97,6 +98,7 @@ jobs:
               
               // Update project status on ALL boards
               if (commandConfig.status) {
+                console.log(`Attempting to update status to: ${commandConfig.status}`);
                 try {
                   const projectInfo = await github.graphql(`
                     query($owner: String!, $repo: String!, $issue: Int!) {
@@ -127,23 +129,28 @@ jobs:
                   });
                   
                   const projectItems = projectInfo.repository.issue.projectItems.nodes;
+                  console.log(`Found issue in ${projectItems.length} project(s)`);
                   
                   if (projectItems.length === 0) {
-                    console.log('Issue not found in any projects');
+                    console.log('⚠️ Issue not found in any projects - cannot update status');
+                    success = false;
                   } else {
                     // Update status in ALL projects the issue is in
                     for (const projectItem of projectItems) {
+                      console.log(`Processing project: ${projectItem.project.title}`);
                       try {
                         const statusField = projectItem.project.field;
                         if (!statusField) {
-                          console.log(`No Status field in project: ${projectItem.project.title}`);
+                          console.log(`⚠️ No Status field found in project: ${projectItem.project.title}`);
                           continue;
                         }
                         
+                        console.log(`Available status options: ${statusField.options.map(o => o.name).join(', ')}`);
                         const option = statusField.options.find(o => o.name === commandConfig.status);
                         
                         if (option) {
-                          await github.graphql(`
+                          console.log(`Found matching option '${option.name}' with ID: ${option.id}`);
+                          const mutationResult = await github.graphql(`
                             mutation($projectId: ID!, $itemId: ID!, $fieldId: ID!, $optionId: String!) {
                               updateProjectV2ItemFieldValue(
                                 input: {
@@ -162,18 +169,28 @@ jobs:
                             fieldId: statusField.id,
                             optionId: option.id
                           });
-                          console.log(`✓ Updated status to '${commandConfig.status}' in project: ${projectItem.project.title}`);
+                          console.log(`✅ Successfully updated status to '${commandConfig.status}' in project: ${projectItem.project.title}`);
+                          projectUpdateCount++;
                         } else {
-                          console.log(`Status '${commandConfig.status}' not found in project: ${projectItem.project.title}`);
+                          console.log(`⚠️ Status option '${commandConfig.status}' not found in project: ${projectItem.project.title}`);
+                          console.log(`Available options are: ${statusField.options.map(o => o.name).join(', ')}`);
                         }
                       } catch (projectError) {
-                        console.log(`Failed to update project ${projectItem.project.title}: ${projectError.message}`);
+                        console.log(`❌ Failed to update project ${projectItem.project.title}:`);
+                        console.log(projectError);
                         success = false;
                       }
                     }
+                    
+                    // Only consider it a success if we updated at least one project
+                    if (commandConfig.status && projectUpdateCount === 0) {
+                      console.log('⚠️ No projects were updated');
+                      success = false;
+                    }
                   }
                 } catch (error) {
-                  console.log("Project query failed:", error.message);
+                  console.log("❌ Project query failed:");
+                  console.log(error);
                   success = false;
                 }
               }
@@ -186,9 +203,11 @@ jobs:
                   comment_id: context.payload.comment.id,
                   content: '+1'
                 });
-                console.log(`✅ Command ${commandUsed} completed successfully`);
+                console.log(`✅ Command ${commandUsed} completed successfully (updated ${projectUpdateCount} project(s))`);
+              } else {
+                console.log(`⚠️ Command ${commandUsed} completed with issues`);
               }
               
             } catch (error) {
-              console.log(`Command ${commandUsed} failed:`, error.message);
+              console.log(`❌ Command ${commandUsed} failed:`, error);
             }
