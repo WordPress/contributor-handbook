@@ -6,67 +6,48 @@ on:
 
 permissions:
   contents: read
+  issues: write
 
 jobs:
   process-command:
     if: ${{ !github.event.issue.pull_request }}
     runs-on: ubuntu-latest
     steps:
-      - name: Create GitHub App token
-        id: app-token
-        uses: actions/create-github-app-token@v3
-        with:
-          client-id: ${{ vars.APP_CLIENT_ID }}
-          private-key: ${{ secrets.APP_PRIVATE_KEY }}
-          owner: WordPress
-          permission-issues: write
-          permission-organization-projects: write
-
       - name: Process issue command
         uses: actions/github-script@v8
         with:
-          github-token: ${{ steps.app-token.outputs.token }}
           script: |
-            const PROJECTS = [
-              { org: 'WordPress', number: 282, name: 'Pathways' },
-              { org: 'WordPress', number: 289, name: 'Good first issues' },
-            ];
-
             const COMMANDS = {
-              '/assign': { status: 'In progress', assign: true },
-              '/blocked': { status: 'Blocked', addLabels: ['blocked'] },
-              '/unblock': { status: 'In progress', removeLabels: ['blocked'] },
-              '/review': { status: 'Review', addLabels: ['review'] },
-              '/done': { status: 'Add to Manifest', addLabels: ['Admin'] },
+              '/assign': { assign: true },
+              '/blocked': { addLabels: ['blocked'] },
+              '/unblock': { removeLabels: ['blocked'] },
+              '/review': { addLabels: ['review'] },
+              '/done': { addLabels: ['Admin'] },
             };
 
             const body = context.payload.comment.body || '';
-            const matches = [...body.matchAll(/(?:^|\r?\n)\s*(\/assign|\/blocked|\/unblock|\/review|\/done)\s*(?=\r?\n|$)/gi)]
-              .map((match) => match[1].toLowerCase());
+            const match = body.trimStart().match(/^(\/assign|\/blocked|\/unblock|\/review|\/done)(?=\s|$)/i);
 
-            if (matches.length !== 1) {
-              if (matches.length > 1) {
-                core.warning(`Ignoring comment with multiple commands: ${matches.join(', ')}`);
-              }
+            if (!match) {
               return;
             }
 
-            const command = matches[0];
+            const command = match[1].toLowerCase();
             const config = COMMANDS[command];
-            const issue = context.payload.issue;
             const issueParams = {
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: issue.number,
+              issue_number: context.issue.number,
             };
 
-            const labelsToAdd = [...(config.addLabels || [])];
-
             if (config.assign) {
-              const currentIssue = await github.rest.issues.get(issueParams);
+              const issue = await github.rest.issues.get(issueParams);
 
-              if (currentIssue.data.assignees.length > 0) {
-                labelsToAdd.push('Admin');
+              if (issue.data.assignees.length > 0) {
+                await github.rest.issues.addLabels({
+                  ...issueParams,
+                  labels: ['Admin'],
+                });
               } else {
                 try {
                   await github.rest.issues.addAssignees({
@@ -74,16 +55,19 @@ jobs:
                     assignees: [context.payload.comment.user.login],
                   });
                 } catch (error) {
-                  labelsToAdd.push('Admin');
+                  await github.rest.issues.addLabels({
+                    ...issueParams,
+                    labels: ['Admin'],
+                  });
                   core.warning(`Could not assign @${context.payload.comment.user.login}; added Admin instead.`);
                 }
               }
             }
 
-            if (labelsToAdd.length > 0) {
+            if (config.addLabels?.length) {
               await github.rest.issues.addLabels({
                 ...issueParams,
-                labels: [...new Set(labelsToAdd)],
+                labels: config.addLabels,
               });
             }
 
@@ -94,106 +78,17 @@ jobs:
                   name: label,
                 });
               } catch (error) {
-                if (error.status !== 404) throw error;
-              }
-            }
-
-            const updatedProjects = [];
-            for (const project of PROJECTS) {
-              if (await updateProjectStatus(project, issue.node_id, config.status)) {
-                updatedProjects.push(project.name);
-              }
-            }
-
-            if (updatedProjects.length > 0) {
-              await github.rest.reactions.createForIssueComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                comment_id: context.payload.comment.id,
-                content: '+1',
-              });
-              core.info(`${command} updated: ${updatedProjects.join(', ')}`);
-            } else {
-              core.warning(`${command} changed labels/assignees, but did not update any target project.`);
-            }
-
-            async function updateProjectStatus(project, issueId, statusName) {
-              const data = await github.graphql(`
-                query($org: String!, $number: Int!, $issueId: ID!) {
-                  organization(login: $org) {
-                    projectV2(number: $number) {
-                      id
-                      title
-                      fields(first: 100) {
-                        nodes {
-                          ... on ProjectV2SingleSelectField {
-                            id
-                            name
-                            options {
-                              id
-                              name
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                  node(id: $issueId) {
-                    ... on Issue {
-                      projectItems(first: 100) {
-                        nodes {
-                          id
-                          project {
-                            id
-                          }
-                        }
-                      }
-                    }
-                  }
+                if (error.status !== 404) {
+                  throw error;
                 }
-              `, {
-                org: project.org,
-                number: project.number,
-                issueId,
-              });
-
-              const projectV2 = data.organization.projectV2;
-              const statusField = projectV2.fields.nodes.find((field) => field?.name === 'Status');
-              const statusOption = statusField?.options.find((option) => option.name === statusName);
-
-              if (!statusField || !statusOption) {
-                core.warning(`Project ${project.number} does not have Status option "${statusName}".`);
-                return false;
               }
-
-              const item = data.node.projectItems.nodes.find((projectItem) => projectItem.project.id === projectV2.id);
-
-              if (!item) {
-                core.info(`Issue is not in ${projectV2.title}; skipping.`);
-                return false;
-              }
-
-              await github.graphql(`
-                mutation($projectId: ID!, $itemId: ID!, $fieldId: ID!, $optionId: String!) {
-                  updateProjectV2ItemFieldValue(input: {
-                    projectId: $projectId
-                    itemId: $itemId
-                    fieldId: $fieldId
-                    value: {
-                      singleSelectOptionId: $optionId
-                    }
-                  }) {
-                    projectV2Item {
-                      id
-                    }
-                  }
-                }
-              `, {
-                projectId: projectV2.id,
-                itemId: item.id,
-                fieldId: statusField.id,
-                optionId: statusOption.id,
-              });
-
-              return true;
             }
+
+            await github.rest.reactions.createForIssueComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              comment_id: context.payload.comment.id,
+              content: '+1',
+            });
+
+            core.info(`Processed ${command} on issue #${context.issue.number}.`);
