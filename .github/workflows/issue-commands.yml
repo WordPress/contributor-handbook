@@ -4,210 +4,196 @@ on:
   issue_comment:
     types: [created]
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+permissions:
+  contents: read
 
 jobs:
   process-command:
+    if: ${{ !github.event.issue.pull_request }}
     runs-on: ubuntu-latest
-    permissions:
-      issues: write
-      repository-projects: write
     steps:
-      - name: Process commands
-        uses: actions/github-script@v7
+      - name: Create GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
         with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: WordPress
+          permission-issues: write
+          permission-organization-projects: write
+
+      - name: Process issue command
+        uses: actions/github-script@v8
+        with:
+          github-token: ${{ steps.app-token.outputs.token }}
           script: |
-            const comment = context.payload.comment.body.toLowerCase();
-            const commands = {
-              '/assign': { status: 'In progress', action: 'assign' },
-              '/blocked': { status: 'Blocked', label: 'blocked' },
-              '/unblock': { status: 'In progress', removeLabel: 'blocked' },
-              '/review': { status: 'Review', label: 'review' },
-              '/done': { status: 'Add to Manifest', label: 'Admin' }
+            const PROJECTS = [
+              { org: 'WordPress', number: 282, name: 'Pathways' },
+              { org: 'WordPress', number: 289, name: 'Good first issues' },
+            ];
+
+            const COMMANDS = {
+              '/assign': { status: 'In progress', assign: true },
+              '/blocked': { status: 'Blocked', addLabels: ['blocked'] },
+              '/unblock': { status: 'In progress', removeLabels: ['blocked'] },
+              '/review': { status: 'Review', addLabels: ['review'] },
+              '/done': { status: 'Add to Manifest', addLabels: ['Admin'] },
             };
-            
-            // Find which command was used
-            let commandUsed = null;
-            let commandConfig = null;
-            for (const [cmd, config] of Object.entries(commands)) {
-              if (comment.includes(cmd)) {
-                commandUsed = cmd;
-                commandConfig = config;
-                break;
+
+            const body = context.payload.comment.body || '';
+            const matches = [...body.matchAll(/(?:^|\r?\n)\s*(\/assign|\/blocked|\/unblock|\/review|\/done)\s*(?=\r?\n|$)/gi)]
+              .map((match) => match[1].toLowerCase());
+
+            if (matches.length !== 1) {
+              if (matches.length > 1) {
+                core.warning(`Ignoring comment with multiple commands: ${matches.join(', ')}`);
+              }
+              return;
+            }
+
+            const command = matches[0];
+            const config = COMMANDS[command];
+            const issue = context.payload.issue;
+            const issueParams = {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+            };
+
+            const labelsToAdd = [...(config.addLabels || [])];
+
+            if (config.assign) {
+              const currentIssue = await github.rest.issues.get(issueParams);
+
+              if (currentIssue.data.assignees.length > 0) {
+                labelsToAdd.push('Admin');
+              } else {
+                try {
+                  await github.rest.issues.addAssignees({
+                    ...issueParams,
+                    assignees: [context.payload.comment.user.login],
+                  });
+                } catch (error) {
+                  labelsToAdd.push('Admin');
+                  core.warning(`Could not assign @${context.payload.comment.user.login}; added Admin instead.`);
+                }
               }
             }
-            
-            if (!commandUsed) return;
-            
-            let success = false;
-            let projectUpdateCount = 0;
-            
-            try {
-              // Handle /assign specially
-              if (commandConfig.action === 'assign') {
-                const issue = await github.rest.issues.get({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  issue_number: context.issue.number
+
+            if (labelsToAdd.length > 0) {
+              await github.rest.issues.addLabels({
+                ...issueParams,
+                labels: [...new Set(labelsToAdd)],
+              });
+            }
+
+            for (const label of config.removeLabels || []) {
+              try {
+                await github.rest.issues.removeLabel({
+                  ...issueParams,
+                  name: label,
                 });
-                
-                if (issue.data.assignees.length > 0) {
-                  await github.rest.issues.addLabels({
-                    owner: context.repo.owner,
-                    repo: context.repo.repo,
-                    issue_number: context.issue.number,
-                    labels: ['Admin']
-                  });
-                  success = true;
-                } else {
-                  await github.rest.issues.addAssignees({
-                    owner: context.repo.owner,
-                    repo: context.repo.repo,
-                    issue_number: context.issue.number,
-                    assignees: [context.payload.comment.user.login]
-                  });
-                  success = true;
-                }
-              } else {
-                success = true; // Will be set to false if anything critical fails
+              } catch (error) {
+                if (error.status !== 404) throw error;
               }
-              
-              // Handle labels
-              if (commandConfig.label) {
-                await github.rest.issues.addLabels({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  issue_number: context.issue.number,
-                  labels: [commandConfig.label]
-                });
+            }
+
+            const updatedProjects = [];
+            for (const project of PROJECTS) {
+              if (await updateProjectStatus(project, issue.node_id, config.status)) {
+                updatedProjects.push(project.name);
               }
-              
-              if (commandConfig.removeLabel) {
-                try {
-                  await github.rest.issues.removeLabel({
-                    owner: context.repo.owner,
-                    repo: context.repo.repo,
-                    issue_number: context.issue.number,
-                    name: commandConfig.removeLabel
-                  });
-                } catch (e) {
-                  console.log('Label not found, continuing...');
-                }
-              }
-              
-              // Update project status on ALL boards
-              if (commandConfig.status) {
-                console.log(`Attempting to update status to: ${commandConfig.status}`);
-                try {
-                  const projectInfo = await github.graphql(`
-                    query($owner: String!, $repo: String!, $issue: Int!) {
-                      repository(owner: $owner, name: $repo) {
-                        issue(number: $issue) {
-                          projectItems(first: 20) {
-                            nodes {
+            }
+
+            if (updatedProjects.length > 0) {
+              await github.rest.reactions.createForIssueComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: context.payload.comment.id,
+                content: '+1',
+              });
+              core.info(`${command} updated: ${updatedProjects.join(', ')}`);
+            } else {
+              core.warning(`${command} changed labels/assignees, but did not update any target project.`);
+            }
+
+            async function updateProjectStatus(project, issueId, statusName) {
+              const data = await github.graphql(`
+                query($org: String!, $number: Int!, $issueId: ID!) {
+                  organization(login: $org) {
+                    projectV2(number: $number) {
+                      id
+                      title
+                      fields(first: 100) {
+                        nodes {
+                          ... on ProjectV2SingleSelectField {
+                            id
+                            name
+                            options {
                               id
-                              project {
-                                id
-                                title
-                                field(name: "Status") {
-                                  ... on ProjectV2SingleSelectField {
-                                    id
-                                    options { id name }
-                                  }
-                                }
-                              }
+                              name
                             }
                           }
                         }
                       }
                     }
-                  `, {
-                    owner: context.repo.owner,
-                    repo: context.repo.repo,
-                    issue: context.issue.number
-                  });
-                  
-                  const projectItems = projectInfo.repository.issue.projectItems.nodes;
-                  console.log(`Found issue in ${projectItems.length} project(s)`);
-                  
-                  if (projectItems.length === 0) {
-                    console.log('⚠️ Issue not found in any projects - cannot update status');
-                    success = false;
-                  } else {
-                    // Update status in ALL projects the issue is in
-                    for (const projectItem of projectItems) {
-                      console.log(`Processing project: ${projectItem.project.title}`);
-                      try {
-                        const statusField = projectItem.project.field;
-                        if (!statusField) {
-                          console.log(`⚠️ No Status field found in project: ${projectItem.project.title}`);
-                          continue;
+                  }
+                  node(id: $issueId) {
+                    ... on Issue {
+                      projectItems(first: 100) {
+                        nodes {
+                          id
+                          project {
+                            id
+                          }
                         }
-                        
-                        console.log(`Available status options: ${statusField.options.map(o => o.name).join(', ')}`);
-                        const option = statusField.options.find(o => o.name === commandConfig.status);
-                        
-                        if (option) {
-                          console.log(`Found matching option '${option.name}' with ID: ${option.id}`);
-                          const mutationResult = await github.graphql(`
-                            mutation($projectId: ID!, $itemId: ID!, $fieldId: ID!, $optionId: String!) {
-                              updateProjectV2ItemFieldValue(
-                                input: {
-                                  projectId: $projectId
-                                  itemId: $itemId
-                                  fieldId: $fieldId
-                                  value: { singleSelectOptionId: $optionId }
-                                }
-                              ) {
-                                projectV2Item { id }
-                              }
-                            }
-                          `, {
-                            projectId: projectItem.project.id,
-                            itemId: projectItem.id,
-                            fieldId: statusField.id,
-                            optionId: option.id
-                          });
-                          console.log(`✅ Successfully updated status to '${commandConfig.status}' in project: ${projectItem.project.title}`);
-                          projectUpdateCount++;
-                        } else {
-                          console.log(`⚠️ Status option '${commandConfig.status}' not found in project: ${projectItem.project.title}`);
-                          console.log(`Available options are: ${statusField.options.map(o => o.name).join(', ')}`);
-                        }
-                      } catch (projectError) {
-                        console.log(`❌ Failed to update project ${projectItem.project.title}:`);
-                        console.log(projectError);
-                        success = false;
                       }
                     }
-                    
-                    // Only consider it a success if we updated at least one project
-                    if (commandConfig.status && projectUpdateCount === 0) {
-                      console.log('⚠️ No projects were updated');
-                      success = false;
+                  }
+                }
+              `, {
+                org: project.org,
+                number: project.number,
+                issueId,
+              });
+
+              const projectV2 = data.organization.projectV2;
+              const statusField = projectV2.fields.nodes.find((field) => field?.name === 'Status');
+              const statusOption = statusField?.options.find((option) => option.name === statusName);
+
+              if (!statusField || !statusOption) {
+                core.warning(`Project ${project.number} does not have Status option "${statusName}".`);
+                return false;
+              }
+
+              const item = data.node.projectItems.nodes.find((projectItem) => projectItem.project.id === projectV2.id);
+
+              if (!item) {
+                core.info(`Issue is not in ${projectV2.title}; skipping.`);
+                return false;
+              }
+
+              await github.graphql(`
+                mutation($projectId: ID!, $itemId: ID!, $fieldId: ID!, $optionId: String!) {
+                  updateProjectV2ItemFieldValue(input: {
+                    projectId: $projectId
+                    itemId: $itemId
+                    fieldId: $fieldId
+                    value: {
+                      singleSelectOptionId: $optionId
+                    }
+                  }) {
+                    projectV2Item {
+                      id
                     }
                   }
-                } catch (error) {
-                  console.log("❌ Project query failed:");
-                  console.log(error);
-                  success = false;
                 }
-              }
-              
-              // Add thumbs up reaction if everything succeeded
-              if (success) {
-                await github.rest.reactions.createForIssueComment({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  comment_id: context.payload.comment.id,
-                  content: '+1'
-                });
-                console.log(`✅ Command ${commandUsed} completed successfully (updated ${projectUpdateCount} project(s))`);
-              } else {
-                console.log(`⚠️ Command ${commandUsed} completed with issues`);
-              }
-              
-            } catch (error) {
-              console.log(`❌ Command ${commandUsed} failed:`, error);
+              `, {
+                projectId: projectV2.id,
+                itemId: item.id,
+                fieldId: statusField.id,
+                optionId: statusOption.id,
+              });
+
+              return true;
             }
