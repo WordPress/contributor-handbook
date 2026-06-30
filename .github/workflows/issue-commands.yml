@@ -5,90 +5,207 @@ on:
     types: [created]
 
 permissions:
-  contents: read
   issues: write
+  repository-projects: write
 
 jobs:
-  process-command:
-    if: ${{ !github.event.issue.pull_request }}
+  command:
+    # Run only for issue comments (not PR comments), and only slash commands
+    if: ${{ github.event.issue.pull_request == null && startsWith(github.event.comment.body, '/') }}
     runs-on: ubuntu-latest
+
     steps:
-      - name: Process issue command
-        uses: actions/github-script@v8
+      - name: Handle slash commands
+        uses: actions/github-script@v7
         with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const COMMANDS = {
-              '/assign': { assign: true },
-              '/blocked': { addLabels: ['blocked'] },
-              '/unblock': { removeLabels: ['blocked'] },
-              '/review': { addLabels: ['review'] },
-              '/done': { addLabels: ['Admin'] },
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+
+            // Your org project
+            const orgLogin = "WordPress";
+            const projectNumber = 282;
+
+            const issueNumber = context.payload.issue.number;
+            const issueNodeId = context.payload.issue.node_id;
+            const commenter = context.payload.comment.user.login;
+
+            // Only first token matters: "/done please" => "/done"
+            const body = (context.payload.comment.body || "").trim().split(/\s+/)[0].toLowerCase();
+
+            // Command map
+            const commands = {
+              "/assign":  { status: "In progress", action: "assign" },
+              "/blocked": { status: "Blocked", label: "blocked" },
+              "/unblock": { status: "In progress", removeLabel: "blocked" },
+              "/review":  { status: "Review", label: "review" },
+              "/done":    { status: "Add to Manifest", label: "Admin" }
             };
 
-            const body = context.payload.comment.body || '';
-            const match = body.trimStart().match(/^(\/assign|\/blocked|\/unblock|\/review|\/done)(?=\s|$)/i);
-
-            if (!match) {
+            const cmd = commands[body];
+            if (!cmd) {
+              core.info(`No matching command for '${body}', skipping.`);
               return;
             }
 
-            const command = match[1].toLowerCase();
-            const config = COMMANDS[command];
-            const issueParams = {
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-            };
-
-            if (config.assign) {
-              const issue = await github.rest.issues.get(issueParams);
-
-              if (issue.data.assignees.length > 0) {
-                await github.rest.issues.addLabels({
-                  ...issueParams,
-                  labels: ['Admin'],
-                });
-              } else {
-                try {
-                  await github.rest.issues.addAssignees({
-                    ...issueParams,
-                    assignees: [context.payload.comment.user.login],
-                  });
-                } catch (error) {
-                  await github.rest.issues.addLabels({
-                    ...issueParams,
-                    labels: ['Admin'],
-                  });
-                  core.warning(`Could not assign @${context.payload.comment.user.login}; added Admin instead.`);
-                }
-              }
-            }
-
-            if (config.addLabels?.length) {
-              await github.rest.issues.addLabels({
-                ...issueParams,
-                labels: config.addLabels,
+            // 1) Issue actions (assign / labels)
+            if (cmd.action === "assign") {
+              await github.rest.issues.addAssignees({
+                owner,
+                repo,
+                issue_number: issueNumber,
+                assignees: [commenter]
               });
             }
 
-            for (const label of config.removeLabels || []) {
+            if (cmd.label) {
+              await github.rest.issues.addLabels({
+                owner,
+                repo,
+                issue_number: issueNumber,
+                labels: [cmd.label]
+              });
+            }
+
+            if (cmd.removeLabel) {
               try {
                 await github.rest.issues.removeLabel({
-                  ...issueParams,
-                  name: label,
+                  owner,
+                  repo,
+                  issue_number: issueNumber,
+                  name: cmd.removeLabel
                 });
-              } catch (error) {
-                if (error.status !== 404) {
-                  throw error;
-                }
+              } catch (e) {
+                // Ignore if label doesn't exist on issue
+                if (e.status !== 404) throw e;
               }
             }
 
-            await github.rest.reactions.createForIssueComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              comment_id: context.payload.comment.id,
-              content: '+1',
+            // 2) Load project + Status field + selected option
+            const projectData = await github.graphql(`
+              query($org: String!, $number: Int!) {
+                organization(login: $org) {
+                  projectV2(number: $number) {
+                    id
+                    title
+                    fields(first: 100) {
+                      nodes {
+                        ... on ProjectV2SingleSelectField {
+                          id
+                          name
+                          options { id name }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `, { org: orgLogin, number: projectNumber });
+
+            const project = projectData.organization?.projectV2;
+            if (!project) {
+              core.setFailed(\`Could not find org project #\${projectNumber} in \${orgLogin}.\`);
+              return;
+            }
+
+            const statusField = project.fields.nodes.find(f => f?.name === "Status");
+            if (!statusField) {
+              core.setFailed("Could not find 'Status' field in the project.");
+              return;
+            }
+
+            const statusOption = statusField.options.find(o => o.name === cmd.status);
+            if (!statusOption) {
+              const available = statusField.options.map(o => o.name).join(", ");
+              core.setFailed(\`Status option '\${cmd.status}' not found. Available: \${available}\`);
+              return;
+            }
+
+            // 3) Find this issue's project item in target project
+            const issueItems = await github.graphql(`
+              query($owner: String!, $repo: String!, $issueNumber: Int!) {
+                repository(owner: $owner, name: $repo) {
+                  issue(number: $issueNumber) {
+                    projectItems(first: 50) {
+                      nodes {
+                        id
+                        project { id }
+                      }
+                    }
+                  }
+                }
+              }
+            `, { owner, repo, issueNumber });
+
+            let item = issueItems.repository.issue.projectItems.nodes.find(
+              n => n.project.id === project.id
+            );
+
+            // If missing, auto-add issue to project
+            if (!item) {
+              const addResult = await github.graphql(`
+                mutation($projectId: ID!, $contentId: ID!) {
+                  addProjectV2ItemById(input: { projectId: $projectId, contentId: $contentId }) {
+                    item { id }
+                  }
+                }
+              `, {
+                projectId: project.id,
+                contentId: issueNodeId
+              });
+
+              item = addResult.addProjectV2ItemById.item;
+            }
+
+            // 4) Update Status field
+            await github.graphql(`
+              mutation($projectId: ID!, $itemId: ID!, $fieldId: ID!, $optionId: String!) {
+                updateProjectV2ItemFieldValue(input: {
+                  projectId: $projectId
+                  itemId: $itemId
+                  fieldId: $fieldId
+                  value: { singleSelectOptionId: $optionId }
+                }) {
+                  projectV2Item { id }
+                }
+              }
+            `, {
+              projectId: project.id,
+              itemId: item.id,
+              fieldId: statusField.id,
+              optionId: statusOption.id
             });
 
-            core.info(`Processed ${command} on issue #${context.issue.number}.`);
+            // 5) For /done, add one admin checklist comment (deduped)
+            if (body === "/done") {
+              const marker = "<!-- admin-handoff-checklist -->";
+              const checklist = [
+                marker,
+                "✅ Contributor marked this issue as ready for finalization (`/done`).",
+                "",
+                "**Admin handoff checklist**",
+                "- [ ] Final admin review completed",
+                "- [ ] Manifest JSON updated",
+                "- [ ] Published"
+              ].join("\n");
+
+              const comments = await github.rest.issues.listComments({
+                owner,
+                repo,
+                issue_number: issueNumber,
+                per_page: 100
+              });
+
+              const existing = comments.data.find(c => (c.body || "").includes(marker));
+              if (!existing) {
+                await github.rest.issues.createComment({
+                  owner,
+                  repo,
+                  issue_number: issueNumber,
+                  body: checklist
+                });
+              }
+            }
+
+            core.info(`Applied command '${body}' on issue #${issueNumber}.`);
