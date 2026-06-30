@@ -40,70 +40,79 @@ jobs:
             
             if (!commandUsed) return;
             
-            // Handle /assign specially
-            if (commandConfig.action === 'assign') {
-              const issue = await github.rest.issues.get({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.issue.number
-              });
+            let success = false;
+            
+            try {
+              // Handle /assign specially
+              if (commandConfig.action === 'assign') {
+                const issue = await github.rest.issues.get({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number
+                });
+                
+                if (issue.data.assignees.length > 0) {
+                  await github.rest.issues.addLabels({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    issue_number: context.issue.number,
+                    labels: ['Admin']
+                  });
+                  success = true;
+                } else {
+                  await github.rest.issues.addAssignees({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    issue_number: context.issue.number,
+                    assignees: [context.payload.comment.user.login]
+                  });
+                  success = true;
+                }
+              } else {
+                success = true; // Will be set to false if anything fails below
+              }
               
-              if (issue.data.assignees.length > 0) {
+              // Handle labels
+              if (commandConfig.label) {
                 await github.rest.issues.addLabels({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
                   issue_number: context.issue.number,
-                  labels: ['Admin']
+                  labels: [commandConfig.label]
                 });
-                return;
               }
               
-              await github.rest.issues.addAssignees({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.issue.number,
-                assignees: [context.payload.comment.user.login]
-              });
-            }
-            
-            // Handle labels
-            if (commandConfig.label) {
-              await github.rest.issues.addLabels({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.issue.number,
-                labels: [commandConfig.label]
-              });
-            }
-            
-            if (commandConfig.removeLabel) {
-              try {
-                await github.rest.issues.removeLabel({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  issue_number: context.issue.number,
-                  name: commandConfig.removeLabel
-                });
-              } catch (e) {
-                console.log('Label not found');
+              if (commandConfig.removeLabel) {
+                try {
+                  await github.rest.issues.removeLabel({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    issue_number: context.issue.number,
+                    name: commandConfig.removeLabel
+                  });
+                } catch (e) {
+                  console.log('Label not found, continuing...');
+                }
               }
-            }
-            
-            // Update project status
-            if (commandConfig.status) {
-              try {
-                const projectInfo = await github.graphql(`
-                  query($owner: String!, $repo: String!, $issue: Int!) {
-                    repository(owner: $owner, name: $repo) {
-                      issue(number: $issue) {
-                        projectItems(first: 10) {
-                          nodes {
-                            id
-                            project {
-                              field(name: "Status") {
-                                ... on ProjectV2SingleSelectField {
-                                  id
-                                  options { id name }
+              
+              // Update project status on ALL boards
+              if (commandConfig.status) {
+                try {
+                  const projectInfo = await github.graphql(`
+                    query($owner: String!, $repo: String!, $issue: Int!) {
+                      repository(owner: $owner, name: $repo) {
+                        issue(number: $issue) {
+                          projectItems(first: 20) {
+                            nodes {
+                              id
+                              project {
+                                id
+                                title
+                                field(name: "Status") {
+                                  ... on ProjectV2SingleSelectField {
+                                    id
+                                    options { id name }
+                                  }
                                 }
                               }
                             }
@@ -111,39 +120,75 @@ jobs:
                         }
                       }
                     }
+                  `, {
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    issue: context.issue.number
+                  });
+                  
+                  const projectItems = projectInfo.repository.issue.projectItems.nodes;
+                  
+                  if (projectItems.length === 0) {
+                    console.log('Issue not found in any projects');
+                  } else {
+                    // Update status in ALL projects the issue is in
+                    for (const projectItem of projectItems) {
+                      try {
+                        const statusField = projectItem.project.field;
+                        if (!statusField) {
+                          console.log(`No Status field in project: ${projectItem.project.title}`);
+                          continue;
+                        }
+                        
+                        const option = statusField.options.find(o => o.name === commandConfig.status);
+                        
+                        if (option) {
+                          await github.graphql(`
+                            mutation($projectId: ID!, $itemId: ID!, $fieldId: ID!, $optionId: String!) {
+                              updateProjectV2ItemFieldValue(
+                                input: {
+                                  projectId: $projectId
+                                  itemId: $itemId
+                                  fieldId: $fieldId
+                                  value: { singleSelectOptionId: $optionId }
+                                }
+                              ) {
+                                projectV2Item { id }
+                              }
+                            }
+                          `, {
+                            projectId: projectItem.project.id,
+                            itemId: projectItem.id,
+                            fieldId: statusField.id,
+                            optionId: option.id
+                          });
+                          console.log(`✓ Updated status to '${commandConfig.status}' in project: ${projectItem.project.title}`);
+                        } else {
+                          console.log(`Status '${commandConfig.status}' not found in project: ${projectItem.project.title}`);
+                        }
+                      } catch (projectError) {
+                        console.log(`Failed to update project ${projectItem.project.title}: ${projectError.message}`);
+                        success = false;
+                      }
+                    }
                   }
-                `, {
+                } catch (error) {
+                  console.log("Project query failed:", error.message);
+                  success = false;
+                }
+              }
+              
+              // Add thumbs up reaction if everything succeeded
+              if (success) {
+                await github.rest.reactions.createForIssueComment({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
-                  issue: context.issue.number
+                  comment_id: context.payload.comment.id,
+                  content: '+1'
                 });
-                
-                const projectItem = projectInfo.repository.issue.projectItems.nodes[0];
-                if (projectItem) {
-                  const statusField = projectItem.project.field;
-                  const option = statusField.options.find(o => o.name === commandConfig.status);
-                  
-                  if (option) {
-                    await github.graphql(`
-                      mutation($itemId: ID!, $fieldId: ID!, $optionId: String!) {
-                        updateProjectV2ItemFieldValue(
-                          input: {
-                            projectId: $itemId
-                            fieldId: $fieldId
-                            value: { singleSelectOptionId: $optionId }
-                          }
-                        ) {
-                          projectV2Item { id }
-                        }
-                      }
-                    `, {
-                      itemId: projectItem.id,
-                      fieldId: statusField.id,
-                      optionId: option.id
-                    });
-                  }
-                }
-              } catch (error) {
-                console.log("Project update failed:", error.message);
+                console.log(`✅ Command ${commandUsed} completed successfully`);
               }
+              
+            } catch (error) {
+              console.log(`Command ${commandUsed} failed:`, error.message);
             }
