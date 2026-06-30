@@ -10,20 +10,17 @@ permissions:
 
 jobs:
   command:
-    # Run only for issue comments (not PR comments), and only slash commands
     if: ${{ github.event.issue.pull_request == null && startsWith(github.event.comment.body, '/') }}
     runs-on: ubuntu-latest
 
     steps:
       - name: Handle slash commands
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const owner = context.repo.owner;
             const repo = context.repo.repo;
-
-            // Your org project
             const orgLogin = "WordPress";
             const projectNumber = 282;
 
@@ -31,10 +28,11 @@ jobs:
             const issueNodeId = context.payload.issue.node_id;
             const commenter = context.payload.comment.user.login;
 
-            // Only first token matters: "/done please" => "/done"
-            const body = (context.payload.comment.body || "").trim().split(/\s+/)[0].toLowerCase();
+            const body = (context.payload.comment.body || "")
+              .trim()
+              .split(/\s+/)[0]
+              .toLowerCase();
 
-            // Command map
             const commands = {
               "/assign":  { status: "In progress", action: "assign" },
               "/blocked": { status: "Blocked", label: "blocked" },
@@ -45,11 +43,10 @@ jobs:
 
             const cmd = commands[body];
             if (!cmd) {
-              core.info(`No matching command for '${body}', skipping.`);
+              core.info("No matching command for '" + body + "', skipping.");
               return;
             }
 
-            // 1) Issue actions (assign / labels)
             if (cmd.action === "assign") {
               await github.rest.issues.addAssignees({
                 owner,
@@ -77,14 +74,12 @@ jobs:
                   name: cmd.removeLabel
                 });
               } catch (e) {
-                // Ignore if label doesn't exist on issue
                 if (e.status !== 404) throw e;
               }
             }
 
-            // 2) Load project + Status field + selected option
-            const projectData = await github.graphql(`
-              query($org: String!, $number: Int!) {
+            const projectData = await github.graphql(
+              `query($org: String!, $number: Int!) {
                 organization(login: $org) {
                   projectV2(number: $number) {
                     id
@@ -100,31 +95,31 @@ jobs:
                     }
                   }
                 }
-              }
-            `, { org: orgLogin, number: projectNumber });
+              }`,
+              { org: orgLogin, number: projectNumber }
+            );
 
-            const project = projectData.organization?.projectV2;
+            const project = projectData.organization && projectData.organization.projectV2;
             if (!project) {
-              core.setFailed(\`Could not find org project #\${projectNumber} in \${orgLogin}.\`);
+              core.setFailed("Could not find org project #" + projectNumber + " in " + orgLogin + ".");
               return;
             }
 
-            const statusField = project.fields.nodes.find(f => f?.name === "Status");
+            const statusField = project.fields.nodes.find((f) => f && f.name === "Status");
             if (!statusField) {
               core.setFailed("Could not find 'Status' field in the project.");
               return;
             }
 
-            const statusOption = statusField.options.find(o => o.name === cmd.status);
+            const statusOption = statusField.options.find((o) => o.name === cmd.status);
             if (!statusOption) {
-              const available = statusField.options.map(o => o.name).join(", ");
-              core.setFailed(\`Status option '\${cmd.status}' not found. Available: \${available}\`);
+              const available = statusField.options.map((o) => o.name).join(", ");
+              core.setFailed("Status option '" + cmd.status + "' not found. Available: " + available);
               return;
             }
 
-            // 3) Find this issue's project item in target project
-            const issueItems = await github.graphql(`
-              query($owner: String!, $repo: String!, $issueNumber: Int!) {
+            const issueItems = await github.graphql(
+              `query($owner: String!, $repo: String!, $issueNumber: Int!) {
                 repository(owner: $owner, name: $repo) {
                   issue(number: $issueNumber) {
                     projectItems(first: 50) {
@@ -135,32 +130,31 @@ jobs:
                     }
                   }
                 }
-              }
-            `, { owner, repo, issueNumber });
-
-            let item = issueItems.repository.issue.projectItems.nodes.find(
-              n => n.project.id === project.id
+              }`,
+              { owner, repo, issueNumber }
             );
 
-            // If missing, auto-add issue to project
+            let item = issueItems.repository.issue.projectItems.nodes.find(
+              (n) => n.project.id === project.id
+            );
+
             if (!item) {
-              const addResult = await github.graphql(`
-                mutation($projectId: ID!, $contentId: ID!) {
+              const addResult = await github.graphql(
+                `mutation($projectId: ID!, $contentId: ID!) {
                   addProjectV2ItemById(input: { projectId: $projectId, contentId: $contentId }) {
                     item { id }
                   }
+                }`,
+                {
+                  projectId: project.id,
+                  contentId: issueNodeId
                 }
-              `, {
-                projectId: project.id,
-                contentId: issueNodeId
-              });
-
+              );
               item = addResult.addProjectV2ItemById.item;
             }
 
-            // 4) Update Status field
-            await github.graphql(`
-              mutation($projectId: ID!, $itemId: ID!, $fieldId: ID!, $optionId: String!) {
+            await github.graphql(
+              `mutation($projectId: ID!, $itemId: ID!, $fieldId: ID!, $optionId: String!) {
                 updateProjectV2ItemFieldValue(input: {
                   projectId: $projectId
                   itemId: $itemId
@@ -169,15 +163,15 @@ jobs:
                 }) {
                   projectV2Item { id }
                 }
+              }`,
+              {
+                projectId: project.id,
+                itemId: item.id,
+                fieldId: statusField.id,
+                optionId: statusOption.id
               }
-            `, {
-              projectId: project.id,
-              itemId: item.id,
-              fieldId: statusField.id,
-              optionId: statusOption.id
-            });
+            );
 
-            // 5) For /done, add one admin checklist comment (deduped)
             if (body === "/done") {
               const marker = "<!-- admin-handoff-checklist -->";
               const checklist = [
@@ -197,7 +191,7 @@ jobs:
                 per_page: 100
               });
 
-              const existing = comments.data.find(c => (c.body || "").includes(marker));
+              const existing = comments.data.find((c) => (c.body || "").includes(marker));
               if (!existing) {
                 await github.rest.issues.createComment({
                   owner,
@@ -208,4 +202,4 @@ jobs:
               }
             }
 
-            core.info(`Applied command '${body}' on issue #${issueNumber}.`);
+            core.info("Applied command '" + body + "' on issue #" + issueNumber + ".");
