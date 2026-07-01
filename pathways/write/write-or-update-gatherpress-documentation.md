@@ -25,7 +25,7 @@ No coding experience is required for many documentation issues. You will need a 
 
 - Claimed one GatherPress documentation issue before starting
 - Checked the current docs page or GitHub docs file
-- Created a branch from the GatherPress `develop` branch
+- Created a fork from the GatherPress `develop` branch
 - Submitted a focused pull request that references the issue
 - Responded to review feedback from the GatherPress team
 
