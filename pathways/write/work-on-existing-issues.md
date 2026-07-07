@@ -1,6 +1,6 @@
-# Review Documentation Issues
+# Work on Documentation Issues
 
-You'll review proposed documentation fixes for accuracy, style, and accessibility, then leave feedback on the issue. This takes the heavy lifting off team members and helps publish fixes faster.
+You'll review documentation issues for accuracy and relevance, then either review existing fixes or write new ones when needed. This takes the heavy lifting off team members and helps publish fixes faster.
 
 - **Reference:** [Documentation Team Handbook](https://make.wordpress.org/docs/handbook/documentation-team-handbook/) — standards for grammar, style, tone, linking, and screenshots
 - **Connect:** Join [#docs](https://wordpress.slack.com/archives/docs) on Slack and introduce yourself
@@ -13,14 +13,16 @@ You'll review proposed documentation fixes for accuracy, style, and accessibilit
 
 3. **Understand the problem.** Read the issue description, visit the live documentation page, and confirm the reported problem still exists.
 
-4. **Review the proposed fix** for accuracy, grammar, style, tone, links, screenshots, and accessibility against the standards in the Documentation Team Handbook. Check the pages linked in [Further Reading](https://make.wordpress.org/handbook/pathways/write/work-on-existing-issues/#help) below.
+4. **Check if a fix exists:**
+   - **If there's a proposed fix:** Review it for accuracy, grammar, style, tone, links, screenshots, and accessibility against the standards in the [Documentation Team Handbook](https://make.wordpress.org/docs/handbook/documentation-team-handbook/). Check the pages linked in [Further Reading](https://make.wordpress.org/handbook/pathways/write/work-on-existing-issues/#help) below.
+   - **If there's no fix yet AND the issue is valid:** Write a proposed fix following the [Documentation Team Handbook](https://make.wordpress.org/docs/handbook/documentation-team-handbook/) standards. Include the corrected text in your comment using markdown formatting.
 
-5. **Leave a summary comment** with what you checked, any problems found, and specific suggestions. Mention a team member (@zzap or @atachibana) when ready for a final check.
+5. **Leave a summary comment** with what you checked, any problems found, and specific suggestions (or your proposed fix if you wrote one). Mention a team member (@zzap or @atachibana) when ready for a final check.
 
 ## Contribution checklist
 
 - Confirmed the reported problem still exists on the live page
-- Verified the proposed fix is accurate and solves the problem
+- Either reviewed the existing fix OR wrote a new one if needed
 - Checked against the Documentation Team Handbook standards
 - Posted a summary comment and mentioned a team member for final check
 
