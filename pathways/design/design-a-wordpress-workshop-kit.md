@@ -7,17 +7,15 @@ Design a reusable set of assets that anyone can use to run a polished WordPress 
 
 ## Steps
 
-1. **Set up your design tool.** Use whatever you're comfortable with — Google Slides, Figma, or Canva all work well. The goal is to create assets that are easy for anyone to customize.
+1. **Understand how workshops work.** Read through the [Online Workshops](https://make.wordpress.org/training/handbook/online-workshops/) section of the Training team handbook, including the pages on [planning](https://make.wordpress.org/training/handbook/online-workshops/planning-an-online-workshop/), [hosting](https://make.wordpress.org/training/handbook/online-workshops/hosting-an-online-workshop/), and [tools for hosting](https://make.wordpress.org/training/handbook/online-workshops/tools-for-hosting/). Watch a few [recorded workshops](https://wordpress.tv/category/learn-wordpress-online-workshops/) to see how they look and feel in practice.
 
-2. **Understand how workshops work.** Read through the [Online Workshops](https://make.wordpress.org/training/handbook/online-workshops/) section of the Training team handbook, including the pages on [planning](https://make.wordpress.org/training/handbook/online-workshops/planning-an-online-workshop/), [hosting](https://make.wordpress.org/training/handbook/online-workshops/hosting-an-online-workshop/), and [tools for hosting](https://make.wordpress.org/training/handbook/online-workshops/tools-for-hosting/). Watch a few [recorded workshops](https://wordpress.tv/category/learn-wordpress-online-workshops/) to see how they look and feel in practice.
+2. **Identify the gaps.** The guidance and process exist, but the design assets don't. Currently missing are things like a branded slide template, Zoom virtual backgrounds, handout or activity sheet templates, social media graphics for promoting workshops, and a visual checklist for facilitators. Ask in #training what facilitators wish they had.
 
-3. **Identify the gaps.** The guidance and process exist, but the design assets don't. Currently missing are things like a branded slide template, Zoom virtual backgrounds, handout or activity sheet templates, social media graphics for promoting workshops, and a visual checklist for facilitators. Ask in #training what facilitators wish they had.
+3. **Create your design kit.** Choose a tool you’re comfortable with, such as Google Slides, Figma, or Canva, then create a small set of lightweight, easy-to-customize assets. Your starter kit might include a slide deck template, a Zoom virtual background, a one-page handout template, and a visual facilitator checklist.
 
-4. **Design your kit.** Start small and keep it lightweight. A starter kit might include a slide deck template, a Zoom virtual background, a one-page handout template, and a visual facilitator checklist.
+4. **Get feedback.** Share your work-in-progress in #design for design feedback and in #training for practical feedback from facilitators. Iterate based on what you hear.
 
-5. **Get feedback.** Share your work-in-progress in #design for design feedback and in #training for practical feedback from facilitators. Iterate based on what you hear.
-
-6. **Package and share your kit.** Make your assets easy to find, download, and customize. Share the final kit in #design and #training with a short description of what's included and how to use it.
+5. **Package and share your kit.** Make your assets easy to find, download, and customize. Share the final kit in #design and #training with a short description of what's included and how to use it.
 
 ## Contribution checklist
 
