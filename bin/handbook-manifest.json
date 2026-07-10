@@ -118,6 +118,13 @@
         "parent": "build",
         "order": 3
     },
+    "pathways-build-contribute-to-data-liberation": {
+        "title": "Contribute to Data Liberation",
+        "slug": "contribute-to-data-liberation",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/build\/contribute-to-data-liberation.md",
+        "parent": "build",
+        "order": 4
+    },
     "pathways-design-contribute-to-photos": {
         "title": "Contribute to the WordPress Photo Directory",
         "slug": "contribute-to-photos",
@@ -140,11 +147,18 @@
         "order": 2
     },
     "pathways-design-design-meetup-kit": {
-        "title": "",
+        "title": "Design a Meetup Kit",
         "slug": "design-meetup-kit",
         "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/design\/design-meetup-kit.md",
         "parent": "design",
         "order": 3
+    },
+    "pathways-design-design-a-wordpress-workshop-kit": {
+        "title": "Design a WordPress Workshop Kit",
+        "slug": "design-a-wordpress-workshop-kit",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/pathways\/design\/design-a-wordpress-workshop-kit.md",
+        "parent": "design",
+        "order": 4
     },
     "pathways-write-create-a-pathway-guide": {
         "title": "Create a Pathway Guide",
