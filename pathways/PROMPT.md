@@ -189,7 +189,7 @@ Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathwa
     <div class="pathway-header">
       <span class="dashicons dashicons-megaphone"></span> [Function]
     </div>
-    <div class="pathway-dtails">
+    <div class="pathway-details">
       <p>[Beginner-friendly / Intermediate] [task / project / Team]</p>
       <p class="newbies">New here? <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">Get set up</a> with accounts, community basics, and info on badges. →</p>
     </div>
