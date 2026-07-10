@@ -3,7 +3,7 @@
 Design a reusable set of assets that anyone can use to run a polished WordPress workshop. The Training team provides detailed guidance on planning, hosting, and facilitating workshops. Your kit complements that guidance with ready-made design assets so organizers can focus on teaching instead of designing from scratch.
 
 - **Reference:** [Slides Style Guide](https://make.wordpress.org/training/handbook/guidelines/lesson-plans/slides-style-guide/) — the standard for WordPress training slides
-- **Connect:** Join [#design](https://wordpress.slack.com/archives/design) on Slack for design feedback and [#training](https://wordpress.slack.com/archives/training) for context on what workshop facilitators actually need
+- **Connect:** You'll be working with [#training](https://wordpress.slack.com/archives/training) on Slack for context on what workshop facilitators need; also join [#design](https://wordpress.slack.com/archives/design) for feedback.
 
 ## Steps
 
@@ -49,7 +49,7 @@ Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathwa
     <div class="pathway-header">
       <span class="dashicons dashicons-art"></span> Design
     </div>
-    <div class="pathway-dtails">
+    <div class="pathway-details">
       <p>Beginner-friendly project</p>
       <p class="newbies">New here? <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">Get set up</a> with accounts, community basics, and info on badges. →</p>
     </div>
