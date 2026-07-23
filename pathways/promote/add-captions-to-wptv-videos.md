@@ -47,6 +47,15 @@ When done, save both files separately. It's a good habit to add the language to 
 - Vimeo → SRT
 - Self-hosted WordPress → SRT
 
+**![:danger:](https://a.slack-edge.com/production-standard-emoji-assets/16.0/google-medium/26a0-fe0f.png)** **MacOS users – Subtitle Edit security warning**  
+macOS may block Subtitle Edit as an app from an unidentified developer. To fix this, run these two commands in Terminal:  
+`sudo xattr -rd com.apple.quarantine "/Applications/Subtitle Edit.app"`
+`sudo codesign --force --deep --sign - "/Applications/Subtitle Edit.app"`
+
+After that the app will open normally.  
+  
+::::::::::::::::::::::::::::::::::::::::::  
+On [WordPress.org](http://WordPress.org) the language should load automatically based on system language settings – is this always the case or specific to [WordPress.org](http://WordPress.org)
 
 ## Contribution checklist
 
