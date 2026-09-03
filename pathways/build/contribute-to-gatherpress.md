@@ -13,7 +13,7 @@ GatherPress is an open-source event and meetup plugin for WordPress. Join the te
 
 3. **Join team calls** if possible. Otherwise, follow the weekly notes in #gatherpress.
 
-4. **Pick a Good First Issue.** [Browse issues for the current milestone](https://github.com/GatherPress/gatherpress/milestone/10), especially Good First Issues. Comment on the issue with what you plan to do and your rough timeline.
+4. **Pick a Good First Issue.** [Browse issues for the current milestone](https://github.com/GatherPress/gatherpress/milestones), especially Good First Issues. Comment on the issue with what you plan to do and your rough timeline.
 
 5. **Submit your fix.** Work on one issue at a time. Test your changes in Playground, then open a pull request that references the issue (e.g. "Fixes #123"). Follow the [contributing guidelines](https://github.com/GatherPress/gatherpress/blob/develop/docs/contributing.md).
 
