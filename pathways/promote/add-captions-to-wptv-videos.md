@@ -5,17 +5,57 @@ Help make WordPress.tv videos accessible by adding captions or translating exist
 - **Reference:** [Captioning guide on WordPress.tv](https://wordpress.tv/using-amara-org-to-caption-or-subtitle-a-wordpress-tv-video/) — the full process from start to finish
 - **Connect:** Join [#wptv](https://wordpress.slack.com/archives/wptv) on Slack and introduce yourself
 
+## Tools used:
+- [vibe](https://thewh1teagle.github.io/vibe/) (auto-transcription)
+- [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit/releases) (translation & editing))
+- [GoTranscript Converter](https://gotranscript.com/subtitle-converter) (SRT → TTML)
 ## Steps
+**Step 1 – Transcription (Vibe)**  
 
-1. **Create an account on [Amara.org](https://amara.org/).** It's free. You'll use this to edit captions.
+1. Open Vibe and load the MP4 file
+2. Vibe automatically transcribes the speech in the video language
+3. Download the result as an SRT file
 
-2. **Find a video that needs captions.** Browse [WordPress.tv](https://wordpress.tv/) and look for videos showing "Subtitle this video →" in the sidebar. Latest videos are a good place to start.
+**Step 2 – Translation (Subtitle Edit)**  
+1. Open Subtitle Edit
+2. `File → Open` – load the SRT
+3. Run auto-translation: `Auto translate → Auto translate…`
+    - Engine: Google Translate V1 (free, no API key needed)
+    - Source: Video language / Target: English or any other WP language
+    - Click Translate
+4. Both languages appear side by side
 
-3. **Caption the video.** Follow the [captioning guide](https://wordpress.tv/using-amara-org-to-caption-or-subtitle-a-wordpress-tv-video/) to add captions or translate existing subtitles using Amara.org.
+**Step 3 – Proofreading & Corrections (Subtitle Edit)** Review and correct both tracks – the original transcription and the English translation. Automatic transcription and machine translation are not perfect, especially with proper names, technical terms, or unclear audio.  
+When done, save both files separately. It's a good habit to add the language to the filename (e.g. `video_pl.srt` and `video_en.srt`) so both files are easy to tell apart.  
+![:ampoule:](https://a.slack-edge.com/production-standard-emoji-assets/16.0/google-medium/1f4a1.png) If you already have two separate files (PL + EN) and want to open them together: `File → Open` (English) + `File → Open Original` (Polish)  
+**Step 4 – Convert SRT → TTML (GoTranscript)**  
+1. Go to [https://gotranscript.com/subtitle-converter](https://gotranscript.com/subtitle-converter)
+2. Upload the SRT file
+3. Select TTML as output format
+4. Download the TTML file
 
-4. **Upload your caption file.** Click "Subtitle this video" on the video's WordPress.tv page. The guide covers this step.
+![:information:](https://a.slack-edge.com/production-standard-emoji-assets/16.0/google-medium/2139-fe0f.png) [WordPress.org](http://WordPress.org) requires TTML format for video subtitles. Other platforms (YouTube, Vimeo, self-hosted WordPress) accept plain SRT.  
+**Step 5 – Upload to** **[WordPress.org](http://WordPress.org)**  
 
-5. **Post in #wptv** that you've submitted captions, with a link to the video. Helps moderators find it and lets you get feedback — especially for encoding issues with non-English subtitles.
+1. **Go to the video page on** [WordPress.org](http://WordPress.org)
+2. Find the subtitles/captions section for the video
+3. Upload the TTML file as the subtitle track
+
+![:information:](https://a.slack-edge.com/production-standard-emoji-assets/16.0/google-medium/2139-fe0f.png) [WordPress.org](http://WordPress.org) specifically requires **TTML** format for subtitles – SRT will not work there. For other platforms SRT is fine:  
+
+- YouTube → SRT
+- Vimeo → SRT
+- Self-hosted WordPress → SRT
+
+**![:danger:](https://a.slack-edge.com/production-standard-emoji-assets/16.0/google-medium/26a0-fe0f.png)** **MacOS users – Subtitle Edit security warning**  
+macOS may block Subtitle Edit as an app from an unidentified developer. To fix this, run these two commands in Terminal:  
+`sudo xattr -rd com.apple.quarantine "/Applications/Subtitle Edit.app"`
+`sudo codesign --force --deep --sign - "/Applications/Subtitle Edit.app"`
+
+After that the app will open normally.  
+  
+::::::::::::::::::::::::::::::::::::::::::  
+On [WordPress.org](http://WordPress.org) the language should load automatically based on system language settings – is this always the case or specific to [WordPress.org](http://WordPress.org)
 
 ## Contribution checklist
 
