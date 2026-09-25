@@ -9,7 +9,7 @@ Help make WordPress.tv videos accessible by adding captions. You'll pick a video
 
 1. **Find a video that needs captions.** Browse [WordPress.tv](https://wordpress.tv/) and look for videos showing "Subtitle this video →" in the sidebar. Latest videos are a good place to start.
 
-2. **Transcribe the video.** Create a transcript of the speech in the video's original language. The [handbook page](https://wordpress.tv/how-to-add-captions-or-subtitles-to-a-wordpress-tv-video/) lists recommended free tools and how to use them.
+2. **Transcribe the video.** Generate a transcript in the video's original language. The [handbook page](https://wordpress.tv/how-to-add-captions-or-subtitles-to-a-wordpress-tv-video/) lists recommended free tools and how to use them.
 
 3. **Proofread.** Automatic transcription tools make mistakes, especially with names, technical terms, and unclear audio. Fix them before you save.
 
