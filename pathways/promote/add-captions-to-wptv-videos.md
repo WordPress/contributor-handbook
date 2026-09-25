@@ -1,24 +1,27 @@
 # Add Captions to WPTV Videos
 
-Help make WordPress.tv videos accessible by adding captions or translating existing subtitles. You'll pick a video, caption it using Amara.org, and submit it for review.
+Help make WordPress.tv videos accessible by adding captions. You'll pick a video, create a caption file, and upload it for review.
 
-- **Reference:** [Captioning guide on WordPress.tv](https://wordpress.tv/using-amara-org-to-caption-or-subtitle-a-wordpress-tv-video/) — the full process from start to finish
+- **Reference:** [How to add captions or subtitles to a WordPress.tv video](https://wordpress.tv/how-to-add-captions-or-subtitles-to-a-wordpress-tv-video/) — the full process from start to finish
 - **Connect:** Join [#wptv](https://wordpress.slack.com/archives/wptv) on Slack and introduce yourself
 
 ## Steps
 
-1. **Create an account on [Amara.org](https://amara.org/).** It's free. You'll use this to edit captions.
+1. **Find a video that needs captions.** Browse [WordPress.tv](https://wordpress.tv/) and look for videos showing "Subtitle this video →" in the sidebar. Latest videos are a good place to start.
 
-2. **Find a video that needs captions.** Browse [WordPress.tv](https://wordpress.tv/) and look for videos showing "Subtitle this video →" in the sidebar. Latest videos are a good place to start.
+2. **Transcribe the video.** Create a transcript of the speech in the video's original language. The [handbook page](https://wordpress.tv/how-to-add-captions-or-subtitles-to-a-wordpress-tv-video/) lists recommended free tools and how to use them.
 
-3. **Caption the video.** Follow the [captioning guide](https://wordpress.tv/using-amara-org-to-caption-or-subtitle-a-wordpress-tv-video/) to add captions or translate existing subtitles using Amara.org.
+3. **Proofread.** Automatic transcription tools make mistakes, especially with names, technical terms, and unclear audio. Fix them before you save.
 
-4. **Upload your caption file.** Click "Subtitle this video" on the video's WordPress.tv page. The guide covers this step.
+4. **Save as TTML.** WordPress.tv only accepts TTML caption files. The guide explains how to convert your file.
 
-5. **Post in #wptv** that you've submitted captions, with a link to the video. Helps moderators find it and lets you get feedback — especially for encoding issues with non-English subtitles.
+5. **Upload your caption file.** Click "Subtitle this video" on the video's WordPress.tv page, choose your file, and select the language.
+
+6. **Post in #wptv** that you've submitted captions, with a link to the video. This helps moderators find it and lets you get feedback, especially for any encoding issues with non-English subtitles.
 
 ## Contribution checklist
 
+- Captions proofread and saved as TTML
 - Captions uploaded to the video's WordPress.tv page
 - Posted in #wptv with a link
 
@@ -41,7 +44,7 @@ Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathwa
     <div class="pathway-header">
       <span class="dashicons dashicons-megaphone"></span> Promote
     </div>
-    <div class="pathway-dtails">
+    <div class="pathway-details">
       <p>Beginner-friendly task</p>
       <p class="newbies">New here? <a href="https://make.wordpress.org/handbook/pathways/before-you-begin/">Get set up</a> with accounts, community basics, and info on badges. →</p>
     </div>
