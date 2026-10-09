@@ -7,7 +7,7 @@ Review the Theme Check plugin handbook page, identify what's outdated or missing
 
 ## Steps
 
-1. **Set up your testing environment.** Open [WordPress Playground](https://wordpress.wordpress.net/) and install the [Theme Check](https://wordpress.org/plugins/theme-check/) plugin.
+1. **Set up your testing environment.** Open [WordPress Playground](https://playground.wordpress.net/) and install the [Theme Check](https://wordpress.org/plugins/theme-check/) plugin.
 
 2. **Familiarize yourself with the plugin.** Install a theme in Playground and run Theme Check against it. Explore what the plugin checks, what it flags, and how the results are presented.
 
