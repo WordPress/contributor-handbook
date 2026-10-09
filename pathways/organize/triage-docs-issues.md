@@ -27,7 +27,7 @@ Help the WordPress Documentation team keep its issue tracker organized by labeli
 
 A Docs team member or project rep may adjust your labels — that's normal and part of how you learn the system. Keep labeling new issues as they come in.
 
-As you get comfortable, you can take on the broader [GitHub Issues Coordinator](https://make.wordpress.org/handbook/pathways/organize/become-a-github-issues-coordinator/) responsibilities, including assigning contributors to issues and managing project board columns.
+As you get comfortable, you can take on the broader [GitHub Issues Coordinator](https://make.wordpress.org/handbook/pathways/organize/coordinate-documentation-issues/) responsibilities, including assigning contributors to issues and managing project board columns.
 
 ## Help
 
