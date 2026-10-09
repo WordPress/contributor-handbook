@@ -46,6 +46,10 @@ These standards apply across the project, no matter what you're working on.
 * [Plugin Handbook](https://developer.wordpress.org/plugins/)
 * [Plugin Submission Guidelines](https://developer.wordpress.org/plugins/wordpress-org/)
 
+**Licensing:**
+
+WordPress core is released under the [GNU General Public License v2 (or later)](https://wordpress.org/about/license/), and code contributions to WordPress core are licensed the same way. Trac shows this notice when contributors upload a patch. On GitHub, contributions are generally licensed under the license shown in that repository, as [GitHub's Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#6-contributions-under-repository-license) explain. Check the `LICENSE` file in the repository you are contributing to, especially for projects with different or additional license terms.
+
 ## When you join a Slack channel
 
 Introduce yourself! A quick hello goes a long way. Something like this:
