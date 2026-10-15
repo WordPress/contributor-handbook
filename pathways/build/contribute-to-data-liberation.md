@@ -42,7 +42,7 @@ Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathwa
 - [WordPress Playground repository](https://github.com/WordPress/wordpress-playground) — where much of the importer development happens
 - [Data Liberation project plan](https://make.wordpress.org/core/2024/05/03/data-liberation-project-plan/)
 - [Phase discussions on GitHub](https://github.com/WordPress/data-liberation/discussions)
-- [Write a Migration Guide for WordPress](https://make.wordpress.org/handbook/pathways/write-a-migration-guide-for-wordpress/) — beginner pathway for non-code contributions
+- [Write a Migration Guide for WordPress](https://make.wordpress.org/handbook/pathways/write/write-a-migration-guide-for-wordpress/) — beginner pathway for non-code contributions
 - [Published migration guides](https://wordpress.org/data-liberation/guides/)
 
 <div class="wp-block-wporg-sidebar-container is-floating-sidebar" data-breakpoint="1300px">
