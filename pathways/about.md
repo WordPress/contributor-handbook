@@ -1,36 +1,35 @@
 # About Pathways
 
-WordPress is a massive project with dozens of teams, each with their own handbooks, tools, and processes. There are hundreds of ways to contribute, but for someone new, it can be hard to know where to begin.
+The Contributor Pathways project is an index of ways to start contributing to WordPress. With dozens of teams, and hundreds of tools and processes across the project, it can be hard for new contributors to know where to begin or which team to join. We wanted to fix that.
 
-Pathway guides pull together the basic steps and connections folks need to start contributing quickly, while linking out to deeper context in handbooks.
-
-They are not full manuals, but they do expose ways to contribute and point people in the right direction. We've documented dozens of contribution routes, with more being added by the community.
+So we've collected dozens of proven ways to contribute, grouped by skill rather than by team.
 
 ## What makes a good guide?
 
-A good guide is:
-- Scoped to a specific outcome, limiting any forks or detours
-- Includes account setup, where to connect, and basic instructions
+Each pathway guide should point to the right teams and materials, plus give a quick overview of a specific way to contribute.
+
+A good guide:
+- Includes where to connect, a reference link, and an overview of instructions
+- Is scoped to a specific outcome, limiting any forks or detours
 - Explains what "done" looks like and what happens next
-- Links to existing resources rather than duplicating them
-- Tested with real contributors
+- Links to team resources rather than duplicating them
+- Outlines a current and proven way to contribute
 
-They tend to come in three types of contributions:
-- **Task** — repeatable work you can do daily or weekly after quick setup
-- **Project** — focused work with a clear finish, typically taking a few weeks
-- **Team** — ongoing contribution with a group over time
-
-We also have beginner and intermediate levels, and they're all grouped by skill area.
+Guides are not the same thing as tools or handbook pages, and shouldn't be the source of truth for a given process. If a guide points to a handbook page that's out of date, please update the handbook page first (or flag that it needs updates), then adjust the guide so it aligns.
 
 ## How to contribute
 
 **Write or improve a guide** — Follow our [guide for writing guides](https://make.wordpress.org/handbook/pathways/write/create-a-pathway-guide/). We even have an [AI prompt template](https://github.com/WordPress/contributor-handbook/blob/main/pathways/PROMPT.md). To improve a guide, click "Edit" while logged in, make your changes, and submit a PR.
 
-**Test a guide** — Our biggest need. [Here's how to help](https://make.wordpress.org/handbook/pathways/test/review-a-pathway-guide/).
+**Walk through a guide** — Our biggest need. [Here's how to help](https://make.wordpress.org/handbook/pathways/test/review-a-pathway-guide/).
 
 **Share an idea or report a problem** — [Open an issue](https://github.com/WordPress/contributor-handbook/issues/new/choose).
 
-**Help with Maintenance** — This project lives in a [GitHub repository](https://github.com/WordPress/contributor-handbook) and syncs to this handbook. The goal is community-owned maintenance with centralized feedback. If you'd like to help [maintain](https://make.wordpress.org/handbook/pathways/maintenance/) this project, introduce yourself in [#core-program](https://wordpress.slack.com/archives/core-program).
+**Help with maintenance** — This project lives in a [GitHub repository](https://github.com/WordPress/contributor-handbook) and syncs to this handbook. The goal is community-owned maintenance with centralized feedback. If you'd like to help [maintain](https://make.wordpress.org/handbook/pathways/maintenance/) this project, introduce yourself in [#core-program](https://wordpress.slack.com/archives/core-program).
+
+### Earning a badge
+
+We have a badge for pathways contributors! You can earn it by testing and improving guides, creating new ones, or mentoring others through a pathway. See the current [badge tracking issue](https://github.com/WordPress/contributor-handbook/issues?q=label%3A%22Badge+Tracker%22) for details on what qualifies and how to submit your work.
 
 ## Where this is headed
 
