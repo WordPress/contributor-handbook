@@ -29,7 +29,7 @@ Guides are not the same thing as tools or handbook pages, and shouldn't be the s
 
 ### Earning a badge
 
-We have a badge for pathways contributors! You can earn it by testing and improving guides, creating new ones, or mentoring others through a pathway. See the current [badge tracking issue](https://github.com/WordPress/contributor-handbook/issues?q=label%3A%22Badge+Tracker%22) for details on what qualifies and how to submit your work.
+We have a badge for pathways contributors! You can earn it by testing and improving guides, creating new ones, or mentoring others through a pathway. Open the current [badge tracking issue](https://github.com/WordPress/contributor-handbook/issues?q=label%3A%22Badge+Tracker%22) for details on what qualifies and how to submit your work.
 
 ## Where this is headed
 
