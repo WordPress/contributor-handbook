@@ -23,7 +23,7 @@ This pathway enables contributors outside the organizing team, (such as design s
 
 If the issue is already **In Progress**, leave a comment and wait for acknowledgment before starting to avoid duplicate work.
 
-3. After commenting, share the issue link in [\#campusconnect on Slack](https://wordpress.slack.com/archives/C08QK4V94AF) or [\#wpcredits Slack](%20https://wordpress.slack.com/archives/C0959D2M3T8) for visibility, since GitHub notifications can sometimes be missed.
+3. After commenting, share the issue link in [\#campusconnect on Slack](https://wordpress.slack.com/archives/C08QK4V94AF) or [\#wpcredits Slack](https://wordpress.slack.com/archives/C0959D2M3T8) for visibility, since GitHub notifications can sometimes be missed.
 
 4. When you start working on the design, leave a comment to confirm you’ve started, clarify any requirements (size, format, deadline), and share early drafts for feedback so the requester can guide you before finalizing.
 
@@ -40,7 +40,7 @@ If the issue is already **In Progress**, leave a comment and wait for acknowledg
 
 **How to know it’s done well:**
 
-- [ ] On the GitHub comment and [\#campusconnect](https://wordpress.slack.com/archives/C08QK4V94AF)  or [\#wpcredits](%20https://wordpress.slack.com/archives/C0959D2M3T8) Slack channel, you introduced yourself and confirmed you’re working on the request  
+- [ ] On the GitHub comment and [\#campusconnect](https://wordpress.slack.com/archives/C08QK4V94AF)  or [\#wpcredits](https://wordpress.slack.com/archives/C0959D2M3T8) Slack channel, you introduced yourself and confirmed you’re working on the request  
 - [ ] Requirements were clarified and followed (size, format, deadline)  
 - [ ] At least one draft was shared for feedback  
 - [ ] Final design file was uploaded or linked in the issue  
@@ -53,7 +53,7 @@ If the issue is already **In Progress**, leave a comment and wait for acknowledg
 * On [WordPress Github Project: WordPress Education Programs](https://github.com/orgs/WordPress/projects/277/views/1), submit directly on the comment section of the design request.  
 * Attach files or include Figma/design links in your comment.   
 * No need to change labels. Keep the existing **Design** label.  
-* Share your completed work for visibility. Post on the relevant Slack channel [\#campusconnect](https://wordpress.slack.com/archives/C08QK4V94AF)  (for WordPress Campus Connect requests) or [\#wpcredits](%20https://wordpress.slack.com/archives/C0959D2M3T8) for (WordPress Credits requests) to help organizers and other contributors see progress.  
+* Share your completed work for visibility. Post on the relevant Slack channel [\#campusconnect](https://wordpress.slack.com/archives/C08QK4V94AF)  (for WordPress Campus Connect requests) or [\#wpcredits](https://wordpress.slack.com/archives/C0959D2M3T8) for (WordPress Credits requests) to help organizers and other contributors see progress.  
   **Example:**  
   *“Design for \[Event Name\] is complete 🎉 Issue link: \[link\]”*
 
@@ -61,7 +61,7 @@ If the issue is already **In Progress**, leave a comment and wait for acknowledg
 
 * Where to check for feedback:  
   * From the Github issue notifications, or comment from the design requester.   
-  * On [\#campusconnect](https://wordpress.slack.com/archives/C08QK4V94AF) or  [\#wpcredits](%20https://wordpress.slack.com/archives/C0959D2M3T8) Slack channel, or the specific WPCC event Slack channel (if you were added to one)  
+  * On [\#campusconnect](https://wordpress.slack.com/archives/C08QK4V94AF) or  [\#wpcredits](https://wordpress.slack.com/archives/C0959D2M3T8) Slack channel, or the specific WPCC event Slack channel (if you were added to one)  
 * Typical next step after feedback:  
   * Make requested revisions  
   * Re-upload updated file  
@@ -75,9 +75,9 @@ A: A good example is a [request to create a WordPress.org profile badge for WPCC
 
 **Q: I’m stuck on the design, where should I go for help?**
 
-A: It’s normal to get stuck 😊 Review the issue and requirements first. If you’re still unsure, share your question and draft on [\#campusconnect](https://wordpress.slack.com/archives/C08QK4V94AF) or  [\#wpcredits](%20https://wordpress.slack.com/archives/C0959D2M3T8) Slack channel and ask for help.   
+A: It’s normal to get stuck 😊 Review the issue and requirements first. If you’re still unsure, share your question and draft on [\#campusconnect](https://wordpress.slack.com/archives/C08QK4V94AF) or  [\#wpcredits](https://wordpress.slack.com/archives/C0959D2M3T8) Slack channel and ask for help.   
 \[[Example design question posted on \#campusconnect Slack channel\]](https://wordpress.slack.com/archives/C08QK4V94AF/p1767871674554819%20)
 
 **Q: What if I don’t receive a response?**
 
-A: If there’s no response within 48 hours, leave a polite follow-up comment on the GitHub issue and tag the requester using their GitHub username, which is found next to their profile image. If you still don’t hear back, post in the Slack channel  [\#campusconnect](%20https://wordpress.slack.com/archives/C08QK4V94AF) to follow up.
+A: If there’s no response within 48 hours, leave a polite follow-up comment on the GitHub issue and tag the requester using their GitHub username, which is found next to their profile image. If you still don’t hear back, post in the Slack channel  [\#campusconnect](https://wordpress.slack.com/archives/C08QK4V94AF) to follow up.
