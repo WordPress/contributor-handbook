@@ -46,6 +46,10 @@ These standards apply across the project, no matter what you're working on.
 * [Plugin Handbook](https://developer.wordpress.org/plugins/)
 * [Plugin Submission Guidelines](https://developer.wordpress.org/plugins/wordpress-org/)
 
+**Licensing:**
+
+All contributions, not only code, are licensed to support the [four freedoms](https://wordpress.org/about/#:~:text=anyone%20a%20voice.-,the%20four%20freedoms,-WordPress%20is%20licensed) WordPress is built on.
+
 ## When you join a Slack channel
 
 Introduce yourself! A quick hello goes a long way. Something like this:
