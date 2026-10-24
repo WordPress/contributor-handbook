@@ -17,7 +17,7 @@ Help WordPress users solve their problems by answering questions in the support 
 
 5. **Write a clear answer.** Share the solution in concise, simple steps. Link to relevant documentation when helpful, and use a patient and kind tone. Do not simply restate earlier replies, and avoid pasting long AI-generated responses. Consider how your response adds value to the thread.
 
-6. **Follow up if needed.** Check back to see if your answer helped or if the user needs clarification.
+6. **Follow up if needed.** Check back to see if your answer helped or if the user needs clarification. Tick "Notify me of follow-up replies via email" under the reply box, or open "Topics You've Replied To" from your forum profile (`https://wordpress.org/support/users/your-username/replied-to/`) to see new replies.
 
 ## Contribution checklist
 
@@ -28,6 +28,10 @@ Help WordPress users solve their problems by answering questions in the support 
 ## What happens next
 
 The person who asked the question will see your response and can mark the topic as resolved if it helped. Other community members might add to your answer or suggest alternatives. Keep an eye on your answered topics for a day or two in case follow-up is needed.
+
+If you are new to the forums, some of your replies may be held for moderation by the automated system. A volunteer reviews them, so do not post them again: resubmitting only shows a "Duplicate reply detected" error. If a reply is still held after 96 hours, ask in [#forums](https://wordpress.slack.com/archives/forums) with a link to it.
+
+Your published replies count toward the Support Contributor badge, which is added to your profile automatically once you have 50 forum replies.
 
 ## Help
 
