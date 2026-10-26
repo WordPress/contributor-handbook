@@ -17,7 +17,7 @@ Playground Blueprints let anyone launch a WordPress demo in a single click, with
 
 5. **Test your blueprint.** Paste the JSON into the [Playground Builder](https://playground.wordpress.net/builder/builder.html). Make sure the site loads and works as expected.
 
-6. **Prepare your submission folder.** Follow the [contributing guidelines](https://github.com/WordPress/blueprints/blob/trunk/CONTRIBUTING.md). Your folder needs a `blueprint.json` with the required metadata (`title` and `author`), plus any static files your blueprint references (WXR, ZIP, images, etc.).
+6. **Prepare your submission folder.** Follow the [contributing guidelines](https://github.com/WordPress/blueprints/blob/trunk/CONTRIBUTING.md). Your folder needs a `blueprint.json` with the required metadata (`title` and `author`), plus any static files your blueprint references (WXR, ZIP, images, etc.). Point to those files with `raw.githubusercontent.com` URLs for your fork and branch, for example `https://raw.githubusercontent.com/your-username/blueprints/your-branch/blueprints/your-blueprint-name/content.xml`, not a `github.com/.../blob/...` page. The pull request checks reject other URLs, and the links are rewritten to `trunk` after merge.
 
 7. **Submit a pull request.** Add your folder under `blueprints/your-blueprint-name/` in the [WordPress/blueprints](https://github.com/WordPress/blueprints) repository.
 
@@ -30,7 +30,7 @@ Playground Blueprints let anyone launch a WordPress demo in a single click, with
 
 ## What happens next
 
-A Playground team member will review your PR. They may ask for changes or flag missing files. You'll also get a test link generated from your PR to verify your blueprint works. If you don't hear back within a week, ask in #meta-playground.
+A Playground team member will review your PR. They may ask for changes or flag missing files. You'll also get a test link generated from your PR to verify your blueprint works. If you don't hear back within a week, ask in [#playground](https://wordpress.slack.com/archives/playground).
 
 After your first blueprint is merged, consider [creating a Blueprint for a community theme or plugin](https://make.wordpress.org/handbook/pathways/build/create-a-playground-blueprint-for-a-community-plugin-or-theme/) — or explore other ways to contribute to [WordPress Playground](https://github.com/WordPress/wordpress-playground).
 
