@@ -13,6 +13,13 @@
         "parent": null,
         "order": 0
     },
+    "licensing": {
+        "title": "Licensing",
+        "slug": "licensing",
+        "markdown_source": "https:\/\/github.com\/WordPress\/contributor-handbook\/blob\/main\/licensing.md",
+        "parent": null,
+        "order": 1
+    },
     "pathways-all-guides": {
         "title": "All Contribution Pathways",
         "slug": "all-guides",
