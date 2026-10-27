@@ -3,7 +3,7 @@
 Help build the [WP Accessibility Knowledge Base](https://wpaccessibility.org/), the WordPress community's accessibility documentation. You can write a new page on a topic that interests you, review existing content, or report an error you notice.
 
 - **Reference:** [How to contribute](https://wpaccessibility.org/docs/about/contribute/)
-- **Connect:** Join [#accessibility-docs](https://wordpress.slack.com/archives/accessibility-docs) on Slack and introduce yourself
+- **Connect:** Join [#accessibility-docs](https://wordpress.slack.com/archives/C6PK2QCTY) on Slack and introduce yourself
 
 ## Steps
 
@@ -19,7 +19,7 @@ Help build the [WP Accessibility Knowledge Base](https://wpaccessibility.org/), 
 
 4. **Report an error (alternative).** If you've spotted a problem instead, follow the [Report an error](https://wpaccessibility.org/docs/about/contribute/report-error/) instructions. Give enough detail for the team to locate and investigate it. Reporting an error is a valid contribution on its own; you do not need to write a new page.
 
-5. **Share your contribution.** Share a new draft or proposed documentation update through the [contact form](https://make.wordpress.org/accessibility/accessibility-knowledge-base-contact/), [#accessibility-docs](https://wordpress.slack.com/archives/accessibility-docs), a comment on the related [GitHub issue](https://github.com/wpaccessibility/wp-a11y-docs/issues), or a [pull request](https://wpaccessibility.org/docs/about/contribute/github/pull-requests/). For reviews and error reports, use the submission methods described in their respective guides.
+5. **Share your contribution.** Share a new draft or proposed documentation update through the [contact form](https://make.wordpress.org/accessibility/accessibility-knowledge-base-contact/), [#accessibility-docs](https://wordpress.slack.com/archives/C6PK2QCTY), a comment on the related [GitHub issue](https://github.com/wpaccessibility/wp-a11y-docs/issues), or a [pull request](https://wpaccessibility.org/docs/about/contribute/github/pull-requests/). For reviews and error reports, use the submission methods described in their respective guides.
 
 ## Contribution checklist
 
@@ -30,13 +30,13 @@ Help build the [WP Accessibility Knowledge Base](https://wpaccessibility.org/), 
 
 ## What happens next
 
-For a new page or proposed documentation change, a reviewer may suggest revisions before it's merged or published on the Knowledge Base. If you shared review feedback or reported an error, the team may investigate, respond with questions, or address the issue. If you don't hear back, follow up in [#accessibility-docs](https://wordpress.slack.com/archives/accessibility-docs).
+For a new page or proposed documentation change, a reviewer may suggest revisions before it's merged or published on the Knowledge Base. If you shared review feedback or reported an error, the team may investigate, respond with questions, or address the issue. If you don't hear back, follow up in [#accessibility-docs](https://wordpress.slack.com/archives/C6PK2QCTY).
 
 When you're ready, pick up another topic or settle into an area you can develop further.
 
 ## Help
 
-Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathways/before-you-begin/#getting-help), then ask in [#accessibility-docs](https://wordpress.slack.com/archives/accessibility-docs).
+Stuck? Check the [getting help guide](https://make.wordpress.org/handbook/pathways/before-you-begin/#getting-help), then ask in [#accessibility-docs](https://wordpress.slack.com/archives/C6PK2QCTY).
 
 **Further reading:**
 - [Write documentation](https://wpaccessibility.org/docs/about/contribute/write/) — page structure and the rules for writing a Knowledge Base page
