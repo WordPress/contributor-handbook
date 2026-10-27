@@ -11,7 +11,11 @@ Help build the [WP Accessibility Knowledge Base](https://wpaccessibility.org/), 
 
 2. **Choose how to contribute.** You can write new documentation, [review content](https://wpaccessibility.org/docs/about/contribute/review/), or [report an error](https://wpaccessibility.org/docs/about/contribute/report-error/). If you want to write new documentation, contact the project leads first so the topic can be assigned. For an existing documentation task, check the related GitHub issue and coordinate with the team before making changes. New content written without contacting the leads first will not be reviewed.
 
-3. **Write or review.** If you're writing a new page, cover the topic in your own words, follow the structure in the [Write documentation](https://wpaccessibility.org/docs/about/contribute/write/) guide, and link to authoritative sources rather than restating them. Use AI only to translate or check your English, not to write the content. If you're reviewing a proposed documentation pull request, follow the [Review documentation](https://wpaccessibility.org/docs/about/contribute/review/) guide to share feedback on the proposed changes. If you find a problem in already published documentation, report it using the next step.
+3. **Write, update, or review.** If you're writing a new page, cover the topic in your own words, follow the structure in the [Write documentation](https://wpaccessibility.org/docs/about/contribute/write/) guide, and link to authoritative sources rather than restating them. Use AI only to translate or check your English, not to write the content.
+
+   If you're updating an existing page for an assigned task, follow the related GitHub issue and share your proposed changes through an appropriate channel listed in Step 5, such as a comment on the issue or a pull request.
+
+   If you're reviewing a proposed documentation pull request, follow the [Review documentation](https://wpaccessibility.org/docs/about/contribute/review/) guide to share feedback on the proposed changes. If you find a problem in already published documentation, report it using the next step.
 
 4. **Report an error (alternative).** If you've spotted a problem instead, follow the [Report an error](https://wpaccessibility.org/docs/about/contribute/report-error/) instructions. Give enough detail for the team to locate and investigate it. Reporting an error is a valid contribution on its own; you do not need to write a new page.
 
