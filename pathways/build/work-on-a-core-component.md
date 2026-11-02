@@ -33,7 +33,7 @@ Pick a part of WordPress Core, called a component, and help move its tickets for
 
 Component maintainers and scrub leaders review ticket activity, and tickets move at the pace of the release cycle, so replies can take a few days. If a ticket stalls, ask in #core or ping a component maintainer.
 
-When you're comfortable with how tickets work, try [Fix a Core Good First Bug](https://make.wordpress.org/handbook/pathways/build/fix-a-core-good-first-bug/) to write your first fix.
+When you're comfortable with how tickets work, try [Contribute to a Core Good First Bug](https://make.wordpress.org/handbook/pathways/build/contribute-to-a-core-good-first-bug/) to write your first fix.
 
 ## Help
 
