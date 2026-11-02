@@ -1,4 +1,4 @@
-# Fix a Core Good First Bug
+# Contribute to a Core Good First Bug
 
 Pick a small, beginner-friendly Core ticket, write a fix, and submit it for review. Fixing a good first bug is the quickest way to learn Core's code, standards, and review process.
 
