@@ -2,7 +2,7 @@
 
 Welcome to the WordPress Contributor Handbook\! The WordPress community welcomes contributors from around the world to help us [Make WordPress](https://make.wordpress.org/) and [Democratize Publishing](https://wordpress.org/about/). This handbook aims to express our shared expectations of how we, as contributors, work together, who we want to build our products for, and the WordPress interpretation of modern, open source best practices.
 
-In keeping with open source best practices, this handbook is a living document, and will be updated as needed. Your feedback and questions are very welcome\! If you have suggested edits for this handbook, please email the Community Team at support@wordcamp.org.
+In keeping with open source best practices, this handbook is a living document, and will be updated as needed. Your feedback and questions are very welcome\! If you have suggested edits for this handbook, please email the Community Team at [support@wordcamp.org](mailto:support@wordcamp.org).
 
 The Contributor Handbook includes the following sections:
 
