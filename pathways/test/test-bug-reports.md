@@ -7,7 +7,7 @@ Test bug reports to see if you can trigger the same problem. Many reports turn o
 
 ## Steps
 
-1. **Set up your Trac account.** Create a [WordPress Trac](https://core.trac.wordpress.org/) account if you don't have one — you'll need it to post test reports.
+1. **Log in to Trac.** [WordPress Trac](https://core.trac.wordpress.org/) uses your WordPress.org account, so there is no separate account to create. Log in with it to post test reports.
 
 2. **Find a bug to test.** Browse [WordPress Trac](https://core.trac.wordpress.org/) for tickets tagged `needs-testing` or recent bug reports without many comments.
 
@@ -15,9 +15,9 @@ Test bug reports to see if you can trigger the same problem. Many reports turn o
 
 4. **Open WordPress Playground.** Go to [playground.wordpress.net](https://playground.wordpress.net/). Click the settings icon and set the WordPress version to match the bug report if needed.
 
-5. **Follow the reproduction steps.** Try to trigger the bug exactly as described. Test with a default theme (like Twenty Twenty-Four) and no plugins first.
+5. **Follow the reproduction steps.** Try to trigger the bug exactly as described. Test with a default theme (like Twenty Twenty-Five, the default since WordPress 6.7) and no plugins first.
 
-6. **Post your results.** Comment on the Trac ticket with whether you could reproduce the bug, the WordPress version you tested, your browser, and any variations you tried.
+6. **Post your results.** Comment on the Trac ticket with whether you could reproduce the bug, the WordPress version you tested, your browser, and any variations you tried. Use the [Reproduction Report template](https://make.wordpress.org/test/handbook/test-reports/issue-reproduction/#reproduction-report-template) so your report has the format the team expects.
 
 ## Contribution checklist
 
