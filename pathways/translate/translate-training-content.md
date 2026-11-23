@@ -11,21 +11,22 @@ Help make Learn WordPress available in more languages by translating existing le
 
 2. **Find content to translate.** Check the [LearnWP Content – Localization](https://github.com/orgs/WordPress/projects/104) project board for open issues in your locale, or browse the [High Priority Content to Translate](https://make.wordpress.org/training/handbook/training-team-how-to-guides/content-localization/high-priority-content-to-translate/) list for suggestions on where to start.
 
-3. **Open a GitHub issue.** Create a [new Content Translation issue](https://github.com/WordPress/Learn/issues/new/choose) using the Content Translation template. This lets the team track your work and offer support throughout the process.
+3. **Open a GitHub issue.** Each course has one main issue in your locale, and each lesson is a sub-issue of it. Search the project board for the course first. If there is no course issue yet, create one with the [Course Translation](https://github.com/WordPress/Learn/issues/new?template=04-course-translation.md) template, then add a sub-issue for your lesson with the [Lesson Translation](https://github.com/WordPress/Learn/issues/new?template=05-lesson-translation.md) template. If the course issue already exists, add to it instead of opening a new one. This lets the team track your work and offer support throughout the process.
 
-4. **Translate the content.** Follow the [Translating Content](https://make.wordpress.org/training/handbook/training-team-how-to-guides/content-localization/translating-content/) guide for the specific steps for each content type. You can use any tool you're comfortable with — Google Docs is a common choice as it allows easy sharing with reviewers.
+4. **Translate the content.** Follow the [Translating Content](https://make.wordpress.org/training/handbook/training-team-how-to-guides/content-localization/translating-content/) guide for the specific steps for each content type. Learn only shows a lesson's text to signed-in learners who take the course, so sign in with your WordPress.org account and select **Take course** on the course page to see what you are translating. Copy the team's [translation Google Doc template](https://docs.google.com/document/d/1zVXOzLlk6gXS6ZvhF7VI-Fk6LJuI2W3R9XOXZcR45aU/edit?usp=sharing), use one doc per lesson, and share it so anyone with the link can comment.
 
-5. **Submit for review.** Update your GitHub issue with a link to your translation and request a [translation review](https://make.wordpress.org/training/handbook/training-team-how-to-guides/content-localization/translation-reviews/). A reviewer will check your work for accuracy and consistency before it's published.
+5. **Submit for review.** Link your doc in the GitHub issue and ask for a reviewer in [#training](https://wordpress.slack.com/archives/training). If nobody in your locale can review, follow [Reviewing Translations](https://make.wordpress.org/training/handbook/training-team-how-to-guides/content-localization/translation-reviews/) to ask the Polyglots team. A reviewer will check your work for accuracy and consistency before it's published.
 
 ## Contribution checklist
 
-- GitHub issue created using the Content Translation template
-- Content translated following the Translating Content guide and your locale's style guide
-- Translation submitted for review via the GitHub issue
+- Lesson tracked as a sub-issue of the course issue, using the Course Translation and Lesson Translation templates
+- Content translated in the team's Google Doc template, following the Translating Content guide and your locale's style guide
+- Doc shared with comment access and linked in the GitHub issue
+- Reviewer requested in #training
 
 ## What happens next
 
-A reviewer will check your translation and may suggest changes — that's a normal part of the process. Once approved, a Translation Coordinator will help get the content published on [Learn WordPress](https://learn.wordpress.org/). The Training Team meets weekly; check the [meeting calendar](https://make.wordpress.org/meetings/#training) for times.
+A reviewer will check your translation and may suggest changes — that's a normal part of the process. Once it has been reviewed, tag `@tt-admins` in #training so an admin can publish it on [Learn WordPress](https://learn.wordpress.org/). The Training Team meets weekly; check the [meeting calendar](https://make.wordpress.org/meetings/#training) for times.
 
 When you're ready, pick another piece of content to translate or help [review translations](https://make.wordpress.org/training/handbook/training-team-how-to-guides/content-localization/translation-reviews/) from other contributors in your locale.
 
